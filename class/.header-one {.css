@@ -1,0 +1,22 @@
+.header-one {
+    text-align: center;    
+}
+
+div {
+    font-size: xx-large;
+    padding: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    color-interpolation-filters: linearRGB;
+    color-scheme: green;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+section {
+    padding: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

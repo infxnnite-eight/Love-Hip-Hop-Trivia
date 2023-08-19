@@ -1,0 +1,41 @@
+JavaScript Notes:
+
+1: 					
+
+chatgpt answering === operator meaning 
+
+
+					In JavaScript, the === operator is known as the 
+					"strict equality" operator. 
+					It's used to compare two values for equality while taking both their values and data types into account. 
+					In other words, it checks whether two values are exactly the same in terms of both value and type.
+
+When you use the === operator to compare two values, the following rules apply:
+
+If the values have different data types, they are considered not strictly equal.
+If the values have the same data type but different values, they are considered not strictly equal.
+If the values have the same data type and the same value, they are considered strictly equal.
+Here are some examples to illustrate the concept:
+
+
+					Truthy Values:
+
+All non-empty strings
+All numbers except 0 and NaN
+Objects (including arrays and functions)
+The special value Infinity
+The special value -Infinity
+Falsy Values:
+
+An empty string ("")
+The number 0
+NaN (Not-a-Number)
+null
+undefined
+
+
+
+
+
+
+

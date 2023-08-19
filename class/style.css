@@ -1,0 +1,27 @@
+button {
+
+    color: black;
+    
+}
+
+
+
+div:nth-child(even){
+
+    color: rebeccapurple;
+    border: 15px solid grey;
+    padding: 40;
+}
+
+
+
+
+a {
+    color:black;
+padding: 6;
+}
+
+
+
+
+
