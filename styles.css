@@ -1,0 +1,12 @@
+body{
+    background-color: yellowgreen;
+}
+
+.title-htr {
+    text-align: center;
+}
+
+.question-one {
+    width: 800px;
+    max-width: 80%;
+}
