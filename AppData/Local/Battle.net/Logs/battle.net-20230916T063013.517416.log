@@ -1,0 +1,17 @@
+D 2023-09-16 06:30:13.521407 [Main] {Main} Removing old/extra log file: battle.net-20230915T223920.171873.log
+D 2023-09-16 06:30:13.521718 [Main] {Main} Removing old/extra log file: libcef-20230915T000429.860570.log
+I 2023-09-16 06:30:13.521973 [Main] {Main} Logging started for Battle.net build 2.24.1.14385
+I 2023-09-16 06:30:13.522506 [Configuration] {Main} SharedConfigRoot: C:\ProgramData\Battle.net
+I 2023-09-16 06:30:13.522896 [Configuration] {Main} RoamingConfigRoot: C:\Users\dorian\AppData\Roaming\Battle.net
+I 2023-09-16 06:30:13.522910 [Configuration] {Main} LocalConfigRoot: C:\Users\dorian\AppData\Local\Battle.net
+D 2023-09-16 06:30:13.523163 [Configuration] {Main} Searching for config file: D:\Battle.net\Battle.net.14385\Battle.net.config
+D 2023-09-16 06:30:13.523250 [Configuration] {Main} Searching for config file: D:\Battle.net\Battle.net.config
+D 2023-09-16 06:30:13.523825 [Configuration] {Main} User Configuration File: C:\Users\dorian\AppData\Roaming\Battle.net\Battle.net.config
+I 2023-09-16 06:30:13.525396 [Main] {Main} Command line arguments: {[0]=--game=auks, [1]=--gamepath=D:\Call of Duty}
+I 2023-09-16 06:30:13.526957 [Main] {Main} Opening IPC shared memory. queueName=User:Dorian:Battle.net IPC ShMem mode=client
+I 2023-09-16 06:30:13.527077 [CommandQueue] {Main} Dispatching Command: register auks D:\Call of Duty   false
+I 2023-09-16 06:30:13.527112 [Main] {Main} Leaving because another instance of battle.net is running
+D 2023-09-16 06:30:13.527120 [Main] {Main} Shutting down Backend
+D 2023-09-16 06:30:13.527126 [Main] {Main} Closing IPC Service
+D 2023-09-16 06:30:13.527130 [CommandQueue] {Main} IPCService is shutting down
+D 2023-09-16 06:30:13.527159 [Main] {Main} Shutting down callback queue

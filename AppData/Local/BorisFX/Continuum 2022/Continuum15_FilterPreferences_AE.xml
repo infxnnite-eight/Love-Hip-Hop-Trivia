@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<BCC_Filter_Preferences>
+	<Options_Map>
+		<PrefsOption Pref_Name="GPU Enabled" PrefID="65470464" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Heads Up Display" PrefID="65470465" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="3Way 11 Orientation" PrefID="65470466" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Cached Ogl Quadric" PrefID="65470467" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Use GlGetTexImage" PrefID="65470468" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Use SIMD Convolution" PrefID="65470469" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Use 4k Gpu Buffers" PrefID="65470470" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Gpu Anti Alias Buffer Level" PrefID="65470471" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Safe Levels Default" PrefID="65470472" Pref_Type="1" Pref_Value="1">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Safe Levels Global Override" PrefID="65470473" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Use New GLSL Shaders" PrefID="65470474" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Load PixelChooser and Mocha with Preset" PrefID="65470476" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Auto Launch Title Studio FX Browser" PrefID="65470477" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Debug Logging" PrefID="65470478" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Hide Disabled Parameters" PrefID="65470479" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Registration Status" PrefID="65470480" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Registration Reminder Count" PrefID="65470481" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Registration Reminder Previous" PrefID="65470482" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Version Update Check Previous" PrefID="65470483" Pref_Type="1" Pref_Value="19615">
+		</PrefsOption>
+		<PrefsOption Pref_Name="Restrict License Type" PrefID="65470486" Pref_Type="1" Pref_Value="0">
+		</PrefsOption>
+	</Options_Map>
+	<StringMap>
+	</StringMap>
+</BCC_Filter_Preferences>

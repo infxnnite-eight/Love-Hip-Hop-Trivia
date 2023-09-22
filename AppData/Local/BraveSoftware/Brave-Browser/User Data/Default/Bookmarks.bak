@@ -1,0 +1,394 @@
+{
+   "checksum": "e67301d905b1209b671eeee31d3122ca",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13319607235000000",
+            "date_last_used": "13339404339994073",
+            "guid": "0f624ec4-7f3f-4ca7-8d63-41cc2c05809e",
+            "id": "5",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13319761429000000",
+            "date_last_used": "13337402167342854",
+            "guid": "8d42190e-3294-4a32-a6fa-d669329cc8f2",
+            "id": "6",
+            "name": "SoundCloud",
+            "type": "url",
+            "url": "https://soundcloud.com/"
+         }, {
+            "date_added": "13319803550000000",
+            "date_last_used": "13334904978133631",
+            "guid": "d114efaf-fb18-44c2-948f-8bba39eb7f3a",
+            "id": "7",
+            "name": "SoundCloud tto MP3",
+            "type": "url",
+            "url": "https://soundcloudmp3.org/"
+         }, {
+            "date_added": "13320286988000000",
+            "date_last_used": "0",
+            "guid": "0889efb7-d16b-47e9-9d65-3e9912a056af",
+            "id": "8",
+            "name": "DistroKid",
+            "type": "url",
+            "url": "https://distrokid.com/bank/"
+         }, {
+            "date_added": "13320309289000000",
+            "date_last_used": "13334547987774415",
+            "guid": "41770325-4a9f-4654-b019-08c8c330c9a4",
+            "id": "9",
+            "name": "Fiverr",
+            "type": "url",
+            "url": "https://www.fiverr.com/"
+         }, {
+            "date_added": "13320403053000000",
+            "date_last_used": "13336438373843224",
+            "guid": "964553c0-6b9c-49c6-b38d-0e88f1cb4be5",
+            "id": "10",
+            "name": "Get Into PC",
+            "type": "url",
+            "url": "https://getintopc.com/"
+         }, {
+            "date_added": "13320573936000000",
+            "date_last_used": "13335055384636121",
+            "guid": "5c594258-0960-4f77-94d0-2d3632727a18",
+            "id": "11",
+            "name": " Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/folders/1avT0FbLMlmkOFUMSoJLXUEp2b90g_yq1"
+         }, {
+            "date_added": "13320999162000000",
+            "date_last_used": "13333190184534485",
+            "guid": "36f62b74-32b4-4820-83ae-26797e3b1c20",
+            "id": "12",
+            "name": "4DOWNLOAD",
+            "type": "url",
+            "url": "https://4download.net/"
+         }, {
+            "date_added": "13321673047000000",
+            "date_last_used": "13329922950458275",
+            "guid": "8bf3a215-790c-4023-88d3-69ce14e5fb00",
+            "id": "13",
+            "name": "Employee Portal",
+            "type": "url",
+            "url": "https://avf.prismhr.com/avf/auth/#/login?lang=en"
+         }, {
+            "date_added": "13328674065663553",
+            "date_last_used": "13334699895166957",
+            "guid": "e3b3e5b1-2f7f-4c24-9133-61e70ef73093",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Alibaba",
+            "type": "url",
+            "url": "https://www.alibaba.com/"
+         }, {
+            "date_added": "13329442232416504",
+            "date_last_used": "13335060302605858",
+            "guid": "aaabe279-c314-443b-8d4c-d03cef143cc2",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mubert",
+            "type": "url",
+            "url": "https://mubert.com/render/tracks/acccbbbed2344f35b7e760adc9c71f45"
+         }, {
+            "date_added": "13329661786252529",
+            "date_last_used": "13333959839930563",
+            "guid": "877ea16a-3bad-46dd-bfb4-19e18700750f",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pixlr X ",
+            "type": "url",
+            "url": "https://pixlr.com/x/#generator"
+         }, {
+            "date_added": "13329676042574976",
+            "date_last_used": "13332759496651653",
+            "guid": "ca3da081-b5f3-4e6c-b360-b40e9f12e13c",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ULNV",
+            "type": "url",
+            "url": "https://ui.nv.gov/"
+         }, {
+            "date_added": "13329678729602581",
+            "date_last_used": "13333959836401423",
+            "guid": "828ffbb7-7ab7-461f-93b9-c57e9ac401e3",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MATESFX",
+            "type": "url",
+            "url": "https://freevideoeffect.com/?s=Bryan+Delimata"
+         }, {
+            "date_added": "13333191424343520",
+            "date_last_used": "13336444782467268",
+            "guid": "485dbeb7-1b57-4e08-acd7-290223d6b538",
+            "id": "45",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Inbox",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox?compose=new"
+         }, {
+            "date_added": "13329684228566564",
+            "date_last_used": "13335670757032077",
+            "guid": "3f5535d3-34b2-4054-8f5f-b8913664dad5",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CenturyLink ",
+            "type": "url",
+            "url": "http://192.168.0.1/"
+         }, {
+            "date_added": "13330036039243303",
+            "date_last_used": "13336535045926582",
+            "guid": "c437ad3c-3320-42e1-8d64-62dbffe155d5",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "UNLV",
+            "type": "url",
+            "url": "https://digitalskills.instructure.com/"
+         }, {
+            "date_added": "13334472093392863",
+            "date_last_used": "13335050617233841",
+            "guid": "a69f6143-f53f-40f8-b0cc-db1865a99d5f",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "looperman",
+            "type": "url",
+            "url": "https://www.looperman.com/loops?page=1&keys=babytron&dir=d"
+         }, {
+            "date_added": "13330036056459325",
+            "date_last_used": "13339404804601131",
+            "guid": "ac78a767-7fee-48e4-84c3-3b95940eb37e",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "thrivedx",
+            "type": "url",
+            "url": "https://thrivedx.okta.com/app/thrivedx_canvas_1/exk2m46fjsLwBjjmn697/sso/saml"
+         }, {
+            "date_added": "13330036088811098",
+            "date_last_used": "13339119808253421",
+            "guid": "44e76c87-5887-4bc2-a06b-02201a8c23d8",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Inbox",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13330386499027597",
+            "date_last_used": "13334724595453765",
+            "guid": "f58a8886-0654-427a-ac95-88a54b002121",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CodePen",
+            "type": "url",
+            "url": "https://codepen.io/your-work"
+         }, {
+            "date_added": "13330036165395789",
+            "date_last_used": "13334292719731097",
+            "guid": "756b83a3-a03b-436f-bdcd-0e7d823ba1c8",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Slack",
+            "type": "url",
+            "url": "https://app.slack.com/client/T016G0PE21M/setup-people"
+         }, {
+            "date_added": "13330065897525451",
+            "date_last_used": "13331869238942101",
+            "guid": "522304de-756c-4e76-8fb7-7b4664fe53c0",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "W3Schools ",
+            "type": "url",
+            "url": "https://www.w3schools.com/"
+         }, {
+            "date_added": "13330065964110807",
+            "date_last_used": "0",
+            "guid": "82820e76-bc66-4fa0-b06c-2f4ff8b61740",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MDN",
+            "type": "url",
+            "url": "https://developer.mozilla.org/en-US/"
+         }, {
+            "date_added": "13330474200202465",
+            "date_last_used": "13334280120060702",
+            "guid": "65155c89-e720-465d-b5ea-9b6ec7487a21",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "State of Nevada",
+            "type": "url",
+            "url": "https://idcnv.dwss.nv.gov/nidp/idff/sso?id=5&sid=0&option=credential&sid=0&target=https%3A%2F%2Faccessnevada.dwss.nv.gov%2FACNVServices%2Fapi%2Faccount%2Fauthenticate%3FtargetURL%3D%2Faccess%2Fdashboard%2Fdashboard-launch"
+         }, {
+            "date_added": "13330497650232237",
+            "date_last_used": "13334492520541887",
+            "guid": "d616228d-4416-469b-9319-3b0b5f532d3f",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "HTML Semantic Elements",
+            "type": "url",
+            "url": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+         }, {
+            "date_added": "13330590696327098",
+            "date_last_used": "13338867268307466",
+            "guid": "16c3bfcd-f7e5-4993-a5cc-7d64d4c8d5e7",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "c",
+            "type": "url",
+            "url": "https://whatismyipaddress.com/ip-lookup"
+         }, {
+            "date_added": "13332164560163778",
+            "date_last_used": "0",
+            "guid": "4e1b217e-12d8-4c97-89a4-8e93123f42a5",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pionex US",
+            "type": "url",
+            "url": "https://www.pionex.us/en-US/account/kyc/level2"
+         }, {
+            "date_added": "13332286754162079",
+            "date_last_used": "13335990555297659",
+            "guid": "ad283137-002f-43ab-9dc8-f6914919752b",
+            "id": "43",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13334276909919077",
+            "date_last_used": "0",
+            "guid": "d9f107b4-f394-4924-bd7d-17e73775eddf",
+            "id": "47",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Home",
+            "type": "url",
+            "url": "https://app.gumroad.com/dashboard"
+         }, {
+            "date_added": "13334484920905135",
+            "date_last_used": "0",
+            "guid": "67388ab6-c472-4cfb-a4df-fd682aca2bdb",
+            "id": "51",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Youtube to MP3 Converter - Download Youtube MP3 | BigConverter",
+            "type": "url",
+            "url": "https://en.bigconverter.com/youtube-to-mp3-44/"
+         }, {
+            "date_added": "13334547910292348",
+            "date_last_used": "0",
+            "guid": "b41ae7b5-c420-4530-aa07-055f8b0d1655",
+            "id": "53",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(126) Easy Email Copywriting Tutorial (Step By Step) - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=asQ-naffXkE"
+         }, {
+            "date_added": "13335247447681321",
+            "date_last_used": "0",
+            "guid": "dcbb119b-e5e9-45e9-965a-ad5dbb46b981",
+            "id": "55",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Channel content - YouTube Studio",
+            "type": "url",
+            "url": "https://studio.youtube.com/channel/UCF-zC1VvNzMLZGHZGtviBgw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+         }, {
+            "date_added": "13335746366011839",
+            "date_last_used": "0",
+            "guid": "fd6375ad-e7e3-4d5f-ab73-17acfa034625",
+            "id": "57",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Flexplorer",
+            "type": "url",
+            "url": "https://bennettfeely.com/flexplorer/"
+         }, {
+            "date_added": "13335774000551522",
+            "date_last_used": "13337464173308072",
+            "guid": "0d8c1f32-66d0-4a9d-bdb8-de424b9eb604",
+            "id": "59",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pitch to Frequency Mappings",
+            "type": "url",
+            "url": "http://peabody.sapp.org/class/st2/lab/notehz/"
+         } ],
+         "date_added": "13321682023744238",
+         "date_last_used": "0",
+         "date_modified": "13335774000551522",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13321682023744241",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13321682023744243",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

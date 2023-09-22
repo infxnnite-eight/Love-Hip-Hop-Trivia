@@ -1,0 +1,281 @@
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[76373],{67542:(e,t,s)=>{"use strict"
+s.d(t,{D:()=>d})
+var r=s(1413)
+var i=s(15671)
+var o=s(43144)
+var n=s(60136)
+var a=s(51630)
+var c=s(67294)
+var l=s(94855)
+var u=c.createElement("path",{d:"M1300.007,676.9996 C1485.521,676.9996 1636.515,827.9376 1636.515,1013.5066 L1636.515,1013.5066 L1636.515,1246.9996 L1779.015,1246.9996 L1779.015,1761.6316 C1779.015,1848.9856 1707.985,1920.0146 1620.632,1920.0146 L1620.632,1920.0146 L979.382,1920.0146 C892.029,1920.0146 821,1848.9856 821,1761.6316 L821,1761.6316 L821,1246.9996 L963.5,1246.9996 L963.5,1013.5066 C963.5,827.9376 1114.492,676.9996 1300.007,676.9996 Z M1581.1771,338.8234 L1581.1771,564.7054 L1468.2351,564.7054 L1468.2351,451.7644 L451.7651,451.7644 L451.7651,1468.2354 L564.7061,1468.2354 L564.7061,1581.1764 L338.8241,1581.1764 L338.8241,338.8234 L1581.1771,338.8234 Z M1300.007,780.0146 C1171.294,780.0146 1066.515,884.7936 1066.515,1013.5066 L1066.515,1013.5066 L1066.515,1246.9996 L1533.5,1246.9996 L1533.5,1013.5066 C1533.5,884.7936 1428.721,780.0146 1300.007,780.0146 Z M1242.353,0 L1242.353,225.882 L1129.412,225.882 L1129.412,112.941 L112.941,112.941 L112.941,1129.412 L225.882,1129.412 L225.882,1242.352 L5.68434189e-14,1242.352 L5.68434189e-14,0 L1242.353,0 Z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var d=function(e){(0,n.Z)(s,e)
+var t=(0,a.Z)(s)
+function s(){(0,i.Z)(this,s)
+return t.apply(this,arguments)}(0,o.Z)(s,[{key:"render",value:function(){return c.createElement(l.q,Object.assign({},this.props,{name:"IconBlueprintLock",viewBox:"0 0 1920 1920"}),u)}}])
+s.displayName="IconBlueprintLockSolid"
+return s}(c.Component)
+d.glyphName="blueprint-lock"
+d.variant="Solid"
+d.propTypes=(0,r.Z)({},l.q.propTypes)},62937:(e,t,s)=>{"use strict"
+s.d(t,{n:()=>d})
+var r=s(1413)
+var i=s(15671)
+var o=s(43144)
+var n=s(60136)
+var a=s(51630)
+var c=s(67294)
+var l=s(94855)
+var u=c.createElement("path",{d:"M790.5886,1750.588 L790.5886,1807.059 L847.0586,1807.059 L847.0586,1920 L677.6466,1920 L677.6466,1750.588 L790.5886,1750.588 Z M1208.383,1807.059 L1208.383,1920 L1027.721,1920 L1027.721,1807.059 L1208.383,1807.059 Z M1569.816,1807.059 L1569.816,1920 L1389.154,1920 L1389.154,1807.059 L1569.816,1807.059 Z M1920,1750.588 L1920,1920 L1750.588,1920 L1750.588,1807.059 L1807.059,1807.059 L1807.059,1750.588 L1920,1750.588 Z M1581.1771,338.8238 L1581.1771,564.7058 L1468.2351,564.7058 L1468.2351,451.7648 L451.7651,451.7648 L451.7651,1468.2358 L564.7061,1468.2358 L564.7061,1581.1768 L338.8241,1581.1768 L338.8241,338.8238 L1581.1771,338.8238 Z M1920,1389.265 L1920,1569.927 L1807.059,1569.927 L1807.059,1389.265 L1920,1389.265 Z M790.588,1389.154 L790.588,1569.816 L677.647,1569.816 L677.647,1389.154 L790.588,1389.154 Z M1242.353,0.0004 L1242.353,225.8824 L1129.412,225.8824 L1129.412,112.9414 L112.941,112.9414 L112.941,1129.4124 L225.882,1129.4124 L225.882,1242.3524 L5.68434189e-14,1242.3524 L5.68434189e-14,0.0004 L1242.353,0.0004 Z M1920,1027.831 L1920,1208.492 L1807.059,1208.492 L1807.059,1027.831 L1920,1027.831 Z M790.588,1027.721 L790.588,1208.383 L677.647,1208.383 L677.647,1027.721 L790.588,1027.721 Z M1920,677.6466 L1920,847.0586 L1807.059,847.0586 L1807.059,790.5886 L1750.588,790.5886 L1750.588,677.6466 L1920,677.6466 Z M847.0584,677.6466 L847.0584,790.5886 L790.5884,790.5886 L790.5884,847.0586 L677.6474,847.0586 L677.6474,677.6466 L847.0584,677.6466 Z M1208.492,677.647 L1208.492,790.588 L1027.831,790.588 L1027.831,677.647 L1208.492,677.647 Z M1569.927,677.647 L1569.927,790.588 L1389.265,790.588 L1389.265,677.647 L1569.927,677.647 Z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var d=function(e){(0,n.Z)(s,e)
+var t=(0,a.Z)(s)
+function s(){(0,i.Z)(this,s)
+return t.apply(this,arguments)}(0,o.Z)(s,[{key:"render",value:function(){return c.createElement(l.q,Object.assign({},this.props,{name:"IconBlueprint",viewBox:"0 0 1920 1920"}),u)}}])
+s.displayName="IconBlueprintSolid"
+return s}(c.Component)
+d.glyphName="blueprint"
+d.variant="Solid"
+d.propTypes=(0,r.Z)({},l.q.propTypes)},28372:(e,t,s)=>{"use strict"
+s.d(t,{d:()=>a})
+var r=s(61323)
+var i=s(1190)
+const o=(0,r.useScope)("blueprint_LockItemFormat")
+function n(e){const t=e.map((e=>i.ro[e]))
+switch(t.length){case 0:return o.t("no attributes locked")
+case 1:return t[0]
+default:return`${t.slice(0,-1).join(", ")} & ${t.slice(-1)[0]}`}}function a(e){const t=Object.keys(e).filter((t=>e[t]))
+return n(t)}},51890:(e,t,s)=>{"use strict"
+s.d(t,{Z:()=>a})
+var r=s(89714)
+var i=s(22613)
+var o=s(63928)
+const n={_depaginate(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:Infinity
+let s=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[]
+return r.Z.get(e).then((e=>{const r=s.concat(e.data)
+const o=t-1
+if(e.headers.link&&o>0){const t=(0,i.Z)(e)
+if(t.next)return this._depaginate(t.next,o,r)}e.data=r
+return e}))},_queryString:e=>e.map((e=>{const t=Object.keys(e)[0]
+const s=e[t]
+return s?`${t}=${s}`:null})).filter((e=>!!e)).join("&"),getCourses(e){let{accountId:t}=e
+let{search:s="",term:r="",subAccount:i=""}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+const o=this._queryString([{per_page:"100"},{blueprint:"false"},{blueprint_associated:"false"},{"include[]":"term"},{"include[]":"teachers"},{teacher_limit:"5"},{search_term:s},{enrollment_term_id:r}])
+return this._depaginate(`/api/v1/accounts/${i||t}/courses?${o}`,1)},getAssociations(e){let{masterCourse:t}=e
+const s=this._queryString([{per_page:"100"},{teacher_limit:"5"}])
+return this._depaginate(`/api/v1/courses/${t.id}/blueprint_templates/default/associated_courses?${s}`)},saveAssociations(e){let{masterCourse:t,addedAssociations:s,removedAssociations:i}=e
+return r.Z.put(`/api/v1/courses/${t.id}/blueprint_templates/default/update_associations`,{course_ids_to_add:s.map((e=>e.id)),course_ids_to_remove:i.map((e=>e.id))})},getMigrations(e){let{masterCourse:t}=e
+return r.Z.get(`/api/v1/courses/${t.id}/blueprint_templates/default/migrations`)},beginMigration(e){let{masterCourse:t,willSendNotification:s,willIncludeCustomNotificationMessage:i,notificationMessage:o,willIncludeCourseSettings:n,willPublishCourses:a}=e
+const c={send_notification:s}
+n&&(c.copy_settings=true)
+i&&o&&(c.comment=o)
+a&&(c.publish_after_initial_sync=true)
+return r.Z.post(`/api/v1/courses/${t.id}/blueprint_templates/default/migrations`,c)},checkMigration(e){return this.getMigrations(e).then((e=>{let t=o.Z["void"]
+e.data[0]&&(t=e.data[0].workflow_state)
+e.data=t
+return e}))},getMigration(e,t){let{course:s}=e
+let{blueprintType:i="blueprint_templates",templateId:o="default",changeId:n}=t
+return r.Z.get(`/api/v1/courses/${s.id}/${i}/${o}/migrations/${n}`)},getMigrationDetails(e,t){let{course:s}=e
+let{blueprintType:i="blueprint_templates",templateId:o="default",changeId:n}=t
+return r.Z.get(`/api/v1/courses/${s.id}/${i}/${o}/migrations/${n}/details`)},getFullMigration(e,t){let{course:s}=e
+return this.getMigration({course:s},t).then((e=>{let{data:r}=e
+return this.getMigrationDetails({course:s},t).then((e=>Object.assign(r,{changeId:t.changeId,changes:e.data})))}))},getSyncHistory(e){let{masterCourse:t}=e
+return this.getMigrations({masterCourse:t}).then((e=>{let{data:s}=e
+return Promise.all(s.slice(0,5).map((e=>this.getMigrationDetails({course:t},{changeId:e.id}).then((t=>Object.assign(e,{changes:t.data}))))))}))},toggleLocked(e){let{courseId:t,itemType:s,itemId:i,isLocked:o}=e
+return r.Z.put(`/api/v1/courses/${t}/blueprint_templates/default/restrict_item`,{content_type:s,content_id:i,restricted:o})},loadUnsyncedChanges(e){let{masterCourse:t}=e
+return r.Z.get(`/api/v1/courses/${t.id}/blueprint_templates/default/unsynced_changes`)}}
+const a=n},76373:(e,t,s)=>{"use strict"
+s.r(t)
+s.d(t,{default:()=>q})
+var r=s(63056)
+var i=s(61323)
+var o=s(6507)
+var n=s.n(o)
+var a=s(67294)
+var c=s(73935)
+s(92866)
+var l=s(27361)
+var u=s.n(l)
+const d=e=>Object.assign({assignment:{toggleWrapperSelector:{show:".assignment-buttons",edit:".header-bar .header-bar-right .header-group-left"}[e.page],itemIdPath:{show:"ASSIGNMENT_ID",edit:"ASSIGNMENT.id"}[e.page]},quiz:{toggleWrapperSelector:{show:".header-group-left",edit:".header-bar .header-bar-right .header-group-left"}[e.page],toggleWrapperChildIndex:{edit:2}[e.page],itemIdPath:"QUIZ.id"},discussion_topic:{toggleWrapperSelector:{show:".form-inline .pull-right",edit:".discussion-edit-header .text-right"}[e.page],itemIdPath:{show:"DISCUSSION.TOPIC.ID",edit:"DISCUSSION_TOPIC.ATTRIBUTES.id"}[e.page]},wiki_page:{toggleWrapperSelector:{show:".blueprint-label"}[e.page],itemIdPath:"WIKI_PAGE.page_id"},course_pace:{toggleWrapperSelector:{show:".blueprint-label"}[e.page],itemIdPath:"COURSE_PACE_ID"}}[e.itemType],e)
+const p=d
+var g=s(51890)
+var h=s(88866)
+var m=s(34651)
+s(42449)
+var L=s(28372)
+s(98369)
+const _=(0,i.useScope)("blueprint_coursesLockBanner")
+class v extends a.Component{static setupRootNode(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0]
+const t=document.createElement("div")
+t.id="blueprint-lock-banner"
+t.setAttribute("style","margin-bottom: 2em")
+const s=document.querySelector(e||"#content")
+return s.insertBefore(t,s.firstChild)}componentDidUpdate(e){this.props.isLocked&&!e.isLocked&&n().screenReaderFlashMessage(_.t("%{attributes} locked",{attributes:(0,L.d)(this.props.itemLocks)}))}render(){if(this.props.isLocked)return(0,r.Z)(h.b,{},void 0,(0,r.Z)(m.x,{weight:"bold",size:"small"},void 0,_.t("Locked:")," "),(0,r.Z)(m.x,{size:"small"},void 0,(0,L.d)(this.props.itemLocks)))
+return null}}v.defaultProps={itemLocks:{content:false,points:false,settings:false,due_dates:false,availability_dates:false}}
+var b=s(69924)
+var k=s(15809)
+var f=s(16303)
+var C=s(98983)
+var y=s(81657)
+var E=s(86333)
+var I=s(67542)
+var S=s(62937)
+var Z=s(5718)
+const M=(0,i.useScope)("blueprint_coursesLockToggle")
+const N={ADMIN_LOCKED:{label:M.t("Locked"),icon:I.D,tooltip:M.t("Unlock"),color:"primary"},ADMIN_UNLOCKED:{label:M.t("Blueprint"),icon:S.n,tooltip:M.t("Lock"),color:"secondary"},ADMIN_WILLUNLOCK:{label:M.t("Blueprint"),icon:S.n,tooltip:M.t("Unlock"),color:"secondary"},ADMIN_WILLLOCK:{label:M.t("Locked"),icon:I.D,tooltip:M.t("Lock"),color:"primary"},TEACH_LOCKED:{label:M.t("Locked"),icon:I.D,color:"secondary"},TEACH_UNLOCKED:{label:M.t("Blueprint"),icon:S.n,color:"secondary"}}
+const x=Math.max(...Object.values(N).map((e=>e.label.length)))
+const A=.8*x+"em"
+class T extends a.Component{static setupRootNode(e,t,s){const r=document.createElement("span")
+r.className="bpc-lock-toggle-wrapper"
+const i=setInterval((()=>{const o=document.querySelector(e)
+if(o){clearInterval(i)
+o.insertBefore(r,o.childNodes[t])
+s(r)}}),200)}constructor(e){super(e)
+this.onEnter=()=>{this.props.isToggleable&&this.setState({mode:this.props.isLocked?N.ADMIN_WILLUNLOCK:N.ADMIN_WILLLOCK})}
+this.onExit=()=>{this.props.isToggleable&&this.setState({mode:this.props.isLocked?N.ADMIN_LOCKED:N.ADMIN_UNLOCKED})}
+this.state={}
+e.isToggleable?this.state.mode=e.isLocked?N.ADMIN_LOCKED:N.ADMIN_UNLOCKED:this.state.mode=e.isLocked?N.TEACH_LOCKED:N.TEACH_UNLOCKED}render(){const e=this.state.mode.icon
+const t=(0,r.Z)("span",{className:"bpc-lock-toggle__label"},void 0,this.state.mode.label||"-")
+let s=null
+if(this.props.isToggleable){const i=this.state.mode.color
+const o=this.state.mode.tooltip
+const n=this.props.isLocked?M.t("Locked. Click to unlock."):M.t("Unlocked. Click to lock.")
+s=(0,r.Z)(C.u,{renderTip:o,placement:"top",color:"primary",on:["hover","focus"]},void 0,this.props.breakpoints.miniTablet?(0,r.Z)(b.G,{as:"span",display:"block",width:A},void 0,(0,r.Z)(k.z,{display:"block",color:i,onClick:this.props.onClick,onFocus:this.onEnter,onBlur:this.onExit,onMouseEnter:this.onEnter,onMouseLeave:this.onExit,"aria-pressed":this.props.isLocked},void 0,(0,r.Z)(e,{})," ",(0,r.Z)(y.x,{},void 0,t),(0,r.Z)(E.c,{},void 0,n))):(0,r.Z)(f.h,{color:i,onClick:this.props.onClick,onFocus:this.onEnter,onBlur:this.onExit,onMouseEnter:this.onEnter,onMouseLeave:this.onExit,"aria-pressed":this.props.isLocked,screenReaderLabel:n},void 0,(0,r.Z)(e,{})))}else s=(0,r.Z)("span",{className:"bpc__lock-no__toggle"},void 0,(0,r.Z)("span",{className:"bpc__lock-no__toggle-icon"},void 0,(0,r.Z)(e,{})),(0,r.Z)(m.x,{size:"small"},void 0,t))
+return(0,r.Z)("span",{className:"bpc-lock-toggle"},void 0,s)}}T.defaultProps={isToggleable:false,onClick:()=>{},breakpoints:{}}
+const R=(0,Z.ZP)(T)
+R.setupRootNode=T.setupRootNode
+const O=R
+const D=(0,i.useScope)("blueprint_coursesLockManageer")
+class q{constructor(){this.toggleLocked=()=>{const{itemType:e}=this.props
+const{courseId:t,isLocked:s,itemId:r}=this.state
+g.Z.toggleLocked({courseId:t,itemType:e,itemId:r,isLocked:!s}).then((e=>{if(e.data.success){this.props.lockCallback&&this.props.lockCallback(!s)
+this.setState({isLocked:!s})}else this.showToggleError()})).catch((()=>{this.showToggleError()}))}
+this.state={isLocked:false,itemLocks:[],isMasterContent:false,isChildContent:false,itemId:""}}init(e){if(!this.shouldInit())return
+this.props=p(e)
+this.setupState()
+void 0!==this.state.itemId&&this.render()}shouldInit(){return ENV.MASTER_COURSE_DATA&&(ENV.MASTER_COURSE_DATA.is_master_course_master_content||ENV.MASTER_COURSE_DATA.is_master_course_child_content)}setupState(){this.state={isLocked:ENV.MASTER_COURSE_DATA.restricted_by_master_course,itemLocks:ENV.MASTER_COURSE_DATA.master_course_restrictions||ENV.MASTER_COURSE_DATA.default_restrictions,isMasterContent:ENV.MASTER_COURSE_DATA.is_master_course_master_content,isChildContent:ENV.MASTER_COURSE_DATA.is_master_course_child_content,courseId:ENV.COURSE_ID,itemId:u()(ENV,this.props.itemIdPath)}}changeItemId(e){this.state.itemId=e}setState(e){this.state=Object.assign(this.state,e)
+this.render()}getItemLocks(){return{...this.state.itemLocks}}isMasterContent(){return this.state.isMasterContent}isChildContent(){return this.state.isChildContent}showToggleError(){n().flashError(D.t("There was a problem toggling the content lock."))}setupToggle(e){if(!this.props.toggleWrapperSelector)return
+this.toggleNode&&!this.toggleNode.parentElement&&(this.toggleNode=false)
+this.toggleNode?e():O.setupRootNode(this.props.toggleWrapperSelector,this.props.toggleWrapperChildIndex||0,(t=>{this.toggleNode=t
+e()}))}renderLockToggle(){if(!this.props.toggleWrapperSelector)return
+this.setupToggle((()=>{c.render((0,r.Z)(O,{isLocked:this.state.isLocked,isToggleable:"show"===this.props.page&&this.state.isMasterContent,onClick:this.toggleLocked}),this.toggleNode)}))}renderBanner(){var e
+this.bannerNode||(this.bannerNode=v.setupRootNode(null===(e=this.props)||void 0===e?void 0:e.bannerSelector))
+c.render((0,r.Z)(v,{isLocked:this.state.isLocked,itemLocks:this.state.itemLocks}),this.bannerNode)}render(){this.renderBanner()
+this.renderLockToggle()}}},1190:(e,t,s)=>{"use strict"
+s.d(t,{Fv:()=>c,GN:()=>o,cX:()=>n,dO:()=>a,ro:()=>l})
+var r=s(61323)
+const i=(0,r.useScope)("blueprint_settings_labels")
+const o={get announcement(){return i.t("Announcement")},get assessment_question_bank(){return i.t("Question Bank")},get assignment(){return i.t("Assignment")},get assignment_group(){return i.t("Assignment Group")},get attachment(){return i.t("File")},get calendar_event(){return i.t("Event")},get context_external_tool(){return i.t("External Tool")},get context_module(){return i.t("Module")},get course_pace(){return i.t("Course Pace")},get discussion_topic(){return i.t("Discussion")},get folder(){return i.t("Folder")},get learning_outcome(){return i.t("Outcome")},get learning_outcome_group(){return i.t("Outcome Group")},get media_track(){return i.t("Caption")},get quiz(){return i.t("Quiz")},get rubric(){return i.t("Rubric")},get settings(){return i.t("Settings")},get syllabus(){return i.t("Syllabus")},get wiki_page(){return i.t("Page")}}
+const n={get assignment(){return i.t("Assignments")},get attachment(){return i.t("Files")},get course_pace(){return i.t("Course Pace")},get quiz(){return i.t("Quizzes")},get discussion_topic(){return i.t("Discussions")},get wiki_page(){return i.t("Pages")}}
+const a={get created(){return i.t("Created")},get updated(){return i.t("Updated")},get deleted(){return i.t("Deleted")},get initial_sync(){return i.t("Initial Sync Incomplete")}}
+const c={get availability_dates(){return i.t("Availability Dates changed exceptions:")},get content(){return i.t("Content changed exceptions:")},get deleted(){return i.t("Deleted content exceptions:")},get due_dates(){return i.t("Due Dates changed exceptions:")},get points(){return i.t("Points changed exceptions:")},get settings(){return i.t("Settings changed exceptions:")}}
+const l={get availability_dates(){return i.t("Availability Dates")},get content(){return i.t("Content")},get due_dates(){return i.t("Due Dates")},get points(){return i.t("Points")},get settings(){return i.t("Settings")}}},63928:(e,t,s)=>{"use strict"
+s.d(t,{Z:()=>a})
+const r=["queued","exporting","imports_queued"]
+const i=["completed","exports_failed","imports_failed"]
+const o=["void","unknown",...r,...i]
+const n={statesList:o,states:o.reduce(((e,t)=>Object.assign(e,{[t]:t})),{})}
+n.isEndState=e=>i.includes(e)
+n.isLoadingState=e=>r.includes(e)
+n.getLoadingValue=e=>r.indexOf(e)+1
+n.isSuccessful=e=>"completed"===e
+n.maxLoadingValue=r.length+1
+const a=n},98369:(e,t,s)=>{"use strict"
+var r=s(45697)
+var i=s.n(r)
+var o=s(63928)
+const{shape:n,string:a,arrayOf:c,oneOf:l,bool:u,instanceOf:d}=i()
+const p={}
+p.migrationState=l(o.Z.statesList)
+p.term=n({id:a.isRequired,name:a.isRequired})
+p.termList=c(p.term)
+p.account=n({id:a.isRequired,name:a.isRequired})
+p.accountList=c(p.account)
+p.course=n({id:a.isRequired,name:a.isRequired,course_code:a.isRequired,term:p.term.isRequired,teachers:c(n({display_name:a.isRequired})),teacher_count:a,sis_course_id:a})
+p.courseList=c(p.course)
+p.courseInfo=n({id:a.isRequired,name:a.isRequired,enrollment_term_id:a.isRequired,sis_course_id:a})
+p.lockableAttribute=l(["points","content","due_dates","availability_dates","settings","deleted"])
+p.lockableAttributeList=c(p.lockableAttribute)
+p.migrationException=n({course_id:a.isRequired,conflicting_changes:p.lockableAttributeList})
+p.migrationExceptionList=c(p.migrationException)
+p.migrationChange=n({asset_id:a.isRequired,asset_type:l(["assignment","quiz","discussion_topic","wiki_page","attachment","context_module","learning_outcome","learning_outcome_group","announcement","rubric","syllabus","media_tracks"]).isRequired,asset_name:a.isRequired,change_type:l(["created","updated","deleted"]).isRequired,htnl_url:a,exceptions:p.migrationExceptionList})
+p.migrationChangeList=c(p.migrationChange)
+p.migration=n({id:a.isRequired,workflow_state:p.migrationState.isRequired,comment:a,created_at:a.isRequired,exports_started_at:a,imports_queued_at:a,imports_completed_at:a,changes:p.migrationChangeList})
+p.migrationList=c(p.migration)
+p.unsyncedChange=n({asset_id:a.isRequired,asset_type:a.isRequired,asset_name:a.isRequired,change_type:a.isRequired,html_url:a.isRequired,locked:u.isRequired})
+p.unsyncedChanges=c(p.unsyncedChange)
+p.notification=n({id:a.isRequired,message:a.isRequired,err:d(Error)})
+p.notificationList=c(p.notification)
+p.itemLocks=n({content:u,points:u,due_dates:u,availability_dates:u})
+p.itemLocksByObject=n({assignment:p.itemLocks,discussion_topic:p.itemLocks,wiki_page:p.itemLocks,quiz:p.itemLocks,attachment:p.itemLocks})},5718:(e,t,s)=>{"use strict"
+s.d(t,{ZP:()=>d})
+var r=s(63056)
+var i=s(67294)
+var o=s(45697)
+var n=s.n(o)
+var a=s(85866)
+const c={miniTablet:{minWidth:"500px"},tablet:{minWidth:"768px"},desktop:{minWidth:"992px"},desktopNavOpen:{minWidth:"1140px"},desktopOnly:{minWidth:"768px"},mobileOnly:{maxWidth:"767px"}}
+const l=e=>{const t={}
+e.forEach((e=>t[e]=true))
+return t}
+const u=e=>t=>window.matchMedia?(0,r.Z)(a.E,{match:"media",query:c,render:(s,r)=>i.createElement(e,Object.assign({breakpoints:l(r)},t))}):i.createElement(e,Object.assign({breakpoints:{}},t))
+n().shape({miniTablet:n().bool,tablet:n().bool,desktop:n().bool,desktopNavOpen:n().bool,desktopOnly:n().bool,mobileOnly:n().bool})
+const d=u},97786:(e,t,s)=>{var r=s(71811),i=s(40327)
+function o(e,t){t=r(t,e)
+var s=0,o=t.length
+while(null!=e&&s<o)e=e[i(t[s++])]
+return s&&s==o?e:void 0}e.exports=o},80531:(e,t,s)=>{var r=s(62705),i=s(29932),o=s(1469),n=s(33448)
+var a=1/0
+var c=r?r.prototype:void 0,l=c?c.toString:void 0
+function u(e){if("string"==typeof e)return e
+if(o(e))return i(e,u)+""
+if(n(e))return l?l.call(e):""
+var t=e+""
+return"0"==t&&1/e==-a?"-0":t}e.exports=u},71811:(e,t,s)=>{var r=s(1469),i=s(15403),o=s(55514),n=s(79833)
+function a(e,t){if(r(e))return e
+return i(e,t)?[e]:o(n(e))}e.exports=a},15403:(e,t,s)=>{var r=s(1469),i=s(33448)
+var o=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,n=/^\w*$/
+function a(e,t){if(r(e))return false
+var s=typeof e
+if("number"==s||"symbol"==s||"boolean"==s||null==e||i(e))return true
+return n.test(e)||!o.test(e)||null!=t&&e in Object(t)}e.exports=a},24523:(e,t,s)=>{var r=s(88306)
+var i=500
+function o(e){var t=r(e,(function(e){s.size===i&&s.clear()
+return e}))
+var s=t.cache
+return t}e.exports=o},55514:(e,t,s)=>{var r=s(24523)
+var i=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g
+var o=/\\(\\)?/g
+var n=r((function(e){var t=[]
+46===e.charCodeAt(0)&&t.push("")
+e.replace(i,(function(e,s,r,i){t.push(r?i.replace(o,"$1"):s||e)}))
+return t}))
+e.exports=n},40327:(e,t,s)=>{var r=s(33448)
+var i=1/0
+function o(e){if("string"==typeof e||r(e))return e
+var t=e+""
+return"0"==t&&1/e==-i?"-0":t}e.exports=o},27361:(e,t,s)=>{var r=s(97786)
+function i(e,t,s){var i=null==e?void 0:r(e,t)
+return void 0===i?s:i}e.exports=i},33448:(e,t,s)=>{var r=s(44239),i=s(37005)
+var o="[object Symbol]"
+function n(e){return"symbol"==typeof e||i(e)&&r(e)==o}e.exports=n},88306:(e,t,s)=>{var r=s(83369)
+var i="Expected a function"
+function o(e,t){if("function"!=typeof e||null!=t&&"function"!=typeof t)throw new TypeError(i)
+var s=function(){var r=arguments,i=t?t.apply(this,r):r[0],o=s.cache
+if(o.has(i))return o.get(i)
+var n=e.apply(this,r)
+s.cache=o.set(i,n)||o
+return n}
+s.cache=new(o.Cache||r)
+return s}o.Cache=r
+e.exports=o},79833:(e,t,s)=>{var r=s(80531)
+function i(e){return null==e?"":r(e)}e.exports=i},22613:(e,t,s)=>{"use strict"
+s.d(t,{Z:()=>o})
+const r=/<(http.*?)>; rel="([a-z]*)"/g
+const i=e=>{const t={}
+const s=e.headers?e.headers.link:null
+if(!s)return t
+let i=r.exec(s)
+while(i){t[i[2]]=i[1]
+i=r.exec(s)}return t}
+const o=i}}])
+
+//# sourceMappingURL=76373-c-acdc0296e9.js.map

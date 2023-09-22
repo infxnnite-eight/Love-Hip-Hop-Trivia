@@ -1,0 +1,1538 @@
+/*! For license information please see wiki_page_show-c-35538fd230.js.LICENSE.txt */
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[49802,49308,96403,10263,74581,14542],{62779:(e,t,i)=>{"use strict"
+i.d(t,{D:()=>P})
+var n=i(4942)
+var s=i(45987)
+var o=i(15671)
+var r=i(43144)
+var a=i(60136)
+var l=i(51630)
+var c=i(67294)
+var d=i(45697)
+var u=i.n(d)
+var h=i(94184)
+var p=i.n(h)
+var g=i(69924)
+var m=i(98983)
+var f=i(56398)
+var _=i(54577)
+var v=i(79070)
+var b=i(15922)
+var y=i(16121)
+function w(e){var t=e.borders,i=e.colors,n=e.spacing,s=e.typography
+return{fontFamily:s.fontFamily,padding:"0 ".concat(n.xSmall),height:"1.3125rem",background:i.backgroundLightest,textTransformStyle:"uppercase",textFontSize:s.fontSizeXSmall,textFontWeight:s.fontWeightBold,maxWidth:"15rem",color:i.textDark,primaryColor:i.textDark,infoColor:i.textInfo,dangerColor:i.textDanger,successColor:i.textSuccess,warningColor:i.textWarning,alertColor:i.textAlert,messageColor:i.textAlert,borderWidth:t.widthSmall,borderStyle:t.style,borderRadius:"999rem"}}w["instructure"]=function(){return{height:"1.5rem"}}
+var k,x,S,E,T,C
+var I={componentId:"dLyYq",template:function(e){return"\n\n.dLyYq_bGBk{background:".concat(e.background||"inherit",";border-radius:").concat(e.borderRadius||"inherit",";border-style:").concat(e.borderStyle||"inherit",";border-width:").concat(e.borderWidth||"inherit",";display:block;font-family:").concat(e.fontFamily||"inherit",";line-height:calc(").concat(e.height||"inherit"," - ").concat(e.borderWidth||"inherit","*2);padding:").concat(e.padding||"inherit","}\n\n.dLyYq_bGBk,.dLyYq_eWKC{box-sizing:border-box}\n\n.dLyYq_eWKC{font-size:").concat(e.textFontSize||"inherit",";font-weight:").concat(e.textFontWeight||"inherit",";letter-spacing:0.0625rem;text-transform:").concat(e.textTransformStyle||"inherit","}\n\n.dLyYq_ddES{border-color:").concat(e.color||"inherit",";color:").concat(e.color||"inherit","}\n\n.dLyYq_bXiG{border-color:").concat(e.primaryColor||"inherit",";color:").concat(e.primaryColor||"inherit","}\n\n.dLyYq_pypk,.dLyYq_ecos{border-color:").concat(e.infoColor||"inherit",";color:").concat(e.infoColor||"inherit","}\n\n.dLyYq_cOXX{border-color:").concat(e.successColor||"inherit",";color:").concat(e.successColor||"inherit","}\n\n.dLyYq_zGXc{border-color:").concat(e.dangerColor||"inherit",";color:").concat(e.dangerColor||"inherit","}\n\n.dLyYq_eRqw{border-color:").concat(e.warningColor||"inherit",";color:").concat(e.warningColor||"inherit","}\n\n.dLyYq_elxg{border-color:").concat(e.messageColor||"inherit",";color:").concat(e.messageColor||"inherit","}\n\n.dLyYq_bgqc{border-color:").concat(e.alertColor||"inherit",";color:").concat(e.alertColor||"inherit","}")},root:"dLyYq_bGBk",text:"dLyYq_eWKC",default:"dLyYq_ddES",primary:"dLyYq_bXiG",info:"dLyYq_pypk",oldPrimary:"dLyYq_ecos",success:"dLyYq_cOXX",danger:"dLyYq_zGXc",warning:"dLyYq_eRqw",message:"dLyYq_elxg",alert:"dLyYq_bgqc"}
+var P=(k=(0,y.j)(),x=(0,v.x)("8.0.0",{text:"children",variant:"color"}),S=(0,_.YY)(w,I),k(E=x(E=S(E=(C=T=function(e){(0,a.Z)(i,e)
+var t=(0,l.Z)(i)
+function i(e){var n;(0,o.Z)(this,i)
+n=t.call(this,e)
+n.state={truncated:false}
+return n}(0,r.Z)(i,[{key:"handleTruncation",value:function(e){this.setState({truncated:e})}},{key:"renderPill",value:function(e,t){var i,o=this
+var r=this.props,a=r.margin,l=r.children,d=r.variant,u=r.color,h=r.as,m=r.elementRef,_=r.text,v=(0,s.Z)(r,["margin","children","variant","color","as","elementRef","text"])
+var y=(0,b.ry)(v)
+var w="function"===typeof t?t(y):y
+var k=d
+k?"primary"===d&&(k="oldPrimary"):k=u
+var x=p()((i={},(0,n.Z)(i,I.root,true),(0,n.Z)(i,I.truncated,this.state.truncated),(0,n.Z)(i,I[k],true),i))
+return c.createElement(g.G,Object.assign({},w,{as:h,elementRef:m,margin:a,padding:"0",maxWidth:this.theme.maxWidth,background:"transparent",borderRadius:"pill",borderWidth:"0",display:"inline-block",position:"relative",withFocusOutline:e,focusColor:"info"}),c.createElement("span",{className:x},c.createElement("span",{className:I.text},c.createElement(f.Y,{onUpdate:function(e){o.handleTruncation(e)}},l||_))))}},{key:"render",value:function(){var e=this
+return this.state.truncated?c.createElement(m.u,{renderTip:this.props.children||this.props.text},(function(t){var i=t.focused,n=t.getTriggerProps
+return e.renderPill(i,n)})):this.renderPill()}}])
+i.displayName="Pill"
+return i}(c.Component),T.propTypes={as:u().elementType,children:u().node,color:u().oneOf(["primary","success","danger","info","warning","alert"]),elementRef:u().func,margin:_.j7.spacing,text:u().node,variant:u().oneOf(["default","success","danger","primary","warning","message"])},T.defaultProps={children:void 0,margin:void 0,elementRef:void 0,color:"primary"},C))||E)||E)||E)},82829:(e,t,i)=>{"use strict"
+i.r(t)
+var n=i(6507)
+var s=i.n(n)
+var o=i(75869)
+var r=i.n(o)
+i(29809)
+var a=i(97919)
+var l=i(63056)
+i(67294)
+var c=i(73935)
+i(1560)
+var d=i(75149)
+var u=i(25683)
+var h=i.n(u)
+var p=i(87155)
+var g=i(40202)
+i(13285)
+var m=i(61323)
+i(89014)
+var f=g["default"]
+var _=f.template,v=f.templates=f.templates||{}
+var b="/work/generated/ui/features/wiki-page-show/jst/WikiPage"
+v[b]=_((function(e,t,i,n,s){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,e.helpers)
+n=this.merge(n,e.partials)
+s=s||{}
+var o,r="",a="function",l=this.escapeExpression,c=this,d=i.helperMissing
+function u(e,t){var n,s=""
+s+='\n<div class="header-bar-outer-container">\n  <div class="sticky-toolbar" data-sticky>\n    <div class="header-bar page-toolbar '
+n=i["if"].call(e,e&&e.course_home,{hash:{},inverse:c.noop,fn:c.program(2,h,t),data:t});(n||0===n)&&(s+=n)
+s+='">\n      <div class="page-toolbar-start">\n        <div class="page-heading">\n          '
+n=i["if"].call(e,e&&e.course_home,{hash:{},inverse:c.program(9,f,t),fn:c.program(4,p,t),data:t});(n||0===n)&&(s+=n)
+s+="\n        </div>\n        "
+n=i.unless.call(e,e&&e.course_home,{hash:{},inverse:c.noop,fn:c.program(12,v,t),data:t});(n||0===n)&&(s+=n)
+s+='\n        </div>\n        <div class="page-toolbar-end">\n          '
+n=i.unless.call(e,e&&e.course_home,{hash:{},inverse:c.noop,fn:c.program(15,y,t),data:t});(n||0===n)&&(s+=n)
+s+='\n          <div class="buttons">\n            '
+n=i.unless.call(e,e&&e.cannot_edit_by_master_course,{hash:{},inverse:c.noop,fn:c.program(24,T,t),data:t});(n||0===n)&&(s+=n)
+s+="\n            "
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.ACCESS_GEAR_MENU),{hash:{},inverse:c.noop,fn:c.program(27,I,t),data:t});(n||0===n)&&(s+=n)
+s+='\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class="page-changed-alert" role="alert" aria-atomic="true" aria-live="polite"></div>\n  </div>\n</div>\n<div id="direct-share-mount-point"></div>\n'
+return s}function h(e,t){return"as-course-home"}function p(e,t){var n,s=""
+s+="\n            "
+n=i["if"].call(e,e&&e.recent_announcements_enabled,{hash:{},inverse:c.program(7,m,t),fn:c.program(5,g,t),data:t});(n||0===n)&&(s+=n)
+s+="\n          "
+return s}function g(e,t){var n,s,o=""
+o+='\n              <h2 class="course-title" title="'
+if(s=i.course_title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.course_title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+'">'
+if(s=i.course_title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.course_title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+"</h2>\n            "
+return o}function m(e,t){var n,s,o=""
+o+='\n              <h1 class="course-title" title="'
+if(s=i.course_title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.course_title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+'">'
+if(s=i.course_title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.course_title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+"</h1>\n            "
+return o}function f(e,t){var n,s=""
+s+="\n            "
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.VIEW_ALL_PAGES),{hash:{},inverse:c.noop,fn:c.program(10,_,t),data:t});(n||0===n)&&(s+=n)
+s+="\n          "
+return s}function _(e,t){var n,s,o,r=""
+r+='\n              <a class="btn view_all_pages" href="'
+if(s=i.wiki_pages_path)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.wiki_pages_path
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}r+=l(n)+'">'+l((s=i.t||e&&e.t,o={hash:{i18n_scope:"wiki.wiki_page"},data:t},s?s.call(e,"wiki.wiki_page.buttons.view_all_pages","View All Pages",o):d.call(e,"t","wiki.wiki_page.buttons.view_all_pages","View All Pages",o)))+"</a>\n            "
+return r}function v(e,t){var n,s=""
+s+="\n          "
+n=i["if"].call(e,e&&e.front_page,{hash:{},inverse:c.noop,fn:c.program(13,b,t),data:t});(n||0===n)&&(s+=n)
+s+="\n        "
+return s}function b(e,t){return'\n            <div class="front-page"></div>\n          '}function y(e,t){var n,s=""
+s+='\n          <div class="blueprint-label"></div>\n          <div class="publishing">\n            <div class="published">\n              '
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.PUBLISH),{hash:{},inverse:c.program(18,k,t),fn:c.program(16,w,t),data:t});(n||0===n)&&(s+=n)
+s+="\n            </div>\n          </div>\n          "
+return s}function w(e,t){return'\n                <span class="publish-button"></span>\n              '}function k(e,t){var n,s=""
+s+="\n                "
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.VIEW_UNPUBLISHED),{hash:{},inverse:c.noop,fn:c.program(19,x,t),data:t});(n||0===n)&&(s+=n)
+s+="\n              "
+return s}function x(e,t){var n,s=""
+s+="\n                  "
+n=i["if"].call(e,e&&e.published,{hash:{},inverse:c.program(22,E,t),fn:c.program(20,S,t),data:t});(n||0===n)&&(s+=n)
+s+="\n                "
+return s}function S(e,t){var n,s,o=""
+o+='\n                    <span class=\'published-status published\'>\n                      <i class="icon-publish icon-Solid"></i><span class="hide-when-small"> '+l((n=i.t||e&&e.t,s={hash:{i18n_scope:"wiki.wiki_page"},data:t},n?n.call(e,"wiki.wiki_page.published_indicator","Published",s):d.call(e,"t","wiki.wiki_page.published_indicator","Published",s)))+"</span>\n                    </span>\n                  "
+return o}function E(e,t){var n,s,o=""
+o+='\n                    <span class=\'published-status unpublished\'>\n                      <i class="icon-unpublished"></i><span class="hide-when-small"></span> '+l((n=i.t||e&&e.t,s={hash:{i18n_scope:"wiki.wiki_page"},data:t},n?n.call(e,"wiki.wiki_page.unpublished_indicator","Not Published",s):d.call(e,"t","wiki.wiki_page.unpublished_indicator","Not Published",s)))+"</span>\n                    </span>\n                  "
+return o}function T(e,t){var n,s=""
+s+="\n              "
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.UPDATE_CONTENT),{hash:{},inverse:c.noop,fn:c.program(25,C,t),data:t});(n||0===n)&&(s+=n)
+s+="\n            "
+return s}function C(e,t){var n,s,o,r=""
+r+='\n                <a href="'
+if(s=i.wiki_page_edit_path)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.wiki_page_edit_path
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}r+=l(n)+'" class="btn edit-wiki"><i class="icon-edit"></i><span class="hide-when-small"> '+l((s=i.t||e&&e.t,o={hash:{i18n_scope:"wiki.wiki_page"},data:t},s?s.call(e,"wiki.wiki_page.buttons.edit","Edit",o):d.call(e,"t","wiki.wiki_page.buttons.edit","Edit",o)))+"</span></a>\n              "
+return r}function I(e,t){var s,o,r,a=""
+a+='\n              <div class="inline-block">\n                <a class="btn al-trigger" tabindex="0" role="button" href="#">\n                  <i class="icon-more" aria-hidden="true"></i>\n                  <span class="screenreader-only">'+l((o=i.t||e&&e.t,r={hash:{i18n_scope:"wiki.wiki_page"},data:t},o?o.call(e,"wiki.wiki_page.toolbar_menu.settings","Settings",r):d.call(e,"t","wiki.wiki_page.toolbar_menu.settings","Settings",r)))+'</span>\n                </a>\n                <ul class="al-options">\n                  '
+s=i.unless.call(e,e&&e.cannot_delete_by_master_course,{hash:{},inverse:c.noop,fn:c.program(28,P,t),data:t});(s||0===s)&&(a+=s)
+a+="\n                  "
+s=i["if"].call(e,(s=e&&e.CAN,null==s||false===s?s:s.READ_REVISIONS),{hash:{},inverse:c.noop,fn:c.program(34,D,t),data:t});(s||0===s)&&(a+=s)
+a+="\n                  "
+s=i.unless.call(e,e&&e.front_page,{hash:{},inverse:c.noop,fn:c.program(36,R,t),data:t});(s||0===s)&&(a+=s)
+a+="\n                  "
+s=i["if"].call(e,(s=e&&e.CAN,null==s||false===s?s:s.DIRECT_SHARE),{hash:{},inverse:c.noop,fn:c.program(39,$,t),data:t});(s||0===s)&&(a+=s)
+a+="\n                  "
+s=c.invokePartial(n["ui/shared/external-tools/jst/_external_tools_menu.handlebars"],"ui/shared/external-tools/jst/_external_tools_menu.handlebars",e&&e.wiki_page_menu_tools,i,n,t);(s||0===s)&&(a+=s)
+a+="\n                </ul>\n              </div>\n            "
+return a}function P(e,t){var n,s=""
+s+="\n                    "
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.DELETE),{hash:{},inverse:c.noop,fn:c.program(29,N,t),data:t});(n||0===n)&&(s+=n)
+s+="\n                  "
+return s}function N(e,t){var n,s,o,r=""
+r+='\n                      <li><a href="#" class="icon-trash delete_page'
+n=i.unless.call(e,e&&e.deletable,{hash:{},inverse:c.noop,fn:c.program(30,A,t),data:t});(n||0===n)&&(r+=n)
+r+='" '
+n=i.unless.call(e,e&&e.deletable,{hash:{},inverse:c.noop,fn:c.program(32,Z,t),data:t});(n||0===n)&&(r+=n)
+r+=">"+l((s=i.t||e&&e.t,o={hash:{i18n_scope:"wiki.wiki_page"},data:t},s?s.call(e,"wiki.wiki_page.delete_wiki","Delete",o):d.call(e,"t","wiki.wiki_page.delete_wiki","Delete",o)))+"</a></li>\n                    "
+return r}function A(e,t){return" disabled"}function Z(e,t){return'aria-disabled="true"'}function D(e,t){var n,s,o,r=""
+r+='\n                    <li><a href="'
+if(s=i.wiki_page_history_path)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.wiki_page_history_path
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}r+=l(n)+'" class="icon-clock view_page_history">'+l((s=i.t||e&&e.t,o={hash:{i18n_scope:"wiki.wiki_page"},data:t},s?s.call(e,"wiki.wiki_page.view_page_history_wiki","View Page History",o):d.call(e,"t","wiki.wiki_page.view_page_history_wiki","View Page History",o)))+"</a></li>\n                  "
+return r}function R(e,t){var n,s=""
+s+="\n                    "
+n=i["if"].call(e,(n=e&&e.CAN,null==n||false===n?n:n.UPDATE_CONTENT),{hash:{},inverse:c.noop,fn:c.program(37,O,t),data:t});(n||0===n)&&(s+=n)
+s+="\n                  "
+return s}function O(e,t){var n,s,o,r=""
+r+='\n                      <li><a href="#" class="icon-bookmark use-as-front-page-menu-item'
+n=i.unless.call(e,e&&e.published,{hash:{},inverse:c.noop,fn:c.program(30,A,t),data:t});(n||0===n)&&(r+=n)
+r+='" title="'+l((s=i.t||e&&e.t,o={hash:{frontPageText:e&&e.frontPageText,i18n_scope:"wiki.wiki_page"},data:t},s?s.call(e,"wiki.wiki_page.menu.use_front_page","Use as %{frontPageText}",o):d.call(e,"t","wiki.wiki_page.menu.use_front_page","Use as %{frontPageText}",o)))+'" '
+n=i.unless.call(e,e&&e.published,{hash:{},inverse:c.noop,fn:c.program(32,Z,t),data:t});(n||0===n)&&(r+=n)
+r+=">"+l((s=i.t||e&&e.t,o={hash:{frontPageText:e&&e.frontPageText,i18n_scope:"wiki.wiki_page"},data:t},s?s.call(e,"wiki.wiki_page.menu.use_front_page","Use as %{frontPageText}",o):d.call(e,"t","wiki.wiki_page.menu.use_front_page","Use as %{frontPageText}",o)))+"</a></li>\n                    "
+return r}function $(e,t){var n,s,o=""
+o+='\n                    <li><a href="#" class="icon-user direct-share-send-to-menu-item">'+l((n=i.t||e&&e.t,s={hash:{i18n_inferred_key:true,i18n_scope:"wiki.wiki_page"},data:t},n?n.call(e,"send_to_b940900a","Send To...",s):d.call(e,"t","send_to_b940900a","Send To...",s)))+'</a></li>\n                    <li><a href="#" class="icon-duplicate direct-share-copy-to-menu-item">'+l((n=i.t||e&&e.t,s={hash:{i18n_inferred_key:true,i18n_scope:"wiki.wiki_page"},data:t},n?n.call(e,"copy_to_64f8456b","Copy To...",s):d.call(e,"t","copy_to_64f8456b","Copy To...",s)))+"</a></li>\n                  "
+return o}function q(e,t){var n,s,o=""
+o+='\n    <h1 class="page-title mathjax_ignore">'
+if(s=i.title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+"</h1>\n  "
+return o}function F(e,t){var n,s,o=""
+o+='\n    <h1 class="page-title">'
+if(s=i.title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+"</h1>\n  "
+return o}function L(e,t){var n,s,o=""
+o+="\n    <b>"+l((n=i.t||e&&e.t,s={hash:{i18n_scope:"wiki.wiki_page"},data:t},n?n.call(e,"wiki.wiki_page.wiki.todo_date","To-Do Date:",s):d.call(e,"t","wiki.wiki_page.wiki.todo_date","To-Do Date:",s)))+" "+l((n=i.tDateToString||e&&e.tDateToString,s={hash:{},data:t},n?n.call(e,e&&e.todo_date,"date_at_time",s):d.call(e,"tDateToString",e&&e.todo_date,"date_at_time",s)))+"</b>\n  "
+return o}function U(e,t){return'\n    <div class="spinner"></div>\n    <div class="lock_explanation"></div>\n  '}function V(e,t){var n,s,o=""
+o+="\n    "+l((n=i.convertApiUserContent||e&&e.convertApiUserContent,s={hash:{},data:t},n?n.call(e,e&&e.body,s):d.call(e,"convertApiUserContent",e&&e.body,s)))+"\n  "
+return o}o=i["if"].call(t,(o=t&&t.CAN,null==o||false===o?o:o.VIEW_TOOLBAR),{hash:{},inverse:c.noop,fn:c.program(1,u,s),data:s});(o||0===o)&&(r+=o)
+r+='\n\n<div class="show-content user_content clearfix">\n  '
+o=i["if"].call(t,t&&t.explicit_latex_typesetting,{hash:{},inverse:c.program(43,F,s),fn:c.program(41,q,s),data:s});(o||0===o)&&(r+=o)
+r+="\n  "
+o=i["if"].call(t,t&&t.todo_date,{hash:{},inverse:c.noop,fn:c.program(45,L,s),data:s});(o||0===o)&&(r+=o)
+r+="\n  "
+o=i["if"].call(t,t&&t.locked_for_user,{hash:{},inverse:c.program(49,V,s),fn:c.program(47,U,s),data:s});(o||0===o)&&(r+=o)
+r+="\n</div>\n"
+return r}))
+const y=v[b]
+var w=i(4814)
+var k=i(11821)
+var x=i(81642)
+var S=i(18948)
+var E=i(16916)
+var T=i(20912)
+i(1819)
+i(75288)
+i(88439)
+i(60314)
+const C=(0,m.useScope)("content_locks")
+"INST"in window||(window.INST={})
+s()(document).ready((function(){s()(document).on("click",".content_lock_icon",(function(e){if(s()(this).data("lock_reason")){e.preventDefault()
+const t=s()(this).data("lock_reason")
+const i=t.type
+const n=s()("<div/>")
+n.html((0,E.ZP)(INST.lockExplanation(t,i)))
+let o=s()("#lock_reason_dialog")
+if(0===o.length){o=s()("<div/>").attr("id","lock_reason_dialog")
+s()("body").append(o.hide())
+const e="<div class='lock_reason_content'></div><div class='button-container'><button type='button' class='btn' >"+(0,E.ZP)(C.t("buttons.ok_thanks","Ok, Thanks"))+"</button></div>"
+o.append(e)
+o.find(".button-container .btn").click((()=>{o.dialog("close")}))}o.find(".lock_reason_content").empty().append(n)
+o.dialog({title:C.t("titles.content_is_locked","Content Is Locked")})}}))}))
+var I=i(29337)
+var P=i(42650)
+var N=i(75917)
+const A=(0,m.useScope)("pages")
+class Z extends p.ZP.View{static initClass(){this.mixin(w.Z)
+this.prototype.template=y
+this.prototype.els={".publish-button":"$publishButton",".header-bar-outer-container":"$headerBarOuterContainer",".page-changed-alert":"$pageChangedAlert",".al-trigger":"$gearMenu"}
+this.prototype.events={"click .delete_page":"deleteWikiPage","click .use-as-front-page-menu-item":"useAsFrontPage","click .unset-as-front-page-menu-item":"unsetAsFrontPage","click .direct-share-send-to-menu-item":"openSendTo","click .direct-share-copy-to-menu-item":"openCopyTo"}
+this.optionProperty("modules_path")
+this.optionProperty("wiki_pages_path")
+this.optionProperty("wiki_page_edit_path")
+this.optionProperty("wiki_page_history_path")
+this.optionProperty("WIKI_RIGHTS")
+this.optionProperty("PAGE_RIGHTS")
+this.optionProperty("course_id")
+this.optionProperty("course_home")
+this.optionProperty("course_title")
+this.optionProperty("display_show_all_pages")}initialize(){this.model.on("change",(()=>this.render()))
+super.initialize(...arguments)
+this.WIKI_RIGHTS||(this.WIKI_RIGHTS={})
+return this.PAGE_RIGHTS||(this.PAGE_RIGHTS={})}render(){var e
+null!=this.publishButtonView&&this.publishButtonView.$el.detach()
+null!=this.$sequenceFooter&&this.$sequenceFooter.detach()
+super.render(...arguments)
+if(this.model.get("locked_for_user")){const e=this.model.get("lock_info")
+s()(".lock_explanation").html((0,E.ZP)(INST.lockExplanation(e,"page")))
+if(e.context_module&&e.context_module.id){const t=`${ENV.MODULES_PATH}/${e.context_module.id}/prerequisites/wiki_page_${this.model.get("page_id")}`
+s()('<a id="module_prerequisites_lookup_link" style="display: none;">').attr("x-canvaslms-trusted-url",t).appendTo(s()(".lock_explanation"))
+INST.lookupPrerequisites()}}if(!this.publishButtonView){this.publishButtonView=new S.Z({model:this.model})
+this.model.view=this}this.publishButtonView.$el.appendTo(this.$publishButton)
+this.publishButtonView.render()
+const t=document.getElementById("immersive_reader_mount_point")
+const n=document.getElementById("immersive_reader_mobile_mount_point");(t||n)&&Promise.all([i.e(60314),i.e(56398),i.e(76092),i.e(93863),i.e(33386),i.e(45324),i.e(40349),i.e(14173),i.e(90939),i.e(53857),i.e(72448),i.e(47575),i.e(5783),i.e(45982),i.e(89789),i.e(85866),i.e(94537),i.e(42458),i.e(49383),i.e(70057),i.e(58392),i.e(34450),i.e(33105),i.e(45020),i.e(26750)]).then(i.bind(i,70057)).then((e=>{const i=()=>document.querySelector(".show-content").innerHTML
+const s=document.querySelector(".page-title").textContent
+t&&e.initializeReaderButton(t,{content:i,title:s})
+n&&e.initializeReaderButton(n,{content:i,title:s})})).catch((e=>{console.log("Error loading immersive readers.",e)}))
+""!==(null===(e=window.location)||void 0===e?void 0:e.hash)&&(window.location.href=window.location.hash)
+const o=s()(".show-content iframe.lti-embed")
+if(o.length>0){s()(".show-content").addClass("lti-content")
+o.each((function(){s()(this).closest("p").addClass("lti-embed-container")}))}if(this.$sequenceFooter||this.course_home||!this.course_id)null!=this.$sequenceFooter&&this.$sequenceFooter.msfAnimation(false)
+else{this.$sequenceFooter||(this.$sequenceFooter=s()("<div></div>").hide())
+this.$sequenceFooter.moduleSequenceFooter({courseID:this.course_id,assetType:"Page",assetID:this.model.get("url"),onFetchSuccess:()=>{s()(".module-sequence-footer-content").append(s()("#mark-as-done-container"))
+s()("#mark-as-done-container").css({float:"right","margin-right":"4px"})}})}if(this.$sequenceFooter)return this.$sequenceFooter.appendTo(s()("#module_navigation_target"))}navigateToLinkAnchor(){const e=window.location.hash.replace(/^#/,"")
+if(e.length){let t=s()(`#wiki_page_show .user_content #${e}`)
+t.length||(t=s()(`#wiki_page_show .user_content a[name='${e}']`))
+t.length&&s()("html, body").scrollToVisible(t)}}afterRender(){super.afterRender(...arguments)
+this.navigateToLinkAnchor()
+this.reloadView=new x.Z({el:this.$pageChangedAlert,model:this.model,interval:15e4,reloadMessage:A.t("reload_viewing_page","This page has changed since you started viewing it. *Reload*",{wrapper:'<a class="reload" href="#">$1</a>'})})
+this.reloadView.on("changed",(()=>this.$headerBarOuterContainer.addClass("page-changed")))
+this.reloadView.on("reload",(()=>this.render()))
+this.reloadView.pollForChanges();(0,N.i)(this.$el[0],{margin:"small",children:this.toJSON().frontPageText})
+return(0,T.publish)("userContent/change")}deleteWikiPage(e){null!=e&&e.preventDefault()
+if(!this.model.get("deletable"))return
+const t=new k.Z({model:this.model,wiki_pages_path:this.wiki_pages_path})
+return t.open()}unsetAsFrontPage(e){null!=e&&e.preventDefault()
+return this.model.unsetFrontPage((()=>s()("#wiki_page_show .page-toolbar .buttons .al-trigger").focus()))}useAsFrontPage(e){null!=e&&e.preventDefault()
+if(!this.model.get("published"))return
+return this.model.setFrontPage((()=>s()("#wiki_page_show .page-toolbar .buttons .al-trigger").focus()))}openSendTo(e){let t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1]
+e&&e.preventDefault()
+c.render((0,l.Z)(I.Z,{open:t,sourceCourseId:this.course_id,contentShare:{content_type:"page",content_id:this.model.id},onDismiss:()=>{this.openSendTo(null,false)
+this.$gearMenu.focus()}}),document.getElementById("direct-share-mount-point"))}openCopyTo(e){let t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1]
+e&&e.preventDefault()
+c.render((0,l.Z)(P.Z,{open:t,sourceCourseId:this.course_id,contentSelection:{pages:[this.model.id]},onDismiss:()=>{this.openCopyTo(null,false)
+this.$gearMenu.focus()}}),document.getElementById("direct-share-mount-point"))}toJSON(){var e
+const t=super.toJSON(...arguments)
+t.modules_path=this.modules_path
+t.wiki_pages_path=this.wiki_pages_path
+t.wiki_page_edit_path=this.wiki_page_edit_path
+t.wiki_page_history_path=this.wiki_page_history_path
+t.course_home=this.course_home
+t.course_title=this.course_title
+t.CAN={VIEW_ALL_PAGES:!!this.display_show_all_pages||!!this.WIKI_RIGHTS.manage,VIEW_PAGES:!!this.WIKI_RIGHTS.read,PUBLISH:!!this.WIKI_RIGHTS.publish_page,VIEW_UNPUBLISHED:!!this.WIKI_RIGHTS.manage||!!this.WIKI_RIGHTS.view_unpublished_items,UPDATE_CONTENT:!!this.PAGE_RIGHTS.update||!!this.PAGE_RIGHTS.update_content,DELETE:!!this.PAGE_RIGHTS.delete&&!this.course_home,READ_REVISIONS:!!this.PAGE_RIGHTS.read_revisions}
+t.CAN.DIRECT_SHARE=!!ENV.DIRECT_SHARE_ENABLED
+t.CAN.ACCESS_GEAR_MENU=t.CAN.DELETE||t.CAN.READ_REVISIONS||t.CAN.DIRECT_SHARE
+t.CAN.VIEW_TOOLBAR=t.course_home||t.CAN.VIEW_ALL_PAGES||t.CAN.PUBLISH||t.CAN.UPDATE_CONTENT||t.CAN.ACCESS_GEAR_MENU
+t.recent_announcements_enabled=!!ENV.SHOW_ANNOUNCEMENTS
+t.explicit_latex_typesetting=!!(null!==(e=ENV.FEATURES)&&void 0!==e&&e.explicit_latex_typesetting)
+t.lock_info&&(t.lock_info=h().clone(t.lock_info));(null!=t.lock_info?t.lock_info.unlock_at:void 0)&&(t.lock_info.unlock_at=d.Z.parse(t.lock_info.unlock_at)<new Date?null:s().datetimeString(t.lock_info.unlock_at))
+if(t.is_master_course_child_content&&t.restricted_by_master_course){t.cannot_delete_by_master_course=true
+t.cannot_edit_by_master_course=t.master_course_restrictions.content}t.wiki_page_menu_tools=ENV.wiki_page_menu_tools
+h().each(t.wiki_page_menu_tools,(e=>{e.url=`${e.base_url}&pages[]=${this.model.get("page_id")}`}))
+t.frontPageText=ENV.K5_SUBJECT_COURSE?A.t("Subject Home"):A.t("Front Page")
+return t}}Z.initClass()
+var D=i(74556)
+var R=i(76373)
+i(61584)
+var O=i(45503)
+s()("body").addClass("show")
+r()((()=>{const e=new R["default"]
+e.init({itemType:"wiki_page",page:"show"})
+s()("#content").on("click","#mark-as-done-checkbox",(function(){D.Z.toggle(this)}))
+const t=new a.Z(ENV.WIKI_PAGE,{revision:ENV.WIKI_PAGE_REVISION,contextAssetString:ENV.context_asset_string})
+const i=new Z({el:"#wiki_page_show",model:t,modules_path:ENV.MODULES_PATH,wiki_pages_path:ENV.WIKI_PAGES_PATH,wiki_page_edit_path:ENV.WIKI_PAGE_EDIT_PATH,wiki_page_history_path:ENV.WIKI_PAGE_HISTORY_PATH,WIKI_RIGHTS:ENV.WIKI_RIGHTS,PAGE_RIGHTS:ENV.PAGE_RIGHTS,course_id:ENV.COURSE_ID,course_home:ENV.COURSE_HOME,course_title:ENV.COURSE_TITLE,display_show_all_pages:ENV.DISPLAY_SHOW_ALL_LINK})
+i.render()}));(0,O.xI)()},75288:(e,t,i)=>{"use strict"
+i(88439)
+var n=i(6507)
+var s=i.n(n)
+var o=i(16916)
+var r=i(61323)
+const a=(0,r.useScope)("content_locks")
+"INST"in window||(window.INST={})
+INST.lockExplanation=function(e,t){if(e.lock_at){const i=s().datetimeString(e.lock_at)
+switch(t){case"quiz":return a.t("messages.quiz_locked_at","This quiz was locked %{at}.",{at:i})
+case"assignment":return a.t("messages.assignment_locked_at","This assignment was locked %{at}.",{at:i})
+case"topic":return a.t("messages.topic_locked_at","This topic was locked %{at}.",{at:i})
+case"file":return a.t("messages.file_locked_at","This file was locked %{at}.",{at:i})
+case"page":return a.t("messages.page_locked_at","This page was locked %{at}.",{at:i})
+default:return a.t("messages.content_locked_at","This content was locked %{at}.",{at:i})}}else if(e.unlock_at){const i=s().datetimeString(e.unlock_at)
+switch(t){case"quiz":return a.t("messages.quiz_locked_until","This quiz is locked until %{date}.",{date:i})
+case"assignment":return a.t("messages.assignment_locked_until","This assignment is locked until %{date}.",{date:i})
+case"topic":return a.t("messages.topic_locked_until","This topic is locked until %{date}.",{date:i})
+case"file":return a.t("messages.file_locked_until","This file is locked until %{date}.",{date:i})
+case"page":return a.t("messages.page_locked_until","This page is locked until %{date}.",{date:i})
+default:return a.t("messages.content_locked_until","This content is locked until %{date}.",{date:i})}}else{if(e.context_module){let i=""
+switch(t){case"quiz":i+=a.t("messages.quiz_locked_module","This quiz is part of the module *%{module}* and hasn't been unlocked yet.",{module:e.context_module.name,wrapper:"<b>$1</b>"})
+break
+case"assignment":i+=a.t("messages.assignment_locked_module","This assignment is part of the module *%{module}* and hasn't been unlocked yet.",{module:e.context_module.name,wrapper:"<b>$1</b>"})
+break
+case"topic":i+=a.t("messages.topic_locked_module","This topic is part of the module *%{module}* and hasn't been unlocked yet.",{module:e.context_module.name,wrapper:"<b>$1</b>"})
+break
+case"file":i+=a.t("messages.file_locked_module","This file is part of the module *%{module}* and hasn't been unlocked yet.",{module:e.context_module.name,wrapper:"<b>$1</b>"})
+break
+case"page":i+=a.t("messages.page_locked_module","This page is part of the module *%{module}* and hasn't been unlocked yet.",{module:e.context_module.name,wrapper:"<b>$1</b>"})
+break
+default:i+=a.t("messages.content_locked_module","This content is part of the module *%{module}* and hasn't been unlocked yet.",{module:e.context_module.name,wrapper:"<b>$1</b>"})}if(s()("#context_modules_url").length>0){i+="<br/>"
+i+="<a href='"+(0,o.ZP)(s()("#context_modules_url").attr("href"))+"'>"
+i+=(0,o.ZP)(a.t("messages.visit_modules_page_for_details","Visit the modules page for information on how to unlock this content."))
+i+="</a>"}return s().raw(i)}switch(t){case"quiz":return a.t("messages.quiz_locked_no_reason","This quiz is locked.  No other reason has been provided.")
+case"assignment":return a.t("messages.assignment_locked_no_reason","This assignment is locked.  No other reason has been provided.")
+case"topic":return a.t("messages.topic_locked_no_reason","This topic is locked.  No other reason has been provided.")
+case"file":return a.t("messages.file_locked_no_reason","This file is locked.  No other reason has been provided.")
+case"page":return a.t("messages.page_locked_no_reason","This page is locked.  No other reason has been provided.")
+default:return a.t("messages.content_locked_no_reason","This content is locked.  No other reason has been provided.")}}}},42650:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>c})
+var n=i(63056)
+var s=i(61323)
+var o=i(67294)
+var r=i(38479)
+const a=(0,s.useScope)("direct_share_course_tray")
+const l=(0,o.lazy)((()=>Promise.all([i.e(57336),i.e(26109)]).then(i.bind(i,79412))))
+function c(e){let{sourceCourseId:t,contentSelection:i,onDismiss:s,...c}=e
+return o.createElement(r.Z,Object.assign({label:a.t("Copy To..."),placement:"end",onDismiss:s,padding:"medium"},c),(0,n.Z)(l,{sourceCourseId:t,contentSelection:i,onCancel:s}))}},29337:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>m})
+var n=i(63056)
+var s=i(61323)
+var o=i(67294)
+var r=i(88866)
+var a=i(15809)
+var l=i(54769)
+var c=i(69924)
+var d=i(90291)
+i(96597)
+var u=i(50324)
+var h=i(15450)
+const p=(0,s.useScope)("direct_share_user_modal")
+const g=(0,o.lazy)((()=>i.e(85434).then(i.bind(i,85434))))
+function m(e){let{contentShare:t,courseId:i,...s}=e
+const[m,f]=(0,o.useState)([])
+const[_,v]=(0,o.useState)(null)
+const b=(0,o.useRef)(s.open)
+function y(){f([])
+v(null)}function w(e){m.find((t=>t.id===e.id))||f(m.concat([e]))}function k(e){f(m.filter((t=>t.id!==e.id)))}function x(){return(0,h.Z)({method:"POST",path:"/api/v1/users/self/content_shares",body:{...t,receiver_ids:m.map((e=>e.id))}})}function S(){v("info")
+x().then(E).catch((e=>{console.error(e)
+e.response&&console.error(e.response)
+v("error")}))}function E(){(0,u.au)(p.t("Content share started successfully"))()
+s.onDismiss()}function T(){return o.createElement(o.Fragment,null,(0,n.Z)(a.z,{onClick:s.onDismiss},void 0,p.t("Cancel")),(0,n.Z)(a.z,{disabled:0===m.length||"info"===_,color:"primary",margin:"0 0 0 x-small",onClick:S},void 0,p.t("Send")))}const C=(0,n.Z)(c.G,{as:"div",textAlign:"center"},void 0,(0,n.Z)(l.$,{renderTitle:p.t("Loading")}))
+if(s.open!==b.current){b.current=s.open
+y()}let I=""
+"info"===_?I=p.t("Starting content share"):"error"===_&&(I=p.t("Error starting content share"))
+const P=I?(0,n.Z)(r.b,{variant:_},void 0,(0,n.Z)("div",{role:"alert","aria-live":"assertive","aria-atomic":true},void 0,I),"info"===_?(0,n.Z)(l.$,{renderTitle:I,size:"x-small"}):null):null
+return o.createElement(d.Z,Object.assign({label:p.t("Send To..."),size:"medium"},s,{footer:(0,n.Z)(T,{})}),(0,n.Z)(o.Suspense,{fallback:C},void 0,P,(0,n.Z)(g,{courseId:i,selectedUsers:m,onUserSelected:w,onUserRemoved:k})))}},67879:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>a})
+var n=i(67294)
+var s=i(61323)
+const o=(0,s.useScope)("external_toolsModalLauncher")
+const r=n.forwardRef(((e,t)=>n.createElement("iframe",Object.assign({title:o.t("External tool frame"),ref:t,className:"tool_launch"},e,{"data-lti-launch":"true"}))))
+const a=r},96034:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>d})
+var n=i(6507)
+var s=i.n(n)
+var o=i(11015)
+var r=i(25683)
+var a=i.n(r)
+var l=i(98463)
+var c=i(23954)
+class d extends o.Z{initialize(){this.on("change:sort change:order",this.setQueryStringParams)
+return super.initialize(...arguments)}fetch(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+e.data=a().extend({content_types:null!=this.parentFolder?this.parentFolder.contentTypes:void 0},e.data||{});(null!=this.parentFolder?this.parentFolder.useVerifiers:void 0)&&(e.data.use_verifiers=1)
+return super.fetch(e)}parse(e){if(e&&this.parentFolder){const t=this.parentFolder.previewUrl()
+a().each(e,(e=>e.rce_preview_url=t?t.replace("{{id}}",e.id.toString()):e.url))}return super.parse(...arguments)}setQueryStringParams(){const e={include:["user"],per_page:20,sort:this.get("sort"),order:this.get("order")}
+if(this.loadedAll)return
+const t=new URL(this.url)
+const i=(0,l.Z)(t.search)
+t.search=s().param(a().extend(i,e))
+this.url=t.toString()
+return this.reset()}}d.optionProperty("parentFolder")
+d.prototype.model=c.Z},86840:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>y})
+var n=i(6507)
+var s=i.n(n)
+var o=i(34443)
+var r=i(25683)
+var a=i.n(r)
+var l={}
+var c=function(e){var t=a().uniqueId()
+var i=a().extend((function(i,n){var s=function(){return new e(i,n)}
+var o=i&&i[e.prototype.idAttribute]
+if(o){var r=t+":"+o
+if(l[r]){var a=l[r]
+n&&n.parse&&(i=a.parse(i))
+a.set(i)}else l[r]=s()
+return l[r]}var c=s()
+c.on("change:"+e.prototype.idAttribute,(function(e,i){l[t+":"+i]=c
+c.off(null,null,this)}),this)
+return c}),e)
+i.prototype=e.prototype
+return i}
+c.resetCache=function(){l={}}
+const d=c
+var u=i(11015)
+var h=i(96034)
+var p=i(9306)
+const g={encodeSpecialChars:e=>e.replace(/%/g,"&#37;"),decodeSpecialChars:e=>e.split("/").map((e=>encodeURIComponent(decodeURIComponent(e).replace(/&#37;/,"%")))).join("/")}
+const m=/^[^\/]+\/?/
+let f=null
+function _(e,t){return"name"!==t||e instanceof b?"user"===t?k(e.get("user"),(e=>e.display_name))||"":"usage_rights"===t?k(e.get("usage_rights"),(e=>e.license_name))||"":e.get(t):e.get("display_name")}class v extends o.Z{initialize(e){this.contentTypes||(this.contentTypes=null!=e?e.contentTypes:void 0)
+this.useVerifiers||(this.useVerifiers=null!=e?e.useVerifiers:void 0)
+this.setUpFilesAndFoldersIfNeeded()
+this.on("change:sort change:order",this.setQueryStringParams)
+return super.initialize(...arguments)}url(){return this.isNew()?super.url(...arguments):`/api/v1/folders/${this.id}`}parse(e){const t=super.parse(...arguments)
+this.contentTypes||(this.contentTypes=e.contentTypes)
+this.useVerifiers||(this.useVerifiers=e.useVerifiers)
+this.setUpFilesAndFoldersIfNeeded()
+this.folders.url=e.folders_url
+this.files.url=e.files_url
+return t}setUpFilesAndFoldersIfNeeded(){this.folders||(this.folders=new w([],{parentFolder:this}))
+if(!this.files)return this.files=new h.Z([],{parentFolder:this})}getSubtrees(){return this.folders}getItems(){return this.files}expand(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0]
+let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+let i
+this.isExpanded=true
+this.trigger("expanded")
+if(this.expandDfd||e)return s().when()
+this.isExpanding=true
+this.trigger("beginexpanding")
+this.expandDfd=s().Deferred().done((()=>{this.isExpanding=false
+return this.trigger("endexpanding")}))
+const n=this.folders.url===this.folders.constructor.prototype.url||this.files.url===this.files.constructor.prototype.url;(n||e)&&(i=this.fetch())
+return s().when(i).done((()=>{let e,i
+0!==this.get("folders_count")&&(i=this.folders.fetch({data:{per_page:this.get("folders_count")}}))
+0===this.get("files_count")||t.onlyShowSubtrees||(e=this.files.fetch())
+return s().when(i,e).done(this.expandDfd.resolve)}))}collapse(){this.isExpanded=false
+return this.trigger("collapsed")}toggle(e){return this.isExpanded?this.collapse():this.expand(false,e)}previewUrl(){let e
+if(e=this.get("context_type"),["Course","Group"].includes(e))return`/${this.get("context_type").toLowerCase()}s/${this.get("context_id")}/files/{{id}}/preview`}isEmpty(){return!!(this.files.loadedAll&&0===this.files.length)&&this.folders.loadedAll&&0===this.folders.length}urlPath(){let e=(this.get("full_name")||"").replace(m,"")
+e=g.encodeSpecialChars(e)
+e=e.split("/").map((e=>encodeURIComponent(e))).join("/")
+f||(f=i(14250).Z)
+if(f.showingAllContexts){const t=`${k(this.get("context_type"),(e=>e.toLowerCase()))}s_${this.get("context_id")}`
+e=`${t}/${e}`}return e}childrenSorter(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"name"
+let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"asc"
+let i=arguments.length>2?arguments[2]:void 0
+let n=arguments.length>3?arguments[3]:void 0
+let s
+const o=["name","user","usage_rights"].includes(e)
+i=_(i,e)
+n=_(n,e)
+s=o?p.Z.strings(i,n):(()=>{if(i===n)return 0
+if(i>n||void 0===i)return 1
+if(i<n||void 0===n)return-1
+throw new Error("wat? error sorting")})()
+"desc"===t&&(s=0-s)
+return s}children(e){let{sort:t,order:i}=e
+return this.folders.toArray().concat(this.files.toArray()).sort(this.childrenSorter.bind(null,t,i))}}v.resolvePath=function(e,t,i){i=g.decodeSpecialChars(i)
+const n=`/api/v1/${e}/${t}/folders/by_path${i}`
+return s().getJSON(n).pipe((e=>e.map((e=>new b(e,{parse:true})))))}
+v.prototype.defaults={name:""}
+const b=d(v)
+const y=b
+class w extends u.Z{static initClass(){this.optionProperty("parentFolder")
+this.prototype.model=b}parse(e){e&&e.forEach((e=>{e.contentTypes=this.parentFolder.contentTypes
+return e.useVerifiers=this.parentFolder.useVerifiers}))
+return super.parse(...arguments)}}w.initClass()
+b.FoldersCollection=w
+function k(e,t){return"undefined"!==typeof e&&null!==e?t(e):void 0}},14250:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>a})
+var n=i(86840)
+var s=i(93852)
+const o=ENV.FILES_CONTEXTS||[]
+const r={contexts:o,contextsDictionary:o.reduce(((e,t)=>{const[i,n]=Array.from((0,s.Z)(t.asset_string))
+t.contextType=i
+t.contextId=n
+e[[i,n].join("_")]=t
+return e}),{}),showingAllContexts:window.location.pathname.match(/^\/files/),contextType:null!=o[0]?o[0].contextType:void 0,contextId:null!=o[0]?o[0].contextId:void 0,rootFolders:o.map((e=>{if(ENV.current_user_id){const t=new n.Z({custom_name:e.name,context_type:e.contextType.replace(/s$/,""),context_id:e.contextId})
+t.url=`/api/v1/${e.contextType}/${e.contextId}/folders/root`
+t.fetch()
+return t}return}))}
+r.enableVisibility="courses"===r.contextType
+r.contextFor=function(e){let t
+e.collection&&e.collection.parentFolder&&(e=e.collection.parentFolder)
+if(e instanceof n.Z){const i=e
+t=`${i&&i.get("context_type")}s_${i&&i.get("context_id")}`.toLowerCase()}else e.contextType&&e.contextId&&(t=`${e.contextType}_${e.contextId}`.toLowerCase())
+return r.contextsDictionary&&r.contextsDictionary[t]}
+r.userHasPermission=function(e,t){if(!e)return false
+return r.contextFor(e)&&r.contextFor(e).permissions&&r.contextFor(e).permissions[t]}
+r.baseUrl=r.showingAllContexts?"/files":`/${r.contextType}/${r.contextId}/files`
+const a=r},80874:(e,t,i)=>{"use strict"
+i.d(t,{ZP:()=>_,xt:()=>m,PH:()=>g})
+var n=i(64598)
+var s=i(6507)
+var o=i.n(s)
+var r=i(4267)
+var a=i(83624)
+var l=i(40202)
+i(61323)
+i(89014)
+var c=l["default"]
+var d=c.template,u=c.templates=c.templates||{}
+var h="/work/generated/ui/shared/forms/jst/DialogFormWrapper"
+u[h]=d((function(e,t,i,n,s){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,e.helpers)
+s=s||{}
+var o,r,a="",l=i.helperMissing,c=this.escapeExpression
+a+='<div class="outlet"></div>\n\n<div class="button-container">\n  <button class="btn dialog_closer">'+c((o=i.t||t&&t.t,r={hash:{i18n_scope:"dialog_form_wrapper"},data:s},o?o.call(t,"dialog_form_wrapper.cancel","Cancel",r):l.call(t,"t","dialog_form_wrapper.cancel","Cancel",r)))+'</button>\n  <button\n    class="btn btn-primary"\n    data-text-while-loading=\''+c((o=i.t||t&&t.t,r={hash:{i18n_scope:"dialog_form_wrapper"},data:s},o?o.call(t,"dialog_form_wrapper.saving","Saving...",r):l.call(t,"t","dialog_form_wrapper.saving","Saving...",r)))+'\'\n    type="submit"\n  >'+c((o=i.t||t&&t.t,r={hash:{i18n_scope:"dialog_form_wrapper"},data:s},o?o.call(t,"dialog_form_wrapper.save_settings","Save Settings",r):l.call(t,"t","dialog_form_wrapper.save_settings","Save Settings",r)))+"</button>\n\n"
+return a}))
+const p=u[h]
+i(60314)
+i(17074)
+const g=!window.matchMedia("(min-width: 550px)").matches
+const m=function(e,t){return g?e:t};(0,n.l)(f,r.Z)
+function f(){this.onSaveSuccess=this.onSaveSuccess.bind(this)
+this.renderElAgain=this.renderElAgain.bind(this)
+this.firstRenderEl=this.firstRenderEl.bind(this)
+this.toggle=this.toggle.bind(this)
+return f.__super__.constructor.apply(this,arguments)}f.prototype.defaults={trigger:false,title:null,width:null,height:null,minWidth:null,minHeight:null,fixDialogButtons:true}
+f.prototype.$dialogAppendTarget=o()("body")
+f.prototype.className="dialogFormView"
+f.prototype.wrapperTemplate=p
+f.prototype.initialize=function(){f.__super__.initialize.apply(this,arguments)
+this.setTrigger()
+this.open=this.firstOpen
+return this.renderEl=this.firstRenderEl}
+f.prototype.open=null
+f.prototype.close=function(){let e,t;(null!=(e=this.dialog)?e.isOpen():void 0)&&this.dialog.close()
+return null!=(t=this.focusReturnsTo())?t.focus():void 0}
+f.prototype.toggle=function(){let e
+return(null!=(e=this.dialog)?e.isOpen():void 0)?this.close():this.open()}
+f.prototype.remove=function(){let e,t
+f.__super__.remove.apply(this,arguments)
+null!=(e=this.$trigger)&&e.off(".dialogFormView")
+null!=(t=this.$dialog)&&t.remove()
+this.open=this.firstOpen
+return this.renderEl=this.firstRenderEl}
+f.prototype.firstOpen=function(){this.insert()
+this.render()
+this.setupDialog()
+this.openAgain()
+return this.open=this.openAgain}
+f.prototype.openAgain=function(){this.dialog.open()
+return this.dialog.focusable.focus()}
+f.prototype.insert=function(){return this.$el.appendTo(this.$dialogAppendTarget)}
+f.prototype.setTrigger=function(e){e&&(this.options.trigger=e)
+if(!this.options.trigger)return
+this.$trigger=o()(this.options.trigger)
+return this.attachTrigger()}
+f.prototype.attachTrigger=function(){let e
+return null!=(e=this.$trigger)?e.on("click.dialogFormView",(0,a.Z)(this.toggle)):void 0}
+f.prototype.renderEl=null
+f.prototype.firstRenderEl=function(){this.$el.html(this.wrapperTemplate(this.toJSON()))
+this.renderElAgain()
+return this.renderEl=this.renderElAgain}
+f.prototype.renderElAgain=function(){const e=this.template(this.toJSON())
+return this.$el.find(".outlet").html(e)}
+f.prototype.getDialogTitle=function(){let e
+return this.options.title||(null!=(e=this.$trigger)?e.attr("title"):void 0)||this.getAriaTitle()}
+f.prototype.getAriaTitle=function(){let e
+const t=null!=(e=this.$trigger)?e.attr("aria-describedby"):void 0
+return o()("#"+t).text()}
+f.prototype.setupDialog=function(){const e={autoOpen:false,title:this.getDialogTitle(),close:(t=this,function(){t.close()
+return t.trigger("close")}),open:function(e){return function(){return e.trigger("open")}}(this)}
+var t
+e.width=this.options.width
+e.height=this.options.height
+e.minWidth=this.options.minWidth
+e.minHeight=this.options.minHeight
+this.$el.dialog(e)
+this.options.fixDialogButtons&&this.$el.fixDialogButtons()
+this.dialog=this.$el.data("dialog")
+return o()(".ui-resizable-handle").attr("aria-hidden",true)}
+f.prototype.setDimensions=function(e,t){e=null!=e?e:this.options.width
+t=null!=t?t:this.options.height
+const i={width:e,height:t}
+return this.$el.dialog(i)}
+f.prototype.onSaveSuccess=function(){f.__super__.onSaveSuccess.apply(this,arguments)
+return this.close()}
+f.prototype.focusReturnsTo=function(){let e
+if(!this.$trigger)return null
+return(e=this.$trigger.data("focusReturnsTo"))?o()("#"+e):this.$trigger}
+const _=f},4267:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>v})
+var n=i(64598)
+var s=i(87155)
+var o=i(28820)
+var r=i(6507)
+var a=i.n(r)
+var l=i(25683)
+var c=i.n(l)
+var d=i(61323)
+i(58158)
+i(5777)
+i(38798)
+var u=i(2610)
+var h=i(41354)
+var p=i(82044)
+function g(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:["message"]
+const i={...e}
+t.forEach((e=>{if(!i[e])return
+i[e]=(0,p.Z)(i[e])}))
+return i}const m=(0,d.useScope)("errors")
+const f=[].slice;(0,n.l)(_,s.ZP.View)
+function _(){this.checkUnload=this.checkUnload.bind(this)
+this.watchUnload=this.watchUnload.bind(this)
+this.onSaveFail=this.onSaveFail.bind(this)
+this.onSaveSuccess=this.onSaveSuccess.bind(this)
+return _.__super__.constructor.apply(this,arguments)}_.mixin(o.Z)
+_.prototype.tagName="form"
+_.prototype.className="validated-form-view"
+_.prototype.events={submit:"submit"}
+_.prototype.saveOpts={wait:true}
+_.prototype.disableWhileLoadingOpts={}
+_.prototype.submit=function(e,t){let i,n,s,o,r,l
+null==t&&(t=u.lW)
+null!=e&&e.preventDefault()
+this.hideErrors()
+const d=this.$el.find("textarea[data-rich_text]").toArray()
+r=true
+d.length>0&&(r=d.map((function(e){return t(a()(e),"checkReadyToGetCode",window.confirm)})).every((function(e){return e})))
+if(!r)return
+const h=this.getFormData()
+const p=this.validateBeforeSave(h,{})
+if(0===c().keys(p).length){s=new(a().Deferred)
+l=this.saveFormData(h)
+l.then(this.onSaveSuccess.bind(this),this.onSaveFail.bind(this))
+l.fail((g=this,function(){s.reject()
+if(g.setFocusAfterError)return g.setFocusAfterError()}))
+this.dontRenableAfterSaveSuccess||l.done((function(){return s.resolve()}))
+this.$el.disableWhileLoading(s,this.disableWhileLoadingOpts)
+d.length>0&&d.forEach((function(e){return t(a()(e),"RCEClosed")}))
+this.trigger("submit")
+return l}{n=c().map(a()("[data-error-type]"),(function(e){return a()(e).attr("data-error-type")}))
+i=c().chain(c().keys(p)).reject((function(e){return c().includes(n,e)})).value()
+o=i[0]||n[0]
+this.findField(o).focus()
+let e=p
+if("WikiPageEditView"===this.constructor.name&&window.ENV.FEATURES.permanent_page_links){const{title:t,...i}=p
+e=i}return window.setTimeout(function(t){return function(){t.showErrors(e)
+return null}}(this),50)}var g}
+_.prototype.cancel=function(){const e=this.$el.find("textarea[data-rich_text]").toArray()
+return e.forEach((function(e){return(0,u.lW)(a()(e),"RCEClosed")}))}
+_.prototype.getFormData=function(){return g(this.$el.toJSON())}
+_.prototype.saveFormData=function(e){null==e&&(e=null)
+const t=this.model
+e||(e=this.getFormData())
+const i=this.saveOpts
+return t.save(e,i)}
+_.prototype.validate=function(e){null==e&&(e={})
+e||(e={})
+const t=e.data||this.getFormData()
+const i=this.validateFormData(t,{})
+this.hideErrors()
+this.showErrors(i)
+return 0===i.length}
+_.prototype.validateFormData=function(e){return{}}
+_.prototype.validateBeforeSave=function(e){return this.validateFormData(e)}
+_.prototype.hideErrors=function(){return this.$el.hideErrors()}
+_.prototype.onSaveSuccess=function(e){return this.trigger.apply(this,["success",e].concat(f.call(arguments)))}
+_.prototype.onSaveFail=function(e){let t
+t=this.parseErrorResponse(e)
+t||(t={})
+this.showErrors(t)
+return this.trigger.apply(this,["fail",t].concat(f.call(arguments)))}
+_.prototype.parseErrorResponse=function(e){if(422===e.status)return{authenticity_token:"invalid"}
+try{return a().parseJSON(e.responseText).errors}catch(e){return{}}}
+_.prototype.translations=(0,h.u)({},{required:()=>m.t("required","Required"),blank:()=>m.t("blank","Required"),unsaved:()=>m.t("unsaved_changes","You have unsaved changes.")})
+_.prototype.fieldSelectors=null
+_.prototype.findField=function(e){let t,i
+const n=(null!=(i=this.fieldSelectors)?i[e]:void 0)||"[name='"+e+"']"
+t=this.$(n)
+0===t.length&&(t=this.$("[data-error-type='"+e+"']"))
+t.data("rich_text")&&(t=this.findSiblingTinymce(t))
+t.length>1&&(t=t.not("[type=hidden]"))
+return t}
+_.prototype.castJSON=function(e){if(!c().isObject(e))return e
+if(null!=e.toJSON)return e.toJSON()
+const t=c().clone(e)
+c().each(t,(i=this,function(e,n){return t[n]=i.castJSON(e)}))
+var i
+return t}
+_.prototype.original=null
+_.prototype.watchUnload=function(){this.original=this.castJSON(this.getFormData())
+this.unwatchUnload()
+return a()(window).on("beforeunload",this.checkUnload)}
+_.prototype.unwatchUnload=function(){return a()(window).off("beforeunload",this.checkUnload)}
+_.prototype.checkUnload=function(){const e=this.castJSON(this.getFormData())
+if(!c().isEqual(this.original,e))return this.translations.unsaved}
+const v=_},28820:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>l})
+var n=i(6507)
+var s=i.n(n)
+var o=i(25683)
+var r=i.n(o)
+var a=i(16916)
+i(58158)
+i(5777)
+i(38798)
+i(84142)
+const l={fieldSelectors:null,findSiblingTinymce:e=>e.siblings(".tox-tinymce").find(".tox-edit-area"),findField(e,t){let i,n
+null==t&&(t=false)
+const o=(null!=(n=this.fieldSelectors)?n[e]:void 0)||"[name='"+e+"']"
+i=t?s()(o):this.$(o)
+i.data("rich_text")&&(i=this.findSiblingTinymce(i))
+return i},showErrors(e,t){let i,n,o,r,l,c,d
+null==t&&(t=false)
+const u=[]
+for(o in e){n=e[o]
+i=n.element||this.findField(o,t)
+r=n.message||function(){let e,t,i
+const s=[]
+for(e=0,t=n.length;e<t;e++){l=n[e].message
+s.push((0,a.ZP)((null!=(i=this.translations)?i[l]:void 0)||l))}return s}.call(this).join("</p><p>")
+null!=(c=i.errorBox(s().raw(""+r)))&&null!=(d=c.css("z-index","1100"))&&d.attr("role","alert")
+this.attachErrorDescription(i,r)
+n.$input=i
+u.push(n.$errorBox=i.data("associated_error_box"))}return u},attachErrorDescription(e,t){const i=this.findOrCreateDescriptionField(e)
+i.description.text(s().raw(""+t))
+return e.attr("aria-describedby",i.description.attr("id")+" "+i.originalDescriptionIds)},findOrCreateDescriptionField(e){const t=e.attr("id")
+s()("#"+t+"_sr_description").length>0||s()("<div>").attr({id:t+"_sr_description",class:"screenreader-only"}).insertBefore(e)
+const i=s()("#"+t+"_sr_description")
+const n=this.getExistingDescriptionIds(e,t)
+return{description:i,originalDescriptionIds:n}},getExistingDescriptionIds(e,t){const i=e.attr("aria-describedby")
+const n=i?i.split(" "):[]
+return r().without(n,t+"_sr_description")}}},96080:(e,t,i)=>{"use strict"
+var n=i(6507)
+var s=i.n(n)
+var o=i(2610)
+const r=/^(?:select|textarea)/i
+const a=/\r?\n/g
+const l=/^(?:color|date|datetime|datetime-local|email|hidden|month|number|password|range|search|tel|text|time|url|week|file)$/i
+function c(){if(this.elements)return s().makeArray(this.elements)
+{const e=s()(this).find(":input")
+return e.length?e:this}}function d(){return this.name&&!this.disabled&&(this.checked||r.test(this.nodeName)||l.test(this.type))}function u(e,t){"string"===typeof t&&(t=t.replace(a,"\r\n"))
+return{name:e,value:t}}function h(){const e=s()(this)
+const t=(()=>{if("file"!==this.type)return e.hasClass("datetime_field_enabled")?""===e.val()?null:e.data("date")||null:e.data("rich_text")?(0,o.lW)(e,"get_code",false):e.val()
+if(e.val())return this})()
+return s().isArray(t)?t.map((e=>u(this.name,e))):u(this.name,t)}s().fn.serializeForm=function(){return this.map(c).filter(d).map(h).get()}},45503:(e,t,i)=>{"use strict"
+i.d(t,{tq:()=>g,h2:()=>p,xI:()=>E})
+var n=i(55877)
+var s=i.n(n)
+var o=i(55023)
+const r="error"
+const a="unsupported_subject"
+const l="wrong_origin"
+const c="bad_request"
+const d=e=>{let{targetWindow:t,origin:i,subject:n,message_id:s,toolOrigin:o}=e
+const d=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+const r={subject:`${n}.response`}
+s&&(r.message_id=s)
+o&&(r.toolOrigin=o)
+t?t.postMessage({...r,...e},i):console.error("Error sending response postMessage: target window does not exist")}
+const u=()=>{d({})}
+const h=(e,t)=>{const i={code:e}
+t&&(i.message=t)
+d({error:i})}
+const p=e=>{h(r,e)}
+const g=e=>{h(c,e)}
+const m=()=>{h(l)}
+const f=e=>{h(a,e)}
+const _=e=>{var t,i
+return!!(null!==(t=e.data)&&void 0!==t&&null!==(i=t.subject)&&void 0!==i&&i.endsWith(".response"))}
+return{sendResponse:d,sendSuccess:u,sendError:h,sendGenericError:p,sendBadRequestError:g,sendWrongOriginError:m,sendUnsupportedSubjectError:f,isResponse:_}}
+const u=d
+var h=i(31961)
+const p={}
+const g=["lti.enableScrollEvents","lti.fetchWindowSize","lti.frameResize","lti.hideRightSideWrapper","lti.removeUnloadMessage","lti.resourceImported","lti.screenReaderAlert","lti.scrollToTop","lti.setUnloadMessage","lti.showAlert","lti.showModuleNavigation","org.imsglobal.lti.capabilities","org.imsglobal.lti.get_data","org.imsglobal.lti.put_data","lti.capabilities","lti.get_data","lti.put_data","requestFullWindowLaunch","toggleCourseNavigationMenu"]
+const m=e=>"string"===typeof e&&g.includes(e)
+const f=e=>"string"===typeof e&&v.includes(e)
+const _=e=>"string"===typeof e&&b.includes(e)
+const v=["A2ExternalContentReady","LtiDeepLinkingResponse","externalContentReady","externalContentCancel",o.P6,o.On,o.Ok,"betterchat.is_mini_chat","defaultToolContentReady"]
+const b=["lti.frameResize","lti.enableScrollEvents","lti.scrollToTop","lti.setUnloadMessage","lti.removeUnloadMessage"]
+const y=e=>"object"===typeof e
+const w=e=>y(e)&&((0,h.wH)("source",e)&&"string"===typeof e.source&&e.source.includes("react-devtools")||(0,h.wH)("isAngularDevTools",e)&&!!e.isAngularDevTools)
+const k={"lti.enableScrollEvents":()=>i.e(83505).then(i.bind(i,83505)),"lti.fetchWindowSize":()=>i.e(6907).then(i.bind(i,86296)),"lti.frameResize":()=>i.e(61776).then(i.bind(i,61776)),"lti.hideRightSideWrapper":()=>i.e(90263).then(i.bind(i,90263)),"lti.removeUnloadMessage":()=>i.e(63648).then(i.bind(i,63648)),"lti.resourceImported":()=>i.e(58776).then(i.bind(i,58776)),"lti.screenReaderAlert":()=>i.e(49356).then(i.bind(i,49356)),"lti.scrollToTop":()=>i.e(314).then(i.bind(i,314)),"lti.setUnloadMessage":()=>i.e(67108).then(i.bind(i,74733)),"lti.showAlert":()=>i.e(26802).then(i.bind(i,26802)),"lti.showModuleNavigation":()=>i.e(60790).then(i.bind(i,60790)),"org.imsglobal.lti.capabilities":()=>i.e(42570).then(i.bind(i,94817)),"org.imsglobal.lti.get_data":()=>i.e(33141).then(i.bind(i,33141)),"org.imsglobal.lti.put_data":()=>i.e(78944).then(i.bind(i,78944)),"lti.capabilities":()=>i.e(42570).then(i.bind(i,94817)),"lti.get_data":()=>i.e(33141).then(i.bind(i,33141)),"lti.put_data":()=>i.e(78944).then(i.bind(i,78944)),requestFullWindowLaunch:()=>i.e(81384).then(i.bind(i,81384)),toggleCourseNavigationMenu:()=>i.e(49351).then(i.bind(i,49351))}
+async function x(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1]
+if(w(e.data))return false
+let i
+try{i="string"===typeof e.data?JSON.parse(e.data):e.data}catch(e){return false}if("object"!==typeof i||null===i)return false
+const n=(0,h.km)("frameName",i);(0,h.L2)("frameName",i)
+const o=!!n
+let r=e.source
+r===window&&o&&(r=window.frames[n])
+const a=(0,h.km)("subject",i)||(0,h.km)("messageType",i)
+const l=u({targetWindow:r,origin:e.origin,subject:a,message_id:(0,h.km)("message_id",i),toolOrigin:(0,h.km)("toolOrigin",i)})
+if(void 0===a||f(a)||l.isResponse(e))return false
+if(!m(a)){l.sendUnsupportedSubjectError()
+return false}if(_(a)&&o){l.sendUnsupportedSubjectError("Not supported inside Rich Content Editor")
+return false}if(t&&a.includes("org.imsglobal.")){l.sendUnsupportedSubjectError()
+return false}try{const t=await k[a]()
+const n=t.default({message:i,event:e,responseMessages:l})
+n||l.sendSuccess()
+window.ENV.DATA_COLLECTION_ENDPOINT&&"string"===typeof window.ENV.DATA_COLLECTION_ENDPOINT&&fetch(window.ENV.DATA_COLLECTION_ENDPOINT,{method:"PUT",mode:"cors",credentials:"omit",headers:{"Content-Type":"application/json"},body:JSON.stringify([{id:s().v4(),type:"postmessage_usage",subject:a,origin:e.origin}])})
+return true}catch(e){console.error(`Error loading or executing message handler for "${a}": ${e}`)
+const t=y(e)&&(0,h.wH)("message",e)&&"string"===typeof e.message?e.message:void 0
+l.sendGenericError(t)
+return false}}let S=false
+function E(){var e,t,i
+const n=(null===(e=ENV)||void 0===e?void 0:e.IGNORE_LTI_POST_MESSAGES)||false
+const s=(null===(t=ENV)||void 0===t||null===(i=t.FEATURES)||void 0===i?void 0:i.lti_platform_storage)||false
+const o=e=>{""!==e.data&&x(e,s)}
+if(!S&&!n){window.addEventListener("message",o)
+S=true}}},31961:(e,t,i)=>{"use strict"
+i.d(t,{Au:()=>o,H3:()=>s,L2:()=>c,km:()=>l,r7:()=>r,wH:()=>a})
+let n=null
+function s(e){o()
+n=function(t){return t.returnValue=e||""}
+window.addEventListener("beforeunload",n)}function o(){if(n){window.removeEventListener("beforeunload",n)
+n=null}}function r(e){const t=Array.from(document.getElementsByTagName("iframe"))
+const i=t.find((t=>t.contentWindow===e))
+return i||null}function a(e,t){return e in t}function l(e,t){return"object"===typeof t&&null!==t&&a(e,t)?t[e]:void 0}function c(e,t){"object"===typeof t&&null!==t&&a(e,t)&&delete t[e]}},61584:(e,t,i)=>{"use strict"
+i.r(t)
+i.d(t,{default:()=>_})
+var n=i(6507)
+var s=i.n(n)
+var o=i(40202)
+var r=i(61323)
+i(89014)
+var a=o["default"]
+var l=a.template,c=a.templates=a.templates||{}
+var d="/work/generated/ui/shared/module-sequence-footer/jst/ModuleSequenceFooter"
+c[d]=l((function(e,t,i,n,s){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,e.helpers)
+s=s||{}
+var o,r,a,l="",c=i.helperMissing,d=this.escapeExpression,u="function",h=this
+function p(e,t){var n,s,o,r=""
+r+='\n      <span class="module-sequence-footer-button--previous" data-tooltip="right" data-html-tooltip-title="'+d((n=(n=e&&e.previous,null==n||false===n?n:n.tooltip),typeof n===u?n.apply(e):n))+'">\n          <a\n            href="'+d((n=(n=e&&e.previous,null==n||false===n?n:n.url),typeof n===u?n.apply(e):n))+'"\n            class="Button"\n            aria-describedby="msf'
+if(s=i.instanceNumber)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+n=typeof s===u?s.call(e,{hash:{},data:t}):s}r+=d(n)+'-previous-desc"\n            aria-label="'+d((s=i.t||e&&e.t,o={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"previous_module_item_a9e57348","Previous Module Item",o):c.call(e,"t","previous_module_item_a9e57348","Previous Module Item",o)))
+n=i["if"].call(e,(n=e&&e.previous,null==n||false===n?n:n.externalItem),{hash:{},inverse:h.noop,fn:h.program(2,g,t),data:t});(n||0===n)&&(r+=n)
+r+='"\n          >\n            <i class="icon-mini-arrow-left"></i>'+d((s=i.t||e&&e.t,o={hash:{i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"jquery.module_sequence_footer.previous","Previous",o):c.call(e,"t","jquery.module_sequence_footer.previous","Previous",o)))+'\n            <span id="msf'
+if(s=i.instanceNumber)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+n=typeof s===u?s.call(e,{hash:{},data:t}):s}r+=d(n)+'-previous-desc" class="hidden" hidden>'+d((n=(n=e&&e.previous,null==n||false===n?n:n.tooltipText),typeof n===u?n.apply(e):n))+"</span>\n          </a>\n      </span>\n    "
+return r}function g(e,t){var n,s,o=""
+o+=" - "+d((n=i.t||e&&e.t,s={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:t},n?n.call(e,"opens_in_new_window_b4b99243","opens in new window",s):c.call(e,"t","opens_in_new_window_b4b99243","opens in new window",s)))
+return o}function m(e,t){var n,s,o,r=""
+r+='\n      <span class="module-sequence-footer-button--next" data-tooltip="left" data-html-tooltip-title="'+d((n=(n=e&&e.next,null==n||false===n?n:n.tooltip),typeof n===u?n.apply(e):n))+'">\n        <a\n          href="'+d((n=(n=e&&e.next,null==n||false===n?n:n.url),typeof n===u?n.apply(e):n))+'"\n          class="Button"\n          aria-describedby="msf'
+if(s=i.instanceNumber)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+n=typeof s===u?s.call(e,{hash:{},data:t}):s}r+=d(n)+'-next-desc"\n          aria-label="'+d((s=i.t||e&&e.t,o={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"next_module_item_19e835f3","Next Module Item",o):c.call(e,"t","next_module_item_19e835f3","Next Module Item",o)))
+n=i["if"].call(e,(n=e&&e.next,null==n||false===n?n:n.externalItem),{hash:{},inverse:h.noop,fn:h.program(2,g,t),data:t});(n||0===n)&&(r+=n)
+r+='"\n            '
+n=i["if"].call(e,(n=e&&e.next,null==n||false===n?n:n.modules_tab_disabled),{hash:{},inverse:h.noop,fn:h.program(5,f,t),data:t});(n||0===n)&&(r+=n)
+r+="\n          "+d((s=i.disabledIf||e&&e.disabledIf,o={hash:{},data:t},s?s.call(e,(n=e&&e.next,null==n||false===n?n:n.modules_tab_disabled),o):c.call(e,"disabledIf",(n=e&&e.next,null==n||false===n?n:n.modules_tab_disabled),o)))+"\n        >\n          "+d((s=i.t||e&&e.t,o={hash:{i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"jquery.module_sequence_footer.next","Next",o):c.call(e,"t","jquery.module_sequence_footer.next","Next",o)))+'<i class="icon-mini-arrow-right"></i>\n          <span id="msf'
+if(s=i.instanceNumber)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+n=typeof s===u?s.call(e,{hash:{},data:t}):s}r+=d(n)+'-next-desc" class="hidden" hidden>'+d((n=(n=e&&e.next,null==n||false===n?n:n.tooltipText),typeof n===u?n.apply(e):n))+"</span>\n        </a>\n      </span>\n    "
+return r}function f(e,t){return' aria-disabled="true" '}l+="<div class='module-sequence-padding'></div>\n<div class='module-sequence-footer' role=\"navigation\" aria-label=\""+d((r=i.t||t&&t.t,a={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:s},r?r.call(t,"module_navigation_97043417","Module Navigation",a):c.call(t,"t","module_navigation_97043417","Module Navigation",a)))+'">\n  <div class="module-sequence-footer-content">\n    '
+o=i["if"].call(t,(o=t&&t.previous,null==o||false===o?o:o.show),{hash:{},inverse:h.noop,fn:h.program(1,p,s),data:s});(o||0===o)&&(l+=o)
+l+="\n\n    "
+o=i["if"].call(t,(o=t&&t.next,null==o||false===o?o:o.show),{hash:{},inverse:h.noop,fn:h.program(4,m,s),data:s});(o||0===o)&&(l+=o)
+l+="\n  </div>\n</div>\n"
+return l}))
+const u=c[d]
+var h=i(25683)
+var p=i.n(h)
+var g=i(16916)
+i(38593)
+const m=(0,r.useScope)("sequence_footer")
+let f=0
+s().fn.moduleSequenceFooter=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+if(!e.assetType||!e.assetID)throw new Error("Option must be set with assetType and assetID")
+this.msfAnimation=e=>this.find(".module-sequence-padding, .module-sequence-footer").toggleClass("no-animation",!e)
+if(!this.data("msfInstance")){this.msfInstance=new(s().fn.moduleSequenceFooter.MSFClass)(e)
+this.data("msfInstance",this.msfInstance)
+this.msfInstance.fetch().done((()=>{if(this.msfInstance.hide){this.hide()
+return}this.html(u({instanceNumber:this.msfInstance.instanceNumber,previous:this.msfInstance.previous,next:this.msfInstance.next}))
+e&&void 0!==e.animation&&this.msfAnimation(e.animation)
+this.show()
+s()(window).triggerHandler("resize")
+e.onFetchSuccess&&e.onFetchSuccess()}))}return this}
+class _{constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+this.iconClasses={ModuleItem:"icon-module",File:"icon-paperclip",Page:"icon-document",Discussion:"icon-discussion",Assignment:"icon-assignment",Quiz:"icon-quiz",ExternalTool:"icon-link",ExternalUrl:"icon-link","Lti::MessageHandler":"icon-link"}
+this.success=e=>{this.modules=e.modules
+if(!(e&&e.items&&1===e.items.length)){this.hide=true
+return}this.item=e.items[0];(this.previous.show=this.item.prev)&&this.buildPreviousData()
+if(this.item.next||this.awaitingPathProgress()){this.next.show=true
+const e=this.awaitingPathProgress()
+e?this.buildNextPathData():this.buildNextData()}}
+this.instanceNumber=f++
+this.courseID=e.courseID||"undefined"!==typeof ENV&&ENV.course_id
+this.assetID=e.assetID
+this.assetType=e.assetType
+this.location=e.location||document.location
+this.previous={}
+this.next={}
+this.url=`/api/v1/courses/${this.courseID}/module_item_sequence`}getQueryParams(e){let t
+e=e.split("+").join(" ")
+const i={}
+const n=/[?&]?([^=]+)=([^&]*)/g
+while(t=n.exec(e))i[decodeURIComponent(t[1])]=decodeURIComponent(t[2])
+return i}fetch(){const e=this.getQueryParams(this.location.search)
+return e.module_item_id?s().ajaxJSON(this.url,"GET",{asset_type:"ModuleItem",asset_id:e.module_item_id,frame_external_urls:true},this.success,null,{}):s().ajaxJSON(this.url,"GET",{asset_type:this.assetType,asset_id:this.assetID,frame_external_urls:true},this.success,null,{})}buildPreviousData(){this.previous.url=this.item.prev.html_url
+this.previous.externalItem="ExternalUrl"===this.item.prev.type&&this.item.prev.new_tab
+if(this.item.current.module_id===this.item.prev.module_id){this.previous.tooltip=`<i class='${(0,g.ZP)(this.iconClasses[this.item.prev.type])}'></i> ${(0,g.ZP)(this.item.prev.title)}`
+this.previous.tooltipText=m.t("prev_module_item_desc","Previous: *item*",{wrapper:this.item.prev.title})}else{const e=p().find(this.modules,(e=>e.id===this.item.prev.module_id))
+this.previous.tooltip=`<strong style='float:left'>${(0,g.ZP)(m.t("prev_module","Previous Module:"))}</strong> <br> ${(0,g.ZP)(e.name)}`
+this.previous.tooltipText=m.t("prev_module_desc","Previous Module: *module*",{wrapper:e.name})}}buildNextPathData(){const e=this.item.mastery_path
+if(e.awaiting_choice){this.next.url=e.choose_url
+this.next.tooltipText=m.t("Choose the next mastery path")}else{const t=m.t("Next mastery path is currently locked")
+const i=m.t("Next mastery path is still processing, please periodically refresh the page")
+const n=e.locked?t:i
+this.next.modules_tab_disabled=e.modules_tab_disabled
+this.next.url=e.modules_url
+this.next.tooltipText=n}this.next.tooltip=`<i class='${(0,g.ZP)(this.iconClasses.ModuleItem)}'/> ${this.next.tooltipText}`}buildNextData(){this.next.url=this.item.next.html_url
+this.next.externalItem="ExternalUrl"===this.item.next.type&&this.item.next.new_tab
+if(this.item.current.module_id===this.item.next.module_id){this.next.tooltip=`<i class='${(0,g.ZP)(this.iconClasses[this.item.next.type])}'></i> ${(0,g.ZP)(this.item.next.title)}`
+this.next.tooltipText=m.t("Next: *item*",{wrapper:this.item.next.title})}else{const e=p().find(this.modules,(e=>e.id===this.item.next.module_id))
+this.next.tooltip=`<strong style='float:left'>${(0,g.ZP)(m.t("next_module","Next Module:"))}</strong> <br> ${(0,g.ZP)(e.name)}`
+this.next.tooltipText=m.t("next_module_desc","Next Module: *module*",{wrapper:e.name})}}awaitingPathProgress(){const e=this.item.mastery_path
+if(e&&e.is_student)return e.awaiting_choice||e.locked||e.still_processing}}s().fn.moduleSequenceFooter.MSFClass=_},1819:(e,t,i)=>{"use strict"
+var n=i(61323)
+var s=i(6507)
+var o=i.n(s)
+var r=i(16916)
+var a=i(91035)
+var l=i.n(a)
+i(38593)
+i(84142)
+const c=(0,n.useScope)("prerequisites_lookup")
+let d=false
+INST.lookupPrerequisites=function(){if(d)return
+const e=o()("#module_prerequisites_lookup_link")
+if(0==e.length)return
+d=true
+const t=e.attr("x-canvaslms-trusted-url")
+const i=new(l())({radius:5})
+i.spin()
+o()(i.el).css({opacity:.5,top:"25px",left:"200px"}).appendTo(".spinner")
+o().ajaxJSON(t,"GET",{},(function(t){i.stop()
+if(false===t.locked)return
+const n=o()("<ul/>")
+n.attr("id","module_prerequisites_list")
+for(const e in t.modules){const i=t.modules[e]
+const s=o()("<li/>")
+const r=o()("<i/>")
+s.addClass("module")
+s.click((function(){o()(this).find("ul").toggle()}))
+s.toggleClass("locked",!!i.locked)
+i.locked&&r.addClass("icon-lock")
+s.append(r)
+const a=o()("<h3/>")
+a.text(i.name)
+s.append(a)
+if(i.prerequisites&&i.prerequisites.length>0){const e=o()("<ul/>")
+for(const t in i.prerequisites){const n=i.prerequisites[t]
+const s=o()("<li/>")
+s.addClass("requirement")
+s.toggleClass("locked_requirement",!n.available)
+const r=o()("<a/>")
+r.attr("href",n.url)
+r.text(n.title)
+r.toggleClass("icon-lock",!n.available)
+s.append(r)
+const a=n.requirement_description
+if(a){const e=o()("<div/>")
+e.addClass("description")
+e.text(a)
+s.append(e)}e.append(s)}s.append(e)}n.append(s)}e.after(n)
+const s=c.t("headers.completion_prerequisites","Completion Prerequisites")
+const a=c.beforeLabel(c.t("labels.requirements_must_be_completed","The following requirements need to be completed before this page will be unlocked"))
+e.after("<br/><h2 style='margin-top: 15px;'>"+(0,r.ZP)(s)+"</h2>"+(0,r.ZP)(a))
+e.prev("a").hide()}),(e=>{i.stop()
+o()(".module_prerequisites_fallback").show()}))}
+o()(document).ready(INST.lookupPrerequisites)},74581:(e,t,i)=>{"use strict"
+i.d(t,{zq:()=>S,HU:()=>x,l:()=>E})
+var n=i(67294)
+var s=i(73935)
+var o=i(63056)
+var r=i(61323)
+var a=i(89714)
+var l=i(50435)
+var c=i(35498)
+var d=i(69924)
+var u=i(85779)
+var h=i(50324)
+i(39966)
+var p=i(10221)
+var g=i(15398)
+var m=i(15809)
+var f=i(34651)
+var _
+const v=(0,r.useScope)("move_select")
+class b extends n.Component{constructor(e){super(e)
+this.selectGroup=e=>{this.setState({selectedGroup:this.props.moveOptions.groups.find((t=>t.id===e.target.value))||null})}
+this.selectPosition=e=>{this.setState({selectedPosition:p.m7[e.target.value]||null})}
+this.selectSibling=e=>{this.setState({selectedSibling:""===e.target.value?0:Number(e.target.value)})}
+this.submitSelection=()=>{const{items:e,moveOptions:t}=this.props
+const{selectedGroup:i,selectedPosition:n,selectedSibling:s}=this.state
+let o=e.map((e=>{let{id:t}=e
+return t}))
+if(n){const r=i?i.items:t.siblings
+o=n.apply({items:e.map((e=>{let{id:t}=e
+return t})),order:r.map((e=>{let{id:t}=e
+return t})),relativeTo:s})}this.props.onSelect({groupId:t.groups?i.id:null,itemIds:e.map((e=>{let{id:t}=e
+return t})),order:o})}
+this.state={selectedGroup:this.props.moveOptions.groups&&this.getFilteredGroups()[0],selectedPosition:p.m7.first,selectedSibling:0}}hasSelectedPosition(){const{selectedSibling:e,selectedPosition:t}=this.state
+const i=t&&"absolute"===t.type
+return!!t&&(i||null!==e)}getFilteredGroups(){const{moveOptions:e,items:t}=this.props
+let{groups:i}=e
+e.excludeCurrent&&t[0].groupId&&(i=i.filter((e=>e.id!==t[0].groupId)))
+return i}isDoneSelecting(){const{selectedGroup:e}=this.state
+return this.props.moveOptions.groups?e&&e.items&&e.items.length?this.hasSelectedPosition():!!e:this.hasSelectedPosition()}renderSelectGroup(){const{selectedGroup:e,selectedPosition:t}=this.state
+const{items:i}=this.props
+const n=!!(e&&e.items&&e.items.length)
+const s=this.getFilteredGroups(this.props)
+return(0,o.Z)("div",{},void 0,(0,o.Z)(g.v,{label:v.t("Group Select"),className:"move-select__group",onChange:this.selectGroup,options:s.map((e=>(0,o.Z)("option",{value:e.id},e.id,e.title))),selectOneDefault:false}),n?(0,o.Z)(g.Z,{items:i,siblings:e.items,selectedPosition:t,selectPosition:this.selectPosition,selectSibling:this.selectSibling}):null)}render(){const{groups:e,siblings:t}=this.props.moveOptions
+const{items:i}=this.props
+const{selectedPosition:n}=this.state
+return(0,o.Z)("div",{className:"move-select"},void 0,this.props.moveOptions.groupsLabel&&(0,o.Z)(f.x,{weight:"bold"},void 0,this.props.moveOptions.groupsLabel),e?this.renderSelectGroup():(0,o.Z)(g.Z,{items:i,siblings:t,selectedPosition:n,selectPosition:this.selectPosition,selectSibling:this.selectSibling}),(0,o.Z)(d.G,{textAlign:"end",display:"block"},void 0,_||(_=(0,o.Z)("hr",{"aria-hidden":"true"})),(0,o.Z)(m.z,{id:"move-item-tray-cancel-button",onClick:this.props.onClose,margin:"0 x-small 0 0"},void 0,v.t("Cancel")),(0,o.Z)(m.z,{id:"move-item-tray-submit-button",disabled:!this.isDoneSelecting(),type:"submit",color:"primary",onClick:this.submitSelection,margin:"0 x-small 0 0"},void 0,v.t("Move"))))}}const y=(0,r.useScope)("move_item_tray")
+class w extends n.Component{constructor(){super(...arguments)
+this.state={open:true}
+this.onExited=()=>{setTimeout((()=>{const e=this.props.focusOnExit(this.props.items[0])
+e&&e.focus()}))
+this.props.onExited&&this.props.onExited()}
+this.onMoveSelect=e=>{let{order:t,itemId:i,groupId:n,itemIds:s}=e
+const o=this.props.formatSaveUrl({itemId:i,groupId:n})
+const r=o?a.Z.post(o,this.props.formatSaveData(t)):Promise.resolve({data:t})
+r.then((e=>{this.props.onMoveSuccess({data:e.data,groupId:n,itemId:i,itemIds:s})
+this.close()})).catch((0,h.IM)(y.t("Move Item Failed")))}
+this.open=()=>{this.setState({open:true})}
+this.close=()=>{this.setState({open:false})}}render(){return(0,o.Z)(l.O,{label:this.props.title,open:this.state.open,onDismiss:this.close,onExited:this.onExited,placement:"end",shouldContainFocus:true},void 0,(0,o.Z)(u.P,{placement:"start",onClick:this.close,screenReaderLabel:y.t("close move tray")}),(0,o.Z)(c.X,{margin:"small xx-large",level:"h4",as:"h2"},void 0,this.props.title),(0,o.Z)(d.G,{display:"block",padding:"medium medium large"},void 0,(0,o.Z)(b,{items:this.props.items,moveOptions:this.props.moveOptions,onSelect:this.onMoveSelect,onClose:this.close})))}}w.defaultProps={get title(){return y.t("Move To")},focusOnExit:()=>null,formatSaveUrl:()=>null,formatSaveData:e=>({order:e.join(",")}),onExited:()=>{},onMoveSuccess:()=>{}}
+const k="move_item_tray"
+function x(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:document.body
+let i=document.getElementById(k)
+if(!i){i=document.createElement("div")
+i.setAttribute("id",k)
+t.appendChild(i)}s.render(n.createElement(w,Object.assign({},e,{ref:e=>e&&e.open()})),i)}const S={collectionToItems(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:e=>e.models
+return t(e).map((e=>({id:e.attributes.id,title:e.attributes.name||e.attributes.title})))},collectionToGroups(e,t){let i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:()=>true
+return e.models.filter(i).map((e=>({id:e.attributes.id,title:e.attributes.name||e.attributes.title,items:this.collectionToItems(t(e))})))},reorderInCollection(e,t){let i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:t.collection
+e.forEach(((e,t)=>{const n=i.get(e)
+n&&n.set("position",t+1)}))
+i.sort()
+i.reset(i.models)},reorderAcrossCollections(e,t,i,n){let s=i.collection.view.parentCollection.get(t).get(n.model)
+if(s&&s!==i.collection){i.collection.remove(i)
+s.add(i)
+n.parent&&i.set(n.parent,t)}else s=i.collection
+this.reorderInCollection(e,i,s)},reorderAllItemsIntoNewCollection(e,t,i,n){let s=i.collection.get(t).get(n.model)
+if(s&&s!==i.collection){const e=i.get(n.model).models.slice()
+e.forEach((e=>{i.get(n.model).remove(e)
+s.add(e)}))
+n.parent&&i.set(n.parent,t)}else s=i.collection
+this.reorderInCollection(e,i,s)}}
+function E(e,t){let i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:e=>`#${e}`
+const n=e.reduce(((e,n)=>{const s=t.querySelector(i(n))
+if(null==s)return e
+e[n]=s
+t.removeChild(s)
+return e}),{})
+e.forEach((e=>{null!=n[e]&&t.appendChild(n[e])}))}},10221:(e,t,i)=>{"use strict"
+i.d(t,{m7:()=>a})
+var n=i(61323)
+const s=(0,n.useScope)("move_positions")
+function o(e,t){const i=e.slice()
+const n=i.indexOf(t);-1!==n&&i.splice(n,1)
+return i}function r(e,t){let i=e.slice()
+t.forEach((e=>{i=o(i,e)}))
+return i}const a={first:{type:"absolute",get label(){return s.t("At the Top")},apply:e=>{let{items:t,order:i}=e
+return[...t,...r(i,t)]}},before:{type:"relative",get label(){return s.t("Before..")},apply:e=>{let{order:t,items:i,relativeTo:n}=e
+const s=r(t,i)
+return[...s.slice(0,n),...i,...s.slice(n)]}},after:{type:"relative",get label(){return s.t("After..")},apply:e=>{let{order:t,items:i,relativeTo:n}=e
+const s=r(t,i)
+return[...s.slice(0,n+1),...i,...s.slice(n+1)]}},last:{type:"absolute",get label(){return s.t("At the Bottom")},apply:e=>{let{order:t,items:i}=e
+return[...r(t,i),...i]}}}},39966:(e,t,i)=>{"use strict"
+var n=i(45697)
+const s=(0,n.shape)({id:n.string.isRequired,title:n.string.isRequired,groupId:n.string})
+const o=(0,n.shape)({id:n.string.isRequired,title:n.string.isRequired,items:(0,n.arrayOf)(s)});(0,n.oneOfType)([(0,n.shape)({siblings:(0,n.arrayOf)(s).isRequired}),(0,n.shape)({groupsLabel:n.string.isRequired,groups:(0,n.arrayOf)(o).isRequired,excludeCurrent:n.bool})])},55023:(e,t,i)=>{"use strict"
+i.d(t,{Ok:()=>u,On:()=>d,P6:()=>c,PZ:()=>s,UR:()=>p,Zs:()=>a,d4:()=>r,mH:()=>l,nx:()=>h,qm:()=>n,t0:()=>g,t8:()=>o})
+const n="@"
+const s="mentions-marker"
+const o=`span#${s}`
+const r="mention-menu"
+const a="span#mention-menu"
+const l=ENV.DEEP_LINKING_POST_MESSAGE_ORIGIN
+const c="mentions.NavigationEvent"
+const d="mentions.InputChangeEvent"
+const u="mentions.SelectionEvent"
+const h={backspace:8,enter:13,up:38,down:40,escape:27,tab:9}
+const p={[h.up]:"UpArrow",[h.down]:"DownArrow",[h.enter]:"Enter"}
+const g={ariaControlTemplate:e=>`${e}-mention-popup`,activeDescendant:(e,t)=>`${e}-mention-popup-item-${t}`}},15398:(e,t,i)=>{"use strict"
+i.d(t,{v:()=>m,Z:()=>f})
+var n=i(63056)
+var s=i(67294)
+var o=i(61323)
+var r
+const a=e=>s.createElement("span",e,r||(r=(0,n.Z)("svg",{width:"15px",height:"57px",viewBox:"0 0 15 57",version:"1.1",xmlns:"http://www.w3.org/2000/svg",xmlnsXlink:"http://www.w3.org/1999/xlink"},void 0,(0,n.Z)("g",{id:"Page-1",stroke:"none",strokeWidth:"1",fill:"none",fillRule:"evenodd"},void 0,(0,n.Z)("g",{id:"Alt-Move-Module-To-02",transform:"translate(-1174.000000, -193.000000)",fillRule:"nonzero",fill:"#A5AFB5"},void 0,(0,n.Z)("g",{id:"Group",transform:"translate(1174.000000, 193.000000)"},void 0,(0,n.Z)("path",{d:"M2.08984375,50.4040286 L2.08984375,2.140625 L14.2460937,2.140625 L14.2460937,0.140625 L0.08984375,0.140625 L0.08984375,52.4040286 L12.3117575,52.4040286 L12.3117575,50.4040286 L2.08984375,50.4040286 Z M8.75061079,46.8029894 C8.34904169,46.401618 7.70214858,46.397441 7.29950809,46.7998832 L7.29950809,46.7998832 C6.8996553,47.1995392 6.89963974,47.8474939 7.30261575,48.2502716 L11.1577205,52.1034784 C11.5592896,52.5048499 12.2061828,52.5090268 12.6088232,52.1065846 L12.6088232,52.1065846 C13.008676,51.7069286 13.0086916,51.0589739 12.6057156,50.6561963 L8.75061079,46.8029894 L8.75061079,46.8029894 Z M8.75061079,56.1970106 C8.34904169,56.598382 7.70214858,56.602559 7.29950809,56.2001168 L7.29950809,56.2001168 C6.8996553,55.8004608 6.89963974,55.1525061 7.30261575,54.7497284 L11.1577205,50.8965216 C11.5592896,50.4951501 12.2061828,50.4909732 12.6088232,50.8934154 L12.6088232,50.8934154 C13.008676,51.2930714 13.0086916,51.9410261 12.6057156,52.3438037 L8.75061079,56.1970106 L8.75061079,56.1970106 Z",id:"connector"})))))))
+const l=a
+var c=i(34651)
+var d=i(64426)
+var u=i(69924)
+var h=i(86333)
+var p=i(10221)
+i(39966)
+const g=(0,o.useScope)("selectPosition")
+m.defaultProps={options:[],className:"",selectOneDefault:false,testId:null}
+function m(e){let{label:t,onChange:i,options:s,className:o,selectOneDefault:r,testId:a}=e
+return(0,n.Z)(u.G,{margin:"medium 0",display:"block",className:o},void 0,(0,n.Z)(d.Wi,{id:"move-select-form",label:(0,n.Z)(h.c,{},void 0,t)},void 0,(0,n.Z)("select",{"data-testid":a,onChange:i,className:"move-select-form",style:{margin:"0",width:"100%"}},void 0,r&&(0,n.Z)("option",{},void 0,g.t("Select one")),s)))}f.defaultProps={selectedPosition:{type:"absolute"},selectPosition:()=>{},selectSibling:()=>{}}
+function f(e){let{items:t,siblings:i,selectedPosition:s,selectPosition:o,selectSibling:r}=e
+const a=!!(s&&"relative"===s.type)
+function d(){const e=i.filter((e=>{var i
+return e.id!==(null===(i=t[0])||void 0===i?void 0:i.id)}))
+return(0,n.Z)(m,{label:g.t("Item Select"),className:"move-select__sibling",onChange:r,options:e.map(((e,t)=>(0,n.Z)("option",{value:t},e.id,e.title))),selectOneDefault:false,testId:"select-sibling"})}function u(){const e=1===t.length?g.t('Place "%{title}"',{title:t[0].title}):g.t("Place")
+return(0,n.Z)(c.x,{weight:"bold"},void 0,e)}return(0,n.Z)("div",{},void 0,u(),(0,n.Z)(m,{label:g.t("Position Select"),className:"move-select__position",onChange:o,options:Object.keys(p.m7).map((e=>(0,n.Z)("option",{value:e},e,p.m7[e].label))),selectOneDefault:false,testId:"select-position"}),a?(0,n.Z)("div",{},void 0,(0,n.Z)(l,{"aria-hidden":true,style:{position:"absolute",transform:"translate(-15px, -35px)"}}),d(t)):null)}},86947:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>c})
+var n=i(63056)
+var s=i(67294)
+var o=i(16252)
+var r=i(6507)
+var a=i.n(r)
+var l=i(67879)
+function c(e){let{tool:t,placement:i,acceptedResourceTypes:r,targetResourceType:c,allowItemSelection:d,selectableItems:u,onDismiss:h,onExternalContentReady:p,open:g}=e
+const m={com_instructure_course_accept_canvas_resource_types:r,com_instructure_course_canvas_resource_type:c,com_instructure_course_allow_canvas_resource_selection:d,com_instructure_course_available_canvas_resources:u,display:"borderless",placement:i}
+const f=-1===(null===t||void 0===t?void 0:t.base_url.indexOf("?"))?"?":"&"
+const _=`${null===t||void 0===t?void 0:t.base_url}${f}${a().param(m)}`
+const v=t?t.title:"";(0,s.useEffect)((()=>{function e(e){p&&p(e)}a()(window).on("externalContentReady",e)
+return()=>{a()(window).off("externalContentReady",e)}}),[p])
+return(0,n.Z)(o.Z,{open:g,label:v,onDismiss:h,placement:"end",size:"regular",padding:"0",headerPadding:"medium"},void 0,(0,n.Z)(l.Z,{style:{border:"none",display:"block",width:"100%",height:"100%"},"data-testid":"ltiIframe",src:_,title:v}))}},74556:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>o})
+var n=i(6507)
+var s=i.n(n)
+i(38593)
+const o={toggle(e){const t=s()(e).data.bind(s()(e))
+return s().ajaxJSON(t("url"),t("isChecked")?"DELETE":"PUT",{},(()=>{t("isChecked",!t("isChecked"))
+s()(e).toggleClass("btn-success")
+s()("i",e).toggleClass("icon-empty icon-complete")
+s()(".mark-done-labels span",e).toggleClass("visible")}))}}},9306:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>s})
+var n=i(61323)
+const s={strings(e,t){let i=n["default"].locale||"en-US"
+const s={zh_Hant:"zh-Hant"}
+i=s[i]||i
+return e.localeCompare(t,i,{sensitivity:"variant",ignorePunctuation:false,numeric:true})},by(e){return(t,i)=>this.strings(e(t),e(i))},byKey(e){return this.by((t=>t[e]))},byGet(e){return this.by((t=>t.get(e)))}}},58158:(e,t,i)=>{"use strict"
+var n=i(6507)
+var s=i.n(n)
+i(96080)
+const o={validate:/^[a-zA-Z][a-zA-Z0-9_-]*(?:\[(?:\d*|[a-zA-Z0-9_-]+)\])*$/,key:/[a-zA-Z0-9_-]+|(?=\[\])/g,push:/^$/,fixed:/^\d+$/,named:/^[a-zA-Z0-9_-]+$/}
+const r=function(e,t,i){e[t]=i
+return e}
+s().fn.toJSON=function(){let e={}
+const t={}
+const i=function(e,i){void 0===t[e]&&(t[e]=0)
+if(void 0===i)return t[e]++
+if(void 0!==i&&i>t[e])return t[e]=++i}
+s().each(s()(this).serializeForm(),(function(){if(!o.validate.test(this.name))return
+let t,n=this.value,a=this.name
+const l=this.name.match(o.key)
+while(void 0!==(t=l.pop())){a=a.replace(new RegExp("\\["+t+"\\]$"),"")
+if(t.match(o.push))n=r([],i(a),n)
+else if(t.match(o.fixed)){i(a,t)
+n=r([],t,n)}else t.match(o.named)&&(n=r({},t,n))}e=s().extend(true,e,n)}))
+return e}},97919:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>f})
+var n=i(6507)
+var s=i.n(n)
+var o=i(25683)
+var r=i.n(o)
+var a=i(87155)
+var l=i(14013)
+var c=i(92828)
+var d=i(84650)
+var u=i(93852)
+var h=i(61323)
+let p
+const g=(0,h.useScope)("pages")
+const m=["contextAssetString","revision"]
+const f=p=function(){p=class extends a.ZP.Model{static initClass(){this.mixin(d.Z)
+this.prototype.resourceName="pages"
+this.prototype.idAttribute="page_id"}initialize(e,t){super.initialize(...arguments)
+Object.assign(this,r().pick(t||{},m))
+this.contextAssetString&&([this.contextName,this.contextId]=Array.from((0,u.Z)(this.contextAssetString)))
+this.on("change:front_page",this.setPublishable)
+this.on("change:published",this.setPublishable)
+return this.setPublishable()}setPublishable(){const e=this.get("front_page")
+const t=this.get("published")
+const i=!e||!t
+const n=!e
+this.set("publishable",i)
+this.set("deletable",n)
+return i?this.unset("publishableMessage"):this.set("publishableMessage",g.t("cannot_unpublish_front_page","Cannot unpublish the front page"))}disabledMessage(){return this.get("publishableMessage")}urlRoot(){return`/api/v1/${this._contextPath()}/pages`}url(){return this.get("url")?`${this.urlRoot()}/${this.get("url")}`:this.urlRoot()}latestRevision(e){if(!this._latestRevision&&this.get("url")&&!this._latestRevision){const t={contextAssetString:this.contextAssetString,page:this,pageUrl:this.get("url"),latest:true,summary:true,...e}
+this._latestRevision=new l.Z({revision_id:this.revision},t)}return this._latestRevision}parse(e,t){e.wiki_page&&(e=r().extend(r().omit(e,"wiki_page"),e.wiki_page))
+e.set_assignment=null!=e.assignment&&e.assignment.only_visible_to_overrides
+const i=e.assignment||{}
+e.assignment=this.createAssignment(i)
+return e}createAssignment(e){const t=new c.Z(e)
+t.alreadyScoped=true
+return t}toJSON(){const e=super.toJSON(...arguments)
+e.set_assignment||delete e.assignment
+e.assignment=null!=e.assignment?e.assignment.toJSON():void 0
+return{wiki_page:e}}present(){return{...this.attributes,contextName:this.contextName,contextId:this.contextId,new_record:!this.get("url")}}duplicate(e,t){return s().ajaxJSON(`/api/v1/courses/${e}/pages/${this.id}/duplicate`,"POST",{},t)}publish(){const e={wiki_page:{published:true}}
+return this.save(e,{attrs:e,wait:true})}unpublish(){const e={wiki_page:{published:false}}
+return this.save(e,{attrs:e,wait:true})}setFrontPage(e){const t={wiki_page:{front_page:true}}
+return this.save(t,{attrs:t,wait:true,complete:e})}unsetFrontPage(){const e={wiki_page:{front_page:false}}
+return this.save(e,{attrs:e,wait:true})}}
+p.initClass()
+return p}()},14013:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>g})
+var n=i(6507)
+var s=i.n(n)
+var o=i(25683)
+var r=i.n(o)
+var a=i(87155)
+var l=i(61323)
+var c=i(84650)
+var d=i(37689)
+i(42449)
+i(5777)
+let u
+const h=(0,l.useScope)("pages")
+const p=["contextAssetString","page","pageUrl","latest","summary"]
+const g=u=function(){u=class extends a.ZP.Model{constructor(){super(...arguments)
+this.doPoll=this.doPoll.bind(this)}static initClass(){this.mixin(c.Z)}initialize(e,t){super.initialize(...arguments)
+r().extend(this,r().pick(t||{},p))
+if(r().has(this,"url"))return delete this.url}urlRoot(){return`/api/v1/${this._contextPath()}/pages/${this.pageUrl}/revisions`}url(){const e=this.urlRoot()
+if(this.latest)return`${e}/latest`
+if(this.get("revision_id"))return`${e}/${this.get("revision_id")}`
+return e}fetch(e){null==e&&(e={})
+if(this.summary){null==e.data&&(e.data={})
+null==e.data.summary&&(e.data.summary=true)}return super.fetch(e)}pollForChanges(e){null==e&&(e=3e4)
+if(!this._poller){let t
+const i=r().throttle(this.doPoll,e)
+this._poller=new d.Z(e,10*e,i);(t=window.ENV.WIKI_PAGE_PANDAPUB)&&this._poller.setToken(t.CHANNEL,t.TOKEN)
+this._poller.setOnData((()=>i()))
+return this._poller.start()}}startPolling(){if(this._poller)return this._poller.start()}stopPolling(){if(this._poller)return this._poller.stop()}doPoll(e){if(!this._poller||!this._poller.isRunning())return
+return this.fetch().done((function(t,i,n){i=n.status.toString()
+"4"!==i[0]&&"5"!==i[0]||this._poller.stop()
+if(e)return e()}))}parse(e,t){e.url&&(e.id=e.url)
+return e}toJSON(){return r().omit(super.toJSON(...arguments),"id")}restore(){const e=s().ajaxJSON(this.url(),"POST").fail((()=>s().flashError(h.t("restore_failed","Failed to restore page revision"))))
+s()("#wiki_page_revisions").disableWhileLoading(s().Deferred())
+return e}}
+u.initClass()
+return u}()},4814:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>l})
+var n=i(25683)
+var s=i.n(n)
+var o=i(6507)
+var r=i.n(o)
+class a{static initialize(){this.$container.on("scroll",s().debounce(this.checkInstances,10))
+this.initialized=true}static addInstance(e){this.initialized||this.initialize()
+this.instances.push(e)
+this.checkInstances()}static removeInstance(e){this.initialized||this.initialize()
+this.instances=s().reject(this.instances,(t=>t===e))
+this.checkInstances()}static checkInstances(){const e=a.$container.scrollTop()
+a.instances.forEach((t=>{e>=t.top?t.stuck||t.stick():t.stuck&&t.unstick()}))}constructor(e){this.$el=e
+this.top=this.$el.offset().top
+this.stuck=false
+this.constructor.addInstance(this)}stick(){this.$el.addClass("sticky")
+this.stuck=true}unstick(){this.$el.removeClass("sticky")
+this.stuck=false}remove(){this.unstick()
+this.constructor.removeInstance(this)}}a.instances=[]
+a.initialized=false
+a.$container=r()(window)
+r().fn.sticky=function(){return this.each((function(){new a(r()(this))}))}
+r()((()=>r()("[data-sticky]").sticky()))
+const l={afterRender:function(){this.stickyHeader&&this.stickyHeader.remove()
+return this.stickyHeader=this.$("[data-sticky]").sticky()}}},11821:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>c})
+var n=i(6507)
+var s=i.n(n)
+var o=i(61323)
+var r=i(80874)
+const a=(0,o.useScope)("pages")
+const l={fixDialogButtons:false,title:a.t("delete_dialog_title","Delete Page"),width:(0,r.xt)(240,400),height:"auto"}
+class c extends r.ZP{static initClass(){this.prototype.setViewProperties=false
+this.optionProperty("wiki_pages_path")
+this.optionProperty("focusOnCancel")
+this.optionProperty("onDelete")}wrapperTemplate(){return'<div class="outlet"></div>'}template(){return a.t("delete_confirmation","Are you sure you want to delete this page?")}initialize(e){return super.initialize({...l,...e})}submit(e){null!=e&&e.preventDefault()
+const t=this.model.destroy({wait:true})
+const i=s().Deferred()
+const n=this.model.get("title")
+const{wiki_pages_path:o}=this
+t.then((()=>{if(o){const e=new Date
+e.setMinutes(e.getMinutes()+1)
+const t="/"
+s().cookie("deleted_page_title",n,{expires:e,path:t})
+return window.location.href=o}s().flashMessage(a.t("notices.page_deleted",'The page "%{title}" has been deleted.',{title:n}))
+i.resolve()
+return this.close()}))
+t.fail((()=>{s().flashError(a.t("notices.delete_failed",'The page "%{title}" could not be deleted.',{title:n}))
+return i.reject()}))
+return this.$el.disableWhileLoading(i)}close(){(null!=this.dialog?this.dialog.isOpen():void 0)&&this.dialog.close()
+return"delete"===this.buttonClicked?null!=this.onDelete?this.onDelete():void 0:null!=this.focusOnCancel?this.focusOnCancel.focus():void 0}setupDialog(){super.setupDialog(...arguments)
+const e=this
+const t=[{class:"btn",text:a.t("cancel_button","Cancel"),click:()=>{this.buttonClicked="cancel"
+return e.$el.dialog("close")}},{class:"btn btn-danger",text:a.t("delete_button","Delete"),"data-text-while-loading":a.t("deleting_button","Deleting..."),click:()=>{this.buttonClicked="delete"
+return e.submit()}}]
+return this.$el.dialog("option","buttons",t)}}c.initClass()},81642:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>c})
+var n=i(6507)
+var s=i.n(n)
+var o=i(25683)
+var r=i.n(o)
+var a=i(87155)
+const l=["reloadMessage","warning","interval"]
+class c extends a.ZP.View{static initClass(){this.prototype.setViewProperties=false
+this.prototype.defaults={modelAttributes:["title","url","body"],warning:false}
+this.prototype.events={"click a.reload":"reload"}}template(){return`<div class='alert alert-${s().raw(this.options.warning?"warning":"info")} reload-changed-page'>${s().raw(this.reloadMessage)}</div>`}initialize(e){super.initialize(...arguments)
+return r().extend(this,r().pick(e||{},l))}pollForChanges(){if(!this.model)return
+const e=this
+const{model:t}=this
+const i=this.latestRevision=t.latestRevision()
+if(i&&!t.isNew()){i.on("change:revision_id",(()=>i.fetch({data:{summary:false}}).done((()=>{e.render()
+e.trigger("changed")
+return e.stopPolling()}))))
+return i.pollForChanges(this.interval)}}stopPolling(){return null!=this.latestRevision?this.latestRevision.stopPolling():void 0}reload(e){null!=e&&e.preventDefault()
+this.model.set(r().pick(this.latestRevision.attributes,this.options.modelAttributes))
+this.trigger("reload")
+return this.latestRevision.startPolling()}}c.initClass()},75917:(e,t,i)=>{"use strict"
+i.d(t,{i:()=>r})
+var n=i(67294)
+var s=i(73935)
+var o=i(62779)
+const r=(e,t)=>{const i=e.querySelector(".front-page")
+let r
+if("undefined"!==typeof t){r=t.children
+delete t.children}i&&s.render(n.createElement(o.D,t,r),i)
+return n.createElement(o.D,t,r)}},89881:(e,t,i)=>{var n=i(47816),s=i(99291)
+var o=s(n)
+e.exports=o},28483:(e,t,i)=>{var n=i(25063)
+var s=n()
+e.exports=s},47816:(e,t,i)=>{var n=i(28483),s=i(3674)
+function o(e,t){return e&&n(e,t,s)}e.exports=o},69199:(e,t,i)=>{var n=i(89881),s=i(98612)
+function o(e,t){var i=-1,o=s(e)?Array(e.length):[]
+n(e,(function(e,n,s){o[++i]=t(e,n,s)}))
+return o}e.exports=o},99291:(e,t,i)=>{var n=i(98612)
+function s(e,t){return function(i,s){if(null==i)return i
+if(!n(i))return e(i,s)
+var o=i.length,r=t?o:-1,a=Object(i)
+while(t?r--:++r<o)if(false===s(a[r],r,a))break
+return i}}e.exports=s},25063:e=>{function t(e){return function(t,i,n){var s=-1,o=Object(t),r=n(t),a=r.length
+while(a--){var l=r[e?a:++s]
+if(false===i(o[l],l,o))break}return t}}e.exports=t},55877:(e,t,i)=>{var n=i(23570)
+var s=i(71171)
+var o=s
+o.v1=n
+o.v4=s
+e.exports=o},45327:e=>{var t=[]
+for(var i=0;i<256;++i)t[i]=(i+256).toString(16).substr(1)
+function n(e,i){var n=i||0
+var s=t
+return[s[e[n++]],s[e[n++]],s[e[n++]],s[e[n++]],"-",s[e[n++]],s[e[n++]],"-",s[e[n++]],s[e[n++]],"-",s[e[n++]],s[e[n++]],"-",s[e[n++]],s[e[n++]],s[e[n++]],s[e[n++]],s[e[n++]],s[e[n++]]].join("")}e.exports=n},85217:e=>{var t="undefined"!=typeof crypto&&crypto.getRandomValues&&crypto.getRandomValues.bind(crypto)||"undefined"!=typeof msCrypto&&"function"==typeof window.msCrypto.getRandomValues&&msCrypto.getRandomValues.bind(msCrypto)
+if(t){var i=new Uint8Array(16)
+e.exports=function(){t(i)
+return i}}else{var n=new Array(16)
+e.exports=function(){for(var e,t=0;t<16;t++){0===(3&t)&&(e=4294967296*Math.random())
+n[t]=e>>>((3&t)<<3)&255}return n}}},23570:(e,t,i)=>{var n=i(85217)
+var s=i(45327)
+var o
+var r
+var a=0
+var l=0
+function c(e,t,i){var c=t&&i||0
+var d=t||[]
+e=e||{}
+var u=e.node||o
+var h=void 0!==e.clockseq?e.clockseq:r
+if(null==u||null==h){var p=n()
+null==u&&(u=o=[1|p[0],p[1],p[2],p[3],p[4],p[5]])
+null==h&&(h=r=16383&(p[6]<<8|p[7]))}var g=void 0!==e.msecs?e.msecs:(new Date).getTime()
+var m=void 0!==e.nsecs?e.nsecs:l+1
+var f=g-a+(m-l)/1e4
+f<0&&void 0===e.clockseq&&(h=h+1&16383);(f<0||g>a)&&void 0===e.nsecs&&(m=0)
+if(m>=1e4)throw new Error("uuid.v1(): Can't create more than 10M uuids/sec")
+a=g
+l=m
+r=h
+g+=122192928e5
+var _=(1e4*(268435455&g)+m)%4294967296
+d[c++]=_>>>24&255
+d[c++]=_>>>16&255
+d[c++]=_>>>8&255
+d[c++]=255&_
+var v=g/4294967296*1e4&268435455
+d[c++]=v>>>8&255
+d[c++]=255&v
+d[c++]=v>>>24&15|16
+d[c++]=v>>>16&255
+d[c++]=h>>>8|128
+d[c++]=255&h
+for(var b=0;b<6;++b)d[c+b]=u[b]
+return t||s(d)}e.exports=c},71171:(e,t,i)=>{var n=i(85217)
+var s=i(45327)
+function o(e,t,i){var o=t&&i||0
+if("string"==typeof e){t="binary"===e?new Array(16):null
+e=null}e=e||{}
+var r=e.random||(e.rng||n)()
+r[6]=15&r[6]|64
+r[8]=63&r[8]|128
+if(t)for(var a=0;a<16;++a)t[o+a]=r[a]
+return t||s(r)}e.exports=o},98463:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>o})
+var n=i(78848)
+const s={true:true,false:false,null:null}
+function o(e,t){if(!e||"boolean"===typeof e){const e=window.location.search
+if(!e)return{}
+return o(e,...arguments)}const i={}
+e.replace(/\+/g," ").split("&").forEach((e=>{let[n,o]=e.split("=")
+n=decodeURIComponent(n)
+o=decodeURIComponent(o)
+t&&(o=o&&!isNaN(o)?+o:"undefined"===o?void 0:void 0!==s[o]?s[o]:o)
+i[n]=o}))
+return(0,n.Z)(i)}},20912:(e,t,i)=>{const n=i(6507)
+var s,o,r,a=n({})
+n.subscribe=s=function(e,t){if(n.isPlainObject(e))return n.each(e,(function(e,t){s(e,t)}))
+function i(){return t.apply(this,Array.prototype.slice.call(arguments,1))}i.guid=t.guid=t.guid||n.guid++
+a.bind(e,i)}
+n.unsubscribe=o=function(){a.unbind.apply(a,arguments)}
+n.publish=r=function(){a.trigger.apply(a,arguments)}
+e.exports={subscribe:s,unsubscribe:o,publish:r}},78848:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>o})
+var n=i(25683)
+var s=i.n(n)
+function o(e){return s()(e).reduce(((e,t,i)=>{let n=i.split("][")
+let o=n.length-1
+if(/\[/.test(n[0])&&/\]$/.test(n[o])){n[o]=n[o].replace(/\]$/,"")
+n=n.shift().split("[").concat(n)
+o=n.length-1}else o=0
+if(o){let s=0
+let r=e
+while(s<=o){i=""===n[s]?r.length:n[s]
+r=r[i]=s<o?r[i]||(n[s+1]&&isNaN(n[s+1])?{}:[]):t
+s++}}else s().isArray(e[i])?e[i].push(t):null!=e[i]?e[i]=[e[i],t]:e[i]=t
+return e}),Object.create(null))}},82044:(e,t,i)=>{"use strict"
+i.d(t,{Z:()=>o})
+var n=i(45982)
+var s=i(65984)
+function o(e){return(new n["default"].html.Serializer).serialize(new n["default"].html.DomParser({validate:true},r()).parse(e))}function r(){const e=new n["default"].html.Schema
+e.setValidElements(s.iC.valid_elements)
+e.addValidElements(s.iC.extended_valid_elements)
+return e}},13285:(e,t,i)=>{"use strict"
+var n=i(40202)
+i(89014)
+var s=n["default"]
+var o=s.template,r=s.templates=s.templates||{}
+var a="/work/generated/ui/shared/external-tools/jst/-external-tool-menuitem"
+r[a]=o((function(e,t,i,n,s){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,e.helpers)
+s=s||{}
+var o,r="",a="function",l=this.escapeExpression,c=this
+function d(e,t){var n,s,o=""
+o+='\n  <a class="menu_tool_link" href="'
+if(s=i.url)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.url
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+'" data-tool-id="'
+if(s=i.id)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.id
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+'">\n    '
+n=i["if"].call(e,e&&e.canvas_icon_class,{hash:{},inverse:c.program(4,h,t),fn:c.program(2,u,t),data:t});(n||0===n)&&(o+=n)
+o+="\n    "
+if(s=i.title)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.title
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+"\n  </a>\n"
+return o}function u(e,t){var n,s,o=""
+o+='\n      <i class="'
+if(s=i.canvas_icon_class)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.canvas_icon_class
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+'"></i>\n    '
+return o}function h(e,t){var n,s=""
+s+="\n      "
+n=i["if"].call(e,e&&e.icon_url,{hash:{},inverse:c.noop,fn:c.program(5,p,t),data:t});(n||0===n)&&(s+=n)
+s+="\n    "
+return s}function p(e,t){var n,s,o=""
+o+='<img class="icon" alt="" src="'
+if(s=i.icon_url)n=s.call(e,{hash:{},data:t})
+else{s=e&&e.icon_url
+n=typeof s===a?s.call(e,{hash:{},data:t}):s}o+=l(n)+'" />'
+return o}o=i["if"].call(t,t,{hash:{},inverse:c.noop,fn:c.program(1,d,s),data:s});(o||0===o)&&(r+=o)
+r+="\n"
+return r}))
+s.registerPartial("ui/shared/external-tools/jst/_external_tool_menuitem.handlebars",r["/work/generated/ui/shared/external-tools/jst/-external-tool-menuitem"])
+r[a]
+var l=n["default"]
+var c=l.template,d=l.templates=l.templates||{}
+var u="/work/generated/ui/shared/external-tools/jst/-external-tools-menu"
+d[u]=c((function(e,t,i,n,s){this.compilerInfo=[4,">= 1.0.0"]
+i=this.merge(i,e.helpers)
+n=this.merge(n,e.partials)
+s=s||{}
+var o,r="",a=this
+function l(e,t){var n,s=""
+s+="\n  "
+n=i.each.call(e,e,{hash:{},inverse:a.noop,fn:a.program(2,c,t),data:t});(n||0===n)&&(s+=n)
+s+="\n  </ul>\n"
+return s}function c(e,t){var s,o=""
+o+='\n    <li role="presentation">\n      '
+s=a.invokePartial(n["ui/shared/external-tools/jst/_external_tool_menuitem.handlebars"],"ui/shared/external-tools/jst/_external_tool_menuitem.handlebars",e,i,n,t);(s||0===s)&&(o+=s)
+o+="\n    </li>\n  "
+return o}o=i["if"].call(t,t,{hash:{},inverse:a.noop,fn:a.program(1,l,s),data:s});(o||0===o)&&(r+=o)
+r+="\n"
+return r}))
+l.registerPartial("ui/shared/external-tools/jst/_external_tools_menu.handlebars",d["/work/generated/ui/shared/external-tools/jst/-external-tools-menu"])
+d[u]}}])
+
+//# sourceMappingURL=wiki_page_show-c-35538fd230.js.map

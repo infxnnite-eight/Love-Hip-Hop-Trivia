@@ -1,0 +1,1556 @@
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[21858],{20293:(e,t,r)=>{"use strict"
+r.d(t,{p:()=>f})
+var n=r(1413)
+var a=r(15671)
+var o=r(43144)
+var i=r(60136)
+var u=r(51630)
+var s=r(67294)
+var c=r(94855)
+var l=s.createElement("path",{d:"M960,1468.23529 C1053.44753,1468.23529 1129.41176,1544.19953 1129.41176,1637.64706 C1129.41176,1731.09459 1053.44753,1807.05882 960,1807.05882 C866.552471,1807.05882 790.588235,1731.09459 790.588235,1637.64706 C790.588235,1544.19953 866.552471,1468.23529 960,1468.23529 Z M960,790.588235 C1053.44753,790.588235 1129.41176,866.552471 1129.41176,960 C1129.41176,1053.44753 1053.44753,1129.41176 960,1129.41176 C866.552471,1129.41176 790.588235,1053.44753 790.588235,960 C790.588235,866.552471 866.552471,790.588235 960,790.588235 Z M960,112.941176 C1053.44753,112.941176 1129.41176,188.905412 1129.41176,282.352941 C1129.41176,375.800471 1053.44753,451.764706 960,451.764706 C866.552471,451.764706 790.588235,375.800471 790.588235,282.352941 C790.588235,188.905412 866.552471,112.941176 960,112.941176 Z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var f=function(e){(0,i.Z)(r,e)
+var t=(0,u.Z)(r)
+function r(){(0,a.Z)(this,r)
+return t.apply(this,arguments)}(0,o.Z)(r,[{key:"render",value:function(){return s.createElement(c.q,Object.assign({},this.props,{name:"IconMore",viewBox:"0 0 1920 1920"}),l)}}])
+r.displayName="IconMoreLine"
+return r}(s.Component)
+f.glyphName="more"
+f.variant="Line"
+f.propTypes=(0,n.Z)({},c.q.propTypes)},15999:(e,t,r)=>{"use strict"
+t.__esModule=true
+function n(e){return e&&e.__esModule?e:{default:e}}function a(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var o=r(16802)
+var i=n(o)
+var u=function(){function e(){for(var t=arguments.length,r=Array(t),n=0;n<t;n++)r[n]=arguments[n]
+a(this,e)
+Array.isArray(r[0])&&1===r.length&&(r=r[0])
+for(var o=0;o<r.length;o++)if(!i["default"](r[o]))throw new Error("Expected a disposable")
+this.disposables=r
+this.isDisposed=false}e.prototype.add=function(e){this.isDisposed?e.dispose():this.disposables.push(e)}
+e.prototype.remove=function(e){if(this.isDisposed)return false
+var t=this.disposables.indexOf(e)
+if(-1===t)return false
+this.disposables.splice(t,1)
+e.dispose()
+return true}
+e.prototype.dispose=function(){if(this.isDisposed)return
+var e=this.disposables.length
+var t=new Array(e)
+for(var r=0;r<e;r++)t[r]=this.disposables[r]
+this.isDisposed=true
+this.disposables=[]
+this.length=0
+for(r=0;r<e;r++)t[r].dispose()}
+return e}()
+t["default"]=u
+e.exports=t["default"]},57707:(e,t)=>{"use strict"
+t.__esModule=true
+var r=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var a=function(){}
+var o=function(){r(e,null,[{key:"empty",value:{dispose:a},enumerable:true}])
+function e(t){n(this,e)
+this.isDisposed=false
+this.action=t||a}e.prototype.dispose=function(){if(!this.isDisposed){this.action.call(null)
+this.isDisposed=true}}
+return e}()
+t["default"]=o
+e.exports=t["default"]},32058:(e,t,r)=>{"use strict"
+t.__esModule=true
+function n(e){return e&&e.__esModule?e:{default:e}}function a(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var o=r(16802)
+var i=n(o)
+var u=function(){function e(){a(this,e)
+this.isDisposed=false
+this.current=null}e.prototype.getDisposable=function(){return this.current}
+e.prototype.setDisposable=function(){var e=arguments.length<=0||void 0===arguments[0]?null:arguments[0]
+if(null!=e&&!i["default"](e))throw new Error("Expected either an empty value or a valid disposable")
+var t=this.isDisposed
+var r=void 0
+if(!t){r=this.current
+this.current=e}r&&r.dispose()
+t&&e&&e.dispose()}
+e.prototype.dispose=function(){if(this.isDisposed)return
+this.isDisposed=true
+var e=this.current
+this.current=null
+e&&e.dispose()}
+return e}()
+t["default"]=u
+e.exports=t["default"]},14351:(e,t,r)=>{"use strict"
+t.__esModule=true
+function n(e){return e&&e.__esModule?e:{default:e}}var a=r(16802)
+var o=n(a)
+t.isDisposable=o["default"]
+var i=r(57707)
+var u=n(i)
+t.Disposable=u["default"]
+var s=r(15999)
+var c=n(s)
+t.CompositeDisposable=c["default"]
+var l=r(32058)
+var f=n(l)
+t.SerialDisposable=f["default"]},16802:(e,t)=>{"use strict"
+t.__esModule=true
+t["default"]=r
+function r(e){return Boolean(e&&"function"===typeof e.dispose)}e.exports=t["default"]},96874:e=>{function t(e,t,r){switch(r.length){case 0:return e.call(t)
+case 1:return e.call(t,r[0])
+case 2:return e.call(t,r[0],r[1])
+case 3:return e.call(t,r[0],r[1],r[2])}return e.apply(t,r)}e.exports=t},47443:(e,t,r)=>{var n=r(42118)
+function a(e,t){var r=null==e?0:e.length
+return!!r&&n(e,t,0)>-1}e.exports=a},1196:e=>{function t(e,t,r){var n=-1,a=null==e?0:e.length
+while(++n<a)if(r(t,e[n]))return true
+return false}e.exports=t},20731:(e,t,r)=>{var n=r(88668),a=r(47443),o=r(1196),i=r(29932),u=r(7518),s=r(74757)
+var c=200
+function l(e,t,r,l){var f=-1,d=a,v=true,p=e.length,h=[],g=t.length
+if(!p)return h
+r&&(t=i(t,u(r)))
+if(l){d=o
+v=false}else if(t.length>=c){d=s
+v=false
+t=new n(t)}e:while(++f<p){var y=e[f],b=null==r?y:r(y)
+y=l||0!==y?y:0
+if(v&&b===b){var m=g
+while(m--)if(t[m]===b)continue e
+h.push(y)}else d(t,b,l)||h.push(y)}return h}e.exports=l},41848:e=>{function t(e,t,r,n){var a=e.length,o=r+(n?1:-1)
+while(n?o--:++o<a)if(t(e[o],o,e))return o
+return-1}e.exports=t},21078:(e,t,r)=>{var n=r(62488),a=r(75708)
+function o(e,t,r,i,u){var s=-1,c=e.length
+r||(r=a)
+u||(u=[])
+while(++s<c){var l=e[s]
+t>0&&r(l)?t>1?o(l,t-1,r,i,u):n(u,l):i||(u[u.length]=l)}return u}e.exports=o},42118:(e,t,r)=>{var n=r(41848),a=r(62722),o=r(42351)
+function i(e,t,r){return t===t?o(e,t,r):n(e,a,r)}e.exports=i},47556:(e,t,r)=>{var n=r(88668),a=r(47443),o=r(1196),i=r(29932),u=r(7518),s=r(74757)
+var c=Math.min
+function l(e,t,r){var l=r?o:a,f=e[0].length,d=e.length,v=d,p=Array(d),h=Infinity,g=[]
+while(v--){var y=e[v]
+v&&t&&(y=i(y,u(t)))
+h=c(y.length,h)
+p[v]=!r&&(t||f>=120&&y.length>=120)?new n(v&&y):void 0}y=e[0]
+var b=-1,m=p[0]
+e:while(++b<f&&g.length<h){var D=y[b],O=t?t(D):D
+D=r||0!==D?D:0
+if(!(m?s(m,O):l(g,O,r))){v=d
+while(--v){var w=p[v]
+if(!(w?s(w,O):l(e[v],O,r)))continue e}m&&m.push(O)
+g.push(D)}}return g}e.exports=l},62722:e=>{function t(e){return e!==e}e.exports=t},10313:(e,t,r)=>{var n=r(13218),a=r(25726),o=r(33498)
+var i=Object.prototype
+var u=i.hasOwnProperty
+function s(e){if(!n(e))return o(e)
+var t=a(e),r=[]
+for(var i in e)"constructor"==i&&(t||!u.call(e,i))||r.push(i)
+return r}e.exports=s},5976:(e,t,r)=>{var n=r(6557),a=r(45357),o=r(30061)
+function i(e,t){return o(a(e,t,n),e+"")}e.exports=i},56560:(e,t,r)=>{var n=r(75703),a=r(38777),o=r(6557)
+var i=a?function(e,t){return a(e,"toString",{configurable:true,enumerable:false,value:n(t),writable:true})}:o
+e.exports=i},45652:(e,t,r)=>{var n=r(88668),a=r(47443),o=r(1196),i=r(74757),u=r(23593),s=r(21814)
+var c=200
+function l(e,t,r){var l=-1,f=a,d=e.length,v=true,p=[],h=p
+if(r){v=false
+f=o}else if(d>=c){var g=t?null:u(e)
+if(g)return s(g)
+v=false
+f=i
+h=new n}else h=t?[]:p
+e:while(++l<d){var y=e[l],b=t?t(y):y
+y=r||0!==y?y:0
+if(v&&b===b){var m=h.length
+while(m--)if(h[m]===b)continue e
+t&&h.push(b)
+p.push(y)}else if(!f(h,b,r)){h!==p&&h.push(b)
+p.push(y)}}return p}e.exports=l},36128:(e,t,r)=>{var n=r(20731),a=r(21078),o=r(45652)
+function i(e,t,r){var i=e.length
+if(i<2)return i?o(e[0]):[]
+var u=-1,s=Array(i)
+while(++u<i){var c=e[u],l=-1
+while(++l<i)l!=u&&(s[u]=n(s[u]||c,e[l],t,r))}return o(a(s,1),t,r)}e.exports=i},24387:(e,t,r)=>{var n=r(29246)
+function a(e){return n(e)?e:[]}e.exports=a},23593:(e,t,r)=>{var n=r(58525),a=r(50308),o=r(21814)
+var i=1/0
+var u=n&&1/o(new n([,-0]))[1]==i?function(e){return new n(e)}:a
+e.exports=u},38777:(e,t,r)=>{var n=r(10852)
+var a=function(){try{var e=n(Object,"defineProperty")
+e({},"",{})
+return e}catch(e){}}()
+e.exports=a},85924:(e,t,r)=>{var n=r(5569)
+var a=n(Object.getPrototypeOf,Object)
+e.exports=a},75708:(e,t,r)=>{var n=r(62705),a=r(35694),o=r(1469)
+var i=n?n.isConcatSpreadable:void 0
+function u(e){return o(e)||a(e)||!!(i&&e&&e[i])}e.exports=u},16612:(e,t,r)=>{var n=r(77813),a=r(98612),o=r(65776),i=r(13218)
+function u(e,t,r){if(!i(r))return false
+var u=typeof t
+if("number"==u?a(r)&&o(t,r.length):"string"==u&&t in r)return n(r[t],e)
+return false}e.exports=u},33498:e=>{function t(e){var t=[]
+if(null!=e)for(var r in Object(e))t.push(r)
+return t}e.exports=t},45357:(e,t,r)=>{var n=r(96874)
+var a=Math.max
+function o(e,t,r){t=a(void 0===t?e.length-1:t,0)
+return function(){var o=arguments,i=-1,u=a(o.length-t,0),s=Array(u)
+while(++i<u)s[i]=o[t+i]
+i=-1
+var c=Array(t+1)
+while(++i<t)c[i]=o[i]
+c[t]=r(s)
+return n(e,this,c)}}e.exports=o},30061:(e,t,r)=>{var n=r(56560),a=r(21275)
+var o=a(n)
+e.exports=o},21275:e=>{var t=800,r=16
+var n=Date.now
+function a(e){var a=0,o=0
+return function(){var i=n(),u=r-(i-o)
+o=i
+if(u>0){if(++a>=t)return arguments[0]}else a=0
+return e.apply(void 0,arguments)}}e.exports=a},42351:e=>{function t(e,t,r){var n=r-1,a=e.length
+while(++n<a)if(e[n]===t)return n
+return-1}e.exports=t},75703:e=>{function t(e){return function(){return e}}e.exports=t},91747:(e,t,r)=>{var n=r(5976),a=r(77813),o=r(16612),i=r(81704)
+var u=Object.prototype
+var s=u.hasOwnProperty
+var c=n((function(e,t){e=Object(e)
+var r=-1
+var n=t.length
+var c=n>2?t[2]:void 0
+c&&o(t[0],t[1],c)&&(n=1)
+while(++r<n){var l=t[r]
+var f=i(l)
+var d=-1
+var v=f.length
+while(++d<v){var p=f[d]
+var h=e[p];(void 0===h||a(h,u[p])&&!s.call(e,p))&&(e[p]=l[p])}}return e}))
+e.exports=c},25325:(e,t,r)=>{var n=r(29932),a=r(47556),o=r(5976),i=r(24387)
+var u=o((function(e){var t=n(e,i)
+return t.length&&t[0]===e[0]?a(t):[]}))
+e.exports=u},29246:(e,t,r)=>{var n=r(98612),a=r(37005)
+function o(e){return a(e)&&n(e)}e.exports=o},68630:(e,t,r)=>{var n=r(44239),a=r(85924),o=r(37005)
+var i="[object Object]"
+var u=Function.prototype,s=Object.prototype
+var c=u.toString
+var l=s.hasOwnProperty
+var f=c.call(Object)
+function d(e){if(!o(e)||n(e)!=i)return false
+var t=a(e)
+if(null===t)return true
+var r=l.call(t,"constructor")&&t.constructor
+return"function"==typeof r&&r instanceof r&&c.call(r)==f}e.exports=d},81704:(e,t,r)=>{var n=r(14636),a=r(10313),o=r(98612)
+function i(e){return o(e)?n(e,true):a(e)}e.exports=i},50308:e=>{function t(){}e.exports=t},93386:(e,t,r)=>{var n=r(21078),a=r(5976),o=r(45652),i=r(29246)
+var u=a((function(e){return o(n(e,1,i,true))}))
+e.exports=u},82569:(e,t,r)=>{var n=r(20731),a=r(5976),o=r(29246)
+var i=a((function(e,t){return o(e)?n(e,t):[]}))
+e.exports=i},76566:(e,t,r)=>{var n=r(34963),a=r(5976),o=r(36128),i=r(29246)
+var u=a((function(e){return o(n(e,i))}))
+e.exports=u},34236:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t.isSafari=t.isFirefox=void 0
+var n=r(88306)
+var a=o(n)
+function o(e){return e&&e.__esModule?e:{default:e}}t.isFirefox=(0,a.default)((function(){return/firefox/i.test(navigator.userAgent)}))
+t.isSafari=(0,a.default)((function(){return Boolean(window.safari)}))},32182:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a=r(93386)
+var o=s(a)
+var i=r(82569)
+var u=s(i)
+function s(e){return e&&e.__esModule?e:{default:e}}function c(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var l=function(){function e(){c(this,e)
+this.entered=[]}n(e,[{key:"enter",value:function(e){var t=this.entered.length
+var r=function(t){return document.documentElement.contains(t)&&(!t.contains||t.contains(e))}
+this.entered=(0,o.default)(this.entered.filter(r),[e])
+return 0===t&&this.entered.length>0}},{key:"leave",value:function(e){var t=this.entered.length
+this.entered=(0,u.default)(this.entered.filter((function(e){return document.documentElement.contains(e)})),e)
+return t>0&&0===this.entered.length}},{key:"reset",value:function(){this.entered=[]}}])
+return e}()
+t["default"]=l},16411:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a=r(91747)
+var o=g(a)
+var i=r(6831)
+var u=g(i)
+var s=r(32182)
+var c=g(s)
+var l=r(34236)
+var f=r(24266)
+var d=r(26344)
+var v=r(85776)
+var p=h(v)
+function h(e){if(e&&e.__esModule)return e
+var t={}
+if(null!=e)for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r])
+t.default=e
+return t}function g(e){return e&&e.__esModule?e:{default:e}}function y(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var b=function(){function e(t){y(this,e)
+this.actions=t.getActions()
+this.monitor=t.getMonitor()
+this.registry=t.getRegistry()
+this.context=t.getContext()
+this.sourcePreviewNodes={}
+this.sourcePreviewNodeOptions={}
+this.sourceNodes={}
+this.sourceNodeOptions={}
+this.enterLeaveCounter=new c.default
+this.dragStartSourceIds=[]
+this.dropTargetIds=[]
+this.dragEnterTargetIds=[]
+this.currentNativeSource=null
+this.currentNativeHandle=null
+this.currentDragSourceNode=null
+this.currentDragSourceNodeOffset=null
+this.currentDragSourceNodeOffsetChanged=false
+this.altKeyPressed=false
+this.mouseMoveTimeoutTimer=null
+this.getSourceClientOffset=this.getSourceClientOffset.bind(this)
+this.handleTopDragStart=this.handleTopDragStart.bind(this)
+this.handleTopDragStartCapture=this.handleTopDragStartCapture.bind(this)
+this.handleTopDragEndCapture=this.handleTopDragEndCapture.bind(this)
+this.handleTopDragEnter=this.handleTopDragEnter.bind(this)
+this.handleTopDragEnterCapture=this.handleTopDragEnterCapture.bind(this)
+this.handleTopDragLeaveCapture=this.handleTopDragLeaveCapture.bind(this)
+this.handleTopDragOver=this.handleTopDragOver.bind(this)
+this.handleTopDragOverCapture=this.handleTopDragOverCapture.bind(this)
+this.handleTopDrop=this.handleTopDrop.bind(this)
+this.handleTopDropCapture=this.handleTopDropCapture.bind(this)
+this.handleSelectStart=this.handleSelectStart.bind(this)
+this.endDragIfSourceWasRemovedFromDOM=this.endDragIfSourceWasRemovedFromDOM.bind(this)
+this.endDragNativeItem=this.endDragNativeItem.bind(this)
+this.asyncEndDragNativeItem=this.asyncEndDragNativeItem.bind(this)
+this.isNodeInDocument=this.isNodeInDocument.bind(this)}n(e,[{key:"setup",value:function(){if(void 0===this.window)return
+if(this.window.__isReactDndBackendSetUp)throw new Error("Cannot have two HTML5 backends at the same time.")
+this.window.__isReactDndBackendSetUp=true
+this.addEventListeners(this.window)}},{key:"teardown",value:function(){if(void 0===this.window)return
+this.window.__isReactDndBackendSetUp=false
+this.removeEventListeners(this.window)
+this.clearCurrentDragSourceNode()
+this.asyncEndDragFrameId&&this.window.cancelAnimationFrame(this.asyncEndDragFrameId)}},{key:"addEventListeners",value:function(e){if(!e.addEventListener)return
+e.addEventListener("dragstart",this.handleTopDragStart)
+e.addEventListener("dragstart",this.handleTopDragStartCapture,true)
+e.addEventListener("dragend",this.handleTopDragEndCapture,true)
+e.addEventListener("dragenter",this.handleTopDragEnter)
+e.addEventListener("dragenter",this.handleTopDragEnterCapture,true)
+e.addEventListener("dragleave",this.handleTopDragLeaveCapture,true)
+e.addEventListener("dragover",this.handleTopDragOver)
+e.addEventListener("dragover",this.handleTopDragOverCapture,true)
+e.addEventListener("drop",this.handleTopDrop)
+e.addEventListener("drop",this.handleTopDropCapture,true)}},{key:"removeEventListeners",value:function(e){if(!e.removeEventListener)return
+e.removeEventListener("dragstart",this.handleTopDragStart)
+e.removeEventListener("dragstart",this.handleTopDragStartCapture,true)
+e.removeEventListener("dragend",this.handleTopDragEndCapture,true)
+e.removeEventListener("dragenter",this.handleTopDragEnter)
+e.removeEventListener("dragenter",this.handleTopDragEnterCapture,true)
+e.removeEventListener("dragleave",this.handleTopDragLeaveCapture,true)
+e.removeEventListener("dragover",this.handleTopDragOver)
+e.removeEventListener("dragover",this.handleTopDragOverCapture,true)
+e.removeEventListener("drop",this.handleTopDrop)
+e.removeEventListener("drop",this.handleTopDropCapture,true)}},{key:"connectDragPreview",value:function(e,t,r){var n=this
+this.sourcePreviewNodeOptions[e]=r
+this.sourcePreviewNodes[e]=t
+return function(){delete n.sourcePreviewNodes[e]
+delete n.sourcePreviewNodeOptions[e]}}},{key:"connectDragSource",value:function(e,t,r){var n=this
+this.sourceNodes[e]=t
+this.sourceNodeOptions[e]=r
+var a=function(t){return n.handleDragStart(t,e)}
+var o=function(t){return n.handleSelectStart(t,e)}
+t.setAttribute("draggable",true)
+t.addEventListener("dragstart",a)
+t.addEventListener("selectstart",o)
+return function(){delete n.sourceNodes[e]
+delete n.sourceNodeOptions[e]
+t.removeEventListener("dragstart",a)
+t.removeEventListener("selectstart",o)
+t.setAttribute("draggable",false)}}},{key:"connectDropTarget",value:function(e,t){var r=this
+var n=function(t){return r.handleDragEnter(t,e)}
+var a=function(t){return r.handleDragOver(t,e)}
+var o=function(t){return r.handleDrop(t,e)}
+t.addEventListener("dragenter",n)
+t.addEventListener("dragover",a)
+t.addEventListener("drop",o)
+return function(){t.removeEventListener("dragenter",n)
+t.removeEventListener("dragover",a)
+t.removeEventListener("drop",o)}}},{key:"getCurrentSourceNodeOptions",value:function(){var e=this.monitor.getSourceId()
+var t=this.sourceNodeOptions[e]
+return(0,o.default)(t||{},{dropEffect:this.altKeyPressed?"copy":"move"})}},{key:"getCurrentDropEffect",value:function(){if(this.isDraggingNativeItem())return"copy"
+return this.getCurrentSourceNodeOptions().dropEffect}},{key:"getCurrentSourcePreviewNodeOptions",value:function(){var e=this.monitor.getSourceId()
+var t=this.sourcePreviewNodeOptions[e]
+return(0,o.default)(t||{},{anchorX:.5,anchorY:.5,captureDraggingState:false})}},{key:"getSourceClientOffset",value:function(e){return(0,f.getNodeClientOffset)(this.sourceNodes[e])}},{key:"isDraggingNativeItem",value:function(){var e=this.monitor.getItemType()
+return Object.keys(p).some((function(t){return p[t]===e}))}},{key:"beginDragNativeItem",value:function(e){this.clearCurrentDragSourceNode()
+var t=(0,d.createNativeDragSource)(e)
+this.currentNativeSource=new t
+this.currentNativeHandle=this.registry.addSource(e,this.currentNativeSource)
+this.actions.beginDrag([this.currentNativeHandle])}},{key:"asyncEndDragNativeItem",value:function(){this.asyncEndDragFrameId=this.window.requestAnimationFrame(this.endDragNativeItem)}},{key:"endDragNativeItem",value:function(){if(!this.isDraggingNativeItem())return
+this.actions.endDrag()
+this.registry.removeSource(this.currentNativeHandle)
+this.currentNativeHandle=null
+this.currentNativeSource=null}},{key:"isNodeInDocument",value:function(e){return!(!document.body.contains(e)&&!this.window)&&this.window.document.body.contains(e)}},{key:"endDragIfSourceWasRemovedFromDOM",value:function(){var e=this.currentDragSourceNode
+if(this.isNodeInDocument(e))return
+this.clearCurrentDragSourceNode()&&this.actions.endDrag()}},{key:"setCurrentDragSourceNode",value:function(e){var t=this
+this.clearCurrentDragSourceNode()
+this.currentDragSourceNode=e
+this.currentDragSourceNodeOffset=(0,f.getNodeClientOffset)(e)
+this.currentDragSourceNodeOffsetChanged=false
+var r=1e3
+this.mouseMoveTimeoutTimer=setTimeout((function(){t.mouseMoveTimeoutId=null
+return t.window.addEventListener("mousemove",t.endDragIfSourceWasRemovedFromDOM,true)}),r)}},{key:"clearCurrentDragSourceNode",value:function(){if(this.currentDragSourceNode){this.currentDragSourceNode=null
+this.currentDragSourceNodeOffset=null
+this.currentDragSourceNodeOffsetChanged=false
+this.window.clearTimeout(this.mouseMoveTimeoutTimer)
+this.window.removeEventListener("mousemove",this.endDragIfSourceWasRemovedFromDOM,true)
+this.mouseMoveTimeoutTimer=null
+return true}return false}},{key:"checkIfCurrentDragSourceRectChanged",value:function(){var e=this.currentDragSourceNode
+if(!e)return false
+if(this.currentDragSourceNodeOffsetChanged)return true
+this.currentDragSourceNodeOffsetChanged=!(0,u.default)((0,f.getNodeClientOffset)(e),this.currentDragSourceNodeOffset)
+return this.currentDragSourceNodeOffsetChanged}},{key:"handleTopDragStartCapture",value:function(){this.clearCurrentDragSourceNode()
+this.dragStartSourceIds=[]}},{key:"handleDragStart",value:function(e,t){this.dragStartSourceIds.unshift(t)}},{key:"handleTopDragStart",value:function(e){var t=this
+var r=this.dragStartSourceIds
+this.dragStartSourceIds=null
+var n=(0,f.getEventClientOffset)(e)
+this.monitor.isDragging()&&this.actions.endDrag()
+this.actions.beginDrag(r,{publishSource:false,getSourceClientOffset:this.getSourceClientOffset,clientOffset:n})
+var a=e.dataTransfer
+var o=(0,d.matchNativeItemType)(a)
+if(this.monitor.isDragging()){if("function"===typeof a.setDragImage){var i=this.monitor.getSourceId()
+var u=this.sourceNodes[i]
+var s=this.sourcePreviewNodes[i]||u
+var c=this.getCurrentSourcePreviewNodeOptions(),l=c.anchorX,v=c.anchorY,p=c.offsetX,h=c.offsetY
+var g={anchorX:l,anchorY:v}
+var y={offsetX:p,offsetY:h}
+var b=(0,f.getDragPreviewOffset)(u,s,n,g,y)
+a.setDragImage(s,b.x,b.y)}try{a.setData("application/json",{})}catch(e){}this.setCurrentDragSourceNode(e.target)
+var m=this.getCurrentSourcePreviewNodeOptions(),D=m.captureDraggingState
+D?this.actions.publishDragSource():setTimeout((function(){return t.actions.publishDragSource()}))}else if(o)this.beginDragNativeItem(o)
+else{if(!(a.types||e.target.hasAttribute&&e.target.hasAttribute("draggable")))return
+e.preventDefault()}}},{key:"handleTopDragEndCapture",value:function(){this.clearCurrentDragSourceNode()&&this.actions.endDrag()}},{key:"handleTopDragEnterCapture",value:function(e){this.dragEnterTargetIds=[]
+var t=this.enterLeaveCounter.enter(e.target)
+if(!t||this.monitor.isDragging())return
+var r=e.dataTransfer
+var n=(0,d.matchNativeItemType)(r)
+n&&this.beginDragNativeItem(n)}},{key:"handleDragEnter",value:function(e,t){this.dragEnterTargetIds.unshift(t)}},{key:"handleTopDragEnter",value:function(e){var t=this
+var r=this.dragEnterTargetIds
+this.dragEnterTargetIds=[]
+if(!this.monitor.isDragging())return
+this.altKeyPressed=e.altKey;(0,l.isFirefox)()||this.actions.hover(r,{clientOffset:(0,f.getEventClientOffset)(e)})
+var n=r.some((function(e){return t.monitor.canDropOnTarget(e)}))
+if(n){e.preventDefault()
+e.dataTransfer.dropEffect=this.getCurrentDropEffect()}}},{key:"handleTopDragOverCapture",value:function(){this.dragOverTargetIds=[]}},{key:"handleDragOver",value:function(e,t){this.dragOverTargetIds.unshift(t)}},{key:"handleTopDragOver",value:function(e){var t=this
+var r=this.dragOverTargetIds
+this.dragOverTargetIds=[]
+if(!this.monitor.isDragging()){e.preventDefault()
+e.dataTransfer.dropEffect="none"
+return}this.altKeyPressed=e.altKey
+this.actions.hover(r,{clientOffset:(0,f.getEventClientOffset)(e)})
+var n=r.some((function(e){return t.monitor.canDropOnTarget(e)}))
+if(n){e.preventDefault()
+e.dataTransfer.dropEffect=this.getCurrentDropEffect()}else if(this.isDraggingNativeItem()){e.preventDefault()
+e.dataTransfer.dropEffect="none"}else if(this.checkIfCurrentDragSourceRectChanged()){e.preventDefault()
+e.dataTransfer.dropEffect="move"}}},{key:"handleTopDragLeaveCapture",value:function(e){this.isDraggingNativeItem()&&e.preventDefault()
+var t=this.enterLeaveCounter.leave(e.target)
+if(!t)return
+this.isDraggingNativeItem()&&this.endDragNativeItem()}},{key:"handleTopDropCapture",value:function(e){this.dropTargetIds=[]
+e.preventDefault()
+this.isDraggingNativeItem()&&this.currentNativeSource.mutateItemByReadingDataTransfer(e.dataTransfer)
+this.enterLeaveCounter.reset()}},{key:"handleDrop",value:function(e,t){this.dropTargetIds.unshift(t)}},{key:"handleTopDrop",value:function(e){var t=this.dropTargetIds
+this.dropTargetIds=[]
+this.actions.hover(t,{clientOffset:(0,f.getEventClientOffset)(e)})
+this.actions.drop({dropEffect:this.getCurrentDropEffect()})
+this.isDraggingNativeItem()?this.endDragNativeItem():this.endDragIfSourceWasRemovedFromDOM()}},{key:"handleSelectStart",value:function(e){var t=e.target
+if("function"!==typeof t.dragDrop)return
+if("INPUT"===t.tagName||"SELECT"===t.tagName||"TEXTAREA"===t.tagName||t.isContentEditable)return
+e.preventDefault()
+t.dragDrop()}},{key:"window",get:function(){if(this.context&&this.context.window)return this.context.window
+if("undefined"!==typeof window)return window
+return}}])
+return e}()
+t["default"]=b},60464:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var r=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var a=function(){function e(t,r){n(this,e)
+var a=t.length
+var o=[]
+for(var i=0;i<a;i++)o.push(i)
+o.sort((function(e,r){return t[e]<t[r]?-1:1}))
+var u=[]
+var s=[]
+var c=[]
+var l=void 0
+var f=void 0
+for(var d=0;d<a-1;d++){l=t[d+1]-t[d]
+f=r[d+1]-r[d]
+s.push(l)
+u.push(f)
+c.push(f/l)}var v=[c[0]]
+for(var p=0;p<s.length-1;p++){var h=c[p]
+var g=c[p+1]
+if(h*g<=0)v.push(0)
+else{l=s[p]
+var y=s[p+1]
+var b=l+y
+v.push(3*b/((b+y)/h+(b+l)/g))}}v.push(c[c.length-1])
+var m=[]
+var D=[]
+var O=void 0
+for(var w=0;w<v.length-1;w++){O=c[w]
+var S=v[w]
+var C=1/s[w]
+var E=S+v[w+1]-O-O
+m.push((O-S-E)*C)
+D.push(E*C*C)}this.xs=t
+this.ys=r
+this.c1s=v
+this.c2s=m
+this.c3s=D}r(e,[{key:"interpolate",value:function(e){var t=this.xs,r=this.ys,n=this.c1s,a=this.c2s,o=this.c3s
+var i=t.length-1
+if(e===t[i])return r[i]
+var u=0
+var s=o.length-1
+var c=void 0
+while(u<=s){c=Math.floor(.5*(u+s))
+var l=t[c]
+if(l<e)u=c+1
+else{if(!(l>e))return r[c]
+s=c-1}}i=Math.max(0,s)
+var f=e-t[i]
+var d=f*f
+return r[i]+n[i]*f+a[i]*d+o[i]*f*d}}])
+return e}()
+t["default"]=a},26344:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a
+t.createNativeDragSource=v
+t.matchNativeItemType=p
+var o=r(85776)
+var i=u(o)
+function u(e){if(e&&e.__esModule)return e
+var t={}
+if(null!=e)for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r])
+t.default=e
+return t}function s(e,t){for(var r in t){var n=t[r]
+n.configurable=n.enumerable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,r,n)}return e}function c(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function l(e,t,r){t in e?Object.defineProperty(e,t,{value:r,enumerable:true,configurable:true,writable:true}):e[t]=r
+return e}function f(e,t,r){var n=t.reduce((function(t,r){return t||e.getData(r)}),null)
+return null!=n?n:r}var d=(a={},l(a,i.FILE,{exposeProperty:"files",matchesTypes:["Files"],getData:function(e){return Array.prototype.slice.call(e.files)}}),l(a,i.URL,{exposeProperty:"urls",matchesTypes:["Url","text/uri-list"],getData:function(e,t){return f(e,t,"").split("\n")}}),l(a,i.TEXT,{exposeProperty:"text",matchesTypes:["Text","text/plain"],getData:function(e,t){return f(e,t,"")}}),a)
+function v(e){var t=d[e],r=t.exposeProperty,a=t.matchesTypes,o=t.getData
+return function(){function e(){var t,n
+c(this,e)
+this.item=(t={},n={},n[r]=n[r]||{},n[r].get=function(){console.warn("Browser doesn't allow reading \""+r+'" until the drop event.')
+return null},s(t,n),t)}n(e,[{key:"mutateItemByReadingDataTransfer",value:function(e){delete this.item[r]
+this.item[r]=o(e,a)}},{key:"canDrag",value:function(){return true}},{key:"beginDrag",value:function(){return this.item}},{key:"isDragging",value:function(e,t){return t===e.getSourceId()}},{key:"endDrag",value:function(){}}])
+return e}()}function p(e){var t=Array.prototype.slice.call(e.types||[])
+return Object.keys(d).filter((function(e){var r=d[e].matchesTypes
+return r.some((function(e){return t.indexOf(e)>-1}))}))[0]||null}},85776:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t.FILE="__NATIVE_FILE__"
+t.URL="__NATIVE_URL__"
+t.TEXT="__NATIVE_TEXT__"},24266:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t.getNodeClientOffset=s
+t.getEventClientOffset=c
+t.getDragPreviewOffset=d
+var n=r(34236)
+var a=r(60464)
+var o=i(a)
+function i(e){return e&&e.__esModule?e:{default:e}}var u=1
+function s(e){var t=e.nodeType===u?e:e.parentElement
+if(!t)return null
+var r=t.getBoundingClientRect(),n=r.top,a=r.left
+return{x:a,y:n}}function c(e){return{x:e.clientX,y:e.clientY}}function l(e){return"IMG"===e.nodeName&&((0,n.isFirefox)()||!document.documentElement.contains(e))}function f(e,t,r,a){var o=e?t.width:r
+var i=e?t.height:a
+if((0,n.isSafari)()&&e){i/=window.devicePixelRatio
+o/=window.devicePixelRatio}return{dragPreviewWidth:o,dragPreviewHeight:i}}function d(e,t,r,a,i){var u=l(t)
+var c=u?e:t
+var d=s(c)
+var v={x:r.x-d.x,y:r.y-d.y}
+var p=e.offsetWidth,h=e.offsetHeight
+var g=a.anchorX,y=a.anchorY
+var b=f(u,t,p,h),m=b.dragPreviewWidth,D=b.dragPreviewHeight
+var O=function(){var e=new o.default([0,.5,1],[v.y,v.y/h*D,v.y+D-h])
+var t=e.interpolate(y);(0,n.isSafari)()&&u&&(t+=(window.devicePixelRatio-1)*D)
+return t}
+var w=function(){var e=new o.default([0,.5,1],[v.x,v.x/p*m,v.x+m-p])
+return e.interpolate(g)}
+var S=i.offsetX,C=i.offsetY
+var E=0===S||S
+var _=0===C||C
+return{x:E?S:w(),y:_?C:O()}}},53055:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=n
+var r=void 0
+function n(){if(!r){r=new Image
+r.src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="}return r}},13383:(e,t,r)=>{"use strict";({value:true})
+void 0
+t.ZP=f
+var n=r(16411)
+var a=l(n)
+var o=r(53055)
+var i=l(o)
+var u=r(85776)
+var s=c(u)
+function c(e){if(e&&e.__esModule)return e
+var t={}
+if(null!=e)for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r])
+t.default=e
+return t}function l(e){return e&&e.__esModule?e:{default:e}}s
+i.default
+function f(e){return new a.default(e)}},6831:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=r
+function r(e,t){if(e===t)return true
+var r=Object.keys(e)
+var n=Object.keys(t)
+if(r.length!==n.length)return false
+var a=Object.prototype.hasOwnProperty
+for(var o=0;o<r.length;o+=1){if(!a.call(t,r[o])||e[r[o]]!==t[r[o]])return false
+var i=e[r[o]]
+var u=t[r[o]]
+if(i!==u)return false}return true}},4742:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t.unpackBackendForEs5Users=t.createChildContext=t.CHILD_CONTEXT_TYPES=void 0
+var n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t]
+for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}
+var a=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var o="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"===typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e}
+t["default"]=C
+var i=r(67294)
+var u=y(i)
+var s=r(45697)
+var c=y(s)
+var l=r(5060)
+var f=r(41143)
+var d=y(f)
+var v=r(15956)
+var p=y(v)
+var h=r(38989)
+var g=y(h)
+function y(e){return e&&e.__esModule?e:{default:e}}function b(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function m(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called")
+return!t||"object"!==typeof t&&"function"!==typeof t?e:t}function D(e,t){if("function"!==typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t)
+e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:false,writable:true,configurable:true}})
+t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}var O=t.CHILD_CONTEXT_TYPES={dragDropManager:c.default.object.isRequired}
+var w=t.createChildContext=function(e,t){return{dragDropManager:new l.DragDropManager(e,t)}}
+var S=t.unpackBackendForEs5Users=function(e){var t=e
+"object"===("undefined"===typeof t?"undefined":o(t))&&"function"===typeof t.default&&(t=t.default);(0,d.default)("function"===typeof t,"Expected the backend to be a function or an ES6 module exporting a default function. Read more: http://react-dnd.github.io/react-dnd/docs-drag-drop-context.html")
+return t}
+function C(e){g.default.apply(void 0,["DragDropContext","backend"].concat(Array.prototype.slice.call(arguments)))
+var t=S(e)
+var r=w(t)
+return function(e){var t,o
+var s=e.displayName||e.name||"Component"
+var c=(o=t=function(t){D(o,t)
+function o(){b(this,o)
+return m(this,(o.__proto__||Object.getPrototypeOf(o)).apply(this,arguments))}a(o,[{key:"getDecoratedComponentInstance",value:function(){(0,d.default)(this.child,"In order to access an instance of the decorated component it can not be a stateless component.")
+return this.child}},{key:"getManager",value:function(){return r.dragDropManager}},{key:"getChildContext",value:function(){return r}},{key:"render",value:function(){var t=this
+return u.default.createElement(e,n({},this.props,{ref:function(e){t.child=e}}))}}])
+return o}(i.Component),t.DecoratedComponent=e,t.displayName="DragDropContext("+s+")",t.childContextTypes=O,o)
+return(0,p.default)(c,e)}}},47147:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=void 0
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a,o
+var i=r(67294)
+var u=r(45697)
+var s=l(u)
+var c=r(4742)
+function l(e){return e&&e.__esModule?e:{default:e}}function f(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function d(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called")
+return!t||"object"!==typeof t&&"function"!==typeof t?e:t}function v(e,t){if("function"!==typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t)
+e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:false,writable:true,configurable:true}})
+t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}var p=(o=a=function(e){v(t,e)
+function t(e,r){f(this,t)
+var n=d(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e,r))
+var a=function(){if(e&&e.window)return e.window
+if(r&&r.window)return r.window
+if("undefined"!==typeof window)return window
+return}
+n.backend=(0,c.unpackBackendForEs5Users)(e.backend)
+n.childContext=(0,c.createChildContext)(n.backend,{window:a()})
+return n}n(t,[{key:"componentWillReceiveProps",value:function(e){if(e.backend!==this.props.backend||e.window!==this.props.window)throw new Error("DragDropContextProvider backend and window props must not change.")}},{key:"getChildContext",value:function(){return this.childContext}},{key:"render",value:function(){return i.Children.only(this.props.children)}}])
+return t}(i.Component),a.propTypes={backend:s.default.oneOfType([s.default.func,s.default.object]).isRequired,children:s.default.element.isRequired,window:s.default.object},a.defaultProps={window:void 0},a.childContextTypes=c.CHILD_CONTEXT_TYPES,a.displayName="DragDropContextProvider",a.contextTypes={window:s.default.object},o)
+t["default"]=p},49350:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t]
+for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}
+var a="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"===typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e}
+var o=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=_
+var i=r(67294)
+var u=w(i)
+var s=r(45697)
+var c=w(s)
+var l=r(15956)
+var f=w(l)
+var d=r(68630)
+var v=w(d)
+var p=r(41143)
+var h=w(p)
+var g=r(82884)
+var y=w(g)
+var b=r(5027)
+var m=w(b)
+var D=r(38989)
+var O=w(D)
+function w(e){return e&&e.__esModule?e:{default:e}}function S(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function C(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called")
+return!t||"object"!==typeof t&&"function"!==typeof t?e:t}function E(e,t){if("function"!==typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t)
+e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:false,writable:true,configurable:true}})
+t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}function _(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+O.default.apply(void 0,["DragLayer","collect[, options]"].concat(Array.prototype.slice.call(arguments)));(0,h.default)("function"===typeof e,'Expected "collect" provided as the first argument to DragLayer to be a function that collects props to inject into the component. ',"Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-layer.html",e);(0,h.default)((0,v.default)(t),'Expected "options" provided as the second argument to DragLayer to be a plain object when specified. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-layer.html',t)
+return function(r){var s,l
+var d=t.arePropsEqual,v=void 0===d?m.default:d
+var p=r.displayName||r.name||"Component"
+var g=(l=s=function(t){E(i,t)
+o(i,[{key:"getDecoratedComponentInstance",value:function(){(0,h.default)(this.child,"In order to access an instance of the decorated component it can not be a stateless component.")
+return this.child}},{key:"shouldComponentUpdate",value:function(e,t){return!v(e,this.props)||!(0,y.default)(t,this.state)}}])
+function i(e,t){S(this,i)
+var r=C(this,(i.__proto__||Object.getPrototypeOf(i)).call(this,e))
+r.handleChange=r.handleChange.bind(r)
+r.manager=t.dragDropManager;(0,h.default)("object"===a(r.manager),"Could not find the drag and drop manager in the context of %s. Make sure to wrap the top-level component of your app with DragDropContext. Read more: http://react-dnd.github.io/react-dnd/docs-troubleshooting.html#could-not-find-the-drag-and-drop-manager-in-the-context",p,p)
+r.state=r.getCurrentState()
+return r}o(i,[{key:"componentDidMount",value:function(){this.isCurrentlyMounted=true
+var e=this.manager.getMonitor()
+this.unsubscribeFromOffsetChange=e.subscribeToOffsetChange(this.handleChange)
+this.unsubscribeFromStateChange=e.subscribeToStateChange(this.handleChange)
+this.handleChange()}},{key:"componentWillUnmount",value:function(){this.isCurrentlyMounted=false
+this.unsubscribeFromOffsetChange()
+this.unsubscribeFromStateChange()}},{key:"handleChange",value:function(){if(!this.isCurrentlyMounted)return
+var e=this.getCurrentState();(0,y.default)(e,this.state)||this.setState(e)}},{key:"getCurrentState",value:function(){var t=this.manager.getMonitor()
+return e(t,this.props)}},{key:"render",value:function(){var e=this
+return u.default.createElement(r,n({},this.props,this.state,{ref:function(t){e.child=t}}))}}])
+return i}(i.Component),s.DecoratedComponent=r,s.displayName="DragLayer("+p+")",s.contextTypes={dragDropManager:c.default.object.isRequired},l)
+return(0,f.default)(g,r)}}},73077:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=w
+var n=r(41143)
+var a=O(n)
+var o=r(68630)
+var i=O(o)
+var u=r(38989)
+var s=O(u)
+var c=r(86473)
+var l=O(c)
+var f=r(36754)
+var d=O(f)
+var v=r(30755)
+var p=O(v)
+var h=r(4658)
+var g=O(h)
+var y=r(62951)
+var b=O(y)
+var m=r(59328)
+var D=O(m)
+function O(e){return e&&e.__esModule?e:{default:e}}function w(e,t,r){var n=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{}
+s.default.apply(void 0,["DragSource","type, spec, collect[, options]"].concat(Array.prototype.slice.call(arguments)))
+var o=e
+if("function"!==typeof e){(0,a.default)((0,D.default)(e),'Expected "type" provided as the first argument to DragSource to be a string, or a function that returns a string given the current props. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html',e)
+o=function(){return e}}(0,a.default)((0,i.default)(t),'Expected "spec" provided as the second argument to DragSource to be a plain object. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html',t)
+var u=(0,p.default)(t);(0,a.default)("function"===typeof r,'Expected "collect" provided as the third argument to DragSource to be a function that returns a plain object of props to inject. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html',r);(0,a.default)((0,i.default)(n),'Expected "options" provided as the fourth argument to DragSource to be a plain object when specified. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html',r)
+return function(e){return(0,l.default)({connectBackend:function(e,t){return e.connectDragSource(t)},containerDisplayName:"DragSource",createHandler:u,registerHandler:d.default,createMonitor:g.default,createConnector:b.default,DecoratedComponent:e,getType:o,collect:r,options:n})}}},98018:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=w
+var n=r(41143)
+var a=O(n)
+var o=r(68630)
+var i=O(o)
+var u=r(38989)
+var s=O(u)
+var c=r(86473)
+var l=O(c)
+var f=r(99788)
+var d=O(f)
+var v=r(84672)
+var p=O(v)
+var h=r(31016)
+var g=O(h)
+var y=r(84516)
+var b=O(y)
+var m=r(59328)
+var D=O(m)
+function O(e){return e&&e.__esModule?e:{default:e}}function w(e,t,r){var n=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{}
+s.default.apply(void 0,["DropTarget","type, spec, collect[, options]"].concat(Array.prototype.slice.call(arguments)))
+var o=e
+if("function"!==typeof e){(0,a.default)((0,D.default)(e,true),'Expected "type" provided as the first argument to DropTarget to be a string, an array of strings, or a function that returns either given the current props. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target.html',e)
+o=function(){return e}}(0,a.default)((0,i.default)(t),'Expected "spec" provided as the second argument to DropTarget to be a plain object. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target.html',t)
+var u=(0,p.default)(t);(0,a.default)("function"===typeof r,'Expected "collect" provided as the third argument to DropTarget to be a function that returns a plain object of props to inject. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target.html',r);(0,a.default)((0,i.default)(n),'Expected "options" provided as the fourth argument to DropTarget to be a plain object when specified. Instead, received %s. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target.html',r)
+return function(e){return(0,l.default)({connectBackend:function(e,t){return e.connectDropTarget(t)},containerDisplayName:"DropTarget",createHandler:u,registerHandler:d.default,createMonitor:g.default,createConnector:b.default,DecoratedComponent:e,getType:o,collect:r,options:n})}}},35697:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=i
+var n=r(82884)
+var a=o(n)
+function o(e){return e&&e.__esModule?e:{default:e}}function i(e,t){if(t===e)return true
+return null!==t&&null!==e&&(0,a.default)(t,e)}},62951:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=s
+var n=r(53343)
+var a=u(n)
+var o=r(35697)
+var i=u(o)
+function u(e){return e&&e.__esModule?e:{default:e}}function s(e){var t=void 0
+var r=void 0
+var n=void 0
+var o=void 0
+var u=void 0
+var s=void 0
+var c=void 0
+function l(){if(o){o()
+o=null}t&&r&&(o=e.connectDragSource(t,r,n))}function f(){if(c){c()
+c=null}t&&u&&(c=e.connectDragPreview(t,u,s))}function d(e){if(e===t)return
+t=e
+l()
+f()}var v=(0,a.default)({dragSource:function(e,t){if(e===r&&(0,i.default)(t,n))return
+r=e
+n=t
+l()},dragPreview:function(e,t){if(e===u&&(0,i.default)(t,s))return
+u=e
+s=t
+f()}})
+return{receiveHandlerId:d,hooks:v}}},30755:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=f
+var a=r(41143)
+var o=u(a)
+var i=r(68630)
+u(i)
+function u(e){return e&&e.__esModule?e:{default:e}}function s(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var c=["canDrag","beginDrag","isDragging","endDrag"]
+var l=["beginDrag"]
+function f(e){Object.keys(e).forEach((function(t){(0,o.default)(c.indexOf(t)>-1,'Expected the drag source specification to only have some of the following keys: %s. Instead received a specification with an unexpected "%s" key. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html',c.join(", "),t);(0,o.default)("function"===typeof e[t],"Expected %s in the drag source specification to be a function. Instead received a specification with %s: %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html",t,t,e[t])}))
+l.forEach((function(t){(0,o.default)("function"===typeof e[t],"Expected %s in the drag source specification to be a function. Instead received a specification with %s: %s. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source.html",t,t,e[t])}))
+var t=function(){function t(e){s(this,t)
+this.monitor=e
+this.props=null
+this.component=null}n(t,[{key:"receiveProps",value:function(e){this.props=e}},{key:"receiveComponent",value:function(e){this.component=e}},{key:"canDrag",value:function(){if(!e.canDrag)return true
+return e.canDrag(this.props,this.monitor)}},{key:"isDragging",value:function(t,r){if(!e.isDragging)return r===t.getSourceId()
+return e.isDragging(this.props,this.monitor)}},{key:"beginDrag",value:function(){var t=e.beginDrag(this.props,this.monitor,this.component)
+false
+return t}},{key:"endDrag",value:function(){if(!e.endDrag)return
+e.endDrag(this.props,this.monitor,this.component)}}])
+return t}()
+return function(e){return new t(e)}}},4658:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=f
+var a=r(41143)
+var o=i(a)
+function i(e){return e&&e.__esModule?e:{default:e}}function u(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var s=false
+var c=false
+var l=function(){function e(t){u(this,e)
+this.internalMonitor=t.getMonitor()}n(e,[{key:"receiveHandlerId",value:function(e){this.sourceId=e}},{key:"canDrag",value:function(){(0,o.default)(!s,"You may not call monitor.canDrag() inside your canDrag() implementation. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source-monitor.html")
+try{s=true
+return this.internalMonitor.canDragSource(this.sourceId)}finally{s=false}}},{key:"isDragging",value:function(){(0,o.default)(!c,"You may not call monitor.isDragging() inside your isDragging() implementation. Read more: http://react-dnd.github.io/react-dnd/docs-drag-source-monitor.html")
+try{c=true
+return this.internalMonitor.isDraggingSource(this.sourceId)}finally{c=false}}},{key:"getItemType",value:function(){return this.internalMonitor.getItemType()}},{key:"getItem",value:function(){return this.internalMonitor.getItem()}},{key:"getDropResult",value:function(){return this.internalMonitor.getDropResult()}},{key:"didDrop",value:function(){return this.internalMonitor.didDrop()}},{key:"getInitialClientOffset",value:function(){return this.internalMonitor.getInitialClientOffset()}},{key:"getInitialSourceClientOffset",value:function(){return this.internalMonitor.getInitialSourceClientOffset()}},{key:"getSourceClientOffset",value:function(){return this.internalMonitor.getSourceClientOffset()}},{key:"getClientOffset",value:function(){return this.internalMonitor.getClientOffset()}},{key:"getDifferenceFromInitialOffset",value:function(){return this.internalMonitor.getDifferenceFromInitialOffset()}}])
+return e}()
+function f(e){return new l(e)}},84516:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=s
+var n=r(53343)
+var a=u(n)
+var o=r(35697)
+var i=u(o)
+function u(e){return e&&e.__esModule?e:{default:e}}function s(e){var t=void 0
+var r=void 0
+var n=void 0
+var o=void 0
+function u(){if(o){o()
+o=null}t&&r&&(o=e.connectDropTarget(t,r,n))}function s(e){if(e===t)return
+t=e
+u()}var c=(0,a.default)({dropTarget:function(e,t){if(e===r&&(0,i.default)(t,n))return
+r=e
+n=t
+u()}})
+return{receiveHandlerId:s,hooks:c}}},84672:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=l
+var a=r(41143)
+var o=u(a)
+var i=r(68630)
+u(i)
+function u(e){return e&&e.__esModule?e:{default:e}}function s(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var c=["canDrop","hover","drop"]
+function l(e){Object.keys(e).forEach((function(t){(0,o.default)(c.indexOf(t)>-1,'Expected the drop target specification to only have some of the following keys: %s. Instead received a specification with an unexpected "%s" key. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target.html',c.join(", "),t);(0,o.default)("function"===typeof e[t],"Expected %s in the drop target specification to be a function. Instead received a specification with %s: %s. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target.html",t,t,e[t])}))
+var t=function(){function t(e){s(this,t)
+this.monitor=e
+this.props=null
+this.component=null}n(t,[{key:"receiveProps",value:function(e){this.props=e}},{key:"receiveMonitor",value:function(e){this.monitor=e}},{key:"receiveComponent",value:function(e){this.component=e}},{key:"canDrop",value:function(){if(!e.canDrop)return true
+return e.canDrop(this.props,this.monitor)}},{key:"hover",value:function(){if(!e.hover)return
+e.hover(this.props,this.monitor,this.component)}},{key:"drop",value:function(){if(!e.drop)return
+var t=e.drop(this.props,this.monitor,this.component)
+false
+return t}}])
+return t}()
+return function(e){return new t(e)}}},31016:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=l
+var a=r(41143)
+var o=i(a)
+function i(e){return e&&e.__esModule?e:{default:e}}function u(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var s=false
+var c=function(){function e(t){u(this,e)
+this.internalMonitor=t.getMonitor()}n(e,[{key:"receiveHandlerId",value:function(e){this.targetId=e}},{key:"canDrop",value:function(){(0,o.default)(!s,"You may not call monitor.canDrop() inside your canDrop() implementation. Read more: http://react-dnd.github.io/react-dnd/docs-drop-target-monitor.html")
+try{s=true
+return this.internalMonitor.canDropOnTarget(this.targetId)}finally{s=false}}},{key:"isOver",value:function(e){return this.internalMonitor.isOverTarget(this.targetId,e)}},{key:"getItemType",value:function(){return this.internalMonitor.getItemType()}},{key:"getItem",value:function(){return this.internalMonitor.getItem()}},{key:"getDropResult",value:function(){return this.internalMonitor.getDropResult()}},{key:"didDrop",value:function(){return this.internalMonitor.didDrop()}},{key:"getInitialClientOffset",value:function(){return this.internalMonitor.getInitialClientOffset()}},{key:"getInitialSourceClientOffset",value:function(){return this.internalMonitor.getInitialSourceClientOffset()}},{key:"getSourceClientOffset",value:function(){return this.internalMonitor.getSourceClientOffset()}},{key:"getClientOffset",value:function(){return this.internalMonitor.getClientOffset()}},{key:"getDifferenceFromInitialOffset",value:function(){return this.internalMonitor.getDifferenceFromInitialOffset()}}])
+return e}()
+function l(e){return new c(e)}},86473:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t]
+for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}
+var a="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"===typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e}
+var o=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=E
+var i=r(67294)
+var u=D(i)
+var s=r(45697)
+var c=D(s)
+var l=r(14351)
+var f=r(68630)
+D(f)
+var d=r(41143)
+var v=D(d)
+var p=r(15956)
+var h=D(p)
+var g=r(82884)
+var y=D(g)
+var b=r(5027)
+var m=D(b)
+function D(e){return e&&e.__esModule?e:{default:e}}function O(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function w(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called")
+return!t||"object"!==typeof t&&"function"!==typeof t?e:t}function S(e,t){if("function"!==typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t)
+e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:false,writable:true,configurable:true}})
+t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}var C=function(e){return Boolean(e&&e.prototype&&"function"===typeof e.prototype.render)}
+function E(e){var t,r
+var s=e.DecoratedComponent,f=e.createHandler,d=e.createMonitor,p=e.createConnector,g=e.registerHandler,b=e.containerDisplayName,D=e.getType,E=e.collect,_=e.options
+var T=_.arePropsEqual,k=void 0===T?m.default:T
+var I=s.displayName||s.name||"Component"
+var M=(r=t=function(e){S(t,e)
+o(t,[{key:"getHandlerId",value:function(){return this.handlerId}},{key:"getDecoratedComponentInstance",value:function(){return this.decoratedComponentInstance}},{key:"shouldComponentUpdate",value:function(e,t){return!k(e,this.props)||!(0,y.default)(t,this.state)}}])
+function t(e,r){O(this,t)
+var n=w(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e,r))
+n.handleChange=n.handleChange.bind(n)
+n.handleChildRef=n.handleChildRef.bind(n);(0,v.default)("object"===a(n.context.dragDropManager),"Could not find the drag and drop manager in the context of %s. Make sure to wrap the top-level component of your app with DragDropContext. Read more: http://react-dnd.github.io/react-dnd/docs-troubleshooting.html#could-not-find-the-drag-and-drop-manager-in-the-context",I,I)
+n.manager=n.context.dragDropManager
+n.handlerMonitor=d(n.manager)
+n.handlerConnector=p(n.manager.getBackend())
+n.handler=f(n.handlerMonitor)
+n.disposable=new l.SerialDisposable
+n.receiveProps(e)
+n.state=n.getCurrentState()
+n.dispose()
+return n}o(t,[{key:"componentDidMount",value:function(){this.isCurrentlyMounted=true
+this.disposable=new l.SerialDisposable
+this.currentType=null
+this.receiveProps(this.props)
+this.handleChange()}},{key:"componentWillReceiveProps",value:function(e){if(!k(e,this.props)){this.receiveProps(e)
+this.handleChange()}}},{key:"componentWillUnmount",value:function(){this.dispose()
+this.isCurrentlyMounted=false}},{key:"receiveProps",value:function(e){this.handler.receiveProps(e)
+this.receiveType(D(e))}},{key:"receiveType",value:function(e){if(e===this.currentType)return
+this.currentType=e
+var t=g(e,this.handler,this.manager),r=t.handlerId,n=t.unregister
+this.handlerId=r
+this.handlerMonitor.receiveHandlerId(r)
+this.handlerConnector.receiveHandlerId(r)
+var a=this.manager.getMonitor()
+var o=a.subscribeToStateChange(this.handleChange,{handlerIds:[r]})
+this.disposable.setDisposable(new l.CompositeDisposable(new l.Disposable(o),new l.Disposable(n)))}},{key:"handleChange",value:function(){if(!this.isCurrentlyMounted)return
+var e=this.getCurrentState();(0,y.default)(e,this.state)||this.setState(e)}},{key:"dispose",value:function(){this.disposable.dispose()
+this.handlerConnector.receiveHandlerId(null)}},{key:"handleChildRef",value:function(e){this.decoratedComponentInstance=e
+this.handler.receiveComponent(e)}},{key:"getCurrentState",value:function(){var e=E(this.handlerConnector.hooks,this.handlerMonitor)
+false
+return e}},{key:"render",value:function(){return u.default.createElement(s,n({},this.props,this.state,{ref:C(s)?this.handleChildRef:null}))}}])
+return t}(i.Component),t.DecoratedComponent=s,t.displayName=b+"("+I+")",t.contextTypes={dragDropManager:c.default.object.isRequired},r)
+return(0,h.default)(M,s)}},90937:(e,t,r)=>{"use strict";({value:true})
+var n=r(4742)
+Object.defineProperty(t,"Z5",{enumerable:true,get:function(){return s(n).default}})
+var a=r(47147);({enumerable:true,get:function(){return s(a).default}})
+var o=r(49350);({enumerable:true,get:function(){return s(o).default}})
+var i=r(73077)
+Object.defineProperty(t,"Ej",{enumerable:true,get:function(){return s(i).default}})
+var u=r(98018)
+Object.defineProperty(t,"GR",{enumerable:true,get:function(){return s(u).default}})
+function s(e){return e&&e.__esModule?e:{default:e}}},36754:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=r
+function r(e,t,r){var n=r.getRegistry()
+var a=n.addSource(e,t)
+function o(){n.removeSource(a)}return{handlerId:a,unregister:o}}},99788:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=r
+function r(e,t,r){var n=r.getRegistry()
+var a=n.addTarget(e,t)
+function o(){n.removeTarget(a)}return{handlerId:a,unregister:o}}},38989:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=r
+function r(e,t){}},7223:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=u
+var n=r(41143)
+var a=i(n)
+var o=r(67294)
+function i(e){return e&&e.__esModule?e:{default:e}}function u(e,t){var r=e.ref;(0,a.default)("string"!==typeof r,"Cannot connect React DnD to an element with an existing string ref. Please convert it to use a callback ref instead, or wrap it into a <span> or <div>. Read more: https://facebook.github.io/react/docs/more-about-refs.html#the-ref-callback-attribute")
+if(!r)return(0,o.cloneElement)(e,{ref:t})
+return(0,o.cloneElement)(e,{ref:function(e){t(e)
+r&&r(e)}})}},59328:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"===typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e}
+t["default"]=u
+var a=r(1469)
+var o=i(a)
+function i(e){return e&&e.__esModule?e:{default:e}}function u(e,t){return"string"===typeof e||"symbol"===("undefined"===typeof e?"undefined":n(e))||t&&(0,o.default)(e)&&e.every((function(e){return u(e,false)}))}},82884:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=r
+function r(e,t){if(e===t)return true
+var r=Object.keys(e)
+var n=Object.keys(t)
+if(r.length!==n.length)return false
+var a=Object.prototype.hasOwnProperty
+for(var o=0;o<r.length;o+=1){if(!a.call(t,r[o])||e[r[o]]!==t[r[o]])return false
+var i=e[r[o]]
+var u=t[r[o]]
+if(i!==u)return false}return true}},5027:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var r="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"===typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e}
+t["default"]=n
+function n(e,t){if(e===t)return true
+if("object"!==("undefined"===typeof e?"undefined":r(e))||null===e||"object"!==("undefined"===typeof t?"undefined":r(t))||null===t)return false
+var n=Object.keys(e)
+var a=Object.keys(t)
+if(n.length!==a.length)return false
+var o=Object.prototype.hasOwnProperty
+for(var i=0;i<n.length;i+=1){if(!o.call(t,n[i]))return false
+var u=e[n[i]]
+var s=t[n[i]]
+if(u!==s||"object"===("undefined"===typeof u?"undefined":r(u))||"object"===("undefined"===typeof s?"undefined":r(s)))return false}return true}},53343:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=c
+var n=r(67294)
+var a=r(7223)
+var o=i(a)
+function i(e){return e&&e.__esModule?e:{default:e}}function u(e){if("string"===typeof e.type)return
+var t=e.type.displayName||e.type.name||"the component"
+throw new Error("Only native element nodes can now be passed to React DnD connectors.You can either wrap "+t+" into a <div>, or turn it into a drag source or a drop target itself.")}function s(e){return function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null
+var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null
+if(!(0,n.isValidElement)(t)){var a=t
+e(a,r)
+return}var i=t
+u(i)
+var s=r?function(t){return e(t,r)}:e
+return(0,o.default)(i,s)}}function c(e){var t={}
+Object.keys(e).forEach((function(r){var n=e[r]
+var a=s(n)
+t[r]=function(){return a}}))
+return t}},88760:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a=r(33452)
+var o=v(a)
+var i=r(90328)
+var u=v(i)
+var s=r(86056)
+var c=d(s)
+var l=r(91581)
+var f=v(l)
+function d(e){if(e&&e.__esModule)return e
+var t={}
+if(null!=e)for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r])
+t.default=e
+return t}function v(e){return e&&e.__esModule?e:{default:e}}function p(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var h=function(){function e(t){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+p(this,e)
+var n=(0,o.default)(u.default)
+this.context=r
+this.store=n
+this.monitor=new f.default(n)
+this.registry=this.monitor.registry
+this.backend=t(this)
+n.subscribe(this.handleRefCountChange.bind(this))}n(e,[{key:"handleRefCountChange",value:function(){var e=this.store.getState().refCount>0
+if(e&&!this.isSetUp){this.backend.setup()
+this.isSetUp=true}else if(!e&&this.isSetUp){this.backend.teardown()
+this.isSetUp=false}}},{key:"getContext",value:function(){return this.context}},{key:"getMonitor",value:function(){return this.monitor}},{key:"getBackend",value:function(){return this.backend}},{key:"getRegistry",value:function(){return this.registry}},{key:"getActions",value:function(){var e=this
+var t=this.store.dispatch
+function r(r){return function(){for(var n=arguments.length,a=Array(n),o=0;o<n;o++)a[o]=arguments[o]
+var i=r.apply(e,a)
+"undefined"!==typeof i&&t(i)}}return Object.keys(c).filter((function(e){return"function"===typeof c[e]})).reduce((function(e,t){var n=c[t]
+e[t]=r(n)
+return e}),{})}}])
+return e}()
+t["default"]=h},91581:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a=r(41143)
+var o=p(a)
+var i=r(1469)
+var u=p(i)
+var s=r(19085)
+var c=p(s)
+var l=r(33339)
+var f=p(l)
+var d=r(24434)
+var v=r(10863)
+function p(e){return e&&e.__esModule?e:{default:e}}function h(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var g=function(){function e(t){h(this,e)
+this.store=t
+this.registry=new f.default(t)}n(e,[{key:"subscribeToStateChange",value:function(e){var t=this
+var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+var n=r.handlerIds;(0,o.default)("function"===typeof e,"listener must be a function.");(0,o.default)("undefined"===typeof n||(0,u.default)(n),"handlerIds, when specified, must be an array of strings.")
+var a=this.store.getState().stateId
+var i=function(){var r=t.store.getState()
+var o=r.stateId
+try{var i=o===a||o===a+1&&!(0,v.areDirty)(r.dirtyHandlerIds,n)
+i||e()}finally{a=o}}
+return this.store.subscribe(i)}},{key:"subscribeToOffsetChange",value:function(e){var t=this;(0,o.default)("function"===typeof e,"listener must be a function.")
+var r=this.store.getState().dragOffset
+var n=function(){var n=t.store.getState().dragOffset
+if(n===r)return
+r=n
+e()}
+return this.store.subscribe(n)}},{key:"canDragSource",value:function(e){var t=this.registry.getSource(e);(0,o.default)(t,"Expected to find a valid source.")
+if(this.isDragging())return false
+return t.canDrag(this,e)}},{key:"canDropOnTarget",value:function(e){var t=this.registry.getTarget(e);(0,o.default)(t,"Expected to find a valid target.")
+if(!this.isDragging()||this.didDrop())return false
+var r=this.registry.getTargetType(e)
+var n=this.getItemType()
+return(0,c.default)(r,n)&&t.canDrop(this,e)}},{key:"isDragging",value:function(){return Boolean(this.getItemType())}},{key:"isDraggingSource",value:function(e){var t=this.registry.getSource(e,true);(0,o.default)(t,"Expected to find a valid source.")
+if(!this.isDragging()||!this.isSourcePublic())return false
+var r=this.registry.getSourceType(e)
+var n=this.getItemType()
+if(r!==n)return false
+return t.isDragging(this,e)}},{key:"isOverTarget",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{shallow:false}
+var r=t.shallow
+if(!this.isDragging())return false
+var n=this.registry.getTargetType(e)
+var a=this.getItemType()
+if(!(0,c.default)(n,a))return false
+var o=this.getTargetIds()
+if(!o.length)return false
+var i=o.indexOf(e)
+return r?i===o.length-1:i>-1}},{key:"getItemType",value:function(){return this.store.getState().dragOperation.itemType}},{key:"getItem",value:function(){return this.store.getState().dragOperation.item}},{key:"getSourceId",value:function(){return this.store.getState().dragOperation.sourceId}},{key:"getTargetIds",value:function(){return this.store.getState().dragOperation.targetIds}},{key:"getDropResult",value:function(){return this.store.getState().dragOperation.dropResult}},{key:"didDrop",value:function(){return this.store.getState().dragOperation.didDrop}},{key:"isSourcePublic",value:function(){return this.store.getState().dragOperation.isSourcePublic}},{key:"getInitialClientOffset",value:function(){return this.store.getState().dragOffset.initialClientOffset}},{key:"getInitialSourceClientOffset",value:function(){return this.store.getState().dragOffset.initialSourceClientOffset}},{key:"getClientOffset",value:function(){return this.store.getState().dragOffset.clientOffset}},{key:"getSourceClientOffset",value:function(){return(0,d.getSourceClientOffset)(this.store.getState().dragOffset)}},{key:"getDifferenceFromInitialOffset",value:function(){return(0,d.getDifferenceFromInitialOffset)(this.store.getState().dragOffset)}}])
+return e}()
+t["default"]=g},49411:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var r=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var a=function(){function e(){n(this,e)}r(e,[{key:"canDrag",value:function(){return true}},{key:"isDragging",value:function(e,t){return t===e.getSourceId()}},{key:"endDrag",value:function(){}}])
+return e}()
+t["default"]=a},44488:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var r=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var a=function(){function e(){n(this,e)}r(e,[{key:"canDrop",value:function(){return true}},{key:"hover",value:function(){}},{key:"drop",value:function(){}}])
+return e}()
+t["default"]=a},33339:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+var a="function"===typeof Symbol&&"symbol"===typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"===typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e}
+var o=r(41143)
+var i=p(o)
+var u=r(1469)
+var s=p(u)
+var c=r(69272)
+var l=p(c)
+var f=r(5128)
+var d=r(77477)
+var v=p(d)
+function p(e){return e&&e.__esModule?e:{default:e}}function h(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var g={SOURCE:"SOURCE",TARGET:"TARGET"}
+function y(e){(0,i.default)("function"===typeof e.canDrag,"Expected canDrag to be a function.");(0,i.default)("function"===typeof e.beginDrag,"Expected beginDrag to be a function.");(0,i.default)("function"===typeof e.endDrag,"Expected endDrag to be a function.")}function b(e){(0,i.default)("function"===typeof e.canDrop,"Expected canDrop to be a function.");(0,i.default)("function"===typeof e.hover,"Expected hover to be a function.");(0,i.default)("function"===typeof e.drop,"Expected beginDrag to be a function.")}function m(e,t){if(t&&(0,s.default)(e)){e.forEach((function(e){return m(e,false)}))
+return}(0,i.default)("string"===typeof e||"symbol"===("undefined"===typeof e?"undefined":a(e)),t?"Type can only be a string, a symbol, or an array of either.":"Type can only be a string or a symbol.")}function D(e){var t=(0,v.default)().toString()
+switch(e){case g.SOURCE:return"S"+t
+case g.TARGET:return"T"+t
+default:(0,i.default)(false,"Unknown role: "+e)}}function O(e){switch(e[0]){case"S":return g.SOURCE
+case"T":return g.TARGET
+default:(0,i.default)(false,"Cannot parse handler ID: "+e)}}var w=function(){function e(t){h(this,e)
+this.store=t
+this.types={}
+this.handlers={}
+this.pinnedSourceId=null
+this.pinnedSource=null}n(e,[{key:"addSource",value:function(e,t){m(e)
+y(t)
+var r=this.addHandler(g.SOURCE,e,t)
+this.store.dispatch((0,f.addSource)(r))
+return r}},{key:"addTarget",value:function(e,t){m(e,true)
+b(t)
+var r=this.addHandler(g.TARGET,e,t)
+this.store.dispatch((0,f.addTarget)(r))
+return r}},{key:"addHandler",value:function(e,t,r){var n=D(e)
+this.types[n]=t
+this.handlers[n]=r
+return n}},{key:"containsHandler",value:function(e){var t=this
+return Object.keys(this.handlers).some((function(r){return t.handlers[r]===e}))}},{key:"getSource",value:function(e,t){(0,i.default)(this.isSourceId(e),"Expected a valid source ID.")
+var r=t&&e===this.pinnedSourceId
+var n=r?this.pinnedSource:this.handlers[e]
+return n}},{key:"getTarget",value:function(e){(0,i.default)(this.isTargetId(e),"Expected a valid target ID.")
+return this.handlers[e]}},{key:"getSourceType",value:function(e){(0,i.default)(this.isSourceId(e),"Expected a valid source ID.")
+return this.types[e]}},{key:"getTargetType",value:function(e){(0,i.default)(this.isTargetId(e),"Expected a valid target ID.")
+return this.types[e]}},{key:"isSourceId",value:function(e){var t=O(e)
+return t===g.SOURCE}},{key:"isTargetId",value:function(e){var t=O(e)
+return t===g.TARGET}},{key:"removeSource",value:function(e){var t=this;(0,i.default)(this.getSource(e),"Expected an existing source.")
+this.store.dispatch((0,f.removeSource)(e));(0,l.default)((function(){delete t.handlers[e]
+delete t.types[e]}))}},{key:"removeTarget",value:function(e){var t=this;(0,i.default)(this.getTarget(e),"Expected an existing target.")
+this.store.dispatch((0,f.removeTarget)(e));(0,l.default)((function(){delete t.handlers[e]
+delete t.types[e]}))}},{key:"pinSource",value:function(e){var t=this.getSource(e);(0,i.default)(t,"Expected an existing source.")
+this.pinnedSourceId=e
+this.pinnedSource=t}},{key:"unpinSource",value:function(){(0,i.default)(this.pinnedSource,"No source is pinned at the time.")
+this.pinnedSourceId=null
+this.pinnedSource=null}}])
+return e}()
+t["default"]=w},86056:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t.END_DRAG=t.DROP=t.HOVER=t.PUBLISH_DRAG_SOURCE=t.BEGIN_DRAG=void 0
+var n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t]
+for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}
+t.beginDrag=b
+t.publishDragSource=m
+t.hover=D
+t.drop=O
+t.endDrag=w
+var a=r(41143)
+var o=d(a)
+var i=r(1469)
+var u=d(i)
+var s=r(13218)
+var c=d(s)
+var l=r(19085)
+var f=d(l)
+function d(e){return e&&e.__esModule?e:{default:e}}var v=t.BEGIN_DRAG="dnd-core/BEGIN_DRAG"
+var p=t.PUBLISH_DRAG_SOURCE="dnd-core/PUBLISH_DRAG_SOURCE"
+var h=t.HOVER="dnd-core/HOVER"
+var g=t.DROP="dnd-core/DROP"
+var y=t.END_DRAG="dnd-core/END_DRAG"
+function b(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{publishSource:true,clientOffset:null}
+var r=t.publishSource,n=t.clientOffset,a=t.getSourceClientOffset;(0,o.default)((0,u.default)(e),"Expected sourceIds to be an array.")
+var i=this.getMonitor()
+var s=this.getRegistry();(0,o.default)(!i.isDragging(),"Cannot call beginDrag while dragging.")
+for(var l=0;l<e.length;l++)(0,o.default)(s.getSource(e[l]),"Expected sourceIds to be registered.")
+var f=null
+for(var d=e.length-1;d>=0;d--)if(i.canDragSource(e[d])){f=e[d]
+break}if(null===f)return
+var p=null
+if(n){(0,o.default)("function"===typeof a,"When clientOffset is provided, getSourceClientOffset must be a function.")
+p=a(f)}var h=s.getSource(f)
+var g=h.beginDrag(i,f);(0,o.default)((0,c.default)(g),"Item must be an object.")
+s.pinSource(f)
+var y=s.getSourceType(f)
+return{type:v,itemType:y,item:g,sourceId:f,clientOffset:n,sourceClientOffset:p,isSourcePublic:r}}function m(){var e=this.getMonitor()
+if(!e.isDragging())return
+return{type:p}}function D(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},r=t.clientOffset,n=void 0===r?null:r;(0,o.default)((0,u.default)(e),"Expected targetIds to be an array.")
+var a=e.slice(0)
+var i=this.getMonitor()
+var s=this.getRegistry();(0,o.default)(i.isDragging(),"Cannot call hover while not dragging.");(0,o.default)(!i.didDrop(),"Cannot call hover after drop.")
+for(var c=0;c<a.length;c++){var l=a[c];(0,o.default)(a.lastIndexOf(l)===c,"Expected targetIds to be unique in the passed array.")
+var d=s.getTarget(l);(0,o.default)(d,"Expected targetIds to be registered.")}var v=i.getItemType()
+for(var p=a.length-1;p>=0;p--){var g=a[p]
+var y=s.getTargetType(g);(0,f.default)(y,v)||a.splice(p,1)}for(var b=0;b<a.length;b++){var m=a[b]
+var D=s.getTarget(m)
+D.hover(i,m)}return{type:h,targetIds:a,clientOffset:n}}function O(){var e=this
+var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+var r=this.getMonitor()
+var a=this.getRegistry();(0,o.default)(r.isDragging(),"Cannot call drop while not dragging.");(0,o.default)(!r.didDrop(),"Cannot call drop twice during one drag operation.")
+var i=r.getTargetIds().filter(r.canDropOnTarget,r)
+i.reverse()
+i.forEach((function(i,u){var s=a.getTarget(i)
+var l=s.drop(r,i);(0,o.default)("undefined"===typeof l||(0,c.default)(l),"Drop result must either be an object or undefined.")
+"undefined"===typeof l&&(l=0===u?{}:r.getDropResult())
+e.store.dispatch({type:g,dropResult:n({},t,l)})}))}function w(){var e=this.getMonitor()
+var t=this.getRegistry();(0,o.default)(e.isDragging(),"Cannot call endDrag while not dragging.")
+var r=e.getSourceId()
+var n=t.getSource(r,true)
+n.endDrag(e,r)
+t.unpinSource()
+return{type:y}}},5128:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t.addSource=i
+t.addTarget=u
+t.removeSource=s
+t.removeTarget=c
+var r=t.ADD_SOURCE="dnd-core/ADD_SOURCE"
+var n=t.ADD_TARGET="dnd-core/ADD_TARGET"
+var a=t.REMOVE_SOURCE="dnd-core/REMOVE_SOURCE"
+var o=t.REMOVE_TARGET="dnd-core/REMOVE_TARGET"
+function i(e){return{type:r,sourceId:e}}function u(e){return{type:n,targetId:e}}function s(e){return{type:a,sourceId:e}}function c(e){return{type:o,targetId:e}}},15021:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r]
+n.enumerable=n.enumerable||false
+n.configurable=true
+"value"in n&&(n.writable=true)
+Object.defineProperty(e,n.key,n)}}return function(t,r,n){r&&e(t.prototype,r)
+n&&e(t,n)
+return t}}()
+t["default"]=c
+var a=r(50308)
+var o=i(a)
+function i(e){return e&&e.__esModule?e:{default:e}}function u(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var s=function(){function e(t){u(this,e)
+this.actions=t.getActions()}n(e,[{key:"setup",value:function(){this.didCallSetup=true}},{key:"teardown",value:function(){this.didCallTeardown=true}},{key:"connectDragSource",value:function(){return o.default}},{key:"connectDragPreview",value:function(){return o.default}},{key:"connectDropTarget",value:function(){return o.default}},{key:"simulateBeginDrag",value:function(e,t){this.actions.beginDrag(e,t)}},{key:"simulatePublishDragSource",value:function(){this.actions.publishDragSource()}},{key:"simulateHover",value:function(e,t){this.actions.hover(e,t)}},{key:"simulateDrop",value:function(){this.actions.drop()}},{key:"simulateEndDrag",value:function(){this.actions.endDrag()}}])
+return e}()
+function c(e){return new s(e)}},5060:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=r(88760)
+Object.defineProperty(t,"DragDropManager",{enumerable:true,get:function(){return u(n).default}})
+var a=r(49411)
+Object.defineProperty(t,"DragSource",{enumerable:true,get:function(){return u(a).default}})
+var o=r(44488)
+Object.defineProperty(t,"DropTarget",{enumerable:true,get:function(){return u(o).default}})
+var i=r(15021)
+Object.defineProperty(t,"createTestBackend",{enumerable:true,get:function(){return u(i).default}})
+function u(e){return e&&e.__esModule?e:{default:e}}},10863:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=d
+t.areDirty=v
+var n=r(76566)
+var a=c(n)
+var o=r(25325)
+var i=c(o)
+var u=r(86056)
+var s=r(5128)
+function c(e){return e&&e.__esModule?e:{default:e}}var l=[]
+var f=[]
+function d(){var e=arguments[1]
+var t=arguments[2]
+switch(e.type){case u.HOVER:break
+case s.ADD_SOURCE:case s.ADD_TARGET:case s.REMOVE_TARGET:case s.REMOVE_SOURCE:return l
+case u.BEGIN_DRAG:case u.PUBLISH_DRAG_SOURCE:case u.END_DRAG:case u.DROP:default:return f}var r=e.targetIds
+var n=t.targetIds
+var o=(0,a.default)(r,n)
+var i=false
+if(0===o.length){for(var c=0;c<r.length;c++)if(r[c]!==n[c]){i=true
+break}}else i=true
+if(!i)return l
+var d=n[n.length-1]
+var v=r[r.length-1]
+if(d!==v){d&&o.push(d)
+v&&o.push(v)}return o}function v(e,t){if(e===l)return false
+if(e===f||"undefined"===typeof t)return true
+return(0,i.default)(t,e).length>0}},24434:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t]
+for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}
+t["default"]=u
+t.getSourceClientOffset=s
+t.getDifferenceFromInitialOffset=c
+var a=r(86056)
+var o={initialSourceClientOffset:null,initialClientOffset:null,clientOffset:null}
+function i(e,t){if(e===t)return true
+return e&&t&&e.x===t.x&&e.y===t.y}function u(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:o
+var t=arguments[1]
+switch(t.type){case a.BEGIN_DRAG:return{initialSourceClientOffset:t.sourceClientOffset,initialClientOffset:t.clientOffset,clientOffset:t.clientOffset}
+case a.HOVER:if(i(e.clientOffset,t.clientOffset))return e
+return n({},e,{clientOffset:t.clientOffset})
+case a.END_DRAG:case a.DROP:return o
+default:return e}}function s(e){var t=e.clientOffset,r=e.initialClientOffset,n=e.initialSourceClientOffset
+if(!t||!r||!n)return null
+return{x:t.x+n.x-r.x,y:t.y+n.y-r.y}}function c(e){var t=e.clientOffset,r=e.initialClientOffset
+if(!t||!r)return null
+return{x:t.x-r.x,y:t.y-r.y}}},99558:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+var n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t]
+for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}
+t["default"]=l
+var a=r(82569)
+var o=s(a)
+var i=r(86056)
+var u=r(5128)
+function s(e){return e&&e.__esModule?e:{default:e}}var c={itemType:null,item:null,sourceId:null,targetIds:[],dropResult:null,didDrop:false,isSourcePublic:null}
+function l(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:c
+var t=arguments[1]
+switch(t.type){case i.BEGIN_DRAG:return n({},e,{itemType:t.itemType,item:t.item,sourceId:t.sourceId,isSourcePublic:t.isSourcePublic,dropResult:null,didDrop:false})
+case i.PUBLISH_DRAG_SOURCE:return n({},e,{isSourcePublic:true})
+case i.HOVER:return n({},e,{targetIds:t.targetIds})
+case u.REMOVE_TARGET:if(-1===e.targetIds.indexOf(t.targetId))return e
+return n({},e,{targetIds:(0,o.default)(e.targetIds,t.targetId)})
+case i.DROP:return n({},e,{dropResult:t.dropResult,didDrop:true,targetIds:[]})
+case i.END_DRAG:return n({},e,{itemType:null,item:null,sourceId:null,dropResult:null,didDrop:false,isSourcePublic:null,targetIds:[]})
+default:return e}}},90328:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=p
+var n=r(24434)
+var a=v(n)
+var o=r(99558)
+var i=v(o)
+var u=r(76004)
+var s=v(u)
+var c=r(10863)
+var l=v(c)
+var f=r(82400)
+var d=v(f)
+function v(e){return e&&e.__esModule?e:{default:e}}function p(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+var t=arguments[1]
+return{dirtyHandlerIds:(0,l.default)(e.dirtyHandlerIds,t,e.dragOperation),dragOffset:(0,a.default)(e.dragOffset,t),refCount:(0,s.default)(e.refCount,t),dragOperation:(0,i.default)(e.dragOperation,t),stateId:(0,d.default)(e.stateId)}}},76004:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=a
+var n=r(5128)
+function a(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0
+var t=arguments[1]
+switch(t.type){case n.ADD_SOURCE:case n.ADD_TARGET:return e+1
+case n.REMOVE_SOURCE:case n.REMOVE_TARGET:return e-1
+default:return e}}},82400:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=r
+function r(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0
+return e+1}},77477:(e,t)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=n
+var r=0
+function n(){return r++}},19085:(e,t,r)=>{"use strict"
+Object.defineProperty(t,"__esModule",{value:true})
+t["default"]=i
+var n=r(1469)
+var a=o(n)
+function o(e){return e&&e.__esModule?e:{default:e}}function i(e,t){return(0,a.default)(e)?e.some((function(e){return e===t})):e===t}},15956:e=>{"use strict"
+var t={childContextTypes:true,contextTypes:true,defaultProps:true,displayName:true,getDefaultProps:true,getDerivedStateFromProps:true,mixins:true,propTypes:true,type:true}
+var r={name:true,length:true,prototype:true,caller:true,callee:true,arguments:true,arity:true}
+var n=Object.defineProperty
+var a=Object.getOwnPropertyNames
+var o=Object.getOwnPropertySymbols
+var i=Object.getOwnPropertyDescriptor
+var u=Object.getPrototypeOf
+var s=u&&u(Object)
+function c(e,l,f){if("string"!==typeof l){if(s){var d=u(l)
+d&&d!==s&&c(e,d,f)}var v=a(l)
+o&&(v=v.concat(o(l)))
+for(var p=0;p<v.length;++p){var h=v[p]
+if(!t[h]&&!r[h]&&(!f||!f[h])){var g=i(l,h)
+try{n(e,h,g)}catch(e){}}}return e}return e}e.exports=c},33452:(e,t,r)=>{"use strict"
+t.__esModule=true
+t.ActionTypes=void 0
+t["default"]=c
+var n=r(68630)
+var a=u(n)
+var o=r(98123)
+var i=u(o)
+function u(e){return e&&e.__esModule?e:{default:e}}var s=t.ActionTypes={INIT:"@@redux/INIT"}
+function c(e,t,r){var n
+if("function"===typeof t&&"undefined"===typeof r){r=t
+t=void 0}if("undefined"!==typeof r){if("function"!==typeof r)throw new Error("Expected the enhancer to be a function.")
+return r(c)(e,t)}if("function"!==typeof e)throw new Error("Expected the reducer to be a function.")
+var o=e
+var u=t
+var l=[]
+var f=l
+var d=false
+function v(){f===l&&(f=l.slice())}function p(){return u}function h(e){if("function"!==typeof e)throw new Error("Expected listener to be a function.")
+var t=true
+v()
+f.push(e)
+return function(){if(!t)return
+t=false
+v()
+var r=f.indexOf(e)
+f.splice(r,1)}}function g(e){if(!(0,a["default"])(e))throw new Error("Actions must be plain objects. Use custom middleware for async actions.")
+if("undefined"===typeof e.type)throw new Error('Actions may not have an undefined "type" property. Have you misspelled a constant?')
+if(d)throw new Error("Reducers may not dispatch actions.")
+try{d=true
+u=o(u,e)}finally{d=false}var t=l=f
+for(var r=0;r<t.length;r++){var n=t[r]
+n()}return e}function y(e){if("function"!==typeof e)throw new Error("Expected the nextReducer to be a function.")
+o=e
+g({type:s.INIT})}function b(){var e
+var t=h
+return e={subscribe:function(e){if("object"!==typeof e)throw new TypeError("Expected the observer to be an object.")
+function r(){e.next&&e.next(p())}r()
+var n=t(r)
+return{unsubscribe:n}}},e[i["default"]]=function(){return this},e}g({type:s.INIT})
+return n={dispatch:g,subscribe:h,getState:p,replaceReducer:y},n[i["default"]]=b,n}},98123:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>i})
+function n(e){var t
+var r=e.Symbol
+if("function"===typeof r)if(r.observable)t=r.observable
+else{t=r("observable")
+r.observable=t}else t="@@observable"
+return t}e=r.hmd(e)
+var a
+if("undefined"!==typeof self)a=self
+else if("undefined"!==typeof window)a=window
+else if("undefined"!==typeof r.g)a=r.g
+else{a=e}var o=n(a)
+const i=o}}])
+
+//# sourceMappingURL=21858-c-06f2c04689.js.map

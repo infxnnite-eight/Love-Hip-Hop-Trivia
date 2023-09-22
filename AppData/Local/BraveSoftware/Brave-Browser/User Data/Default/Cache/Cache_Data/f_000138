@@ -1,0 +1,701 @@
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[26750,46283],{37715:(e,t,r)=>{"use strict"
+r.d(t,{S:()=>g})
+var u=r(45987)
+var o=r(15671)
+var n=r(43144)
+var a=r(60136)
+var i=r(51630)
+var s=r(67294)
+var l=r(45697)
+var c=r.n(l)
+var d=r(80958)
+var m=r(15922)
+var v=r(81657)
+var p=r(86333)
+var g=function(e){(0,a.Z)(r,e)
+var t=(0,i.Z)(r)
+function r(){(0,o.Z)(this,r)
+return t.apply(this,arguments)}(0,n.Z)(r,[{key:"render",value:function(){var e=this.props,t=e.alt,o=e.children,n=(0,u.Z)(e,["alt","children"])
+var a=(0,d.B)(r,this.props)
+return s.createElement(a,(0,m.ry)(n),s.createElement(p.c,null,t),s.createElement(v.x,null,o))}}])
+r.displayName="AccessibleContent"
+return r}(s.Component)
+g.propTypes={alt:c().string,as:c().elementType,children:c().node}
+g.defaultProps={alt:void 0,as:"span",children:null}},72601:(e,t,r)=>{"use strict"
+r.d(t,{r:()=>d})
+var u=r(1413)
+var o=r(15671)
+var n=r(43144)
+var a=r(60136)
+var i=r(51630)
+var s=r(67294)
+var l=r(94855)
+var c=s.createElement("path",{d:"M866.331875 213L866.331875 866.331875 213 866.331875 213 1052.99813 866.331875 1052.99813 866.331875 1706.33 1052.99813 1706.33 1052.99813 1052.99813 1706.33 1052.99813 1706.33 866.331875 1052.99813 866.331875 1052.99813 213z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var d=function(e){(0,a.Z)(r,e)
+var t=(0,i.Z)(r)
+function r(){(0,o.Z)(this,r)
+return t.apply(this,arguments)}(0,n.Z)(r,[{key:"render",value:function(){return s.createElement(l.q,Object.assign({},this.props,{name:"IconPlus",viewBox:"0 0 1920 1920"}),c)}}])
+r.displayName="IconPlusSolid"
+return r}(s.Component)
+d.glyphName="plus"
+d.variant="Solid"
+d.propTypes=(0,u.Z)({},l.q.propTypes)},97289:(e,t,r)=>{"use strict"
+r.d(t,{P:()=>d})
+var u=r(1413)
+var o=r(15671)
+var n=r(43144)
+var a=r(60136)
+var i=r(51630)
+var s=r(67294)
+var l=r(94855)
+var c=s.createElement("path",{d:"M960,0 C1490.19336,0 1920,429.80664 1920,960 C1920,1490.19336 1490.19336,1920 960,1920 C429.80664,1920 0,1490.19336 0,960 C0,429.80664 429.80664,0 960,0 Z M950.162145,1342.68519 C865.69235,1342.68519 796.971403,1411.40613 796.971403,1495.87593 C796.971403,1580.34572 865.69235,1649.06667 950.162145,1649.06667 C1034.63194,1649.06667 1103.35289,1580.34572 1103.35289,1495.87593 C1103.35289,1411.40613 1034.63194,1342.68519 950.162145,1342.68519 Z M1153.65762,320 L746.666667,320 L845.784659,1218.62315 L1054.53963,1218.62315 L1153.65762,320 Z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var d=function(e){(0,a.Z)(r,e)
+var t=(0,i.Z)(r)
+function r(){(0,o.Z)(this,r)
+return t.apply(this,arguments)}(0,n.Z)(r,[{key:"render",value:function(){return s.createElement(l.q,Object.assign({},this.props,{name:"IconWarning",viewBox:"0 0 1920 1920"}),c)}}])
+r.displayName="IconWarningSolid"
+return r}(s.Component)
+d.glyphName="warning"
+d.variant="Solid"
+d.propTypes=(0,u.Z)({},l.q.propTypes)},62779:(e,t,r)=>{"use strict"
+r.d(t,{D:()=>E})
+var u=r(4942)
+var o=r(45987)
+var n=r(15671)
+var a=r(43144)
+var i=r(60136)
+var s=r(51630)
+var l=r(67294)
+var c=r(45697)
+var d=r.n(c)
+var m=r(94184)
+var v=r.n(m)
+var p=r(69924)
+var g=r(98983)
+var h=r(56398)
+var f=r(54577)
+var b=r(79070)
+var y=r(15922)
+var k=r(16121)
+function w(e){var t=e.borders,r=e.colors,u=e.spacing,o=e.typography
+return{fontFamily:o.fontFamily,padding:"0 ".concat(u.xSmall),height:"1.3125rem",background:r.backgroundLightest,textTransformStyle:"uppercase",textFontSize:o.fontSizeXSmall,textFontWeight:o.fontWeightBold,maxWidth:"15rem",color:r.textDark,primaryColor:r.textDark,infoColor:r.textInfo,dangerColor:r.textDanger,successColor:r.textSuccess,warningColor:r.textWarning,alertColor:r.textAlert,messageColor:r.textAlert,borderWidth:t.widthSmall,borderStyle:t.style,borderRadius:"999rem"}}w["instructure"]=function(){return{height:"1.5rem"}}
+var Z,_,x,C,z,I
+var S={componentId:"dLyYq",template:function(e){return"\n\n.dLyYq_bGBk{background:".concat(e.background||"inherit",";border-radius:").concat(e.borderRadius||"inherit",";border-style:").concat(e.borderStyle||"inherit",";border-width:").concat(e.borderWidth||"inherit",";display:block;font-family:").concat(e.fontFamily||"inherit",";line-height:calc(").concat(e.height||"inherit"," - ").concat(e.borderWidth||"inherit","*2);padding:").concat(e.padding||"inherit","}\n\n.dLyYq_bGBk,.dLyYq_eWKC{box-sizing:border-box}\n\n.dLyYq_eWKC{font-size:").concat(e.textFontSize||"inherit",";font-weight:").concat(e.textFontWeight||"inherit",";letter-spacing:0.0625rem;text-transform:").concat(e.textTransformStyle||"inherit","}\n\n.dLyYq_ddES{border-color:").concat(e.color||"inherit",";color:").concat(e.color||"inherit","}\n\n.dLyYq_bXiG{border-color:").concat(e.primaryColor||"inherit",";color:").concat(e.primaryColor||"inherit","}\n\n.dLyYq_pypk,.dLyYq_ecos{border-color:").concat(e.infoColor||"inherit",";color:").concat(e.infoColor||"inherit","}\n\n.dLyYq_cOXX{border-color:").concat(e.successColor||"inherit",";color:").concat(e.successColor||"inherit","}\n\n.dLyYq_zGXc{border-color:").concat(e.dangerColor||"inherit",";color:").concat(e.dangerColor||"inherit","}\n\n.dLyYq_eRqw{border-color:").concat(e.warningColor||"inherit",";color:").concat(e.warningColor||"inherit","}\n\n.dLyYq_elxg{border-color:").concat(e.messageColor||"inherit",";color:").concat(e.messageColor||"inherit","}\n\n.dLyYq_bgqc{border-color:").concat(e.alertColor||"inherit",";color:").concat(e.alertColor||"inherit","}")},root:"dLyYq_bGBk",text:"dLyYq_eWKC",default:"dLyYq_ddES",primary:"dLyYq_bXiG",info:"dLyYq_pypk",oldPrimary:"dLyYq_ecos",success:"dLyYq_cOXX",danger:"dLyYq_zGXc",warning:"dLyYq_eRqw",message:"dLyYq_elxg",alert:"dLyYq_bgqc"}
+var E=(Z=(0,k.j)(),_=(0,b.x)("8.0.0",{text:"children",variant:"color"}),x=(0,f.YY)(w,S),Z(C=_(C=x(C=(I=z=function(e){(0,i.Z)(r,e)
+var t=(0,s.Z)(r)
+function r(e){var u;(0,n.Z)(this,r)
+u=t.call(this,e)
+u.state={truncated:false}
+return u}(0,a.Z)(r,[{key:"handleTruncation",value:function(e){this.setState({truncated:e})}},{key:"renderPill",value:function(e,t){var r,n=this
+var a=this.props,i=a.margin,s=a.children,c=a.variant,d=a.color,m=a.as,g=a.elementRef,f=a.text,b=(0,o.Z)(a,["margin","children","variant","color","as","elementRef","text"])
+var k=(0,y.ry)(b)
+var w="function"===typeof t?t(k):k
+var Z=c
+Z?"primary"===c&&(Z="oldPrimary"):Z=d
+var _=v()((r={},(0,u.Z)(r,S.root,true),(0,u.Z)(r,S.truncated,this.state.truncated),(0,u.Z)(r,S[Z],true),r))
+return l.createElement(p.G,Object.assign({},w,{as:m,elementRef:g,margin:i,padding:"0",maxWidth:this.theme.maxWidth,background:"transparent",borderRadius:"pill",borderWidth:"0",display:"inline-block",position:"relative",withFocusOutline:e,focusColor:"info"}),l.createElement("span",{className:_},l.createElement("span",{className:S.text},l.createElement(h.Y,{onUpdate:function(e){n.handleTruncation(e)}},s||f))))}},{key:"render",value:function(){var e=this
+return this.state.truncated?l.createElement(g.u,{renderTip:this.props.children||this.props.text},(function(t){var r=t.focused,u=t.getTriggerProps
+return e.renderPill(r,u)})):this.renderPill()}}])
+r.displayName="Pill"
+return r}(l.Component),z.propTypes={as:d().elementType,children:d().node,color:d().oneOf(["primary","success","danger","info","warning","alert"]),elementRef:d().func,margin:f.j7.spacing,text:d().node,variant:d().oneOf(["default","success","danger","primary","warning","message"])},z.defaultProps={children:void 0,margin:void 0,elementRef:void 0,color:"primary"},I))||C)||C)||C)},7679:(e,t,r)=>{"use strict"
+r.r(t)
+var u=r(6507)
+var o=r.n(u)
+var n=r(78674)
+r(38593)
+"INST"in window||(window.INST={})
+let a=window.ENV.page_view_update_url
+a&&o()((()=>{let e=0
+INST.interaction_contexts={}
+if(a){let t=0
+const r=300
+o()(document).bind("page_view_update_url_received",((e,t)=>{a=t}))
+let u
+o()(document).bind("page_view_update",((n,i)=>{const s={}
+if(i||e>10&&t<r){s.interaction_seconds=e
+o().ajaxJSON(a,"PUT",s,null,((e,t)=>{422===t.status&&clearInterval(u)}))
+e=0}}))
+u=setInterval((()=>{o()(document).triggerHandler("page_view_update")}),1e3*r)
+window.addEventListener("unload",(()=>{if(e>30){const t=new FormData
+t.append("interaction_seconds",e)
+t.append("_method","put")
+t.append("authenticity_token",(0,n.Z)())
+t.append("utf8","&#x2713")
+navigator.sendBeacon(a,t)}}),false)
+let i=false
+o()(document).bind("mousemove keypress mousedown focus",(()=>{i=true}))
+setInterval((()=>{if(i){e++
+INST&&INST.interaction_context&&INST.interaction_contexts&&(INST.interaction_contexts[INST.interaction_context]=(INST.interaction_contexts[INST.interaction_context]||0)+1)
+i=false
+if(t>=r){t=0
+o()(document).triggerHandler("page_view_update")}t=0}else t++}),1e3)}}))},81842:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{start:()=>Ee})
+var u=r(63056)
+var o=r(67294)
+var n=r(73935)
+var a=r(15467)
+var i=r(61323)
+var s=r(34651)
+var l=r(35498)
+var c=r(54769)
+var d=r(3434)
+var m=r(69924)
+var v=r(76092)
+function p(e){if("s"!==e[e.length-1])return`${e}s`
+return e}const g="WHITELISTS_LOADED"
+function h(e){return{type:g,payload:e}}const f="SET_DIRTY"
+function b(e){if("boolean"!==typeof e)return{type:f,payload:new Error("Can only set to Boolean values"),error:true}
+return{type:f,payload:e}}const y="SET_CSP_ENABLED"
+const k="SET_CSP_ENABLED_OPTIMISTIC"
+function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+const r=t.optimistic?k:y
+if("boolean"!==typeof e)return{type:r,payload:new Error("Can only set to Boolean values"),error:true}
+return{type:r,payload:e}}function Z(e,t,r){e=p(e)
+return(u,o,n)=>{let{axios:a}=n
+u(w(r,{optimistic:true}))
+return a.put(`/api/v1/${e}/${t}/csp_settings`,{status:r?"enabled":"disabled"}).then((e=>{u(w(e.data.enabled))}))}}function _(e,t){e=p(e)
+return(r,u,o)=>{let{axios:n}=o
+return n.get(`/api/v1/${e}/${t}/csp_settings`).then((e=>{r(w(e.data.enabled))}))}}const x="SET_CSP_INHERITED"
+const C="SET_CSP_INHERITED_OPTIMISTIC"
+function z(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+const r=t.optimistic?C:x
+if("boolean"!==typeof e)return{type:r,payload:new Error("Can only set to Boolean values"),error:true}
+return{type:r,payload:e}}function I(e,t,r){e=p(e)
+return(u,o,n)=>{let{axios:a}=n
+const{cspEnabled:i,cspInherited:s}=o()
+u(z(r,{optimistic:true}))
+return a.put(`/api/v1/${e}/${t}/csp_settings`,{status:r?"inherited":i?"enabled":"disabled"}).then((e=>{u(z(e.data.inherited))
+u(w(e.data.enabled))
+const t={effective:e.data.effective_whitelist||[],account:e.data.current_account_whitelist||[],tools:e.data.tools_whitelist||{}}
+u(O(t,{reset:!s&&r}))
+s&&!r&&0===t.account.length&&u(b(true))}))}}function S(e,t){e=p(e)
+return(r,u,o)=>{let{axios:n}=o
+return n.get(`/api/v1/${e}/${t}/csp_settings`).then((e=>{r(z(e.data.inherited))}))}}const E="ADD_DOMAIN"
+const T="ADD_DOMAIN_BULK"
+const j="ADD_DOMAIN_OPTIMISTIC"
+const D=["account","tools","effective"]
+function N(e,t){let r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{}
+const u=r.optimistic?j:E
+if("string"!==typeof e)return{type:u,payload:new Error("Can only set to String values"),error:true}
+if(!D.includes(t))return{type:u,payload:new Error("domainType is invalid"),error:true}
+return{type:u,payload:{[t]:e}}}function O(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+if(Object.keys(e).some((e=>!D.includes(e))))return{type:T,payload:new Error("Invalid domain type key provided in domainsMap"),error:true}
+if(t.reset)return{type:T,payload:e,reset:true}
+return{type:T,payload:e}}function A(e,t,r){let u=arguments.length>3&&void 0!==arguments[3]?arguments[3]:()=>{}
+e=p(e)
+return(o,n,a)=>{let{axios:i}=a
+o(N(r,"account",{optimistic:true}))
+return i.post(`/api/v1/${e}/${t}/csp_settings/domains`,{domain:r}).then((()=>{o(N(r,"account"))})).then(u)}}function L(e,t){e=p(e)
+return(r,u,o)=>{let{axios:n}=o
+return n.get(`/api/v1/${e}/${t}/csp_settings`).then((e=>{const t={effective:e.data.effective_whitelist||[],account:e.data.current_account_whitelist||[],tools:e.data.tools_whitelist||{}}
+r(O(t))
+r(h(true))}))}}const R="REMOVE_DOMAIN"
+const V="REMOVE_DOMAIN_OPTIMISTIC"
+function P(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+const r=t.optimistic?V:R
+if("string"!==typeof e)return{type:r,payload:new Error("Domain can only set to String values"),error:true}
+return{type:r,payload:e}}function q(e,t,r){e=p(e)
+return(u,o,n)=>{let{axios:a}=n
+u(P(r,{optimistic:true}))
+return a.delete(`/api/v1/${e}/${t}/csp_settings/domains?domain=${r}`).then((()=>{u(P(r))}))}}const B="COPY_INHERITED_SUCCESS"
+const W="COPY_INHERITED_FAILURE"
+function $(e,t){if(t)return{type:W,payload:new Error(t),error:true}
+return{type:B,payload:e}}function Y(e,t){let r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{}
+e=p(e)
+return(u,o,n)=>{let{axios:a}=n
+if(o().isDirty){let n=o().whitelistedDomains.inherited
+r.add&&n.push(r.add)
+r.delete&&(n=n.filter((e=>e!==r.delete)))
+return a.post(`/api/v1/${e}/${t}/csp_settings/domains/batch_create`,{domains:n}).then((e=>{u(b(false))
+u($(e.data.current_account_whitelist))}))}}}var M=r(88866)
+var U=r(40349)
+var G=r(24598)
+var H=r(75935)
+var F=r(95732)
+var X=r(15809)
+var K=r(16303)
+var J=r(72601)
+var Q=r(86283)
+var ee=r(86333)
+var te=r(45443)
+var re=r(59715)
+var ue=r.n(re)
+var oe=r(2197)
+var ne,ae
+const ie=(0,i.useScope)("security_panel")
+const se=/^(?:(ht|f)tp(s?)\:\/\/)?/
+class le extends o.Component{constructor(){super(...arguments)
+this.state={addDomainInputValue:"",errors:[]}
+this.deleteButtons=[]
+this.addDomainBtn=null
+this.validateInput=e=>{const t=e.replace(se,"")
+const r=t.split(".")
+const u="*"===r[0]
+if(u){r.shift()
+return ue()(r.join("."))}return ue()(t)}
+this.handleSubmit=()=>{this.validateInput(this.state.addDomainInputValue)?this.setState((e=>{this.props.addDomain(this.props.context,this.props.contextId,e.addDomainInputValue)
+this.props.copyInheritedIfNeeded(this.props.context,this.props.contextId,{add:e.addDomainInputValue})
+return{errors:[],addDomainInputValue:""}})):this.setState({errors:[{text:ie.t("Invalid domain"),type:"error"}]})}
+this.handleRemoveDomain=e=>{const t=this.props.whitelistedDomains.account.findIndex((t=>t===e))
+let r=0
+t>0&&(r=t-1)
+this.props.removeDomain(this.props.context,this.props.contextId,e)
+const u=this.props.whitelistedDomains.account[r]
+t<=0?this.addDomainBtn.focus():this.deleteButtons[u].focus()
+this.props.copyInheritedIfNeeded(this.props.context,this.props.contextId,{delete:e})}}render(){const e=this.props.whitelistedDomains.account.length>=this.props.maxDomains&&!this.props.inherited
+const t=this.props.whitelistedDomains.tools?Object.keys(this.props.whitelistedDomains.tools):[]
+const r=this.props.inherited?this.props.whitelistedDomains.inherited:this.props.whitelistedDomains.account
+return(0,u.Z)("div",{},void 0,(0,u.Z)(m.G,{as:"div",margin:"none none small none",padding:"xxx-small",background:"primary",borderWidth:"none none small none"},void 0,(0,u.Z)(F.kC,{justifyItems:"space-between"},void 0,(0,u.Z)(F.kC.Item,{},void 0,(0,u.Z)(l.X,{margin:"small",level:"h4",as:"h3"},void 0,this.props.inherited?ie.t("Domains"):ie.t("Domains (%{count}/%{max})",{count:this.props.whitelistedDomains.account.length,max:this.props.maxDomains}))))),(0,u.Z)("form",{onSubmit:e=>{e.preventDefault()
+this.handleSubmit()}},void 0,e&&(0,u.Z)(M.b,{variant:"error",margin:"small 0"},void 0,ie.t("You have reached the domain limit. You can add more domains by deleting existing domains in your allowed list.")),this.props.inherited&&this.props.isSubAccount&&(0,u.Z)(M.b,{variant:"info",margin:"small 0"},void 0,ie.t("Domain editing is disabled when security settings are inherited from a parent account.")),(0,u.Z)(F.kC,{},void 0,(0,u.Z)(F.kC.Item,{shouldGrow:true,shouldShrink:true,padding:"0 medium 0 0"},void 0,(0,u.Z)(H.o,{renderLabel:ie.t("Domain Name"),placeholder:"http://somedomain.com",value:this.state.addDomainInputValue,messages:this.state.errors,disabled:this.props.inherited&&this.props.isSubAccount||e,onChange:e=>{this.setState({addDomainInputValue:e.currentTarget.value})}})),(0,u.Z)(F.kC.Item,{align:this.state.errors.length?"center":"end"},void 0,o.createElement(X.z,{"aria-label":ie.t("Add Domain"),ref:e=>this.addDomainBtn=e,type:"submit",margin:"0 x-small 0 0",renderIcon:J.r,disabled:this.props.inherited&&this.props.isSubAccount||e},ie.t("Domain"))))),r.length<=0?(0,u.Z)(te.V,{size:"small",heading:ie.t("No allowed domains"),hero:ne||(ne=(0,u.Z)(oe.Z,{}))}):(0,u.Z)(G.i,{caption:ie.t("Allowed Domains")},void 0,(0,u.Z)(G.i.Head,{},void 0,(0,u.Z)(G.i.Row,{},void 0,(0,u.Z)(G.i.ColHeader,{id:"allowed-domain-name"},void 0,ie.t("Allowed Domains")),(0,u.Z)(G.i.ColHeader,{id:"allowed-domain-actions"},void 0,(0,u.Z)(ee.c,{},void 0,ie.t("Actions"))))),(0,u.Z)(G.i.Body,{},void 0,r.map((e=>(0,u.Z)(G.i.Row,{},e,(0,u.Z)(G.i.Cell,{},void 0,e),(0,u.Z)(G.i.Cell,{textAlign:"end"},void 0,o.createElement(K.h,{ref:t=>this.deleteButtons[e]=t,renderIcon:Q.q,withBackground:false,withBorder:false,onClick:()=>this.handleRemoveDomain(e),"data-testid":`delete-button-${e}`,disabled:this.props.inherited&&this.props.isSubAccount,screenReaderLabel:ie.t("Remove %{domain} as an allowed domain",{domain:e})}))))))),t&&t.length>0&&(0,u.Z)(m.G,{as:"div",margin:"large 0"},void 0,(0,u.Z)(l.X,{level:"h4",as:"h3"},void 0,ie.t("Associated Tool Domains")),(0,u.Z)("p",{},void 0,ie.t("The following domains have automatically been allowed from tools that already exist in your account.\n                 To remove these domains, remove the associated tools.")),(0,u.Z)("p",{},void 0,ie.t("NOTE: Associated tools are only listed once, even if they have\n                been installed in multiple subaccounts.")),(0,u.Z)(G.i,{caption:(0,u.Z)(ee.c,{},void 0,ie.t("Associated Tool Domains"))},void 0,ae||(ae=(0,u.Z)(G.i.Head,{},void 0,(0,u.Z)(G.i.Row,{},void 0,(0,u.Z)(G.i.ColHeader,{id:"whitelisted-tools-domain-name"},void 0,"Domain Name"),(0,u.Z)(G.i.ColHeader,{id:"whitelisted-tools-tools"},void 0,"Associated Tools")))),(0,u.Z)(G.i.Body,{},void 0,t.map((e=>(0,u.Z)(G.i.Row,{},e,(0,u.Z)(G.i.Cell,{},void 0,e),(0,u.Z)(G.i.Cell,{},void 0,(0,u.Z)(U.aV,{isUnstyled:true},void 0,this.props.whitelistedDomains.tools[e].map((e=>(0,u.Z)(U.aV.Item,{},e.id,e.name))))))))))))}}le.defaultProps={inherited:false}
+function ce(e,t){return{...t,whitelistedDomains:e.whitelistedDomains}}const de={addDomain:A,removeDomain:q,copyInheritedIfNeeded:Y}
+const me=(0,a.$j)(ce,de)(le)
+const ve=(0,i.useScope)("security_panel")
+class pe extends o.Component{constructor(){super(...arguments)
+this.handleCspToggleChange=e=>{this.props.setCspEnabled(this.props.context,this.props.contextId,e.currentTarget.checked)}
+this.handleCspInheritChange=e=>{this.props.setCspInherited(this.props.context,this.props.contextId,e.currentTarget.checked)}}componentDidMount(){this.props.getCspEnabled(this.props.context,this.props.contextId)
+this.props.getCurrentWhitelist(this.props.context,this.props.contextId)
+this.props.isSubAccount&&this.props.getCspInherited(this.props.context,this.props.contextId)}render(){return(0,u.Z)("div",{},void 0,(0,u.Z)(l.X,{margin:"small 0",level:"h3",as:"h2",border:"bottom"},void 0,ve.t("Canvas Content Security Policy")),(0,u.Z)(m.G,{as:"div",margin:"small 0"},void 0,(0,u.Z)(s.x,{as:"p"},void 0,ve.t("The Content Security Policy allows you to restrict custom\n               JavaScript that runs in your instance of Canvas. You can manually add\n               up to %{max_domains} allowed domains. Wild cards are recommended\n               (e.g. *.instructure.com). Canvas and Instructure domains are included\n               automatically and do not count against your 50 domain limit.",{max_domains:this.props.maxDomains}))),(0,u.Z)(d.rj,{},void 0,(0,u.Z)(d.rj.Row,{},void 0,(0,u.Z)(d.rj.Col,{},void 0,this.props.isSubAccount&&(0,u.Z)(m.G,{margin:"0 xx-small"},void 0,(0,u.Z)(v.XZ,{variant:"toggle",label:ve.t("Inherit Content Security Policy"),onChange:this.handleCspInheritChange,checked:this.props.cspInherited})),(0,u.Z)(v.XZ,{variant:"toggle",label:ve.t("Enable Content Security Policy"),onChange:this.handleCspToggleChange,checked:this.props.cspEnabled,disabled:this.props.cspInherited&&this.props.isSubAccount}))),(0,u.Z)(d.rj.Row,{},void 0,(0,u.Z)(d.rj.Col,{},void 0,this.props.whitelistsHaveLoaded?(0,u.Z)(me,{context:this.props.context,contextId:this.props.contextId,isSubAccount:this.props.isSubAccount,inherited:this.props.cspInherited,maxDomains:this.props.maxDomains,accountId:this.props.accountId,liveRegion:this.props.liveRegion}):(0,u.Z)(m.G,{as:"div",margin:"large",padding:"large",textAlign:"center"},void 0,(0,u.Z)(c.$,{size:"large",renderTitle:ve.t("Loading")}))))))}}pe.defaultProps={isSubAccount:false}
+function ge(e,t){return{...t,cspEnabled:e.cspEnabled,cspInherited:e.cspInherited,whitelistsHaveLoaded:e.whitelistsHaveLoaded}}const he={getCspEnabled:_,setCspEnabled:Z,getCspInherited:S,setCspInherited:I,getCurrentWhitelist:L}
+const fe=(0,a.$j)(ge,he)(pe)
+var be=r(14890)
+var ye=r(53894)
+function ke(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0]
+let t=arguments.length>1?arguments[1]:void 0
+switch(t.type){case y:case k:return t.payload
+default:return e}}function we(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0]
+let t=arguments.length>1?arguments[1]:void 0
+switch(t.type){case x:case C:return t.payload
+default:return e}}function Ze(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0]
+let t=arguments.length>1?arguments[1]:void 0
+if(t.type===f)return t.payload
+return e}function _e(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0]
+let t=arguments.length>1?arguments[1]:void 0
+if(t.type===g)return t.payload
+return e}function xe(e,t){const r=Object.keys(e)
+return t.filter((e=>!r.includes(e)))}function Ce(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{account:[],effective:[],inherited:[],tools:{}}
+let t=arguments.length>1?arguments[1]:void 0
+switch(t.type){case E:case j:{const r={...e}
+Object.keys(t.payload).forEach((u=>{const o=new Set(e[u])
+o.add(t.payload[u])
+r[u]=Array.from(o)}))
+return r}case T:{const r={...e}
+Object.keys(t.payload).forEach((u=>{if("tools"===u)Object.keys(t.payload[u]).forEach((e=>{r[u][e]=t.payload[u][e]}))
+else{const o=t.reset?new Set:new Set(e[u])
+t.payload[u].forEach((e=>o.add(e)))
+r[u]=Array.from(o)}}))
+r.tools&&r.effective&&(r.inherited=xe(r.tools,r.effective))
+return r}case R:case V:{const r={...e}
+r.account=r.account.filter((e=>e!==t.payload))
+return r}case x:case C:{const t={...e}
+t.account.length||(t.account=t.inherited)
+return t}case B:{const r={...e}
+r.account=t.payload
+return r}default:return e}}const ze=(0,be.UY)({cspEnabled:ke,cspInherited:we,isDirty:Ze,whitelistedDomains:Ce,whitelistsHaveLoaded:_e})
+const Ie={cspEnabled:false,cspInherited:false,isDirty:false,whitelistsHaveLoaded:false,whitelistedDomains:{account:[],effective:[],inherited:[],tools:{}}}
+function Se(e,t){const r=[ye.Z.withExtraArgument({axios:t}),false].filter(Boolean)
+return(0,be.MT)(ze,e,(0,be.md)(...r))}function Ee(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+let r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:Ie
+const i={...r}
+if(t.initialCspSettings){i.cspEnabled=t.initialCspSettings.enabled
+i.cspInherited=t.initialCspSettings.inherited}const s=Se(i,t.api)
+const l={maxDomains:50,accountId:window.ENV.ACCOUNT.id};(0,n.render)((0,u.Z)(a.zt,{store:s},void 0,o.createElement(fe,Object.assign({},l,t))),e)}},93652:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>v})
+var u=r(63056)
+var o=r(61323)
+r(67294)
+var n=r(69924)
+var a=r(40349)
+var i=r(35498)
+var s=r(54769)
+var l=r(38496)
+var c,d
+const m=(0,o.useScope)("AccounntsTray")
+function v(e){let{accounts:t,hasLoaded:r}=e
+return(0,u.Z)(n.G,{as:"div",padding:"medium"},void 0,(0,u.Z)(i.X,{level:"h3",as:"h2"},void 0,m.t("Admin")),c||(c=(0,u.Z)("hr",{role:"presentation"})),(0,u.Z)(a.aV,{isUnstyled:true,margin:"small 0",itemSpacing:"small"},void 0,r?t.map((e=>(0,u.Z)(a.aV.Item,{},e.id,(0,u.Z)(l.r,{isWithinText:false,href:`/accounts/${e.id}`},void 0,e.name)))).concat([d||(d=(0,u.Z)(a.aV.Item,{},"hr",(0,u.Z)("hr",{role:"presentation"}))),(0,u.Z)(a.aV.Item,{},"all",(0,u.Z)(l.r,{isWithinText:false,href:"/accounts"},void 0,m.t("All Accounts")))]):(0,u.Z)(a.aV.Item,{},void 0,(0,u.Z)(s.$,{size:"small",renderTitle:m.t("Loading")}))))}v.defaultProps={accounts:[]}},96811:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>f})
+var u=r(63056)
+var o=r(61323)
+var n=r(67294)
+var a=r(69924)
+var i=r(34651)
+var s=r(40349)
+var l=r(35498)
+var c=r(54769)
+var d=r(38496)
+var m,v,p
+const g=(0,o.useScope)("CoursesTray")
+const h="unpublished"
+function f(e){var t
+let{courses:r,hasLoaded:o,k5User:f}=e
+const b=null===(t=window.ENV.current_user_roles)||void 0===t?void 0:t.includes("teacher")
+function y(){const e=r.filter((e=>e.workflow_state!==h))
+const t=r.filter((e=>e.workflow_state===h))
+return n.createElement(n.Fragment,null,e.length>0&&(0,u.Z)(l.X,{level:"h4",as:"h3"},"published_courses",f?g.t("Published Subjects"):g.t("Published Courses")),(0,u.Z)(s.aV,{isUnstyled:true,margin:"small small",itemSpacing:"small"},"published",e.map(k)),t.length>0&&(0,u.Z)(l.X,{level:"h4",as:"h3"},"unpublished_courses",f?g.t("Unpublished Subjects"):g.t("Unpublished Courses")),(0,u.Z)(s.aV,{isUnstyled:true,margin:"small small",itemSpacing:"small"},"unpublished",t.map(k)))}function k(e){return(0,u.Z)(s.aV.Item,{},e.id,(0,u.Z)(d.r,{isWithinText:false,href:`/courses/${e.id}`},void 0,e.name),e.enrollment_term_id>1&&(0,u.Z)(i.x,{as:"div",size:"x-small",weight:"light"},void 0,e.term.name))}function w(){const e=b?y():(0,u.Z)(s.aV,{isUnstyled:true,margin:"small 0",itemSpacing:"small"},void 0,r.map(k))
+return n.createElement(n.Fragment,null,e,(0,u.Z)(s.aV,{isUnstyled:true,margin:"small 0",itemSpacing:"small"},void 0,m||(m=(0,u.Z)(s.aV.Item,{},"hr",(0,u.Z)("hr",{role:"presentation"}))),(0,u.Z)(s.aV.Item,{},"all",(0,u.Z)(d.r,{isWithinText:false,href:"/courses"},void 0,f?g.t("All Subjects"):g.t("All Courses")))))}function Z(){return(0,u.Z)(s.aV,{isUnstyled:true,margin:"small 0",itemSpacing:"small"},void 0,(0,u.Z)(s.aV.Item,{},void 0,(0,u.Z)(c.$,{size:"small",renderTitle:g.t("Loading")})))}return(0,u.Z)(a.G,{as:"div",padding:"medium"},void 0,(0,u.Z)(l.X,{level:"h3",as:"h2"},void 0,f?g.t("Subjects"):g.t("Courses")),v||(v=(0,u.Z)("hr",{role:"presentation"})),o?w():Z(),p||(p=(0,u.Z)("br",{})),(0,u.Z)(i.x,{as:"div"},void 0,f?g.t('Welcome to your subjects! To customize the list of subjects,  click on the "All Subjects" link and star the subjects to display.'):g.t('Welcome to your courses! To customize the list of courses,  click on the "All Courses" link and star the courses to display.')))}f.defaultProps={courses:[]}},41501:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>v})
+var u=r(63056)
+var o=r(61323)
+r(67294)
+var n=r(69924)
+var a=r(40349)
+var i=r(35498)
+var s=r(54769)
+var l=r(38496)
+var c,d
+const m=(0,o.useScope)("GroupsTray")
+function v(e){let{groups:t,hasLoaded:r}=e
+return(0,u.Z)(n.G,{as:"div",padding:"medium"},void 0,(0,u.Z)(i.X,{level:"h3",as:"h2"},void 0,m.t("Groups")),c||(c=(0,u.Z)("hr",{role:"presentation"})),(0,u.Z)(a.aV,{isUnstyled:true,margin:"small 0",itemSpacing:"small"},void 0,r?t.map((e=>(0,u.Z)(a.aV.Item,{},e.id,(0,u.Z)(l.r,{isWithinText:false,href:`/groups/${e.id}`},void 0,e.name)))).concat([d||(d=(0,u.Z)(a.aV.Item,{},"hr",(0,u.Z)("hr",{role:"presentation"}))),(0,u.Z)(a.aV.Item,{},"all",(0,u.Z)(l.r,{isWithinText:false,href:"/groups"},void 0,m.t("All Groups")))]):(0,u.Z)(a.aV.Item,{},void 0,(0,u.Z)(s.$,{size:"small",renderTitle:m.t("Loading")}))))}v.defaultProps={groups:[]}},55157:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>E})
+var u=r(63056)
+var o=r(61323)
+var n=r(67294)
+var a=r(69924)
+var i=r(35498)
+var s=r(62601)
+var l=r(96503)
+var c=r(15450)
+var d=r(97010)
+var m=r(76092)
+var v=r(38496)
+var p=r(62779)
+var g=r(34651)
+var h=r(40349)
+var f=r(54769)
+var b=r(95732)
+var y=r(86333)
+var k=r(81657)
+var w=r(97289)
+var Z
+const _=(0,o.useScope)("Navigation")
+function x(e){(0,c.Z)({path:"/api/v1/users/self/settings",method:"PUT",body:{release_notes_badge_disabled:e}})}function C(e){let{badgeDisabled:t,setBadgeDisabled:r,forceUnreadPoll:o}=e
+const[i,s]=(0,n.useState)(false)
+const[c,C]=(0,n.useState)(null)
+const[z,I]=(0,n.useState)([])
+const S=(0,d.Z)("date.formats.short");(0,l.Z)({success:I,loading:s,error:C,path:"/api/v1/release_notes/latest"})
+if(i)return(0,u.Z)(f.$,{size:"small",margin:"x-small",renderTitle:()=>_.t("Loading release notes")})
+if(c)return(0,u.Z)(g.x,{color:"danger"},void 0,Z||(Z=(0,u.Z)(w.P,{size:"x-small",color:"error"}))," ",_.t("Release notes could not be loaded."))
+if(0===z.length)return null
+function E(e){x(e)
+r(e)}o&&z.filter((e=>e.new)).length>0&&setTimeout(o,0,0)
+return(0,u.Z)(a.G,{},void 0,(0,u.Z)(a.G,{display:"block",margin:"medium 0 0"},void 0,(0,u.Z)(b.kC,{justifyItems:"space-between",alignItems:"start"},void 0,(0,u.Z)(g.x,{weight:"bold",transform:"uppercase",size:"small",lineHeight:"double"},void 0,_.t("Release Notes"))),(0,u.Z)("hr",{role:"presentation",style:{marginTop:"0"}})),(0,u.Z)(h.aV,{isUnstyled:true,margin:"small 0",itemSpacing:"small"},void 0,z.map((e=>{const t=e.new
+return(0,u.Z)(h.aV.Item,{},e.id,(0,u.Z)(b.kC,{justifyItems:"space-between",alignItems:"start"},void 0,(0,u.Z)(v.r,{isWithinText:false,href:e.url,target:"_blank",rel:"noopener"},void 0,e.title),(0,u.Z)(g.x,{color:"secondary"},void 0,(0,u.Z)("span",{style:{whiteSpace:"nowrap"}},void 0,S(e.date)))),t&&(0,u.Z)(y.c,{},void 0,_.t("New")),(0,u.Z)(b.kC,{justifyItems:"space-between",alignItems:"start"},void 0,(0,u.Z)(b.kC.Item,{size:t?"80%":"100%"},void 0,e.description&&(0,u.Z)(g.x,{as:"div",size:"small"},void 0,e.description)),(0,u.Z)(b.kC.Item,{},void 0,t&&(0,u.Z)(k.x,{},void 0,(0,u.Z)(p.D,{color:"success"},void 0,_.t("NEW"))))))}))),(0,u.Z)(m.XZ,{label:_.t("Show badges for new release notes"),checked:!t,onChange:()=>E(!t),variant:"toggle",size:"small"}))}const z=C
+var I
+const S=(0,o.useScope)("HelpTray")
+function E(e){let{trayTitle:t,closeTray:r,links:o,hasLoaded:n,showNotes:l,badgeDisabled:c,setBadgeDisabled:d,forceUnreadPoll:m}=e
+return(0,u.Z)(a.G,{as:"div",padding:"medium",id:"help_tray"},void 0,(0,u.Z)(i.X,{level:"h3",as:"h2"},void 0,t),I||(I=(0,u.Z)("hr",{role:"presentation"})),(0,u.Z)(s.Z,{links:o,hasLoaded:n,onFormSubmit:r}),l?(0,u.Z)(z,{badgeDisabled:c,setBadgeDisabled:d,forceUnreadPoll:m}):null)}E.defaultProps={get trayTitle(){return S.t("Help")},hasLoaded:false,links:[]}},31568:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>c})
+var u=r(63056)
+var o=r(61323)
+r(67294)
+r(84876)
+var n=r(19523)
+var a=r(69924)
+var i=r(35498)
+var s
+const l=(0,o.useScope)("new_nav")
+c.defaultProps={history:[]}
+function c(e){let{hasLoaded:t,history:r}=e
+return(0,u.Z)(a.G,{as:"div",padding:"medium"},void 0,(0,u.Z)(i.X,{level:"h3",as:"h2"},void 0,l.t("Recent History")),s||(s=(0,u.Z)("hr",{role:"presentation"})),(0,u.Z)(n.Z,{hasLoaded:t,history:r}))}},32201:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>z})
+var u=r(63056)
+var o=r(61323)
+var n=r(67294)
+var a=r(34651)
+var i=r(40349)
+var s=r(35498)
+var l=r(21517)
+var c=r(19684)
+var d=r(54769)
+var m=r(38496)
+var v=r(69924)
+var p=r(81459)
+var g=r(4439)
+var h=r(37715)
+var f,b,y,k,w
+const Z=(0,o.useScope)("ProfileTray")
+const _=[{id:"content_shares",countName:"unreadShares"}]
+const x=e=>(0,u.Z)(h.S,{alt:Z.t("%{count} unread.",{count:e})},void 0,e)
+function C(e){let{id:t,html_url:r,label:o,counts:n}=e
+function a(){const e=_.filter((e=>e.id===t))
+if(0===e.length)return null
+const r=n[e[0].countName]
+if(0===r)return null
+return(0,u.Z)(l.C,{count:r,standalone:true,margin:"0 0 xxx-small small",formatOutput:x})}return(0,u.Z)(v.G,{className:`profile-tab-${t}`,as:"div",margin:"small 0"},void 0,(0,u.Z)(m.r,{isWithinText:false,href:r},void 0,o,a()))}function z(e){const{userDisplayName:t,userAvatarURL:r,loaded:o,userPronouns:l,tabs:m,counts:h}=e
+return(0,u.Z)(v.G,{as:"div",padding:"medium"},void 0,(0,u.Z)(v.G,{textAlign:"center"},void 0,(0,u.Z)(c.q,{name:t,src:r,alt:Z.t("User profile picture"),size:"x-large",display:"block",margin:"auto","data-fs-exclude":true}),(0,u.Z)("div",{style:{wordBreak:"break-word"}},void 0,(0,u.Z)(s.X,{level:"h3",as:"h2"},void 0,t,l&&(0,u.Z)(a.x,{size:"large",fontStyle:"italic"},void 0," (",l,")"))),f||(f=(0,u.Z)(p.Z,{size:"small",margin:"medium 0 x-small 0"}))),b||(b=(0,u.Z)("hr",{role:"presentation"})),(0,u.Z)(i.aV,{isUnstyled:true,margin:"none",itemSpacing:"small"},void 0,o?m.map((e=>(0,u.Z)(i.aV.Item,{},e.id,n.createElement(C,Object.assign({},e,{counts:h}))))):(0,u.Z)(i.aV.Item,{},"loading",(0,u.Z)("div",{style:{textAlign:"center"}},void 0,y||(y=(0,u.Z)(d.$,{margin:"medium",renderTitle:"Loading"}))))),k||(k=(0,u.Z)("hr",{role:"presentation"})),w||(w=(0,u.Z)(g.Z,{})))}},46283:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>m,renderCoursePacingNotice:()=>d})
+var u=r(63056)
+r(67294)
+var o=r(73935)
+var n=r(61323)
+var a=r(88866)
+var i=r(38496)
+var s=r(69924)
+const l=(0,n.useScope)("shared_due_dates_react_due_dates_in_course_pacing")
+const c=e=>(0,u.Z)(s.G,{as:"div",margin:"medium 0 0 0","data-testid":"CoursePacingNotice"},void 0,(0,u.Z)(a.b,{variant:"info"},void 0,(0,u.Z)(s.G,{as:"div",margin:"0 0 small 0"},void 0,l.t("This course is using Course Pacing. Go to Course Pacing to manage due dates.")),e.courseId&&(0,u.Z)(i.r,{href:`/courses/${e.courseId}/course_pacing`},void 0,l.t("Course Pacing"))))
+function d(e,t){o.render((0,u.Z)(c,{courseId:t}),e)}const m=c},9218:(e,t,r)=>{"use strict"
+r.r(t)
+r.d(t,{default:()=>D})
+var u=r(6507)
+var o=r.n(u)
+var n=r(67294)
+var a=r(42342)
+var i=r(28551)
+var s=r.n(i)
+var l=r(68248)
+var c=r(85018)
+var d=r.n(c)
+var m=r(67559)
+var v=r(92141)
+var p=r(45982)
+var g=r(66633)
+var h,f
+null!==(h={browser:true,env:{}})&&void 0!==h&&null!==(f=h.env)&&void 0!==f&&f.BUILD_LOCALE||s().setup({locale:"en",generateId:r(73205),missingTranslation:"ignore"})
+const b=(0,n.forwardRef)((function(e,t){const{autosave:r,canvasOrigin:u,defaultContent:o,editorOptions:a,height:i,highContrastCSS:c,instRecordDisabled:h,language:f,liveRegion:b,mirroredAttrs:y,readOnly:k,textareaId:w,textareaClassName:Z,rcsProps:_,use_rce_icon_maker:x,features:C,onFocus:z,onBlur:I,onInit:S,onContentChange:E,...T}=e;(0,n.useState)((()=>{s().setup({locale:(0,m.Z)(e.language)})}))
+const[j,D]=(0,n.useState)((()=>{const t=(0,m.Z)(e.language)
+const r=(0,g.Z)(t).then((()=>{D(true)})).catch((e=>{console.error("Failed loading the language file for",t,"\n Cause:",e)
+D(false)}))
+return r}))
+const[N]=(0,n.useState)((()=>{const t={autosave:r,canvasOrigin:u,defaultContent:o,highContrastCSS:c,instRecordDisabled:h,language:(0,m.Z)(f),liveRegion:b,textareaId:w,textareaClassName:Z,trayProps:_,use_rce_icon_maker:x,features:C,editorOptions:{...a,selector:(null===a||void 0===a?void 0:a.selector)||`#${w}`,height:i,language:d()(e.language)}};(0,v.Z)(y,t.editorOptions)
+return t}))
+return"boolean"!==typeof j?n.createElement(n.Fragment,null,s()("Loading...")):n.createElement(l.ZP,Object.assign({ref:t,tinymce:p["default"],readOnly:k},N,{onFocus:z,onBlur:I,onContentChange:E,onInitted:S},T))}))
+const y={autosave:{enabled:false,maxAge:36e5},defaultContent:"",editorOptions:{},renderKBShortcutModal:true,highContrastCSS:[],instRecordDisabled:false,language:"en",liveRegion:()=>document.getElementById("flash_screenreader_holder"),maxInitRenderedRCEs:-1,mirroredAttrs:{},readOnly:false,use_rce_icon_maker:true,onFocus:()=>{},onBlur:()=>{},onContentChange:()=>{},onInit:()=>{}}
+b.defaultProps=y
+const k=b
+var w=r(93339)
+var Z=r(56766)
+var _=r(88480)
+var x=r(59931)
+var C=r(47575)
+var z=r.n(C)
+var I,S,E
+const T=(0,n.forwardRef)((function(e,t){var r,u,i,s,l,c,d,m,v,p,g,h
+const f=t
+const{autosave:b,defaultContent:y,mirroredAttrs:C,readOnly:I,textareaClassName:S,textareaId:E,height:T,editorOptions:j,onFocus:D,onBlur:N,onContentChange:O,onInit:A,...L}=e
+const[R]=(0,n.useState)((0,w.Z)())
+const[V]=(0,n.useState)((()=>{const e=new Z.Z(z(),window.INST,E)
+const t={...e.defaultConfig(),...j}
+null!==j&&void 0!==j&&j.init_instance_callback&&(t.init_instance_callback=(0,a.b)(t.init_instance_callback,null===j||void 0===j?void 0:j.init_instance_callback))
+return t}))
+const[P]=(0,n.useState)({enabled:e.autosave,interval:Number.isNaN(ENV.rce_auto_save_max_age_ms)?36e5:ENV.rce_auto_save_max_age_ms})
+const[q,B]=(0,n.useState)(null)
+const W=(0,n.useCallback)((e=>{f.current=e
+e&&(e.getTextarea().remoteEditor=e)
+B(e)}),[f]);(0,n.useEffect)((()=>{const e=q&&f.current
+return()=>{null===e||void 0===e||e.destroy()}}),[f,q]);(0,n.useEffect)((()=>{(0,_.Z)()}),[])
+return n.createElement(k,Object.assign({ref:W,autosave:P,canvasOrigin:ENV.DEEP_LINKING_POST_MESSAGE_ORIGIN||(null===(r=window.location)||void 0===r?void 0:r.origin)||"",defaultContent:y,editorOptions:V,highContrastCSS:null!==(u=window.ENV)&&void 0!==u&&u.url_for_high_contrast_tinymce_editor_css?[null===(i=window.ENV)||void 0===i?void 0:i.url_for_high_contrast_tinymce_editor_css]:[],instRecordDisabled:null===(s=window.ENV)||void 0===s?void 0:s.RICH_CONTENT_INST_RECORD_TAB_DISABLED,language:(null===(l=window.ENV)||void 0===l||null===(c=l.LOCALES)||void 0===c?void 0:c[0])||"en",lockedAttachments:null===(d=window.ENV)||void 0===d?void 0:d.CHILD_COURSE_ATTACHMENTS_LOCKED_STATUSES,userCacheKey:null===(m=window.ENV)||void 0===m?void 0:m.user_cache_key,liveRegion:()=>document.getElementById("flash_screenreader_holder"),ltiTools:null===(v=window.INST)||void 0===v?void 0:v.editorButtons,maxInitRenderedRCEs:e.maxInitRenderedRCEs,mirroredAttrs:C,readOnly:I,textareaClassName:S,textareaId:E,height:T,rcsProps:R,onFocus:D,onBlur:N,onContentChange:O,onInit:A,use_rce_icon_maker:(0,x.Z)(x.L.IconMaker,window.ENV),externalToolsConfig:{ltiIframeAllowances:null===(p=window.ENV)||void 0===p?void 0:p.LTI_LAUNCH_FRAME_ALLOWANCES,isA2StudentView:null===(g=window.ENV)||void 0===g?void 0:g.a2_student_view,maxMruTools:null===(h=window.ENV)||void 0===h?void 0:h.MAX_MRU_LTI_TOOLS,resourceSelectionUrlOverride:o()("#context_external_tool_resource_selection_url").attr("href")||null}},L))}))
+const j={autosave:true,editorOptions:{},maxInitRenderedRCEs:-1,mirroredAttrs:{},readOnly:false,textareaClassName:"input-block-level",features:(null===(I=ENV)||void 0===I?void 0:I.FEATURES)||{},flashAlertTimeout:(null===(S=ENV)||void 0===S?void 0:S.flashAlertTimeout)||1e4,timezone:null===(E=ENV)||void 0===E?void 0:E.TIMEZONE,onFocus:()=>{},onBlur:()=>{},onContentChange:()=>{},onInit:()=>{}}
+T.defaultProps=j
+const D=T},44344:(e,t,r)=>{"use strict"
+r.d(t,{Z:()=>i})
+var u=r(55877)
+var o=r.n(u)
+class n{constructor(){this.topics={}}subscribe(e,t){this.topics[e]||(this.topics[e]={})
+const r=o().v4()
+this.topics[e][r]=t
+return()=>{this.topics[e][r]=null
+delete this.topics[e][r]}}publish(e,t){if(!this.topics[e])return
+Object.values(this.topics[e]).forEach((e=>{e&&e(t)}))}}const a=new n
+const i=a},97010:(e,t,r)=>{"use strict"
+r.d(t,{Z:()=>a})
+var u=r(67294)
+const o="time.formats.default"
+const n={"time.formats.default":{weekday:"short",month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"numeric",second:"numeric",timeZoneName:"short"},"time.formats.medium":{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"numeric"},"time.formats.short":{month:"short",day:"numeric",hour:"numeric",minute:"numeric"},"date.formats.full":{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"numeric"},"date.formats.date_at_time":{dateStyle:"long",timeStyle:"short"},"date.formats.long":{month:"long",day:"numeric",year:"numeric"},"date.formats.long_with_weekday":{weekday:"long",month:"long",day:"numeric"},"date.formats.full_with_weekday":{weekday:"short",month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"numeric"},"date.formats.medium_with_weekday":{weekday:"short",month:"short",day:"numeric",year:"numeric"},"date.formats.short_with_weekday":{weekday:"short",month:"short",day:"numeric"},"date.formats.short":{month:"short",day:"numeric"},"date.formats.full_compact":{dateStyle:"short",timeStyle:"short"},"date.formats.compact":{day:"numeric",month:"numeric",year:"numeric"}}
+Object.keys(n).forEach((e=>Object.freeze(n[e])))
+Object.freeze(n)
+function a(e,t,r){var a,i
+r=r||(null===(a=ENV)||void 0===a?void 0:a.LOCALE)||navigator.language
+"fr-CA"===r&&(r="fr-QB")
+t=t||(null===(i=ENV)||void 0===i?void 0:i.TIMEZONE)||Intl.DateTimeFormat().resolvedOptions().timeZone
+const s=(0,u.useMemo)((()=>{const u={...n[e]||n[o]}
+return new Intl.DateTimeFormat(r,{...u,timeZone:t})}),[e,r,t])
+return(0,u.useCallback)((e=>{try{if(null===e)return""
+return s.format(e instanceof Date?e:new Date(e))}catch(e){if(e instanceof RangeError)return""
+throw e}}),[s])}},96503:(e,t,r)=>{"use strict"
+r.d(t,{Z:()=>a})
+var u=r(78983)
+var o=r(15450)
+function n(e){let{success:t,error:r,loading:u,meta:o}=e
+const n=new AbortController
+let a=true
+return{activeSuccess:function(){a&&t&&t(...arguments)},activeError:function(){a&&r&&r(...arguments)},activeLoading:function(){a&&u&&u(...arguments)},activeMeta:function(){a&&o&&o(...arguments)},abort:()=>{a=false
+n.abort()},signal:n.signal}}function a(e){let{success:t,error:r,loading:a,meta:i,path:s,convert:l,forceResult:c,params:d={},headers:m={},fetchAllPages:v=false,fetchNumPages:p=0,fetchOpts:g={}}=e
+let h=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[];(0,u.Z)((()=>{if("undefined"!==typeof c){t(c)
+return}const{activeSuccess:e,activeError:u,activeLoading:h,activeMeta:f,abort:b,signal:y}=n({success:t,error:r,loading:a,meta:i})
+async function k(){try{h(true)
+let r=false
+let u=[]
+let n=p
+do{const a={...d}
+r&&(a.page=r)
+const{json:i,response:c,link:p}=await(0,o.Z)({path:s,headers:m,params:a,fetchOpts:{signal:y,...g}})
+const h=l&&i?l(i):i
+u=u.concat(h)
+f({response:c,link:p})
+if(v||n){var t
+e(u)
+r=!(!v&&!--n)&&(null===p||void 0===p||null===(t=p.next)||void 0===t?void 0:t.page)}else e(h)}while(r)}catch(e){u(e)}finally{h(false)}}k()
+return b}),[...h,t,r,a,i,s,l,c,d,m,v,p,g],{deep:true})}},5718:(e,t,r)=>{"use strict"
+r.d(t,{ZP:()=>d})
+var u=r(63056)
+var o=r(67294)
+var n=r(45697)
+var a=r.n(n)
+var i=r(85866)
+const s={miniTablet:{minWidth:"500px"},tablet:{minWidth:"768px"},desktop:{minWidth:"992px"},desktopNavOpen:{minWidth:"1140px"},desktopOnly:{minWidth:"768px"},mobileOnly:{maxWidth:"767px"}}
+const l=e=>{const t={}
+e.forEach((e=>t[e]=true))
+return t}
+const c=e=>t=>window.matchMedia?(0,u.Z)(i.E,{match:"media",query:s,render:(r,u)=>o.createElement(e,Object.assign({breakpoints:l(u)},t))}):o.createElement(e,Object.assign({breakpoints:{}},t))
+a().shape({miniTablet:a().bool,tablet:a().bool,desktop:a().bool,desktopNavOpen:a().bool,desktopOnly:a().bool,mobileOnly:a().bool})
+const d=c},43875:e=>{e.exports={"com.ac":true,"net.ac":true,"gov.ac":true,"org.ac":true,"mil.ac":true,"co.ae":true,"net.ae":true,"gov.ae":true,"ac.ae":true,"sch.ae":true,"org.ae":true,"mil.ae":true,"pro.ae":true,"name.ae":true,"com.af":true,"edu.af":true,"gov.af":true,"net.af":true,"org.af":true,"com.al":true,"edu.al":true,"gov.al":true,"mil.al":true,"net.al":true,"org.al":true,"ed.ao":true,"gv.ao":true,"og.ao":true,"co.ao":true,"pb.ao":true,"it.ao":true,"com.ar":true,"edu.ar":true,"gob.ar":true,"gov.ar":true,"int.ar":true,"mil.ar":true,"net.ar":true,"org.ar":true,"tur.ar":true,"gv.at":true,"ac.at":true,"co.at":true,"or.at":true,"com.au":true,"net.au":true,"org.au":true,"edu.au":true,"gov.au":true,"csiro.au":true,"asn.au":true,"id.au":true,"vic.au":true,"sa.au":true,"wa.au":true,"nt.au":true,"tas.au":true,"qld.au":true,"act.au":true,"conf.au":true,"oz.au":true,"org.ba":true,"net.ba":true,"edu.ba":true,"gov.ba":true,"mil.ba":true,"unsa.ba":true,"untz.ba":true,"unmo.ba":true,"unbi.ba":true,"unze.ba":true,"co.ba":true,"com.ba":true,"rs.ba":true,"co.bb":true,"com.bb":true,"net.bb":true,"org.bb":true,"gov.bb":true,"edu.bb":true,"info.bb":true,"store.bb":true,"tv.bb":true,"biz.bb":true,"com.bh":true,"info.bh":true,"cc.bh":true,"edu.bh":true,"biz.bh":true,"net.bh":true,"org.bh":true,"gov.bh":true,"com.bn":true,"edu.bn":true,"gov.bn":true,"net.bn":true,"org.bn":true,"com.bo":true,"net.bo":true,"org.bo":true,"tv.bo":true,"mil.bo":true,"int.bo":true,"gob.bo":true,"gov.bo":true,"edu.bo":true,"adm.br":true,"adv.br":true,"agr.br":true,"am.br":true,"arq.br":true,"art.br":true,"ato.br":true,"b.br":true,"bio.br":true,"blog.br":true,"bmd.br":true,"cim.br":true,"cng.br":true,"cnt.br":true,"com.br":true,"coop.br":true,"ecn.br":true,"edu.br":true,"eng.br":true,"esp.br":true,"etc.br":true,"eti.br":true,"far.br":true,"flog.br":true,"fm.br":true,"fnd.br":true,"fot.br":true,"fst.br":true,"g12.br":true,"ggf.br":true,"gov.br":true,"imb.br":true,"ind.br":true,"inf.br":true,"jor.br":true,"jus.br":true,"lel.br":true,"mat.br":true,"med.br":true,"mil.br":true,"mus.br":true,"net.br":true,"nom.br":true,"not.br":true,"ntr.br":true,"odo.br":true,"org.br":true,"ppg.br":true,"pro.br":true,"psc.br":true,"psi.br":true,"qsl.br":true,"rec.br":true,"slg.br":true,"srv.br":true,"tmp.br":true,"trd.br":true,"tur.br":true,"tv.br":true,"vet.br":true,"vlog.br":true,"wiki.br":true,"zlg.br":true,"com.bs":true,"net.bs":true,"org.bs":true,"edu.bs":true,"gov.bs":true,"om.bz":true,"du.bz":true,"ov.bz":true,"et.bz":true,"rg.bz":true,"ab.ca":true,"bc.ca":true,"mb.ca":true,"nb.ca":true,"nf.ca":true,"nl.ca":true,"ns.ca":true,"nt.ca":true,"nu.ca":true,"on.ca":true,"pe.ca":true,"qc.ca":true,"sk.ca":true,"yk.ca":true,"co.ck":true,"org.ck":true,"edu.ck":true,"gov.ck":true,"net.ck":true,"gen.ck":true,"biz.ck":true,"info.ck":true,"ac.cn":true,"com.cn":true,"edu.cn":true,"gov.cn":true,"mil.cn":true,"net.cn":true,"org.cn":true,"ah.cn":true,"bj.cn":true,"cq.cn":true,"fj.cn":true,"gd.cn":true,"gs.cn":true,"gz.cn":true,"gx.cn":true,"ha.cn":true,"hb.cn":true,"he.cn":true,"hi.cn":true,"hl.cn":true,"hn.cn":true,"jl.cn":true,"js.cn":true,"jx.cn":true,"ln.cn":true,"nm.cn":true,"nx.cn":true,"qh.cn":true,"sc.cn":true,"sd.cn":true,"sh.cn":true,"sn.cn":true,"sx.cn":true,"tj.cn":true,"tw.cn":true,"xj.cn":true,"xz.cn":true,"yn.cn":true,"zj.cn":true,"com.co":true,"org.co":true,"edu.co":true,"gov.co":true,"net.co":true,"mil.co":true,"nom.co":true,"ac.cr":true,"co.cr":true,"ed.cr":true,"fi.cr":true,"go.cr":true,"or.cr":true,"sa.cr":true,cr:true,"ac.cy":true,"net.cy":true,"gov.cy":true,"org.cy":true,"pro.cy":true,"name.cy":true,"ekloges.cy":true,"tm.cy":true,"ltd.cy":true,"biz.cy":true,"press.cy":true,"parliament.cy":true,"com.cy":true,"edu.do":true,"gob.do":true,"gov.do":true,"com.do":true,"sld.do":true,"org.do":true,"net.do":true,"web.do":true,"mil.do":true,"art.do":true,"com.dz":true,"org.dz":true,"net.dz":true,"gov.dz":true,"edu.dz":true,"asso.dz":true,"pol.dz":true,"art.dz":true,"com.ec":true,"info.ec":true,"net.ec":true,"fin.ec":true,"med.ec":true,"pro.ec":true,"org.ec":true,"edu.ec":true,"gov.ec":true,"mil.ec":true,"com.eg":true,"edu.eg":true,"eun.eg":true,"gov.eg":true,"mil.eg":true,"name.eg":true,"net.eg":true,"org.eg":true,"sci.eg":true,"com.er":true,"edu.er":true,"gov.er":true,"mil.er":true,"net.er":true,"org.er":true,"ind.er":true,"rochest.er":true,"w.er":true,"com.es":true,"nom.es":true,"org.es":true,"gob.es":true,"edu.es":true,"com.et":true,"gov.et":true,"org.et":true,"edu.et":true,"net.et":true,"biz.et":true,"name.et":true,"info.et":true,"ac.fj":true,"biz.fj":true,"com.fj":true,"info.fj":true,"mil.fj":true,"name.fj":true,"net.fj":true,"org.fj":true,"pro.fj":true,"co.fk":true,"org.fk":true,"gov.fk":true,"ac.fk":true,"nom.fk":true,"net.fk":true,fr:true,"tm.fr":true,"asso.fr":true,"nom.fr":true,"prd.fr":true,"presse.fr":true,"com.fr":true,"gouv.fr":true,"co.gg":true,"net.gg":true,"org.gg":true,"com.gh":true,"edu.gh":true,"gov.gh":true,"org.gh":true,"mil.gh":true,"com.gn":true,"ac.gn":true,"gov.gn":true,"org.gn":true,"net.gn":true,"com.gr":true,"edu.gr":true,"net.gr":true,"org.gr":true,"gov.gr":true,"mil.gr":true,"com.gt":true,"edu.gt":true,"net.gt":true,"gob.gt":true,"org.gt":true,"mil.gt":true,"ind.gt":true,"com.gu":true,"net.gu":true,"gov.gu":true,"org.gu":true,"edu.gu":true,"com.hk":true,"edu.hk":true,"gov.hk":true,"idv.hk":true,"net.hk":true,"org.hk":true,"2000.hu":true,"agrar.hu":true,"bolt.hu":true,"casino.hu":true,"city.hu":true,"co.hu":true,"erotica.hu":true,"erotika.hu":true,"film.hu":true,"forum.hu":true,"games.hu":true,"hotel.hu":true,"info.hu":true,"ingatlan.hu":true,"jogasz.hu":true,"konyvelo.hu":true,"lakas.hu":true,"media.hu":true,"news.hu":true,"org.hu":true,"priv.hu":true,"reklam.hu":true,"sex.hu":true,"shop.hu":true,"sport.hu":true,"suli.huv":true,"szex.hu":true,"tm.hu":true,"tozsde.hu":true,"utazas.hu":true,"video.hu":true,"ac.id":true,"co.id":true,"net.id":true,"or.id":true,"web.id":true,"sch.id":true,"mil.id":true,"go.id":true,"war.net.id":true,"ac.il":true,"co.il":true,"org.il":true,"net.il":true,"k12.il":true,"gov.il":true,"muni.il":true,"idf.il":true,in:true,"4fd.in":true,"co.in":true,"firm.in":true,"net.in":true,"org.in":true,"gen.in":true,"ind.in":true,"ac.in":true,"edu.in":true,"res.in":true,"ernet.in":true,"gov.in":true,"mil.in":true,"nic.in":true,iq:true,"gov.iq":true,"edu.iq":true,"com.iq":true,"mil.iq":true,"org.iq":true,"net.iq":true,ir:true,"ac.ir":true,"co.ir":true,"gov.ir":true,"id.ir":true,"net.ir":true,"org.ir":true,"sch.ir":true,"dnssec.ir":true,"gov.it":true,"edu.it":true,"co.je":true,"net.je":true,"org.je":true,"com.jo":true,"net.jo":true,"gov.jo":true,"edu.jo":true,"org.jo":true,"mil.jo":true,"name.jo":true,"sch.jo":true,"ac.jp":true,"ad.jp":true,"co.jp":true,"ed.jp":true,"go.jp":true,"gr.jp":true,"lg.jp":true,"ne.jp":true,"or.jp":true,"co.ke":true,"or.ke":true,"ne.ke":true,"go.ke":true,"ac.ke":true,"sc.ke":true,"me.ke":true,"mobi.ke":true,"info.ke":true,"per.kh":true,"com.kh":true,"edu.kh":true,"gov.kh":true,"mil.kh":true,"net.kh":true,"org.kh":true,"com.ki":true,"biz.ki":true,"de.ki":true,"net.ki":true,"info.ki":true,"org.ki":true,"gov.ki":true,"edu.ki":true,"mob.ki":true,"tel.ki":true,km:true,"com.km":true,"coop.km":true,"asso.km":true,"nom.km":true,"presse.km":true,"tm.km":true,"medecin.km":true,"notaires.km":true,"pharmaciens.km":true,"veterinaire.km":true,"edu.km":true,"gouv.km":true,"mil.km":true,"net.kn":true,"org.kn":true,"edu.kn":true,"gov.kn":true,kr:true,"co.kr":true,"ne.kr":true,"or.kr":true,"re.kr":true,"pe.kr":true,"go.kr":true,"mil.kr":true,"ac.kr":true,"hs.kr":true,"ms.kr":true,"es.kr":true,"sc.kr":true,"kg.kr":true,"seoul.kr":true,"busan.kr":true,"daegu.kr":true,"incheon.kr":true,"gwangju.kr":true,"daejeon.kr":true,"ulsan.kr":true,"gyeonggi.kr":true,"gangwon.kr":true,"chungbuk.kr":true,"chungnam.kr":true,"jeonbuk.kr":true,"jeonnam.kr":true,"gyeongbuk.kr":true,"gyeongnam.kr":true,"jeju.kr":true,"edu.kw":true,"com.kw":true,"net.kw":true,"org.kw":true,"gov.kw":true,"com.ky":true,"org.ky":true,"net.ky":true,"edu.ky":true,"gov.ky":true,"com.kz":true,"edu.kz":true,"gov.kz":true,"mil.kz":true,"net.kz":true,"org.kz":true,"com.lb":true,"edu.lb":true,"gov.lb":true,"net.lb":true,"org.lb":true,"gov.lk":true,"sch.lk":true,"net.lk":true,"int.lk":true,"com.lk":true,"org.lk":true,"edu.lk":true,"ngo.lk":true,"soc.lk":true,"web.lk":true,"ltd.lk":true,"assn.lk":true,"grp.lk":true,"hotel.lk":true,"com.lr":true,"edu.lr":true,"gov.lr":true,"org.lr":true,"net.lr":true,"com.lv":true,"edu.lv":true,"gov.lv":true,"org.lv":true,"mil.lv":true,"id.lv":true,"net.lv":true,"asn.lv":true,"conf.lv":true,"com.ly":true,"net.ly":true,"gov.ly":true,"plc.ly":true,"edu.ly":true,"sch.ly":true,"med.ly":true,"org.ly":true,"id.ly":true,ma:true,"net.ma":true,"ac.ma":true,"org.ma":true,"gov.ma":true,"press.ma":true,"co.ma":true,"tm.mc":true,"asso.mc":true,"co.me":true,"net.me":true,"org.me":true,"edu.me":true,"ac.me":true,"gov.me":true,"its.me":true,"priv.me":true,"org.mg":true,"nom.mg":true,"gov.mg":true,"prd.mg":true,"tm.mg":true,"edu.mg":true,"mil.mg":true,"com.mg":true,"com.mk":true,"org.mk":true,"net.mk":true,"edu.mk":true,"gov.mk":true,"inf.mk":true,"name.mk":true,"pro.mk":true,"com.ml":true,"net.ml":true,"org.ml":true,"edu.ml":true,"gov.ml":true,"presse.ml":true,"gov.mn":true,"edu.mn":true,"org.mn":true,"com.mo":true,"edu.mo":true,"gov.mo":true,"net.mo":true,"org.mo":true,"com.mt":true,"org.mt":true,"net.mt":true,"edu.mt":true,"gov.mt":true,"aero.mv":true,"biz.mv":true,"com.mv":true,"coop.mv":true,"edu.mv":true,"gov.mv":true,"info.mv":true,"int.mv":true,"mil.mv":true,"museum.mv":true,"name.mv":true,"net.mv":true,"org.mv":true,"pro.mv":true,"ac.mw":true,"co.mw":true,"com.mw":true,"coop.mw":true,"edu.mw":true,"gov.mw":true,"int.mw":true,"museum.mw":true,"net.mw":true,"org.mw":true,"com.mx":true,"net.mx":true,"org.mx":true,"edu.mx":true,"gob.mx":true,"com.my":true,"net.my":true,"org.my":true,"gov.my":true,"edu.my":true,"sch.my":true,"mil.my":true,"name.my":true,"com.nf":true,"net.nf":true,"arts.nf":true,"store.nf":true,"web.nf":true,"firm.nf":true,"info.nf":true,"other.nf":true,"per.nf":true,"rec.nf":true,"com.ng":true,"org.ng":true,"gov.ng":true,"edu.ng":true,"net.ng":true,"sch.ng":true,"name.ng":true,"mobi.ng":true,"biz.ng":true,"mil.ng":true,"gob.ni":true,"co.ni":true,"com.ni":true,"ac.ni":true,"edu.ni":true,"org.ni":true,"nom.ni":true,"net.ni":true,"mil.ni":true,"com.np":true,"edu.np":true,"gov.np":true,"org.np":true,"mil.np":true,"net.np":true,"edu.nr":true,"gov.nr":true,"biz.nr":true,"info.nr":true,"net.nr":true,"org.nr":true,"com.nr":true,"com.om":true,"co.om":true,"edu.om":true,"ac.om":true,"sch.om":true,"gov.om":true,"net.om":true,"org.om":true,"mil.om":true,"museum.om":true,"biz.om":true,"pro.om":true,"med.om":true,"edu.pe":true,"gob.pe":true,"nom.pe":true,"mil.pe":true,"sld.pe":true,"org.pe":true,"com.pe":true,"net.pe":true,"com.ph":true,"net.ph":true,"org.ph":true,"mil.ph":true,"ngo.ph":true,"i.ph":true,"gov.ph":true,"edu.ph":true,"com.pk":true,"net.pk":true,"edu.pk":true,"org.pk":true,"fam.pk":true,"biz.pk":true,"web.pk":true,"gov.pk":true,"gob.pk":true,"gok.pk":true,"gon.pk":true,"gop.pk":true,"gos.pk":true,"pwr.pl":true,"com.pl":true,"biz.pl":true,"net.pl":true,"art.pl":true,"edu.pl":true,"org.pl":true,"ngo.pl":true,"gov.pl":true,"info.pl":true,"mil.pl":true,"waw.pl":true,"warszawa.pl":true,"wroc.pl":true,"wroclaw.pl":true,"krakow.pl":true,"katowice.pl":true,"poznan.pl":true,"lodz.pl":true,"gda.pl":true,"gdansk.pl":true,"slupsk.pl":true,"radom.pl":true,"szczecin.pl":true,"lublin.pl":true,"bialystok.pl":true,"olsztyn.pl":true,"torun.pl":true,"gorzow.pl":true,"zgora.pl":true,"biz.pr":true,"com.pr":true,"edu.pr":true,"gov.pr":true,"info.pr":true,"isla.pr":true,"name.pr":true,"net.pr":true,"org.pr":true,"pro.pr":true,"est.pr":true,"prof.pr":true,"ac.pr":true,"com.ps":true,"net.ps":true,"org.ps":true,"edu.ps":true,"gov.ps":true,"plo.ps":true,"sec.ps":true,"co.pw":true,"ne.pw":true,"or.pw":true,"ed.pw":true,"go.pw":true,"belau.pw":true,"arts.ro":true,"com.ro":true,"firm.ro":true,"info.ro":true,"nom.ro":true,"nt.ro":true,"org.ro":true,"rec.ro":true,"store.ro":true,"tm.ro":true,"www.ro":true,"co.rs":true,"org.rs":true,"edu.rs":true,"ac.rs":true,"gov.rs":true,"in.rs":true,"com.sb":true,"net.sb":true,"edu.sb":true,"org.sb":true,"gov.sb":true,"com.sc":true,"net.sc":true,"edu.sc":true,"gov.sc":true,"org.sc":true,"co.sh":true,"com.sh":true,"org.sh":true,"gov.sh":true,"edu.sh":true,"net.sh":true,"nom.sh":true,"com.sl":true,"net.sl":true,"org.sl":true,"edu.sl":true,"gov.sl":true,"gov.st":true,"saotome.st":true,"principe.st":true,"consulado.st":true,"embaixada.st":true,"org.st":true,"edu.st":true,"net.st":true,"com.st":true,"store.st":true,"mil.st":true,"co.st":true,"edu.sv":true,"gob.sv":true,"com.sv":true,"org.sv":true,"red.sv":true,"co.sz":true,"ac.sz":true,"org.sz":true,"com.tr":true,"gen.tr":true,"org.tr":true,"biz.tr":true,"info.tr":true,"av.tr":true,"dr.tr":true,"pol.tr":true,"bel.tr":true,"tsk.tr":true,"bbs.tr":true,"k12.tr":true,"edu.tr":true,"name.tr":true,"net.tr":true,"gov.tr":true,"web.tr":true,"tel.tr":true,"tv.tr":true,"co.tt":true,"com.tt":true,"org.tt":true,"net.tt":true,"biz.tt":true,"info.tt":true,"pro.tt":true,"int.tt":true,"coop.tt":true,"jobs.tt":true,"mobi.tt":true,"travel.tt":true,"museum.tt":true,"aero.tt":true,"cat.tt":true,"tel.tt":true,"name.tt":true,"mil.tt":true,"edu.tt":true,"gov.tt":true,"edu.tw":true,"gov.tw":true,"mil.tw":true,"com.tw":true,"net.tw":true,"org.tw":true,"idv.tw":true,"game.tw":true,"ebiz.tw":true,"club.tw":true,"com.mu":true,"gov.mu":true,"net.mu":true,"org.mu":true,"ac.mu":true,"co.mu":true,"or.mu":true,"ac.mz":true,"co.mz":true,"edu.mz":true,"org.mz":true,"gov.mz":true,"com.na":true,"co.na":true,"ac.nz":true,"co.nz":true,"cri.nz":true,"geek.nz":true,"gen.nz":true,"govt.nz":true,"health.nz":true,"iwi.nz":true,"maori.nz":true,"mil.nz":true,"net.nz":true,"org.nz":true,"parliament.nz":true,"school.nz":true,"abo.pa":true,"ac.pa":true,"com.pa":true,"edu.pa":true,"gob.pa":true,"ing.pa":true,"med.pa":true,"net.pa":true,"nom.pa":true,"org.pa":true,"sld.pa":true,"com.pt":true,"edu.pt":true,"gov.pt":true,"int.pt":true,"net.pt":true,"nome.pt":true,"org.pt":true,"publ.pt":true,"com.py":true,"edu.py":true,"gov.py":true,"mil.py":true,"net.py":true,"org.py":true,"com.qa":true,"edu.qa":true,"gov.qa":true,"mil.qa":true,"net.qa":true,"org.qa":true,"asso.re":true,"com.re":true,"nom.re":true,"ac.ru":true,"adygeya.ru":true,"altai.ru":true,"amur.ru":true,"arkhangelsk.ru":true,"astrakhan.ru":true,"bashkiria.ru":true,"belgorod.ru":true,"bir.ru":true,"bryansk.ru":true,"buryatia.ru":true,"cbg.ru":true,"chel.ru":true,"chelyabinsk.ru":true,"chita.ru":true,"chukotka.ru":true,"chuvashia.ru":true,"com.ru":true,"dagestan.ru":true,"e-burg.ru":true,"edu.ru":true,"gov.ru":true,"grozny.ru":true,"int.ru":true,"irkutsk.ru":true,"ivanovo.ru":true,"izhevsk.ru":true,"jar.ru":true,"joshkar-ola.ru":true,"kalmykia.ru":true,"kaluga.ru":true,"kamchatka.ru":true,"karelia.ru":true,"kazan.ru":true,"kchr.ru":true,"kemerovo.ru":true,"khabarovsk.ru":true,"khakassia.ru":true,"khv.ru":true,"kirov.ru":true,"koenig.ru":true,"komi.ru":true,"kostroma.ru":true,"kranoyarsk.ru":true,"kuban.ru":true,"kurgan.ru":true,"kursk.ru":true,"lipetsk.ru":true,"magadan.ru":true,"mari.ru":true,"mari-el.ru":true,"marine.ru":true,"mil.ru":true,"mordovia.ru":true,"mosreg.ru":true,"msk.ru":true,"murmansk.ru":true,"nalchik.ru":true,"net.ru":true,"nnov.ru":true,"nov.ru":true,"novosibirsk.ru":true,"nsk.ru":true,"omsk.ru":true,"orenburg.ru":true,"org.ru":true,"oryol.ru":true,"penza.ru":true,"perm.ru":true,"pp.ru":true,"pskov.ru":true,"ptz.ru":true,"rnd.ru":true,"ryazan.ru":true,"sakhalin.ru":true,"samara.ru":true,"saratov.ru":true,"simbirsk.ru":true,"smolensk.ru":true,"spb.ru":true,"stavropol.ru":true,"stv.ru":true,"surgut.ru":true,"tambov.ru":true,"tatarstan.ru":true,"tom.ru":true,"tomsk.ru":true,"tsaritsyn.ru":true,"tsk.ru":true,"tula.ru":true,"tuva.ru":true,"tver.ru":true,"tyumen.ru":true,"udm.ru":true,"udmurtia.ru":true,"ulan-ude.ru":true,"vladikavkaz.ru":true,"vladimir.ru":true,"vladivostok.ru":true,"volgograd.ru":true,"vologda.ru":true,"voronezh.ru":true,"vrn.ru":true,"vyatka.ru":true,"yakutia.ru":true,"yamal.ru":true,"yekaterinburg.ru":true,"yuzhno-sakhalinsk.ru":true,"ac.rw":true,"co.rw":true,"com.rw":true,"edu.rw":true,"gouv.rw":true,"gov.rw":true,"int.rw":true,"mil.rw":true,"net.rw":true,"com.sa":true,"edu.sa":true,"gov.sa":true,"med.sa":true,"net.sa":true,"org.sa":true,"pub.sa":true,"sch.sa":true,"com.sd":true,"edu.sd":true,"gov.sd":true,"info.sd":true,"med.sd":true,"net.sd":true,"org.sd":true,"tv.sd":true,"a.se":true,"ac.se":true,"b.se":true,"bd.se":true,"c.se":true,"d.se":true,"e.se":true,"f.se":true,"g.se":true,"h.se":true,"i.se":true,"k.se":true,"l.se":true,"m.se":true,"n.se":true,"o.se":true,"org.se":true,"p.se":true,"parti.se":true,"pp.se":true,"press.se":true,"r.se":true,"s.se":true,"t.se":true,"tm.se":true,"u.se":true,"w.se":true,"x.se":true,"y.se":true,"z.se":true,"com.sg":true,"edu.sg":true,"gov.sg":true,"idn.sg":true,"net.sg":true,"org.sg":true,"per.sg":true,"art.sn":true,"com.sn":true,"edu.sn":true,"gouv.sn":true,"org.sn":true,"perso.sn":true,"univ.sn":true,"com.sy":true,"edu.sy":true,"gov.sy":true,"mil.sy":true,"net.sy":true,"news.sy":true,"org.sy":true,"ac.th":true,"co.th":true,"go.th":true,"in.th":true,"mi.th":true,"net.th":true,"or.th":true,"ac.tj":true,"biz.tj":true,"co.tj":true,"com.tj":true,"edu.tj":true,"go.tj":true,"gov.tj":true,"info.tj":true,"int.tj":true,"mil.tj":true,"name.tj":true,"net.tj":true,"nic.tj":true,"org.tj":true,"test.tj":true,"web.tj":true,"agrinet.tn":true,"com.tn":true,"defense.tn":true,"edunet.tn":true,"ens.tn":true,"fin.tn":true,"gov.tn":true,"ind.tn":true,"info.tn":true,"intl.tn":true,"mincom.tn":true,"nat.tn":true,"net.tn":true,"org.tn":true,"perso.tn":true,"rnrt.tn":true,"rns.tn":true,"rnu.tn":true,"tourism.tn":true,"ac.tz":true,"co.tz":true,"go.tz":true,"ne.tz":true,"or.tz":true,"biz.ua":true,"cherkassy.ua":true,"chernigov.ua":true,"chernovtsy.ua":true,"ck.ua":true,"cn.ua":true,"co.ua":true,"com.ua":true,"crimea.ua":true,"cv.ua":true,"dn.ua":true,"dnepropetrovsk.ua":true,"donetsk.ua":true,"dp.ua":true,"edu.ua":true,"gov.ua":true,"if.ua":true,"in.ua":true,"ivano-frankivsk.ua":true,"kh.ua":true,"kharkov.ua":true,"kherson.ua":true,"khmelnitskiy.ua":true,"kiev.ua":true,"kirovograd.ua":true,"km.ua":true,"kr.ua":true,"ks.ua":true,"kv.ua":true,"lg.ua":true,"lugansk.ua":true,"lutsk.ua":true,"lviv.ua":true,"me.ua":true,"mk.ua":true,"net.ua":true,"nikolaev.ua":true,"od.ua":true,"odessa.ua":true,"org.ua":true,"pl.ua":true,"poltava.ua":true,"pp.ua":true,"rovno.ua":true,"rv.ua":true,"sebastopol.ua":true,"sumy.ua":true,"te.ua":true,"ternopil.ua":true,"uzhgorod.ua":true,"vinnica.ua":true,"vn.ua":true,"zaporizhzhe.ua":true,"zhitomir.ua":true,"zp.ua":true,"zt.ua":true,"ac.ug":true,"co.ug":true,"go.ug":true,"ne.ug":true,"or.ug":true,"org.ug":true,"sc.ug":true,"ac.uk":true,"bl.uk":true,"british-library.uk":true,"co.uk":true,"cym.uk":true,"gov.uk":true,"govt.uk":true,"icnet.uk":true,"jet.uk":true,"lea.uk":true,"ltd.uk":true,"me.uk":true,"mil.uk":true,"mod.uk":true,"national-library-scotland.uk":true,"nel.uk":true,"net.uk":true,"nhs.uk":true,"nic.uk":true,"nls.uk":true,"org.uk":true,"orgn.uk":true,"parliament.uk":true,"plc.uk":true,"police.uk":true,"sch.uk":true,"scot.uk":true,"soc.uk":true,"4fd.us":true,"dni.us":true,"fed.us":true,"isa.us":true,"kids.us":true,"nsn.us":true,"com.uy":true,"edu.uy":true,"gub.uy":true,"mil.uy":true,"net.uy":true,"org.uy":true,"co.ve":true,"com.ve":true,"edu.ve":true,"gob.ve":true,"info.ve":true,"mil.ve":true,"net.ve":true,"org.ve":true,"web.ve":true,"co.vi":true,"com.vi":true,"k12.vi":true,"net.vi":true,"org.vi":true,"ac.vn":true,"biz.vn":true,"com.vn":true,"edu.vn":true,"gov.vn":true,"health.vn":true,"info.vn":true,"int.vn":true,"name.vn":true,"net.vn":true,"org.vn":true,"pro.vn":true,"co.ye":true,"com.ye":true,"gov.ye":true,"ltd.ye":true,"me.ye":true,"net.ye":true,"org.ye":true,"plc.ye":true,"ac.yu":true,"co.yu":true,"edu.yu":true,"gov.yu":true,"org.yu":true,"ac.za":true,"agric.za":true,"alt.za":true,"bourse.za":true,"city.za":true,"co.za":true,"cybernet.za":true,"db.za":true,"ecape.school.za":true,"edu.za":true,"fs.school.za":true,"gov.za":true,"gp.school.za":true,"grondar.za":true,"iaccess.za":true,"imt.za":true,"inca.za":true,"kzn.school.za":true,"landesign.za":true,"law.za":true,"lp.school.za":true,"mil.za":true,"mpm.school.za":true,"ncape.school.za":true,"net.za":true,"ngo.za":true,"nis.za":true,"nom.za":true,"nw.school.za":true,"olivetti.za":true,"org.za":true,"pix.za":true,"school.za":true,"tm.za":true,"wcape.school.za":true,"web.za":true,"ac.zm":true,"co.zm":true,"com.zm":true,"edu.zm":true,"gov.zm":true,"net.zm":true,"org.zm":true,"sch.zm":true}},59715:(e,t,r)=>{var u=r(43875)
+e.exports=function(e,t){if("string"!==typeof e)return false
+t instanceof Object||(t={})
+e=e.toLowerCase()
+var r=/^([a-z0-9-.*]+)$/g
+if(!r.test(e))return false
+var o=/(.*)\.(([a-z0-9]+)(\.[a-z0-9]+))/
+var n=e.match(o)
+var a=null
+var i=null
+if(n&&n.length>2&&u[n[2]]){a=n[2]
+i=n[1].split(".")}if(!i){i=e.split(".")
+if(i.length<=1)return false
+a=i.pop()
+var s=/^(?:xn--)?(?!^\d+$)[a-z0-9]+$/gi
+if(!s.test(a))return false}if(false==t.subdomain&&i.length>1)return false
+var l=i.every((function(e,r){if(t.wildcard&&0===r&&"*"===e&&i.length>1)return true
+var u=/^(?!:\/\/)([a-z0-9]+|[a-z0-9][a-z0-9-]*[a-z0-9])$/gi
+return u.test(e)}))
+return l}},89881:(e,t,r)=>{var u=r(47816),o=r(99291)
+var n=o(u)
+e.exports=n},28483:(e,t,r)=>{var u=r(25063)
+var o=u()
+e.exports=o},47816:(e,t,r)=>{var u=r(28483),o=r(3674)
+function n(e,t){return e&&u(e,t,o)}e.exports=n},97786:(e,t,r)=>{var u=r(71811),o=r(40327)
+function n(e,t){t=u(t,e)
+var r=0,n=t.length
+while(null!=e&&r<n)e=e[o(t[r++])]
+return r&&r==n?e:void 0}e.exports=n},69199:(e,t,r)=>{var u=r(89881),o=r(98612)
+function n(e,t){var r=-1,n=o(e)?Array(e.length):[]
+u(e,(function(e,u,o){n[++r]=t(e,u,o)}))
+return n}e.exports=n},80531:(e,t,r)=>{var u=r(62705),o=r(29932),n=r(1469),a=r(33448)
+var i=1/0
+var s=u?u.prototype:void 0,l=s?s.toString:void 0
+function c(e){if("string"==typeof e)return e
+if(n(e))return o(e,c)+""
+if(a(e))return l?l.call(e):""
+var t=e+""
+return"0"==t&&1/e==-i?"-0":t}e.exports=c},71811:(e,t,r)=>{var u=r(1469),o=r(15403),n=r(55514),a=r(79833)
+function i(e,t){if(u(e))return e
+return o(e,t)?[e]:n(a(e))}e.exports=i},99291:(e,t,r)=>{var u=r(98612)
+function o(e,t){return function(r,o){if(null==r)return r
+if(!u(r))return e(r,o)
+var n=r.length,a=t?n:-1,i=Object(r)
+while(t?a--:++a<n)if(false===o(i[a],a,i))break
+return r}}e.exports=o},25063:e=>{function t(e){return function(t,r,u){var o=-1,n=Object(t),a=u(t),i=a.length
+while(i--){var s=a[e?i:++o]
+if(false===r(n[s],s,n))break}return t}}e.exports=t},15403:(e,t,r)=>{var u=r(1469),o=r(33448)
+var n=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,a=/^\w*$/
+function i(e,t){if(u(e))return false
+var r=typeof e
+if("number"==r||"symbol"==r||"boolean"==r||null==e||o(e))return true
+return a.test(e)||!n.test(e)||null!=t&&e in Object(t)}e.exports=i},24523:(e,t,r)=>{var u=r(88306)
+var o=500
+function n(e){var t=u(e,(function(e){r.size===o&&r.clear()
+return e}))
+var r=t.cache
+return t}e.exports=n},55514:(e,t,r)=>{var u=r(24523)
+var o=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g
+var n=/\\(\\)?/g
+var a=u((function(e){var t=[]
+46===e.charCodeAt(0)&&t.push("")
+e.replace(o,(function(e,r,u,o){t.push(u?o.replace(n,"$1"):r||e)}))
+return t}))
+e.exports=a},40327:(e,t,r)=>{var u=r(33448)
+var o=1/0
+function n(e){if("string"==typeof e||u(e))return e
+var t=e+""
+return"0"==t&&1/e==-o?"-0":t}e.exports=n},27361:(e,t,r)=>{var u=r(97786)
+function o(e,t,r){var o=null==e?void 0:u(e,t)
+return void 0===o?r:o}e.exports=o},33448:(e,t,r)=>{var u=r(44239),o=r(37005)
+var n="[object Symbol]"
+function a(e){return"symbol"==typeof e||o(e)&&u(e)==n}e.exports=a},88306:(e,t,r)=>{var u=r(83369)
+var o="Expected a function"
+function n(e,t){if("function"!=typeof e||null!=t&&"function"!=typeof t)throw new TypeError(o)
+var r=function(){var u=arguments,o=t?t.apply(this,u):u[0],n=r.cache
+if(n.has(o))return n.get(o)
+var a=e.apply(this,u)
+r.cache=n.set(o,a)||n
+return a}
+r.cache=new(n.Cache||u)
+return r}n.Cache=u
+e.exports=n},79833:(e,t,r)=>{var u=r(80531)
+function o(e){return null==e?"":u(e)}e.exports=o},55877:(e,t,r)=>{var u=r(23570)
+var o=r(71171)
+var n=o
+n.v1=u
+n.v4=o
+e.exports=n},45327:e=>{var t=[]
+for(var r=0;r<256;++r)t[r]=(r+256).toString(16).substr(1)
+function u(e,r){var u=r||0
+var o=t
+return[o[e[u++]],o[e[u++]],o[e[u++]],o[e[u++]],"-",o[e[u++]],o[e[u++]],"-",o[e[u++]],o[e[u++]],"-",o[e[u++]],o[e[u++]],"-",o[e[u++]],o[e[u++]],o[e[u++]],o[e[u++]],o[e[u++]],o[e[u++]]].join("")}e.exports=u},85217:e=>{var t="undefined"!=typeof crypto&&crypto.getRandomValues&&crypto.getRandomValues.bind(crypto)||"undefined"!=typeof msCrypto&&"function"==typeof window.msCrypto.getRandomValues&&msCrypto.getRandomValues.bind(msCrypto)
+if(t){var r=new Uint8Array(16)
+e.exports=function(){t(r)
+return r}}else{var u=new Array(16)
+e.exports=function(){for(var e,t=0;t<16;t++){0===(3&t)&&(e=4294967296*Math.random())
+u[t]=e>>>((3&t)<<3)&255}return u}}},23570:(e,t,r)=>{var u=r(85217)
+var o=r(45327)
+var n
+var a
+var i=0
+var s=0
+function l(e,t,r){var l=t&&r||0
+var c=t||[]
+e=e||{}
+var d=e.node||n
+var m=void 0!==e.clockseq?e.clockseq:a
+if(null==d||null==m){var v=u()
+null==d&&(d=n=[1|v[0],v[1],v[2],v[3],v[4],v[5]])
+null==m&&(m=a=16383&(v[6]<<8|v[7]))}var p=void 0!==e.msecs?e.msecs:(new Date).getTime()
+var g=void 0!==e.nsecs?e.nsecs:s+1
+var h=p-i+(g-s)/1e4
+h<0&&void 0===e.clockseq&&(m=m+1&16383);(h<0||p>i)&&void 0===e.nsecs&&(g=0)
+if(g>=1e4)throw new Error("uuid.v1(): Can't create more than 10M uuids/sec")
+i=p
+s=g
+a=m
+p+=122192928e5
+var f=(1e4*(268435455&p)+g)%4294967296
+c[l++]=f>>>24&255
+c[l++]=f>>>16&255
+c[l++]=f>>>8&255
+c[l++]=255&f
+var b=p/4294967296*1e4&268435455
+c[l++]=b>>>8&255
+c[l++]=255&b
+c[l++]=b>>>24&15|16
+c[l++]=b>>>16&255
+c[l++]=m>>>8|128
+c[l++]=255&m
+for(var y=0;y<6;++y)c[l+y]=d[y]
+return t||o(c)}e.exports=l},71171:(e,t,r)=>{var u=r(85217)
+var o=r(45327)
+function n(e,t,r){var n=t&&r||0
+if("string"==typeof e){t="binary"===e?new Array(16):null
+e=null}e=e||{}
+var a=e.random||(e.rng||u)()
+a[6]=15&a[6]|64
+a[8]=63&a[8]|128
+if(t)for(var i=0;i<16;++i)t[n+i]=a[i]
+return t||o(a)}e.exports=n}}])
+
+//# sourceMappingURL=[request]-c-7dd91bd792.js.map

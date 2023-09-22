@@ -1,0 +1,749 @@
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[92828],{90028:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>o})
+const s={}.hasOwnProperty
+function n(t){null==t&&(t={})
+this.normalizeBoolean=this.normalizeBoolean.bind(this)
+this.present=this.present.bind(this)
+this.excludesSmallMatches=this.excludesSmallMatches.bind(this)
+this.toJSON=this.toJSON.bind(this)
+this.percent=this.percent.bind(this)
+this.words=this.words.bind(this)
+this.originalityReportVisibility=t.originality_report_visibility||"immediate"
+this.sPaperCheck=this.normalizeBoolean(t.s_paper_check)
+this.internetCheck=this.normalizeBoolean(t.internet_check)
+this.excludeBiblio=this.normalizeBoolean(t.exclude_biblio)
+this.excludeQuoted=this.normalizeBoolean(t.exclude_quoted)
+this.journalCheck=this.normalizeBoolean(t.journal_check)
+this.excludeSmallMatchesType=t.exclude_small_matches_type
+this.excludeSmallMatchesValue=t.exclude_small_matches_value||0
+this.submitPapersTo=!t.hasOwnProperty("submit_papers_to")||this.normalizeBoolean(t.submit_papers_to)}n.prototype.words=function(){return"words"===this.excludeSmallMatchesType?this.excludeSmallMatchesValue:""}
+n.prototype.percent=function(){return"percent"===this.excludeSmallMatchesType?this.excludeSmallMatchesValue:""}
+n.prototype.toJSON=function(){return{s_paper_check:this.sPaperCheck,originality_report_visibility:this.originalityReportVisibility,internet_check:this.internetCheck,exclude_biblio:this.excludeBiblio,exclude_quoted:this.excludeQuoted,journal_check:this.journalCheck,exclude_small_matches_type:this.excludeSmallMatchesType,exclude_small_matches_value:this.excludeSmallMatchesValue,submit_papers_to:this.submitPapersTo}}
+n.prototype.excludesSmallMatches=function(){return!(null==this.excludeSmallMatchesType)}
+n.prototype.present=function(){const t={}
+const e=this
+for(const i in e){if(!s.call(e,i))continue
+const n=e[i]
+t[i]=n}t.excludesSmallMatches=this.excludesSmallMatches()
+t.words=this.words()
+t.percent=this.percent()
+return t}
+n.prototype.normalizeBoolean=function(t){return["1",true,"true",1].includes(t)}
+const o=n},65116:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>o})
+const s={}.hasOwnProperty
+function n(t){null==t&&(t={})
+this.normalizeBoolean=this.normalizeBoolean.bind(this)
+this.present=this.present.bind(this)
+this.toJSON=this.toJSON.bind(this)
+this.originalityReportVisibility=t.originality_report_visibility||"immediate"
+this.excludeQuoted=this.normalizeBoolean(t.exclude_quoted)
+this.excludeSelfPlag=this.normalizeBoolean(t.exclude_self_plag)
+this.storeInIndex=this.normalizeBoolean(t.store_in_index)}n.prototype.toJSON=function(){return{originality_report_visibility:this.originalityReportVisibility,exclude_quoted:this.excludeQuoted,exclude_self_plag:this.excludeSelfPlag,store_in_index:this.storeInIndex}}
+n.prototype.present=function(){const t={}
+const e=this
+for(const i in e){if(!s.call(e,i))continue
+const n=e[i]
+t[i]=n}return t}
+n.prototype.normalizeBoolean=function(t){return["1",true,"true",1].includes(t)}
+const o=n},15386:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>h})
+var s=i(64598)
+var n=i(87155)
+var o=i(25683)
+var r=i.n(o)
+var u=i(10174)
+var a=i(32554);(0,s.l)(l,n.ZP.Collection)
+function l(){this.isSimple=this.isSimple.bind(this)
+this.datesJSON=this.datesJSON.bind(this)
+this.toJSON=this.toJSON.bind(this)
+this.blank=this.blank.bind(this)
+this.containsDefaultDueDate=this.containsDefaultDueDate.bind(this)
+this.getDefaultDueDate=this.getDefaultDueDate.bind(this)
+this.courseSectionIDs=this.courseSectionIDs.bind(this)
+return l.__super__.constructor.apply(this,arguments)}l.prototype.model=u.Z
+l.prototype.courseSectionIDs=function(){return this.pluck("course_section_id")}
+l.prototype.comparator=function(t){return t.id}
+l.prototype.getDefaultDueDate=function(){return this.detect((function(t){return t.getCourseSectionID()===a.Z.defaultDueDateSectionID}))}
+l.prototype.containsDefaultDueDate=function(){return!!this.getDefaultDueDate()}
+l.prototype.blank=function(){return this.select((function(t){return t.isBlank()}))}
+l.prototype.toJSON=function(){const t=this.reject((function(t){return t.representsDefaultDueDate()}))
+return r().map(t,(function(t){return t.toJSON().assignment_override}))}
+l.prototype.datesJSON=function(){return this.map((function(t){return t.toJSON().assignment_override}))}
+l.prototype.isSimple=function(){return 0===r().difference(this.courseSectionIDs(),[a.Z.defaultDueDateSectionID]).length}
+const h=l},92828:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>N})
+var s=i(64598)
+var n=i(6507)
+var o=i.n(n)
+var r=i(25683)
+var u=i.n(r)
+var a=i(87155)
+var l=i(84650)
+var h=i(90028)
+var d=i(65116)
+var c=i(88487)
+var p=i(15386)
+var g=i(48114)
+var _=i(61323)
+var f=i(94883)
+var m=i(75149)
+var b=i(40291)
+var y=i(37689)
+function T(t,e){if(!(t&&e))return false
+const i=new URL(t)
+const s=new URL(e)
+return i.origin===s.origin}const D=(0,_.useScope)("models_Assignment")
+const S={}.hasOwnProperty
+const x="https://canvas.instructure.com/lti/mastery_connect_assessment"
+const v=function(){let t
+return null!=(t=ENV.PERMISSIONS)?t.manage:void 0}
+const w=function(){return u().includes(ENV.current_user_roles,"admin")}
+const I=function(){return u().includes(ENV.current_user_roles,"student")&&!v()};(0,s.l)(A,a.Hn)
+function A(){this.quizzesRespondusEnabled=this.quizzesRespondusEnabled.bind(this)
+this.showGradersAnonymousToGradersCheckbox=this.showGradersAnonymousToGradersCheckbox.bind(this)
+this.pollUntilFinished=this.pollUntilFinished.bind(this)
+this.pollUntilFinishedLoading=this.pollUntilFinishedLoading.bind(this)
+this.pollUntilFinishedMigrating=this.pollUntilFinishedMigrating.bind(this)
+this.pollUntilFinishedImporting=this.pollUntilFinishedImporting.bind(this)
+this.pollUntilFinishedDuplicating=this.pollUntilFinishedDuplicating.bind(this)
+this.retry_migration=this.retry_migration.bind(this)
+this.duplicate_failed=this.duplicate_failed.bind(this)
+this.duplicate=this.duplicate.bind(this)
+this.setNullDates=this.setNullDates.bind(this)
+this._filterFrozenAttributes=this._filterFrozenAttributes.bind(this)
+this._getAssignmentType=this._getAssignmentType.bind(this)
+this._hasOnlyType=this._hasOnlyType.bind(this)
+this._submissionTypes=this._submissionTypes.bind(this)
+this.toView=this.toView.bind(this)
+this.submissionTypesFrozen=this.submissionTypesFrozen.bind(this)
+this.failedToImport=this.failedToImport.bind(this)
+this.isImporting=this.isImporting.bind(this)
+this.isQuizLTIAssignment=this.isQuizLTIAssignment.bind(this)
+this.is_quiz_assignment=this.is_quiz_assignment.bind(this)
+this.originalAssignmentName=this.originalAssignmentName.bind(this)
+this.originalAssignmentID=this.originalAssignmentID.bind(this)
+this.originalQuizID=this.originalQuizID.bind(this)
+this.originalCourseID=this.originalCourseID.bind(this)
+this.failedToMigrate=this.failedToMigrate.bind(this)
+this.failedToDuplicate=this.failedToDuplicate.bind(this)
+this.isMigrating=this.isMigrating.bind(this)
+this.isMasterCourseChildContent=this.isMasterCourseChildContent.bind(this)
+this.isDuplicating=this.isDuplicating.bind(this)
+this.canDuplicate=this.canDuplicate.bind(this)
+this.singleSectionDueDate=this.singleSectionDueDate.bind(this)
+this.singleSection=this.singleSection.bind(this)
+this.allDates=this.allDates.bind(this)
+this.nonBaseDates=this.nonBaseDates.bind(this)
+this.hasPointsPossible=this.hasPointsPossible.bind(this)
+this.hasDueDate=this.hasDueDate.bind(this)
+this.multipleDueDates=this.multipleDueDates.bind(this)
+this.defaultDates=this.defaultDates.bind(this)
+this.showBuildButton=this.showBuildButton.bind(this)
+this.newQuizzesAssignmentBuildButtonEnabled=this.newQuizzesAssignmentBuildButtonEnabled.bind(this)
+this.hideZeroPointQuizzesOptionEnabled=this.hideZeroPointQuizzesOptionEnabled.bind(this)
+this.submissionTypeSelectionTools=this.submissionTypeSelectionTools.bind(this)
+this.dueDateRequiredForAccount=this.dueDateRequiredForAccount.bind(this)
+this.maxNameLengthRequiredForAccount=this.maxNameLengthRequiredForAccount.bind(this)
+this.maxNameLength=this.maxNameLength.bind(this)
+this.sisIntegrationSettingsEnabled=this.sisIntegrationSettingsEnabled.bind(this)
+this.postToSISName=this.postToSISName.bind(this)
+this.postToSISEnabled=this.postToSISEnabled.bind(this)
+this.labelId=this.labelId.bind(this)
+this.htmlBuildUrl=this.htmlBuildUrl.bind(this)
+this.htmlEditUrl=this.htmlEditUrl.bind(this)
+this.htmlUrl=this.htmlUrl.bind(this)
+this.objectType=this.objectType.bind(this)
+this.iconType=this.iconType.bind(this)
+this.useNewQuizIcon=this.useNewQuizIcon.bind(this)
+this.published=this.published.bind(this)
+this.isGpaScaled=this.isGpaScaled.bind(this)
+this.isLetterGraded=this.isLetterGraded.bind(this)
+this.isSimple=this.isSimple.bind(this)
+this.externalToolNewTab=this.externalToolNewTab.bind(this)
+this.externalToolDataStudentLabelText=this.externalToolDataStudentLabelText.bind(this)
+this.isMasteryConnectTool=this.isMasteryConnectTool.bind(this)
+this.externalToolCustomParamsStringified=this.externalToolCustomParamsStringified.bind(this)
+this.externalToolCustomParams=this.externalToolCustomParams.bind(this)
+this.externalToolDataStringified=this.externalToolDataStringified.bind(this)
+this.externalToolData=this.externalToolData.bind(this)
+this.externalToolIframeHeight=this.externalToolIframeHeight.bind(this)
+this.externalToolIframeWidth=this.externalToolIframeWidth.bind(this)
+this.externalToolUrl=this.externalToolUrl.bind(this)
+this.gradingStandardId=this.gradingStandardId.bind(this)
+this.groupCategoryId=this.groupCategoryId.bind(this)
+this.vericiteEnabled=this.vericiteEnabled.bind(this)
+this.turnitinEnabled=this.turnitinEnabled.bind(this)
+this.gradeGroupStudentsIndividually=this.gradeGroupStudentsIndividually.bind(this)
+this.vericiteAvailable=this.vericiteAvailable.bind(this)
+this.turnitinAvailable=this.turnitinAvailable.bind(this)
+this.allowedExtensions=this.allowedExtensions.bind(this)
+this.restrictFileExtensions=this.restrictFileExtensions.bind(this)
+this.notifyOfUpdate=this.notifyOfUpdate.bind(this)
+this.peerReviewsAssignAt=this.peerReviewsAssignAt.bind(this)
+this.peerReviewCount=this.peerReviewCount.bind(this)
+this.automaticPeerReviews=this.automaticPeerReviews.bind(this)
+this.anonymousPeerReviews=this.anonymousPeerReviews.bind(this)
+this.peerReviews=this.peerReviews.bind(this)
+this.graderCommentsVisibleToGraders=this.graderCommentsVisibleToGraders.bind(this)
+this.gradersAnonymousToGraders=this.gradersAnonymousToGraders.bind(this)
+this.anonymousGrading=this.anonymousGrading.bind(this)
+this.anonymousInstructorAnnotations=this.anonymousInstructorAnnotations.bind(this)
+this.moderatedGrading=this.moderatedGrading.bind(this)
+this.postToSIS=this.postToSIS.bind(this)
+this.isOnlineSubmission=this.isOnlineSubmission.bind(this)
+this.acceptsOnlineTextEntries=this.acceptsOnlineTextEntries.bind(this)
+this.acceptsMediaRecording=this.acceptsMediaRecording.bind(this)
+this.acceptsOnlineURL=this.acceptsOnlineURL.bind(this)
+this.acceptsAnnotatedDocument=this.acceptsAnnotatedDocument.bind(this)
+this.acceptsOnlineUpload=this.acceptsOnlineUpload.bind(this)
+this.withoutGradedSubmission=this.withoutGradedSubmission.bind(this)
+this.hasSubmittedSubmissions=this.hasSubmittedSubmissions.bind(this)
+this.allowedToSubmit=this.allowedToSubmit.bind(this)
+this.expectsSubmission=this.expectsSubmission.bind(this)
+this.submissionType=this.submissionType.bind(this)
+this.selectedSubmissionTypeToolId=this.selectedSubmissionTypeToolId.bind(this)
+this.isNonPlacementExternalTool=this.isNonPlacementExternalTool.bind(this)
+this.isGenericExternalTool=this.isGenericExternalTool.bind(this)
+this.defaultToolSelected=this.defaultToolSelected.bind(this)
+this.isQuickCreateDefaultTool=this.isQuickCreateDefaultTool.bind(this)
+this.defaultToOnPaper=this.defaultToOnPaper.bind(this)
+this.defaultToOnline=this.defaultToOnline.bind(this)
+this.defaultToNone=this.defaultToNone.bind(this)
+this.isDefaultTool=this.isDefaultTool.bind(this)
+this.shouldShowDefaultTool=this.shouldShowDefaultTool.bind(this)
+this.isNewAssignment=this.isNewAssignment.bind(this)
+this.submissionTypes=this.submissionTypes.bind(this)
+this.inPacedCourse=this.inPacedCourse.bind(this)
+this.courseID=this.courseID.bind(this)
+this.omitFromFinalGrade=this.omitFromFinalGrade.bind(this)
+this.hideInGradebook=this.hideInGradebook.bind(this)
+this.gradingType=this.gradingType.bind(this)
+this.gradedSubmissionsExist=this.gradedSubmissionsExist.bind(this)
+this.inClosedGradingPeriod=this.inClosedGradingPeriod.bind(this)
+this.frozenAttributes=this.frozenAttributes.bind(this)
+this.frozen=this.frozen.bind(this)
+this.freezeOnCopy=this.freezeOnCopy.bind(this)
+this.canMove=this.canMove.bind(this)
+this.canDelete=this.canDelete.bind(this)
+this.canFreeze=this.canFreeze.bind(this)
+this.assignmentGroupId=this.assignmentGroupId.bind(this)
+this.secureParams=this.secureParams.bind(this)
+this.pointsPossible=this.pointsPossible.bind(this)
+this.name=this.name.bind(this)
+this.description=this.description.bind(this)
+this.importantDates=this.importantDates.bind(this)
+this.dueDateRequired=this.dueDateRequired.bind(this)
+this.lockAt=this.lockAt.bind(this)
+this.unlockAt=this.unlockAt.bind(this)
+this.dueAt=this.dueAt.bind(this)
+this.assignmentType=this.assignmentType.bind(this)
+this.isAssignment=this.isAssignment.bind(this)
+this.isNotGraded=this.isNotGraded.bind(this)
+this.defaultToolUrl=this.defaultToolUrl.bind(this)
+this.defaultToolName=this.defaultToolName.bind(this)
+this.isNonPlacementExternalTool=this.isNonPlacementExternalTool.bind(this)
+this.isExternalTool=this.isExternalTool.bind(this)
+this.isPage=this.isPage.bind(this)
+this.isDiscussionTopic=this.isDiscussionTopic.bind(this)
+this.isQuiz=this.isQuiz.bind(this)
+return A.__super__.constructor.apply(this,arguments)}A.mixin(l.Z)
+A.prototype.resourceName="assignments"
+A.prototype.urlRoot=function(){return this._defaultUrl()}
+A.prototype.defaults={publishable:true,hidden:false,unpublishable:true}
+A.prototype.initialize=function(){let t,e,i,s
+null!=(e=this.get("assignment_overrides"))&&this.set("assignment_overrides",new p.Z(e))
+null!=(i=this.get("turnitin_settings"))&&this.set("turnitin_settings",new h.Z(i),{silent:true})
+null!=(s=this.get("vericite_settings"))&&this.set("vericite_settings",new d.Z(s),{silent:true})
+null!=(t=this.get("all_dates"))&&this.set("all_dates",new g.Z(t))
+if(this.postToSISEnabled()&&!this.get("id")&&false!==this.get("post_to_sis"))return this.set("post_to_sis",!!("undefined"!==typeof ENV&&null!==ENV?ENV.POST_TO_SIS_DEFAULT:void 0))}
+A.prototype.isQuiz=function(){return this._hasOnlyType("online_quiz")}
+A.prototype.isDiscussionTopic=function(){return this._hasOnlyType("discussion_topic")}
+A.prototype.isPage=function(){return this._hasOnlyType("wiki_page")}
+A.prototype.isExternalTool=function(){return this._hasOnlyType("external_tool")}
+A.prototype.isNonPlacementExternalTool=function(){return this.isExternalTool}
+A.prototype.defaultToolName=function(){return ENV.DEFAULT_ASSIGNMENT_TOOL_NAME&&escape(ENV.DEFAULT_ASSIGNMENT_TOOL_NAME).replace(/%20/g," ")}
+A.prototype.defaultToolUrl=function(){return ENV.DEFAULT_ASSIGNMENT_TOOL_URL}
+A.prototype.isNotGraded=function(){return this._hasOnlyType("not_graded")}
+A.prototype.isAssignment=function(){return!u().includes(this._submissionTypes(),"online_quiz","discussion_topic","not_graded","external_tool")}
+A.prototype.assignmentType=function(t){if(!(arguments.length>0))return this._getAssignmentType()
+return"assignment"===t?this.set("submission_types",["none"]):this.set("submission_types",[t])}
+A.prototype.dueAt=function(t){if(!(arguments.length>0))return this.get("due_at")
+return this.set("due_at",t)}
+A.prototype.unlockAt=function(t){if(!(arguments.length>0))return this.get("unlock_at")
+return this.set("unlock_at",t)}
+A.prototype.lockAt=function(t){if(!(arguments.length>0))return this.get("lock_at")
+return this.set("lock_at",t)}
+A.prototype.dueDateRequired=function(t){if(!(arguments.length>0))return this.get("dueDateRequired")
+return this.set("dueDateRequired",t)}
+A.prototype.importantDates=function(t){if(!(arguments.length>0))return this.get("important_dates")
+return this.set("important_dates",t)}
+A.prototype.description=function(t){if(!(arguments.length>0))return this.get("description")
+return this.set("description",t)}
+A.prototype.name=function(t){if(!(arguments.length>0))return this.get("name")
+return this.set("name",t)}
+A.prototype.pointsPossible=function(t){if(!(arguments.length>0))return this.get("points_possible")||0
+return b.Z.validate(t)?this.set("points_possible",b.Z.parse(t)):this.set("points_possible",t)}
+A.prototype.secureParams=function(){return this.get("secure_params")}
+A.prototype.assignmentGroupId=function(t){if(!(arguments.length>0))return this.get("assignment_group_id")
+return this.set("assignment_group_id",t)}
+A.prototype.canFreeze=function(){return null!=this.get("frozen_attributes")&&!this.frozen()&&!this.isQuizLTIAssignment()}
+A.prototype.canDelete=function(){return!this.inClosedGradingPeriod()&&!this.frozen()}
+A.prototype.canMove=function(){return!this.inClosedGradingPeriod()&&!u().includes(this.frozenAttributes(),"assignment_group_id")}
+A.prototype.freezeOnCopy=function(){return this.get("freeze_on_copy")}
+A.prototype.frozen=function(){return this.get("frozen")}
+A.prototype.frozenAttributes=function(){return this.get("frozen_attributes")||[]}
+A.prototype.inClosedGradingPeriod=function(){if(w())return false
+return this.get("in_closed_grading_period")}
+A.prototype.gradedSubmissionsExist=function(){return this.get("graded_submissions_exist")}
+A.prototype.gradingType=function(t){if(!t)return this.get("grading_type")||"points"
+return this.set("grading_type",t)}
+A.prototype.omitFromFinalGrade=function(t){if(!(arguments.length>0))return this.get("omit_from_final_grade")
+return this.set("omit_from_final_grade",t)}
+A.prototype.hideInGradebook=function(t){if(!(arguments.length>0))return this.get("hide_in_gradebook")
+return this.set("hide_in_gradebook",t)}
+A.prototype.courseID=function(){return this.get("course_id")}
+A.prototype.inPacedCourse=function(){return this.get("in_paced_course")}
+A.prototype.submissionTypes=function(t){if(!(arguments.length>0))return this._submissionTypes()
+return this.set("submission_types",t)}
+A.prototype.isNewAssignment=function(){return!this.name()}
+A.prototype.shouldShowDefaultTool=function(){if(!this.defaultToolUrl())return false
+return this.defaultToolSelected()||this.isQuickCreateDefaultTool()||this.isNewAssignment()}
+A.prototype.isDefaultTool=function(){return"external_tool"===this.submissionType()&&this.shouldShowDefaultTool()}
+A.prototype.defaultToNone=function(){return"none"===this.submissionType()&&!this.shouldShowDefaultTool()}
+A.prototype.defaultToOnline=function(){return"online"===this.submissionType()&&!this.shouldShowDefaultTool()}
+A.prototype.defaultToOnPaper=function(){return"on_paper"===this.submissionType()&&!this.shouldShowDefaultTool()}
+A.prototype.isQuickCreateDefaultTool=function(){return this.submissionTypes().includes("default_external_tool")}
+A.prototype.defaultToolSelected=function(){return T(this.defaultToolUrl(),this.externalToolUrl())}
+A.prototype.isGenericExternalTool=function(){return"external_tool"===this.submissionType()&&!this.isDefaultTool()&&!this.selectedSubmissionTypeToolId()}
+A.prototype.isNonPlacementExternalTool=function(){return"external_tool"===this.submissionType()&&!this.selectedSubmissionTypeToolId()}
+A.prototype.selectedSubmissionTypeToolId=function(){let t
+if("external_tool"!==this.submissionType())return
+const e=null!=(t=this.get("external_tool_tag_attributes"))?t.content_id:void 0
+if(e&&u().find(this.submissionTypeSelectionTools(),(function(t){return e===t.id})))return e}
+A.prototype.submissionType=function(){const t=this._submissionTypes()
+return u().includes(t,"none")||0===t.length?"none":u().includes(t,"on_paper")?"on_paper":u().includes(t,"external_tool")||u().includes(t,"default_external_tool")?"external_tool":"online"}
+A.prototype.expectsSubmission=function(){const t=this._submissionTypes()
+return t.length>0&&!u().includes(t,"")&&!u().includes(t,"none")&&!u().includes(t,"not_graded")&&!u().includes(t,"on_paper")&&!u().includes(t,"external_tool")}
+A.prototype.allowedToSubmit=function(){const t=this._submissionTypes()
+return this.expectsSubmission()&&!this.get("locked_for_user")&&!u().includes(t,"online_quiz")&&!u().includes(t,"attendance")}
+A.prototype.hasSubmittedSubmissions=function(){return this.get("has_submitted_submissions")}
+A.prototype.withoutGradedSubmission=function(){const t=this.get("submission")
+return null==t||t.withoutGradedSubmission()}
+A.prototype.acceptsOnlineUpload=function(){return!!u().includes(this._submissionTypes(),"online_upload")}
+A.prototype.acceptsAnnotatedDocument=function(){return!!u().includes(this._submissionTypes(),"student_annotation")}
+A.prototype.acceptsOnlineURL=function(){return!!u().includes(this._submissionTypes(),"online_url")}
+A.prototype.acceptsMediaRecording=function(){return!!u().includes(this._submissionTypes(),"media_recording")}
+A.prototype.acceptsOnlineTextEntries=function(){return!!u().includes(this._submissionTypes(),"online_text_entry")}
+A.prototype.isOnlineSubmission=function(){return u().some(this._submissionTypes(),(function(t){return"online"===t||"online_text_entry"===t||"media_recording"===t||"online_url"===t||"online_upload"===t||"student_annotation"===t}))}
+A.prototype.postToSIS=function(t){if(!(arguments.length>0))return this.get("post_to_sis")
+return this.set("post_to_sis",t)}
+A.prototype.moderatedGrading=function(t){if(!(arguments.length>0))return this.get("moderated_grading")||false
+return this.set("moderated_grading",t)}
+A.prototype.anonymousInstructorAnnotations=function(t){if(!(arguments.length>0))return this.get("anonymous_instructor_annotations")
+return this.set("anonymous_instructor_annotations",t)}
+A.prototype.anonymousGrading=function(t){if(!(arguments.length>0))return this.get("anonymous_grading")
+return this.set("anonymous_grading",t)}
+A.prototype.gradersAnonymousToGraders=function(t){if(!(arguments.length>0))return this.get("graders_anonymous_to_graders")
+return this.set("graders_anonymous_to_graders",t)}
+A.prototype.graderCommentsVisibleToGraders=function(t){if(!(arguments.length>0))return!!this.get("grader_comments_visible_to_graders")
+return this.set("grader_comments_visible_to_graders",t)}
+A.prototype.peerReviews=function(t){if(!(arguments.length>0))return this.get("peer_reviews")
+return this.set("peer_reviews",t)}
+A.prototype.anonymousPeerReviews=function(t){if(!(arguments.length>0))return this.get("anonymous_peer_reviews")
+return this.set("anonymous_peer_reviews",t)}
+A.prototype.automaticPeerReviews=function(t){if(!(arguments.length>0))return this.get("automatic_peer_reviews")
+return this.set("automatic_peer_reviews",t)}
+A.prototype.peerReviewCount=function(t){if(!(arguments.length>0))return this.get("peer_review_count")||0
+return this.set("peer_review_count",t)}
+A.prototype.peerReviewsAssignAt=function(t){if(!(arguments.length>0))return this.get("peer_reviews_assign_at")||null
+return this.set("peer_reviews_assign_at",t)}
+A.prototype.intraGroupPeerReviews=function(){return this.get("intra_group_peer_reviews")}
+A.prototype.notifyOfUpdate=function(t){if(!(arguments.length>0))return this.get("notify_of_update")
+return this.set("notify_of_update",t)}
+A.prototype.restrictFileExtensions=function(){return!!this.allowedExtensions()}
+A.prototype.allowedExtensions=function(t){if(!(arguments.length>0))return this.get("allowed_extensions")
+return this.set("allowed_extensions",t)}
+A.prototype.turnitinAvailable=function(){return"undefined"!==typeof this.get("turnitin_enabled")}
+A.prototype.vericiteAvailable=function(){return"undefined"!==typeof this.get("vericite_enabled")}
+A.prototype.gradeGroupStudentsIndividually=function(t){if(!(arguments.length>0))return this.get("grade_group_students_individually")
+return this.set("grade_group_students_individually",t)}
+A.prototype.turnitinEnabled=function(t){return 0===arguments.length?void 0!==this.get("turnitin_enabled")&&!!this.get("turnitin_enabled"):this.set("turnitin_enabled",t)}
+A.prototype.vericiteEnabled=function(t){return 0===arguments.length?void 0!==this.get("vericite_enabled")&&!!this.get("vericite_enabled"):this.set("vericite_enabled",t)}
+A.prototype.groupCategoryId=function(t){if(!(arguments.length>0))return this.get("group_category_id")
+return this.set("group_category_id",t)}
+A.prototype.canGroup=function(){return!this.get("has_submitted_submissions")}
+A.prototype.isPlagiarismPlatformLocked=function(){return this.get("has_submitted_submissions")||u().includes(this.frozenAttributes(),"submission_types")}
+A.prototype.gradingStandardId=function(t){if(!(arguments.length>0))return this.get("grading_standard_id")
+return this.set("grading_standard_id",t)}
+A.prototype.externalToolUrl=function(t){const e=this.get("external_tool_tag_attributes")||{}
+if(!(arguments.length>0))return e.url
+e.url=t
+return this.set("external_tool_tag_attributes",e)}
+A.prototype.externalToolIframeWidth=function(t){let e
+const i=this.get("external_tool_tag_attributes")||{}
+if(!(arguments.length>0))return null!=i&&null!=(e=i.iframe)?e.width:void 0
+i.iframe.width=t
+return this.set("external_tool_tag_attributes",i)}
+A.prototype.externalToolIframeHeight=function(t){let e
+const i=this.get("external_tool_tag_attributes")||{}
+if(!(arguments.length>0))return null!=i&&null!=(e=i.iframe)?e.height:void 0
+i.iframe.height=t
+return this.set("external_tool_tag_attributes",i)}
+A.prototype.externalToolData=function(){const t=this.get("external_tool_tag_attributes")||{}
+return t.external_data}
+A.prototype.externalToolDataStringified=function(){const t=this.externalToolData()
+if(t)return JSON.stringify(t)
+return""}
+A.prototype.externalToolCustomParams=function(t){const e=this.get("external_tool_tag_attributes")||{}
+if(!(arguments.length>0))return e.custom_params
+e.custom_params=t
+return this.set("external_tool_tag_attributes",e)}
+A.prototype.externalToolCustomParamsStringified=function(){const t=this.externalToolCustomParams()
+if(t)return JSON.stringify(t)
+return""}
+A.prototype.externalToolLineItem=function(t){const e=this.get("external_tool_tag_attributes")||{}
+if(!(arguments.length>0))return e.line_item
+e.line_item=t
+return this.set("external_tool_tag_attributes",e)}
+A.prototype.externalToolLineItemStringified=function(){const t=this.externalToolLineItem()
+if(t)return JSON.stringify(t)
+return""}
+A.prototype.isMasteryConnectTool=function(){let t
+const e=this.get("external_tool_tag_attributes")||{}
+return(null!=e&&null!=(t=e.external_data)?t.key:void 0)===x}
+A.prototype.externalToolDataStudentLabelText=function(){const t=this.externalToolData()
+if(!t)return""
+if(1===t.studentCount)return D.t("Student")
+return D.t("Students")}
+A.prototype.externalToolNewTab=function(t){const e=this.get("external_tool_tag_attributes")||{}
+if(!(arguments.length>0))return e.new_tab
+e.new_tab=t
+return this.set("external_tool_tag_attributes",e)}
+A.prototype.isSimple=function(){const t=this.get("assignment_overrides")
+return"points"===this.gradingType()&&"none"===this.submissionType()&&!this.groupCategoryId()&&!this.peerReviews()&&!this.frozen()&&(!t||t.isSimple())}
+A.prototype.isLetterGraded=function(){return"letter_grade"===this.gradingType()}
+A.prototype.isGpaScaled=function(){return"gpa_scale"===this.gradingType()}
+A.prototype.published=function(t){if(!(arguments.length>0))return this.get("published")
+return this.set("published",t)}
+A.prototype.useNewQuizIcon=function(){return ENV.FLAGS&&ENV.FLAGS.newquizzes_on_quiz_page&&(this.isQuiz()&&I()||this.isQuizLTIAssignment())}
+A.prototype.position=function(t){if(!(arguments.length>0))return this.get("position")||0
+return this.set("position",t)}
+A.prototype.iconType=function(){if(this.useNewQuizIcon())return"quiz icon-Solid"
+if(this.isQuiz())return"quiz"
+if(this.isDiscussionTopic())return"discussion"
+if(this.isPage())return"document"
+return"assignment"}
+A.prototype.objectType=function(){if(this.isQuiz())return"Quiz"
+if(this.isDiscussionTopic())return"Discussion"
+if(this.isPage())return"WikiPage"
+return"Assignment"}
+A.prototype.objectTypeDisplayName=function(){if(this.isQuiz()||this.isQuizLTIAssignment()&&I())return D.t("Quiz")
+if(this.isQuizLTIAssignment())return D.t("New Quiz")
+if(this.isDiscussionTopic())return D.t("Discussion Topic")
+if(this.isPage())return D.t("Page")
+return D.t("Assignment")}
+A.prototype.htmlUrl=function(){return this.isQuizLTIAssignment()&&v()?this.htmlEditUrl()+"?quiz_lti":this.get("html_url")}
+A.prototype.htmlEditUrl=function(){return this.get("html_url")+"/edit"}
+A.prototype.htmlBuildUrl=function(){return this.get("html_url")}
+A.prototype.labelId=function(){return this.id}
+A.prototype.postToSISEnabled=function(){return ENV.POST_TO_SIS}
+A.prototype.postToSISName=function(){return ENV.SIS_NAME}
+A.prototype.sisIntegrationSettingsEnabled=function(){return ENV.SIS_INTEGRATION_SETTINGS_ENABLED}
+A.prototype.maxNameLength=function(){return ENV.MAX_NAME_LENGTH}
+A.prototype.maxNameLengthRequiredForAccount=function(){return ENV.MAX_NAME_LENGTH_REQUIRED_FOR_ACCOUNT}
+A.prototype.dueDateRequiredForAccount=function(){return ENV.DUE_DATE_REQUIRED_FOR_ACCOUNT}
+A.prototype.submissionTypeSelectionTools=function(){return ENV.SUBMISSION_TYPE_SELECTION_TOOLS||[]}
+A.prototype.newQuizzesAssignmentBuildButtonEnabled=function(){return ENV.NEW_QUIZZES_ASSIGNMENT_BUILD_BUTTON_ENABLED}
+A.prototype.hideZeroPointQuizzesOptionEnabled=function(){return ENV.HIDE_ZERO_POINT_QUIZZES_OPTION_ENABLED}
+A.prototype.showBuildButton=function(){return this.isQuizLTIAssignment()&&this.newQuizzesAssignmentBuildButtonEnabled()}
+A.prototype.defaultDates=function(){const t=this.singleSection()
+return new c.Z({due_at:this.get("due_at"),unlock_at:this.get("unlock_at"),lock_at:this.get("lock_at"),single_section_unlock_at:null!=t?t.unlockAt:void 0,single_section_lock_at:null!=t?t.lockAt:void 0})}
+A.prototype.multipleDueDates=function(){let t
+const e=this.get("all_dates_count")
+if(e&&e>1)return true
+t=this.get("all_dates")
+return t&&t.length>1}
+A.prototype.hasDueDate=function(){return!this.isPage()}
+A.prototype.hasPointsPossible=function(){return!this.isQuiz()&&!this.isPage()}
+A.prototype.nonBaseDates=function(){const t=this.get("all_dates")
+if(!t)return false
+const e=u().filter(t.models,(function(t){return t&&!t.get("base")}))
+return e.length>0}
+A.prototype.allDates=function(){const t=this.get("all_dates")
+const e=t&&t.models||[]
+return u().map(e,(function(t){return t.toJSON()}))}
+A.prototype.singleSection=function(){let t,e,i
+const s=this.allDates()
+if(!s||1!==s.length)return null
+for(t=0,e=s.length;t<e;t++){i=s[t]
+return i}}
+A.prototype.singleSectionDueDate=function(){let t,e,i,s
+if(this.multipleDueDates()||this.dueAt())return this.dueAt()
+t=this.allDates()
+for(e=0,i=t.length;e<i;e++){s=t[e]
+if(s.dueAt)return s.dueAt.toISOString()}}
+A.prototype.canDuplicate=function(){return this.get("can_duplicate")}
+A.prototype.isDuplicating=function(){return"duplicating"===this.get("workflow_state")}
+A.prototype.isMigrating=function(){return"migrating"===this.get("workflow_state")}
+A.prototype.isMasterCourseChildContent=function(){return!!this.get("is_master_course_child_content")}
+A.prototype.failedToDuplicate=function(){return"failed_to_duplicate"===this.get("workflow_state")}
+A.prototype.failedToMigrate=function(){return"failed_to_migrate"===this.get("workflow_state")}
+A.prototype.originalCourseID=function(){return this.get("original_course_id")}
+A.prototype.originalQuizID=function(){return this.get("original_quiz_id")}
+A.prototype.originalAssignmentID=function(){return this.get("original_assignment_id")}
+A.prototype.originalAssignmentName=function(){return this.get("original_assignment_name")}
+A.prototype.is_quiz_assignment=function(){return this.get("is_quiz_assignment")}
+A.prototype.isQuizLTIAssignment=function(){return this.get("is_quiz_lti_assignment")}
+A.prototype.isImporting=function(){return"importing"===this.get("workflow_state")}
+A.prototype.failedToImport=function(){return"failed_to_import"===this.get("workflow_state")}
+A.prototype.submissionTypesFrozen=function(){return u().includes(this.frozenAttributes(),"submission_types")}
+A.prototype.toView=function(){const t=["acceptsAnnotatedDocument","acceptsMediaRecording","acceptsOnlineTextEntries","acceptsOnlineURL","acceptsOnlineUpload","allDates","allowedExtensions","anonymousGrading","anonymousInstructorAnnotations","anonymousPeerReviews","assignmentGroupId","automaticPeerReviews","canFreeze","defaultToNone","defaultToOnPaper","defaultToOnline","defaultToolName","description","dueAt","dueDateRequired","externalToolCustomParams","externalToolCustomParamsStringified","externalToolData","externalToolLineItem","externalToolLineItemStringified","externalToolDataStringified","externalToolDataStudentLabelText","externalToolNewTab","externalToolUrl","failedToDuplicate","failedToImport","failedToMigrate","freezeOnCopy","frozen","frozenAttributes","gradeGroupStudentsIndividually","gradersAnonymousToGraders","gradingStandardId","gradingType","groupCategoryId","hasDueDate","hasPointsPossible","hideInGradebook","htmlEditUrl","htmlBuildUrl","htmlUrl","iconType","inClosedGradingPeriod","isDefaultTool","isDuplicating","isExternalTool","isGenericExternalTool","isGpaScaled","isImporting","isLetterGraded","isMasteryConnectTool","isMigrating","isMasterCourseChildContent","isNonPlacementExternalTool","isNotGraded","isOnlineSubmission","isOnlyVisibleToOverrides","isPlagiarismPlatformLocked","isQuizLTIAssignment","isSimple","is_quiz_assignment","labelId","lockAt","moderatedGrading","multipleDueDates","name","newQuizzesAssignmentBuildButtonEnabled","hideZeroPointQuizzesOptionEnabled","nonBaseDates","notifyOfUpdate","objectTypeDisplayName","omitFromFinalGrade","originalAssignmentName","peerReviewCount","peerReviews","peerReviewsAssignAt","pointsPossible","position","postToSIS","postToSISEnabled","published","restrictFileExtensions","secureParams","selectedSubmissionTypeToolId","showBuildButton","showGradersAnonymousToGradersCheckbox","singleSectionDueDate","submissionType","submissionTypeSelectionTools","submissionTypesFrozen","turnitinAvailable","turnitinEnabled","unlockAt","vericiteAvailable","vericiteEnabled","importantDates","externalToolIframeWidth","externalToolIframeHeight"]
+const e={id:this.get("id"),is_master_course_child_content:this.get("is_master_course_child_content"),restricted_by_master_course:this.get("restricted_by_master_course"),master_course_restrictions:this.get("master_course_restrictions"),restrict_quantitative_data:this.get("restrict_quantitative_data")}
+for(let i=0,s=t.length;i<s;i++){const s=t[i]
+e[s]=this[s]()}return e}
+A.prototype.toJSON=function(){let t=A.__super__.toJSON.apply(this,arguments)
+let e,i,s
+t=this._filterFrozenAttributes(t);(null!=(e=ENV.MASTER_COURSE_DATA)?e.is_master_course_child_content:void 0)&&(null!=(i=ENV.MASTER_COURSE_DATA)&&null!=(s=i.master_course_restrictions)?s.content:void 0)&&delete t.description
+return this.alreadyScoped?t:{assignment:t}}
+A.prototype.inGradingPeriod=function(t){const e=this.get("all_dates")
+const i=new f.Z(t)
+return e?u().some(e.models,(function(e){return i.isDateInGradingPeriod(e.dueAt(),t.id)})):i.isDateInGradingPeriod(m.Z.parse(this.dueAt()),t.id)}
+A.prototype.search=function(t,e){let i=""===t||this.get("name").match(t)
+i&&e&&(i=this.inGradingPeriod(e))
+if(i){this.set("hidden",false)
+return true}this.set("hidden",true)
+return false}
+A.prototype.endSearch=function(){return this.set("hidden",false)}
+A.prototype.parse=function(t){let e,i,s
+t=A.__super__.parse.call(this,t)
+null!=(e=t.assignment_overrides)&&(t.assignment_overrides=new p.Z(e))
+null!=(i=t.turnitin_settings)&&(t.turnitin_settings=new h.Z(i))
+null!=(s=t.vericite_settings)&&(t.vericite_settings=new d.Z(s))
+return t}
+A.prototype.doNotParse=function(){return this.parse=function(){return{}}}
+A.prototype._submissionTypes=function(){return this.get("submission_types")||[]}
+A.prototype._hasOnlyType=function(t){const e=this._submissionTypes()
+return 1===e.length&&e[0]===t}
+A.prototype._getAssignmentType=function(){return this.isDiscussionTopic()?"discussion_topic":this.isPage()?"wiki_page":this.isQuiz()?"online_quiz":this.isExternalTool()?"external_tool":this.isNotGraded()?"not_graded":"assignment"}
+A.prototype._filterFrozenAttributes=function(t){let e
+const i=this.attributes
+for(e in i){if(!S.call(i,e))continue
+u().includes(this.frozenAttributes(),e)&&delete t[e]}u().includes(this.frozenAttributes(),"title")&&delete t.name
+u().includes(this.frozenAttributes(),"group_category_id")&&delete t.grade_group_students_individually
+if(u().includes(this.frozenAttributes(),"peer_reviews")){delete t.automatic_peer_reviews
+delete t.peer_review_count
+delete t.peer_reviews_assign_at}delete t.frozen
+delete t.frozen_attributes
+return t}
+A.prototype.setNullDates=function(){this.dueAt(null)
+this.lockAt(null)
+this.unlockAt(null)
+return this}
+A.prototype.publish=function(){return this.save("published",true)}
+A.prototype.unpublish=function(){return this.save("published",false)}
+A.prototype.disabledMessage=function(){return D.t("Can't unpublish %{name} if there are student submissions",{name:this.get("name")})}
+A.prototype.duplicate=function(t){const e=this.courseID()
+const i=this.id
+return o().ajaxJSON("/api/v1/courses/"+e+"/assignments/"+i+"/duplicate","POST",{},t)}
+A.prototype.duplicate_failed=function(t){let e
+const i=this.courseID()
+const s=this.id
+const n=this.originalCourseID()
+const r=this.originalAssignmentID()
+e="?target_assignment_id="+s
+n!==i&&(e+="&target_course_id="+i)
+return o().ajaxJSON("/api/v1/courses/"+n+"/assignments/"+r+"/duplicate"+e,"POST",{},t)}
+A.prototype.retry_migration=function(t){const e=this.courseID()
+const i=this.originalQuizID()
+const s=this.get("id")
+return o().ajaxJSON("/api/v1/courses/"+e+"/content_exports?export_type=quizzes2&quiz_id="+i+"&failed_assignment_id="+s+"&include[]=migrated_assignment","POST",{},t)}
+A.prototype.pollUntilFinishedDuplicating=function(t){null==t&&(t=3e3)
+return this.pollUntilFinished(t,this.isDuplicating)}
+A.prototype.pollUntilFinishedImporting=function(t){null==t&&(t=3e3)
+return this.pollUntilFinished(t,this.isImporting)}
+A.prototype.pollUntilFinishedMigrating=function(t){null==t&&(t=3e3)
+return this.pollUntilFinished(t,this.isMigrating)}
+A.prototype.pollUntilFinishedLoading=function(t){null==t&&(t=3e3)
+if(this.isDuplicating())return this.pollUntilFinishedDuplicating(t)
+if(this.isImporting())return this.pollUntilFinishedImporting(t)
+if(this.isMigrating())return this.pollUntilFinishedMigrating(t)}
+A.prototype.pollUntilFinished=function(t,e){const i=new y.Z(t,5*t,(s=this,function(t){return s.fetch().always((function(){t()
+if(!e())return i.stop()}))}))
+var s
+return i.start()}
+A.prototype.isOnlyVisibleToOverrides=function(t){if(!(arguments.length>0))return this.get("only_visible_to_overrides")||false
+return this.set("only_visible_to_overrides",t)}
+A.prototype.isRestrictedByMasterCourse=function(){return this.get("is_master_course_child_content")&&this.get("restricted_by_master_course")}
+A.prototype.showGradersAnonymousToGradersCheckbox=function(){return this.moderatedGrading()&&this.get("grader_comments_visible_to_graders")}
+A.prototype.quizzesRespondusEnabled=function(){return this.get("require_lockdown_browser")&&this.isQuizLTIAssignment()&&I()}
+const N=A},10174:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>d})
+var s=i(87155)
+var n=i(25683)
+var o=i.n(n)
+var r=i(32554)
+var u=i(61323)
+var a=i(41354)
+let l
+const h=(0,u.useScope)("assignmentOverride")
+const d=l=function(){l=class t extends s.ZP.Model{constructor(){super(...arguments)
+this.isBlank=this.isBlank.bind(this)
+this.getCourseSectionID=this.getCourseSectionID.bind(this)
+this.representsDefaultDueDate=this.representsDefaultDueDate.bind(this)
+this.combinedDates=this.combinedDates.bind(this)}static initClass(){this.prototype.defaults={due_at_overridden:true,due_at:null,all_day:false,all_day_date:null,unlock_at_overridden:true,unlock_at:null,lock_at_overridden:true,lock_at:null}
+this.conditionalRelease=(0,a.u)({noop_id:"1"},{name:()=>h.t("Mastery Paths")})}initialize(){super.initialize(...arguments)
+return this.on("change:course_section_id",this.clearID,this)}clearID(){return this.set("id",void 0)}parse(t){let{assignment_override:e}=t
+return e}toJSON(){return{assignment_override:super.toJSON(...arguments)}}static defaultDueDate(e){null==e&&(e={})
+const i=o().extend(e,{course_section_id:r.Z.defaultDueDateSectionID})
+return new t(i)}isBlank(){return null==this.get("due_at")}getCourseSectionID(){return this.get("course_section_id")}representsDefaultDueDate(){return this.getCourseSectionID()===r.Z.defaultDueDateSectionID}combinedDates(){const t=void 0===this.get("id")?null:this.get("id")
+return`${this.get("due_at")+this.get("unlock_at")+this.get("lock_at")+t}`}}
+l.initClass()
+return l}()},48114:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>u})
+var s=i(64598)
+var n=i(87155)
+var o=i(88487);(0,s.l)(r,n.ZP.Collection)
+function r(){return r.__super__.constructor.apply(this,arguments)}r.prototype.model=o.Z
+const u=r},88487:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>u})
+var s=i(87155)
+var n=i(61323)
+var o=i(75149)
+const r=(0,n.useScope)("models_DateGroup")
+class u extends s.ZP.Model{dueAt(){const t=this.get("due_at")
+return t?o.Z.parse(t):null}unlockAt(){const t=this.get("unlock_at")||this.get("single_section_unlock_at")
+return t?o.Z.parse(t):null}lockAt(){const t=this.get("lock_at")||this.get("single_section_lock_at")
+return t?o.Z.parse(t):null}now(){const t=this.get("now")
+return t?o.Z.parse(t):new Date}alwaysAvailable(){return!this.unlockAt()&&!this.lockAt()}pending(){const t=this.unlockAt()
+return t&&t>this.now()}available(){return this.alwaysAvailable()||!this.lockAt()&&this.unlockAt()<this.now()}open(){return this.lockAt()&&!this.pending()&&!this.closed()}closed(){const t=this.lockAt()
+return t&&t<this.now()}toJSON(){return{dueFor:this.get("title"),dueAt:this.dueAt(),unlockAt:this.unlockAt(),lockAt:this.lockAt(),available:this.available(),pending:this.pending(),open:this.open(),closed:this.closed()}}}u.prototype.defaults={get title(){return r.t("everyone_else","Everyone else")},due_at:null,unlock_at:null,lock_at:null}},94883:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>l})
+var s=i(25683)
+var n=i.n(s)
+function o(t){let e=arguments.length>1&&void 0!==arguments[1]&&arguments[1]
+let i=n().isDate(t)
+e&&!i&&(i=null===t)
+if(!i)throw new Error(`\`${t}\` must be a Date or null`)}function r(t){if(null==t)throw new Error(`'${t}' must be an array or object`)
+const e=["startDate","endDate","closeDate"]
+const i=n().isArray(t)?t:[t]
+n().each(i,(t=>{n().each(e,(e=>o(t[e])))}))
+return i}function u(t){const e=n().isString(t)
+if(!e)throw new Error(`Grading period id \`${t}\` must be a String`)}class a{constructor(t){this.gradingPeriods=void 0
+this.gradingPeriods=r(t)}static isAllGradingPeriods(t){u(t)
+return"0"===t}get earliestValidDueDate(){const t=n().sortBy(this.gradingPeriods,"startDate")
+const e=n().find(t,{isClosed:false})
+return e?e.startDate:null}gradingPeriodForDueAt(t){o(t,true)
+return n().find(this.gradingPeriods,(e=>this.isDateInGradingPeriod(t,e.id,false)))||null}isDateInGradingPeriod(t,e){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2]
+if(i){o(t,true)
+u(e)}const s=n().find(this.gradingPeriods,{id:e})
+if(!s)throw new Error(`No grading period has id \`${e}\``)
+return null===t?s.isLast:s.startDate<t&&t<=s.endDate}isDateInClosedGradingPeriod(t){const e=this.gradingPeriodForDueAt(t)
+return!!e&&e.isClosed}}const l=a},40291:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>u})
+var s=i(79680)
+var n=i.n(s)
+var o=i(61323)
+const r={_parseNumber:n(),parse(t){if(null==t)return NaN
+if("number"===typeof t)return t
+let e=r._parseNumber(t.toString(),{thousands:o["default"].lookup("number.format.delimiter"),decimal:o["default"].lookup("number.format.separator")})
+Number.isNaN(Number(e))&&(e=r._parseNumber(t))
+t.toString().match(/e/)&&Number.isNaN(Number(e))&&(e=parseFloat(t))
+return e},validate:t=>!Number.isNaN(Number(r.parse(t)))}
+const u=r},37689:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>u})
+var s=i(6507)
+var n=i.n(s)
+"INST"in window||(window.INST={})
+class o{constructor(){this.enabled=INST.pandaPubSettings
+this.subscribe=(t,e,i)=>{const s=`/${INST.pandaPubSettings.application_id}${t}`
+this.tokens[s]=e
+const o=new(n().Deferred)
+o.cancel=function(){}
+this.client((t=>{const e=t.subscribe(s,(t=>i(t)))
+e.then(o.resolve,o.reject)
+return o.cancel=()=>e.cancel()}))
+return o}
+this.on=(t,e)=>this.client((i=>i.on(t,e)))
+this.authExtension=()=>({outgoing:(t,e)=>{"/meta/subscribe"===t.channel&&t.subscription in this.tokens&&((t.ext||(t.ext={})).auth={token:this.tokens[t.subscription]})
+return e(t)}})
+this.subscribe=this.subscribe.bind(this)
+this.on=this.on.bind(this)
+this.authExtension=this.authExtension.bind(this)
+this.faye=null
+this.tokens={}}client(t){this.faye&&t(this.faye)
+this.faye||n().getScript(`${INST.pandaPubSettings.push_url}/client.js`,(()=>{this.faye=new window.Faye.Client(INST.pandaPubSettings.push_url)
+this.faye.addExtension(this.authExtension())
+t(this.faye)}))}}const r=new o
+class u{constructor(t,e,i){this.setToken=(t,e)=>{this.channel=t
+this.token=e
+r.enabled&&this.running&&this.subscribe()}
+this.setOnData=t=>{this.streamingCB=t}
+this.start=()=>{this.lastUpdate=Date.now()
+this.running=true
+this.startTimeout()
+r.enabled&&this.subscribe()}
+this.stop=()=>{this.stopTimeout()
+r.enabled&&this.unsubscribe()
+this.running=false}
+this.isRunning=()=>this.running
+this.startTimeout=()=>this.timeout=setTimeout(this.considerPoll,this.pollInterval)
+this.stopTimeout=()=>clearTimeout(this.timeout)
+this.considerPoll=()=>{let t=this.pollInterval
+r.enabled&&(t=this.rarePollInterval)
+return Date.now()-this.lastUpdate>=t?this.pollCB(this.pollDone):this.startTimeout()}
+this.pollDone=()=>{this.lastUpdate=Date.now()
+this.startTimeout()}
+this.subscribe=()=>{if(this.subscription)return
+if(!this.channel||!this.token)return
+this.subscription=r.subscribe(this.channel,this.token,(t=>{this.lastUpdate=Date.now()
+this.streamingCB(t)}))}
+this.unsubscribe=()=>{this.subscription&&this.subscription.cancel()}
+this.pollInterval=t
+this.rarePollInterval=e
+this.pollCB=i
+this.running=false
+this.lastUpdate=null
+n()(window).on("beforeunload",(()=>{this.timeout&&this.stopTimeout()}))}}},32554:(t,e,i)=>{"use strict"
+i.d(e,{Z:()=>u})
+var s=i(87155)
+var n=i(61323)
+let o
+const r=(0,n.useScope)("modelsSection")
+const u=o=function(){o=class t extends s.Hn{constructor(){super(...arguments)
+this.isDefaultDueDateSection=this.isDefaultDueDateSection.bind(this)}static initClass(){this.defaultDueDateSectionID="0"}static defaultDueDateSection(){return new t({id:t.defaultDueDateSectionID,name:r.t("overrides.everyone","Everyone")})}isDefaultDueDateSection(){return this.id===t.defaultDueDateSectionID}}
+o.initClass()
+return o}()},41354:(t,e,i)=>{"use strict"
+i.d(e,{l:()=>n,u:()=>o})
+const s={}.hasOwnProperty
+function n(t,e){for(const i in e)s.call(e,i)&&(t[i]=e[i])
+function i(){this.constructor=t}i.prototype=e.prototype
+t.prototype=new i
+t.__super__=e.prototype
+return t}function o(t,e){Object.keys(e).forEach((i=>Object.defineProperty(t,i,{get:e[i],enumerable:true,configurable:true})))
+return t}},79680:function(t){(function(){var e,i,s
+s=[]
+e={}
+t.exports=i=function(t,i,n){var o,r,u,a,l,h,d,c,p
+null==n&&(n=true)
+if("string"===typeof i){if(2!==i.length)throw{name:"ArgumentException",message:"The format for string options is '<thousands><decimal>' (exactly two characters)"}
+p=i[0],o=i[1]}else if(Array.isArray(i)){if(2!==i.length)throw{name:"ArgumentException",message:"The format for array options is ['<thousands>','[<decimal>'] (exactly two elements)"}
+p=i[0],o=i[1]}else{p=(null!=i?i.thousands:void 0)||(null!=i?i.group:void 0)||e.thousands
+o=(null!=i?i.decimal:void 0)||e.decimal}d=""+p+o+n
+h=s[d]
+if(null==h){u=n?3:1
+h=s[d]=new RegExp("^\\s*([+-]?(?:(?:\\d{1,3}(?:\\"+p+"\\d{"+u+",3})+)|\\d*))(?:\\"+o+"(\\d*))?\\s*$")}c=t.match(h)
+if(!(null!=c&&3===c.length))return NaN
+a=c[1].replace(new RegExp("\\"+p,"g"),"")
+r=c[2]
+l=parseFloat(a+"."+r)
+return l}
+t.exports.setOptions=function(t){var i,s
+for(i in t){s=t[i]
+e[i]=s}}
+t.exports.factoryReset=function(){e={thousands:",",decimal:"."}}
+t.exports.withOptions=function(t,e){null==e&&(e=true)
+return function(s){return i(s,t,e)}}
+t.exports.factoryReset()}).call(this)}}])
+
+//# sourceMappingURL=92828-c-3c418e485e.js.map

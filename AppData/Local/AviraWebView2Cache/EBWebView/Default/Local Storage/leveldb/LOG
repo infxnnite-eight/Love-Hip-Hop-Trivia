@@ -1,0 +1,4 @@
+2023/04/11-11:31:48.004 5a94 Reusing MANIFEST C:\Users\dorian\AppData\Local\AviraWebView2Cache\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2023/04/11-11:31:48.007 5a94 Recovering log #4
+2023/04/11-11:31:48.008 5a94 (ignoring error) C:\Users\dorian\AppData\Local\AviraWebView2Cache\EBWebView\Default\Local Storage\leveldb/000004.log: dropping 13036 bytes; Corruption: missing start of fragmented record(2)
+2023/04/11-11:31:48.012 5a94 Reusing old log C:\Users\dorian\AppData\Local\AviraWebView2Cache\EBWebView\Default\Local Storage\leveldb/000004.log 

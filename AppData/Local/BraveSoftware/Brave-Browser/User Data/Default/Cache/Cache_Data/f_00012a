@@ -1,0 +1,245 @@
+"use strict";(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[33386],{96711:(e,t,n)=>{n.d(t,{YS:()=>B})
+var r=n(15671)
+var i=n(43144)
+var o=n(60136)
+var a=n(51630)
+n(58002)
+var s=n(67294)
+var l=n(45697)
+var d=n.n(l)
+var c=n(80702)
+var u=n(56041)
+var h={keyboard:"keyboard",pointer:"pointer"}
+var f=[]
+var p=[]
+var b=h.keyboard
+var v=0
+var m={}
+var g=function(e){if("html"===e.target.nodeName.toLowerCase())return
+y(b,h.pointer)
+f.forEach((function(e){return e.remove()}))}
+var y=function(e,t){if(e===t)return
+b=t
+Object.keys(m).forEach((function(n){return m[n](e,t)}))}
+var _=function(){y(b,h.keyboard)}
+var O=function(){y(b,h.pointer)}
+var C=function(){if(0===f.length){f.push((0,c.O)(document,"mousemove",g,true))
+f.push((0,c.O)(document,"mousedown",g,true))
+f.push((0,c.O)(document,"mouseup",g,true))
+f.push((0,c.O)(document,"pointermove",g,true))
+f.push((0,c.O)(document,"pointerdown",g,true))
+f.push((0,c.O)(document,"pointerup",g,true))
+f.push((0,c.O)(document,"touchmove",g,true))
+f.push((0,c.O)(document,"touchstart",g,true))
+f.push((0,c.O)(document,"touchend",g,true))}}
+var w=function(){if(0===p.length){p.push((0,c.O)(document,"keydown",_,true))
+p.push((0,c.O)(document,"mousedown",O,true))
+p.push((0,c.O)(document,"pointerdown",O,true))
+p.push((0,c.O)(document,"touchstart",O,true))}}
+var k=function(){f.forEach((function(e){return e.remove()}))
+f=[]
+p.forEach((function(e){return e.remove()}))
+p=[]}
+var L=function(e){var t=e.onInputModeChange
+var n=v++
+"function"===typeof t&&(m[n]=t)
+if(u.N){w()
+C()}return{isKeyboardMode:function(){return b===h.keyboard},remove:function(){1===v&&k()
+delete m[n]
+v--}}}
+var x=n(1424)
+var S=n(7572)
+var B=function(e){(0,o.Z)(n,e)
+var t=(0,a.Z)(n)
+function n(){var e;(0,r.Z)(this,n)
+for(var i=arguments.length,o=new Array(i),a=0;a<i;a++)o[a]=arguments[a]
+e=t.call.apply(t,[this].concat(o))
+e._focusListener=null
+e._blurListener=null
+e._inputModeListener=null
+e.state={focused:false,focusable:false}
+e.handleInputModeChange=function(){e.forceUpdate()}
+e.handleFocus=function(t){e.removeFocusListener()
+e.setState({focused:true})}
+e.handleBlur=function(t){e.removeBlurListener()
+e.setState({focused:false})}
+return e}(0,i.Z)(n,[{key:"componentDidMount",value:function(){var e=this.focusable,t=this.focused
+this.addFocusableListeners(e,t)
+this._inputModeListener=L({onInputModeChange:this.handleInputModeChange})
+this.setState({focusable:e,focused:t})}},{key:"getSnapshotBeforeUpdate",value:function(e,t){var n=this.props,r=n.render,i=n.children
+e.children===i&&e.render===r||this.removeFocusableListeners()
+return null}},{key:"componentDidUpdate",value:function(e,t){var n=this.focusable
+if(!n&&this.state.focusable){this.removeFocusableListeners()
+this.setState({focusable:false,focused:false})}else if(n!==this.state.focusable){this.removeFocusableListeners()
+this.state.focused&&n.focus()
+this.addFocusableListeners(n,this.state.focused)
+this.setState({focusable:n})}else this.addFocusableListeners(n,this.state.focused)}},{key:"componentWillUnmount",value:function(){if(this._inputModeListener){this._inputModeListener.remove()
+this._inputModeListener=null}this.removeFocusableListeners()}},{key:"addFocusableListeners",value:function(e,t){if(!e)return
+t&&!this._blurListener?this._blurListener=(0,c.O)(e,"blur",this.handleBlur,true):this._focusListener||(this._focusListener=(0,c.O)(e,"focus",this.handleFocus,true))}},{key:"removeFocusableListeners",value:function(){this.removeFocusListener()
+this.removeBlurListener()}},{key:"removeFocusListener",value:function(){if(this._focusListener){this._focusListener.remove()
+this._focusListener=null}}},{key:"removeBlurListener",value:function(){if(this._blurListener){this._blurListener.remove()
+this._blurListener=null}}},{key:"focus",value:function(){var e=this.focusable
+e&&e.focus()}},{key:"isFocusVisible",value:function(e,t){if(!e||!t)return false
+if(this._inputModeListener&&this._inputModeListener.isKeyboardMode())return true
+var r=e.tagName,i=e.type,o=e.isContentEditable
+if("INPUT"==r&&n.inputTypes[i])return true
+if("TEXTAREA"==r)return true
+if(o)return true
+return false}},{key:"render",value:function(){var e=this.props,t=e.children,n=e.render,r=void 0===n?t:n
+var i=this.state,o=i.focusable,a=i.focused
+return"function"===typeof r?r({focused:a,focusable:o,focusVisible:this.isFocusVisible(o,a)}):null}},{key:"focused",get:function(){return(0,x.k)(this)}},{key:"focusable",get:function(){var e=(0,S.d)(this,(function(){return true}),true)||[]
+var t=e&&e.length||0
+"[Focusable] Exactly one focusable child is required (".concat(t," found).")
+e=!!e&&e[0]
+return!(!e||"function"!==typeof e.focus)&&e}},{key:"focusVisible",get:function(){var e=this.state,t=e.focusable,n=e.focused
+return this.isFocusVisible(t,n)}}])
+n.displayName="Focusable"
+return n}(s.Component)
+B.propTypes={children:d().func,render:d().func}
+B.defaultProps={children:null,render:void 0}
+B.inputTypes={text:true,search:true,url:true,tel:true,email:true,password:true,number:true,date:true,month:true,week:true,time:true,datetime:true,"datetime-local":true}},33386:(e,t,n)=>{n.d(t,{mQ:()=>ie})
+var r=n(4942)
+var i=n(45987)
+var o=n(15671)
+var a=n(43144)
+var s=n(60136)
+var l=n(51630)
+n(58002)
+var d=n(67294)
+var c=n(45697)
+var u=n.n(c)
+var h=n(94184)
+var f=n.n(h)
+var p=n(27537)
+var b=n.n(p)
+var v=n(69924)
+var m=n(54577)
+var g=n(57117)
+var y=n(79070)
+var _=n(42686)
+var O=n(12291)
+var C=n(15922)
+var w=n(99164)
+var k=n(16121)
+var L=n(96711)
+var x=n(48129)
+var S=n(45986)
+var B=n(97528)
+var I=n(63459)
+var T=n(40091)
+var M=n(96580)
+function E(e){var t=e.colors,n=e.typography,r=e.stacking
+return{fontFamily:n.fontFamily,fontWeight:n.fontWeightNormal,lineHeight:n.lineHeightCondensed,fontSize:n.fontSizeMedium,defaultColor:t.textDarkest,defaultlHoverBorderColor:t.borderMedium,defaultSelectedBorderColor:t.borderBrand,secondaryColor:t.textDarkest,secondarySelectedBackground:t.backgroundLightest,secondarySelectedBorderColor:t.borderMedium,secondarySelectedColor:t.textDarkest,zIndex:r.above}}E.canvas=function(e){return{defaultColor:e["ic-brand-font-color-dark"],defaultSelectedBorderColor:e["ic-brand-primary"],secondaryColor:e["ic-brand-font-color-dark"],secondarySelectedColor:e["ic-brand-font-color-dark"]}}
+var R,D,X,F,Z
+var H={componentId:"XOwIb",template:function(e){return"\n\n.XOwIb_bGBk{-ms-user-select:none;-webkit-user-select:none;cursor:pointer;font-family:".concat(e.fontFamily||"inherit",";font-size:").concat(e.fontSize||"inherit",";font-weight:").concat(e.fontWeight||"inherit",";line-height:").concat(e.lineHeight||"inherit",";user-select:none}\n\n.XOwIb_bGBk[aria-disabled],.XOwIb_bGBk[aria-selected]{cursor:default}\n\n.XOwIb_bGBk[aria-disabled]{opacity:0.5}\n\n.XOwIb_bGBk:before{border-radius:0.25rem!important;inset:0.5rem!important}\n\n.XOwIb_bGBk:focus:before{inset:0.375rem!important}\n\n.XOwIb_ddES,.XOwIb_eLeB{white-space:nowrap}\n\n.XOwIb_eLeB{-webkit-margin-end:0.2em;border:0.0625rem solid transparent;border-top-left-radius:0.1875rem;border-top-right-radius:0.1875rem;color:").concat(e.secondaryColor||"inherit",";margin-bottom:-0.0625rem;margin-inline-end:0.2em;padding:0.75rem 1rem;position:relative}\n\n[dir=ltr] .XOwIb_eLeB{margin-right:0.2em}\n\n[dir=rtl] .XOwIb_eLeB{margin-left:0.2em}\n\n.XOwIb_eLeB:first-of-type{-webkit-margin-start:0;margin-inline-start:0}\n\n[dir=ltr] .XOwIb_eLeB:first-of-type{margin-left:0}\n\n[dir=rtl] .XOwIb_eLeB:first-of-type{margin-right:0}\n\n.XOwIb_eLeB:not([aria-selected]):not([aria-disabled]):hover,.XOwIb_eLeB[aria-selected]{background:").concat(e.secondarySelectedBackground||"inherit",";border-color:").concat(e.secondarySelectedBorderColor||"inherit","}\n\n.XOwIb_eLeB:hover,.XOwIb_eLeB[aria-disabled],.XOwIb_eLeB[aria-selected]{color:").concat(e.secondarySelectedColor||"inherit","}\n\n.XOwIb_eLeB[aria-selected]{border-bottom-color:").concat(e.secondarySelectedBackground||"inherit",";z-index:").concat(e.zIndex||"inherit","}\n\n@keyframes XOwIb_epeh{to{opacity:1;transform:translateZ(0) scaleX(1)}}\n\n.XOwIb_ddES{color:").concat(e.defaultColor||"inherit",";line-height:1;padding:1rem 1.25rem;position:relative;z-index:").concat(e.zIndex||"inherit",'}\n\n.XOwIb_ddES:after{bottom:0;content:"";height:0.25rem;inset-inline-start:0;opacity:0;position:absolute;transform:translateZ(0) scaleX(0.01);width:100%}\n\n[dir=ltr] .XOwIb_ddES:after{left:0}\n\n[dir=rtl] .XOwIb_ddES:after{right:0}\n\n.XOwIb_ddES[aria-disabled]{font-weight:400}\n\n.XOwIb_ddES:not([aria-selected]):not([aria-disabled]):hover{border-bottom-color:').concat(e.defaultHoverBorderColor||"inherit","}\n\n.XOwIb_ddES[aria-selected]:after{animation-duration:0.2s;animation-fill-mode:forwards;animation-name:XOwIb_epeh;animation-timing-function:ease-out;background-color:").concat(e.defaultSelectedBorderColor||"inherit","}")},root:"XOwIb_bGBk",default:"XOwIb_ddES",secondary:"XOwIb_eLeB",selectedTab:"XOwIb_epeh"}
+var P=(R=(0,y.x)("8.0.0",{selected:"isSelected",disabled:"isDisabled"}),D=(0,m.YY)(E,H),R(X=D(X=(Z=F=function(e){(0,s.Z)(n,e)
+var t=(0,l.Z)(n)
+function n(){var e;(0,o.Z)(this,n)
+for(var r=arguments.length,i=new Array(r),a=0;a<r;a++)i[a]=arguments[a]
+e=t.call.apply(t,[this].concat(i))
+e.handleClick=function(t){var n=e.props,r=n.onClick,i=n.index,o=n.id,a=n.disabled,s=n.isDisabled
+if(a||s)return
+r(t,{index:i,id:o})}
+e.handleKeyDown=function(t){var n=e.props,r=n.onKeyDown,i=n.index,o=n.id,a=n.disabled,s=n.isDisabled
+if(a||s)return
+r(t,{index:i,id:o})}
+return e}(0,a.Z)(n,[{key:"render",value:function(){var e
+var t=this.props,n=t.id,o=t.variant,a=t.selected,s=t.disabled,l=t.controls,c=t.children,u=(0,i.Z)(t,["id","variant","selected","disabled","controls","children"])
+var h=a||u.isSelected
+var p=s||u.isDisabled
+return d.createElement(v.G,Object.assign({},(0,C.ry)(u),{as:"div",role:"tab",id:n,onClick:this.handleClick,onKeyDown:this.handleKeyDown,className:f()((e={},(0,r.Z)(e,H.root,true),(0,r.Z)(e,H[o],true),e)),"aria-selected":h?"true":null,"aria-disabled":p?"true":null,"aria-controls":l,tabIndex:h&&!p?"0":null,position:"relative",focusPosition:"inset"}),(0,M.A)(c))}}])
+n.displayName="Tab"
+return n}(d.Component),F.propTypes={variant:u().oneOf(["default","secondary"]),id:u().string.isRequired,index:u().number.isRequired,controls:u().string.isRequired,isDisabled:u().bool,isSelected:u().bool,onClick:u().func,onKeyDown:u().func,children:u().oneOfType([u().node,u().func]),disabled:u().bool,selected:u().bool},F.defaultProps={children:null,variant:"default",isDisabled:false,disabled:void 0,isSelected:false,selected:void 0,onClick:function(e,t){t.index,t.id},onKeyDown:function(e,t){t.index,t.id}},Z))||X)||X)
+var W=n(87853)
+function z(e){var t=e.typography,n=e.colors,r=e.borders
+return{fontSize:t.fontSizeMedium,fontFamily:t.fontFamily,fontWeight:t.fontWeightNormal,lineHeight:t.lineHeight,color:n.textDarkest,background:n.backgroundLightest,borderColor:n.borderMedium,borderWidth:r.widthSmall,borderStyle:r.style}}z.canvas=function(e){return{color:e["ic-brand-font-color-dark"]}}
+var A,N,G,q,K
+var V={componentId:"dpCPB",template:function(e){return"\n\n.dpCPB_bGBk{font-family:".concat(e.fontFamily||"inherit",";font-size:").concat(e.fontSize||"inherit",";font-weight:").concat(e.fontWeight||"inherit",";line-height:").concat(e.lineHeight||"inherit","}\n\n.dpCPB_caGd,.dpCPB_bGBk{box-sizing:border-box}\n\n.dpCPB_caGd{background:").concat(e.background||"inherit",";border-color:").concat(e.borderColor||"inherit",";border-style:").concat(e.borderStyle||"inherit",";border-width:").concat(e.borderWidth||"inherit",";color:").concat(e.color||"inherit",";width:100%}\n\n.dpCPB_cLQw{overflow:auto}\n\n.dpCPB_ddES .dpCPB_caGd,.dpCPB_eLeB .dpCPB_caGd{border-bottom:none;border-left:none;border-right:none}")},root:"dpCPB_bGBk",content:"dpCPB_caGd",overflow:"dpCPB_cLQw",default:"dpCPB_ddES",secondary:"dpCPB_eLeB"}
+var j=(A=(0,y.x)("8.0.0",{title:"renderTitle",selected:"isSelected",disabled:"isDisabled"}),N=(0,m.YY)(z,V),A(G=N(G=(K=q=function(e){(0,s.Z)(n,e)
+var t=(0,l.Z)(n)
+function n(){(0,o.Z)(this,n)
+return t.apply(this,arguments)}(0,a.Z)(n,[{key:"render",value:function(){var e,t
+var n=this.props,o=n.selected,a=n.disabled,s=n.labelledBy,l=n.variant,c=n.id,u=n.maxHeight,h=n.minHeight,p=n.padding,b=n.textAlign,m=n.children,g=n.elementRef,y=(0,i.Z)(n,["selected","disabled","labelledBy","variant","id","maxHeight","minHeight","padding","textAlign","children","elementRef"])
+var _=o||y.isSelected
+var O=a||y.isDisabled
+var w=!_||!!O
+return d.createElement("div",Object.assign({},(0,C.ry)(y),{className:f()((e={},(0,r.Z)(e,V.root,true),(0,r.Z)(e,V[l],true),e)),role:"tabpanel",id:c,"aria-labelledby":s,"aria-hidden":w?"true":null,ref:g}),d.createElement(W.u,{type:"fade",in:!w,unmountOnExit:true,transitionExit:false},d.createElement(v.G,{className:f()((t={},(0,r.Z)(t,V.content,true),(0,r.Z)(t,V.overflow,u),t)),maxHeight:u,minHeight:h,as:"div",padding:p,textAlign:b},m)))}}])
+n.displayName="Panel"
+return n}(d.Component),q.propTypes={renderTitle:u().oneOfType([u().node,u().func]).isRequired,children:u().node,variant:u().oneOf(["default","secondary"]),isSelected:u().bool,isDisabled:u().bool,maxHeight:u().oneOfType([u().string,u().number]),minHeight:u().oneOfType([u().string,u().number]),id:u().string,labelledBy:u().string,padding:m.j7.spacing,textAlign:u().oneOf(["start","center","end"]),title:u().node,selected:u().bool,disabled:u().bool,elementRef:u().func},q.defaultProps={children:null,id:void 0,disabled:void 0,isDisabled:false,maxHeight:void 0,minHeight:void 0,textAlign:"start",variant:"default",labelledBy:null,selected:void 0,isSelected:false,padding:"small",title:void 0,elementRef:function(e){}},K))||G)||G)
+function Y(e){var t=e.borders,n=e.colors,r=e.breakpoints,i=e.stacking
+return{defaultBackground:n.backgroundLightest,scrollFadeColor:n.backgroundLightest,tabVerticalOffset:t.widthSmall,zIndex:i.above,small:r.small,medium:r.medium,large:r.large,scrollOverlayWidthDefault:"5rem",scrollOverlayWidthSecondary:"3rem"}}var U,Q,J,$,ee,te,ne
+var re={componentId:"dCppM",template:function(e){return"\n\n.dCppM_ddES{background:".concat(e.defaultBackground||"inherit","}\n\n.dCppM_ddES .dCppM_bXVH{margin-bottom:calc(").concat(e.tabVerticalOffset||"inherit","*-1)}\n\n.dCppM_eSIm{display:flex;width:100%}\n\n.dCppM_Lbvy{flex-flow:row wrap}\n\n.dCppM_etmn{overflow-x:auto}\n\n.dCppM_ddES .dCppM_etmn::-webkit-scrollbar-track{background-color:transparent}\n\n.dCppM_ddES .dCppM_etmn::-webkit-scrollbar{background-color:transparent;height:0.0625rem}\n\n.dCppM_ddES .dCppM_etmn::-webkit-scrollbar-thumb{background-color:transparent}\n\n.dCppM_fgct{background:linear-gradient(270deg,").concat(e.scrollFadeColor||"inherit"," 0%,hsla(0,0%,100%,0));height:calc(100% - ").concat(e.tabVerticalOffset||"inherit"," - 0.25rem);inset-inline-end:0;pointer-events:none;position:absolute;top:0;z-index:").concat(e.zIndex||"inherit","}\n\n[dir=ltr] .dCppM_fgct{right:0}\n\n[dir=rtl] .dCppM_fgct{background:linear-gradient(90deg,").concat(e.scrollFadeColor||"inherit"," 0%,hsla(0,0%,100%,0));inset-inline-end:auto;inset-inline-start:0;left:0}\n\n[dir=ltr] [dir=rtl] .dCppM_fgct{left:0;right:auto}\n\n[dir=rtl] [dir=rtl] .dCppM_fgct{left:auto;right:0}\n\n.dCppM_ddES .dCppM_fgct{width:").concat(e.scrollOverlayWidthDefault||"inherit","}\n\n.dCppM_eLeB .dCppM_fgct{width:").concat(e.scrollOverlayWidthSecondary||"inherit","}\n\n.dCppM_ciZv{flex-shrink:0}\n\n.dCppM_ddES .dCppM_ciZv{flex-basis:").concat(e.scrollOverlayWidthDefault||"inherit","}\n\n.dCppM_eLeB .dCppM_ciZv{flex-basis:").concat(e.scrollOverlayWidthSecondary||"inherit","}")},default:"dCppM_ddES",tabs:"dCppM_bXVH",tabList:"dCppM_eSIm","tabOverflow--stack":"dCppM_Lbvy","tabOverflow--scroll":"dCppM_etmn",scrollOverlay:"dCppM_fgct",secondary:"dCppM_eLeB",scrollSpacer:"dCppM_ciZv"}
+var ie=(U=(0,y.x)("8.0.0",{title:"renderTitle",size:"maxWidth",selectedIndex:true,onChange:"onRequestTabChange",focus:"shouldFocusOnRender"}),Q=(0,k.j)(),J=(0,T.A)(),$=(0,m.YY)(Y,re),U(ee=Q(ee=J(ee=$(ee=(ne=te=function(e){(0,s.Z)(n,e)
+var t=(0,l.Z)(n)
+function n(e){var r;(0,o.Z)(this,n)
+r=t.call(this)
+r.handleTabClick=function(e,t){var n=t.index
+t.id
+var i=r.getNextTab(n,0)
+r.fireOnChange(e,i)}
+r.handleTabKeyDown=function(e,t){var n=t.index
+var i
+e.keyCode===b().codes.up||e.keyCode===b().codes.left?i=r.getNextTab(n,-1):e.keyCode!==b().codes.down&&e.keyCode!==b().codes.right||(i=r.getNextTab(n,1))
+if(i){e.preventDefault()
+r.fireOnChange(e,i)}}
+r.handleResize=function(){r.setState({withTabListOverflow:r._tabList.scrollWidth>r._tabList.offsetWidth})
+r._tabListPosition=(0,x.L)(r._tabList)}
+r.handleFocusableRef=function(e){r._focusable=e}
+r.handleTabListRef=function(e){r._tabList=e}
+r._tabList=null
+r._tabListPosition=null
+r.state={withTabListOverflow:false}
+return r}(0,a.Z)(n,[{key:"componentDidMount",value:function(){if("scroll"===this.props.tabOverflow&&this._tabList){this.startScrollOverflow()
+var e=this._tabList.querySelector('[aria-selected="true"]')
+this.showActiveTabIfOverlayed(e)}(this.props.focus||this.props.shouldFocusOnRender)&&this.focus()}},{key:"componentDidUpdate",value:function(e){(this.props.focus&&!e.focus||this.props.shouldFocusOnRender&&!e.shouldFocusOnRender)&&this.focus()
+"stack"===e.tabOverflow&&"scroll"===this.props.tabOverflow&&this.startScrollOverflow()
+"scroll"===e.tabOverflow&&"stack"===this.props.tabOverflow&&this.cancelScrollOverflow()}},{key:"componentWillUnmount",value:function(){this.cancelScrollOverflow()}},{key:"startScrollOverflow",value:function(){this.handleResize()
+this._debounced=(0,B.D)(this.handleResize,300,{leading:true,trailing:true})
+this._resizeListener=(0,S.k)(this._tabList,this._debounced)
+this._tabListPosition=(0,x.L)(this._tabList)}},{key:"cancelScrollOverflow",value:function(){this._resizeListener&&this._resizeListener.remove()
+this._debounced&&this._debounced.cancel()}},{key:"getOverlayWidth",value:function(){var e=this.props,t=e.variant,n=e.tabOverflow
+if("scroll"===n)return"default"===t?(0,I.px)(this.theme.scrollOverlayWidthDefault):(0,I.px)(this.theme.scrollOverlayWidthSecondary)}},{key:"showActiveTabIfOverlayed",value:function(e){if(this._tabList&&this._tabListPosition&&"function"===typeof this._tabList.scrollTo){var t=this.dir===T.A.DIRECTION.rtl
+var n=(0,x.L)(e)
+var r=this._tabListPosition
+var i=t?r.left+this.getOverlayWidth():r.left
+var o=t?r.right:r.right+this.getOverlayWidth()
+var a=n.left
+var s=n.right
+if(o>s){var l=Math.round(o-s)
+this._tabList.scrollTo({top:0,left:this._tabList.scrollLeft+l,behavior:"smooth"})}else if(i>a){var d=Math.round(i-a)
+this._tabList.scrollTo({top:0,left:this._tabList.scrollLeft-d,behavior:"smooth"})}}}},{key:"getNextTab",value:function(e,t){var n=d.Children.toArray(this.props.children).map((function(e){return(0,_.x)(e,[j])&&e}))
+var r=n.length
+var i=t<0?t+r:t
+"[Tabs] Invalid tab index: '".concat(e,"'.")
+var o=e
+var a
+do{o=(o+i)%r
+a=n[o]}while(a&&a.props&&(a.props.disabled||a.props.isDisabled))
+"[Tabs] Invalid tab index: '".concat(o,"'.")
+return{index:o,id:a.props.id}}},{key:"fireOnChange",value:function(e,t){var n=t.index,r=t.id
+"function"===typeof this.props.onChange&&this.props.onChange(e,{index:n})
+"function"===typeof this.props.onRequestTabChange&&this.props.onRequestTabChange(e,{index:n,id:r})
+this.state.withTabListOverflow&&this.showActiveTabIfOverlayed(this._tabList.querySelector("#tab-".concat(r)))}},{key:"createTab",value:function(e,t,n,r){var i=r.props.id||t
+var o=r.props.disabled||r.props.isDisabled
+return(0,d.createElement)(P,{variant:this.props.variant,key:"tab-".concat(i),id:"tab-".concat(i),controls:r.props.id||"panel-".concat(i),index:e,selected:void 0,isSelected:n,disabled:void 0,isDisabled:o,children:r.props.renderTitle||r.props.title,onClick:this.handleTabClick,onKeyDown:this.handleTabKeyDown})}},{key:"clonePanel",value:function(e,t,n,r){var i=r.props.id||t
+return(0,O.i)(r,{id:r.props.id||"panel-".concat(i),labelledBy:"tab-".concat(i),selected:void 0,isSelected:n,key:r.props.id||"panel-".concat(i),variant:this.props.variant,padding:r.props.padding||this.props.padding,textAlign:r.props.textAlign||this.props.textAlign,maxHeight:r.maxHeight||this.props.maxHeight,minHeight:r.minHeight||this.props.minHeight})}},{key:"focus",value:function(){this._focusable&&"function"===typeof this._focusable.focus&&this._focusable.focus()}},{key:"render",value:function(){var e=this
+var t=[]
+var n=[]
+var o=this.props,a=o.children,s=o.elementRef,l=o.size,c=o.maxWidth,u=o.variant,h=o.margin,p=o.screenReaderLabel,b=(o.onRequestTabChange,o.tabOverflow),m=(o.onChange,(0,i.Z)(o,["children","elementRef","size","maxWidth","variant","margin","screenReaderLabel","onRequestTabChange","tabOverflow","onChange"]))
+var g=d.Children.toArray(a).filter((function(e){return(0,_.x)(e,[j])})).findIndex((function(e){return(e.props.selected||e.props.isSelected)&&!(e.props.disabled||e.props.isDisabled)}))
+var y=0
+var O=m.selectedIndex||(g>=0?g:0)
+d.Children.forEach(a,(function(r){if((0,_.x)(r,[j])){var i=!(r.props.disabled||r.props.isDisabled)&&(r.props.selected||r.props.isSelected||O===y)
+var o=(0,w.h)()
+n.push(e.createTab(y,o,i,r))
+t.push(e.clonePanel(y,o,i,r))
+y++}else t.push(r)}))
+var k="scroll"===b&&this.state.withTabListOverflow
+var x=O!==d.Children.count(a)-1?d.createElement("span",{key:"overlay",className:re.scrollOverlay}):null
+var S=[d.createElement("span",{key:"spacer",className:re.scrollSpacer}),x]
+return d.createElement(v.G,Object.assign({},(0,C.ry)(m),{elementRef:s,maxWidth:c||this.theme[l],margin:h,as:"div",className:f()((0,r.Z)({},re[u],true))}),d.createElement(L.YS,{ref:this.handleFocusableRef},(function(){var t
+return d.createElement(v.G,{as:"div",position:"relative",borderRadius:"medium",shouldAnimateFocus:false,className:re.tabs},d.createElement(v.G,{as:"div",role:"tablist",className:f()((t={},(0,r.Z)(t,re.tabList,true),(0,r.Z)(t,re["tabOverflow--".concat(b)],true),t)),"aria-label":p,elementRef:e.handleTabListRef},n,k&&S))})),t)}}])
+n.displayName="Tabs"
+return n}(d.Component),te.propTypes={children:g.h.oneOf([j,null]),variant:u().oneOf(["default","secondary"]),screenReaderLabel:u().string,onRequestTabChange:u().func,maxWidth:u().oneOfType([u().string,u().number]),maxHeight:u().oneOfType([u().string,u().number]),minHeight:u().oneOfType([u().string,u().number]),margin:m.j7.spacing,padding:m.j7.spacing,textAlign:u().oneOf(["start","center","end"]),elementRef:u().func,tabOverflow:u().oneOf(["stack","scroll"]),shouldFocusOnRender:u().bool,onChange:u().func,size:u().oneOf(["small","medium","large"]),selectedIndex:u().number,focus:u().bool},te.defaultProps={selectedIndex:void 0,variant:"default",padding:void 0,textAlign:void 0,size:void 0,maxWidth:void 0,maxHeight:void 0,minHeight:void 0,onChange:void 0,onRequestTabChange:function(e,t){t.index,t.id},margin:void 0,children:null,elementRef:function(e){},screenReaderLabel:void 0,focus:void 0,shouldFocusOnRender:false,tabOverflow:"stack"},te.Panel=j,te.Tab=P,ne))||ee)||ee)||ee)||ee)}}])
+
+//# sourceMappingURL=33386-c-bf633b8be3.js.map

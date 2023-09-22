@@ -1,0 +1,42 @@
+{
+	"name": "gx-classic-for-vscode",
+	"displayName": "GX_Classic for VSCode",
+	"description": "matching opera gx theme for vscode",
+	"version": "0.0.9",
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"publisher": "camargodouglas",
+	"icon": "assets/opera_icon.jpg",
+	"author": {
+		"name": "Douglas Camargo",
+		"email": "camargo.douglas@icloud.com",
+		"url": "https://www.linkedin.com/in/douglas-kauã-camargo-5a10b71a2/"
+	},
+	"repository": {
+		"url": "https://github.com/dkcamargox/opera-gx-4-vsco",
+		"type": "git"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "GX Classic for VSCode",
+				"uiTheme": "vs-dark",
+				"path": "./themes/GX Classic for VSCode-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "eb89be72-0e4a-4bf9-84c0-9233eacd7672",
+		"publisherId": "b8b5674c-749f-4b19-ad2e-153e51f4369b",
+		"publisherDisplayName": "Douglas Camargo",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1693284730107,
+		"preRelease": false
+	}
+}

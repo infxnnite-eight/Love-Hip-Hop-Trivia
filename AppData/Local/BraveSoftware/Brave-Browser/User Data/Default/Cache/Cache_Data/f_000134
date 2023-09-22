@@ -1,0 +1,269 @@
+/*! For license information please see 58392-c-a8c7e05bd3.js.LICENSE.txt */
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[58392],{19684:(e,t,n)=>{"use strict"
+n.d(t,{q:()=>S})
+var o=n(4942)
+var i=n(45987)
+var r=n(15671)
+var l=n(43144)
+var a=n(60136)
+var s=n(51630)
+var c=n(67294)
+var d=n(45697)
+var g=n.n(d)
+var h=n(94184)
+var u=n.n(h)
+var f=n(69924)
+var m=n(54577)
+var p=n(79070)
+var b=n(96580)
+var _=n(15922)
+var C=n(16121)
+var M=n(53912)
+function v(e){var t=e.colors,n=e.borders,o=e.typography
+return{background:t.backgroundLightest,borderWidthSmall:n.widthSmall,borderWidthMedium:n.widthMedium,borderColor:t.borderMedium,boxShadowColor:(0,M.F)(t.backgroundDarkest,12),boxShadowBlur:"1rem",fontFamily:o.fontFamily,fontWeight:o.fontWeightBold,color:t.brand,colorShamrock:t.shamrock,colorBarney:t.barney,colorCrimson:t.crimson,colorFire:t.fire,colorLicorice:t.licorice,colorAsh:t.ash}}var k,y,w,x,B,G
+var I={componentId:"elMgC",template:function(e){return"\n\n.elMgC_bGBk{background-clip:content-box;background-color:".concat(e.background||"inherit",";background-position:50%;background-repeat:no-repeat;background-size:cover;box-sizing:border-box;height:2.5em;line-height:0;overflow:hidden;text-align:center}\n\n[dir=ltr] .elMgC_bGBk,[dir=rtl] .elMgC_bGBk{text-align:center}\n\n.elMgC_bGBk.elMgC_uUeq{font-size:inherit}\n\n.elMgC_bGBk.elMgC_uUeq,.elMgC_bGBk.elMgC_UKsG{border-width:").concat(e.borderWidthSmall||"inherit","}\n\n.elMgC_bGBk.elMgC_UKsG{font-size:0.5rem}\n\n.elMgC_bGBk.elMgC_dfBC{font-size:0.75rem}\n\n.elMgC_bGBk.elMgC_doqw,.elMgC_bGBk.elMgC_dfBC{border-width:").concat(e.borderWidthSmall||"inherit","}\n\n.elMgC_bGBk.elMgC_doqw{font-size:1rem}\n\n.elMgC_bGBk.elMgC_ycrn{font-size:1.25rem}\n\n.elMgC_bGBk.elMgC_cMDj,.elMgC_bGBk.elMgC_ycrn{border-width:").concat(e.borderWidthMedium||"inherit","}\n\n.elMgC_bGBk.elMgC_cMDj{font-size:1.5rem}\n\n.elMgC_bGBk.elMgC_eoMd{font-size:1.75rem}\n\n.elMgC_bGBk.elMgC_eoMd,.elMgC_bGBk.elMgC_fdca{border-width:").concat(e.borderWidthMedium||"inherit","}\n\n.elMgC_bGBk.elMgC_fdca{font-size:2rem}\n\n.elMgC_bGBk.elMgC_cHTY{border:0;box-shadow:inset 0 0 ").concat(e.boxShadowBlur||"inherit"," 0 ").concat(e.boxShadowColor||"inherit","}\n\n.elMgC_bGBk:not(.elMgC_cHTY){border-color:").concat(e.borderColor||"inherit",";border-style:solid}\n\n.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA{background-clip:border-box;border:0;padding:0}\n\n.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_uUeq,.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_doqw,.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_dfBC,.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_UKsG{padding:").concat(e.borderWidthSmall||"inherit","}\n\n.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_cMDj,.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_ycrn,.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_eoMd,.elMgC_bGBk:not(.elMgC_cHTY).elMgC_fKgA.elMgC_fdca{padding:").concat(e.borderWidthMedium||"inherit","}\n\n.elMgC_eYKj{font-family:").concat(e.fontFamily||"inherit",";font-weight:").concat(e.fontWeight||"inherit",";letter-spacing:0.0313em;line-height:2.375em}\n\n.elMgC_ddES{color:").concat(e.color||"inherit","}\n\n.elMgC_ekuM{color:").concat(e.colorShamrock||"inherit","}\n\n.elMgC_bXnN{color:").concat(e.colorBarney||"inherit","}\n\n.elMgC_byip{color:").concat(e.colorCrimson||"inherit","}\n\n.elMgC_dKVo{color:").concat(e.colorFire||"inherit","}\n\n.elMgC_eaOe{color:").concat(e.colorLicorice||"inherit","}\n\n.elMgC_fuVp{color:").concat(e.colorAsh||"inherit","}\n\n.elMgC_fKgA{color:").concat(e.background||"inherit","}\n\n.elMgC_fKgA.elMgC_ddES{background-color:").concat(e.color||"inherit","}\n\n.elMgC_fKgA.elMgC_ekuM{background-color:").concat(e.colorShamrock||"inherit","}\n\n.elMgC_fKgA.elMgC_bXnN{background-color:").concat(e.colorBarney||"inherit","}\n\n.elMgC_fKgA.elMgC_byip{background-color:").concat(e.colorCrimson||"inherit","}\n\n.elMgC_fKgA.elMgC_dKVo{background-color:").concat(e.colorFire||"inherit","}\n\n.elMgC_fKgA.elMgC_eaOe{background-color:").concat(e.colorLicorice||"inherit","}\n\n.elMgC_fKgA.elMgC_fuVp{background-color:").concat(e.colorAsh||"inherit","}\n\n.elMgC_MrJH{display:none}\n\n.elMgC_cJVF{border-radius:100%;overflow:hidden;position:relative;width:2.5em}\n\n.elMgC_bRWf{width:3em}\n\n.elMgC_eoCh{align-items:center;display:flex;height:100%;justify-content:center;width:100%}\n\n.elMgC_eoCh svg{fill:currentColor;height:1em;width:1em}")},root:"elMgC_bGBk",auto:"elMgC_uUeq","xx-small":"elMgC_UKsG","x-small":"elMgC_dfBC",small:"elMgC_doqw",medium:"elMgC_ycrn",large:"elMgC_cMDj","x-large":"elMgC_eoMd","xx-large":"elMgC_fdca",loaded:"elMgC_cHTY",hasInverseColor:"elMgC_fKgA",initials:"elMgC_eYKj",default:"elMgC_ddES",shamrock:"elMgC_ekuM",barney:"elMgC_bXnN",crimson:"elMgC_byip",fire:"elMgC_dKVo",licorice:"elMgC_eaOe",ash:"elMgC_fuVp",loadImage:"elMgC_MrJH",circle:"elMgC_cJVF",rectangle:"elMgC_bRWf",iconSVG:"elMgC_eoCh"}
+var S=(k=(0,C.j)(),y=(0,p.x)("8.0.0",{inline:"display",variant:"shape"}),w=(0,m.YY)(v,I),k(x=y(x=w(x=(G=B=function(e){(0,a.Z)(n,e)
+var t=(0,s.Z)(n)
+function n(){var e;(0,r.Z)(this,n)
+for(var o=arguments.length,i=new Array(o),l=0;l<o;l++)i[l]=arguments[l]
+e=t.call.apply(t,[this].concat(i))
+e.state={loaded:false}
+e.handleImageLoaded=function(t){e.setState({loaded:true})
+e.props.onImageLoaded(t)}
+return e}(0,l.Z)(n,[{key:"componentDidUpdate",value:function(){this.state.loaded&&!this.props.src&&this.setState({loaded:false})}},{key:"makeInitialsFromName",value:function(){var e=this.props.name
+if(!e||"string"!==typeof e)return
+e=e.trim()
+if(0===e.length)return
+if(e.match(/\s+/)){var t=e.split(/\s+/)
+return(t[0][0]+t[t.length-1][0]).toUpperCase()}return e[0].toUpperCase()}},{key:"renderLoadImage",value:function(){return c.createElement("img",{src:this.props.src,className:I.loadImage,alt:this.props.alt,onLoad:this.handleImageLoaded,"aria-hidden":"true"})}},{key:"renderInitials",value:function(){return c.createElement("span",{className:I.initials,"aria-hidden":"true"},this.makeInitialsFromName())}},{key:"renderContent",value:function(){var e=this.props.renderIcon
+if(!e)return this.renderInitials()
+return c.createElement("span",{className:I.iconSVG},(0,b.A)(e))}},{key:"render",value:function(){var e
+var t=this.props,n=(t.onImageLoaded,(0,i.Z)(t,["onImageLoaded"]))
+var r=this.state.loaded
+return c.createElement(f.G,Object.assign({},(0,_.ry)(n),{style:{backgroundImage:r?"url('".concat(this.props.src,"')"):void 0},className:u()((e={},(0,o.Z)(e,I.root,true),(0,o.Z)(e,I[this.props.size],true),(0,o.Z)(e,I[this.props.variant||this.props.shape],true),(0,o.Z)(e,I[this.props.color],true),(0,o.Z)(e,I.loaded,r),(0,o.Z)(e,I.hasInverseColor,this.props.hasInverseColor),e)),"aria-label":this.props.alt?this.props.alt:null,role:this.props.alt?"img":null,as:this.props.as,elementRef:this.props.elementRef,margin:this.props.margin,display:"block"===this.props.display||false===this.props.inline?"block":"inline-block"}),this.renderLoadImage(),!r&&this.renderContent())}}])
+n.displayName="Avatar"
+return n}(c.Component),B.propTypes={name:g().string.isRequired,src:g().string,alt:g().string,size:g().oneOf(["auto","xx-small","x-small","small","medium","large","x-large","xx-large"]),color:g().oneOf(["default","shamrock","barney","crimson","fire","licorice","ash"]),hasInverseColor:g().bool,shape:g().oneOf(["circle","rectangle"]),margin:m.j7.spacing,display:g().oneOf(["inline-block","block"]),onImageLoaded:g().func,as:g().elementType,elementRef:g().func,renderIcon:g().oneOfType([g().node,g().func]),inline:g().bool,variant:g().oneOf(["circle","rectangle"])},B.defaultProps={src:void 0,alt:void 0,margin:void 0,elementRef:void 0,size:"medium",color:"default",hasInverseColor:false,shape:"circle",display:"inline-block",onImageLoaded:function(e){},renderIcon:null},G))||x)||x)||x)},96437:(e,t,n)=>{"use strict"
+n.d(t,{Z:()=>i})
+const o=()=>{const e=ENV.LTI_LAUNCH_FRAME_ALLOWANCES||[]
+return e.join("; ")}
+const i=o},66401:(e,t,n)=>{"use strict"
+n.d(t,{J_:()=>r})
+const o="externalContentReady"
+const i="externalContentCancel"
+const r=e=>{let{ready:t=(()=>{}),cancel:n=(()=>{}),env:r=window.ENV,service:l}=e
+const a=async e=>{if(e.origin!==r.DEEP_LINKING_POST_MESSAGE_ORIGIN)return false
+e.data.subject===o?(!l||l&&e.data.service===l)&&await t(e.data):e.data.subject===i&&await n()}
+window.addEventListener("message",a)
+return()=>window.removeEventListener("message",a)}},90291:(e,t,n)=>{"use strict"
+n.d(t,{Z:()=>_})
+var o=n(63056)
+var i=n(61323)
+var r=n(67294)
+var l=n(85779)
+var a=n(69924)
+var s=n(95732)
+var c=n(35498)
+var d=n(60124)
+var g=n(16744)
+var h=n(93964)
+var u=n(39558)
+var f=n.n(u)
+const m=(0,i.useScope)("canvas_modal")
+const{Item:p}=s.kC
+function b(e){let{padding:t="small",errorSubject:n,errorCategory:i,errorImageUrl:u=f(),label:b,title:_=null,onDismiss:C,children:M,footer:v=null,closeButtonSize:k,...y}=e
+null==_&&(_=b)
+return r.createElement(d.u_,Object.assign({label:b,onDismiss:C},y),(0,o.Z)(d.u_.Header,{},void 0,(0,o.Z)(s.kC,{},void 0,(0,o.Z)(p,{grow:true},void 0,(0,o.Z)(c.X,{},void 0,_)),(0,o.Z)(p,{margin:"0 0 0 x-small"},void 0,(0,o.Z)(l.P,{onClick:C,size:k,screenReaderLabel:m.t("Close")})))),(0,o.Z)(d.u_.Body,{padding:t},void 0,(0,o.Z)(a.G,{as:"div",height:"100%"},void 0,(0,o.Z)(g.Z,{errorComponent:(0,o.Z)(h.Z,{imageUrl:u,errorSubject:n,errorCategory:i})},void 0,M))),v&&(0,o.Z)(d.u_.Footer,{},void 0,"function"===typeof v?v():v))}const _=b},92866:(e,t,n)=>{"use strict"
+var o=n(61323)
+var i=n(6507)
+var r=n.n(i)
+var l=n(16916)
+var a=n(78674)
+n(38593)
+n(60314)
+n(1560)
+n(88636)
+const s=(0,o.useScope)("instructure_misc_plugins")
+r().fn.setOptions=function(e,t){let n=e?"<option value=''>"+(0,l.ZP)(e)+"</option>":""
+null==t&&(t=[])
+t.forEach((e=>{const t=(0,l.ZP)(e)
+n+='<option value="'+t+'">'+t+"</option>"}))
+return this.html(r().raw(n))}
+r().fn.ifExists=function(e){this.length&&e.call(this,this)
+return this}
+r().fn.scrollbarWidth=function(){const e=r()('<div style="width:50px;height:50px;overflow:hidden;position:absolute;top:-200px;left:-200px;"><div style="height:100px;"></div>').appendTo(this),t=e.find("div")
+const n=t.innerWidth()
+e.css("overflow-y","scroll")
+const o=t.innerWidth()
+e.remove()
+return n-o}
+r().fn.dim=function(e){return this.animate({opacity:.4},e)}
+r().fn.undim=function(e){return this.animate({opacity:1},e)}
+r().fn.confirmDelete=function(e){e=r().extend({},r().fn.confirmDelete.defaults,e)
+const t=this
+let n=null
+let o=true
+e.noMessage=e.noMessage||e.no_message
+const i=function(){if(!o){e.cancelled&&r().isFunction(e.cancelled)&&e.cancelled.call(t)
+return}e.confirmed||(e.confirmed=function(){t.dim()})
+e.confirmed.call(t)
+if(e.url){e.success||(e.success=function(e){t.fadeOut("slow",(()=>{t.remove()}))})
+const o=e.prepareData?e.prepareData.call(t,n):{}
+o.authenticity_token=(0,a.Z)()
+r().ajaxJSON(e.url,"DELETE",o,(n=>{e.success.call(t,n)}),((n,o,i,l)=>{e.error&&r().isFunction(e.error)?e.error.call(t,n,o,i,l):r().ajaxJSON.unhandledXHRs.push(o)}))}else{e.success||(e.success=function(){t.fadeOut("slow",(()=>{t.remove()}))})
+e.success.call(t)}}
+if(e.message&&!e.noMessage&&!r().skipConfirmations){if(e.dialog){o=false
+const t="object"===typeof e.dialog?e.dialog:{}
+const l=e.url.includes("assignments")?"btn-danger":"btn-primary"
+n=r()(e.message).dialog(r().extend({},{modal:true,close:i,buttons:[{text:s.t("#buttons.cancel","Cancel"),click(){r()(this).dialog("close")}},{text:s.t("#buttons.delete","Delete"),class:l,click(){o=true
+r()(this).dialog("close")}}]},t))
+return}o=window.confirm(e.message)}i()}
+r().fn.confirmDelete.defaults={get message(){return s.t("confirms.default_delete_thing","Are you sure you want to delete this?")}}
+r().fn.fragmentChange=function(e){if(e&&true!==e){const t=(window.location.search||"").replace(/^\?/,"").split("&")
+let n=null
+for(let e=0;e<t.length;e++){const o=t[e]
+o&&0===o.indexOf("hash=")&&(n="#"+o.substring(5))}this.bind("document_fragment_change",e)
+const o=this
+let i=false
+for(let e=0;e<r()._checkFragments.fragmentList.length;e++){const t=r()._checkFragments.fragmentList[e]
+t.doc[0]===o[0]&&(i=true)}i||r()._checkFragments.fragmentList.push({doc:o,fragment:""})
+r()(window).bind("hashchange",r()._checkFragments)
+setTimeout((()=>{n&&n.length>0?o.triggerHandler("document_fragment_change",n):o&&o[0]&&o[0].location&&o[0].location.hash.length>0&&o.triggerHandler("document_fragment_change",o[0].location.hash)}),500)}else this.triggerHandler("document_fragment_change",this[0].location.hash)
+return this}
+r()._checkFragments=function(){const e=r()._checkFragments.fragmentList
+for(let t=0;t<e.length;t++){const n=e[t]
+const o=n.doc
+if(o[0].location.hash!==n.fragment){o.triggerHandler("document_fragment_change",o[0].location.hash)
+n.fragment=o[0].location.hash
+r()._checkFragments.fragmentList[t]=n}}}
+r()._checkFragments.fragmentList=[]
+r().fn.clickLink=function(){const e=this.eq(0)
+e.hasClass("disabled_link")||e.click()}
+r().fn.showIf=function(e){if(r().isFunction(e))return this.each((function(t){r()(this).showIf(e.call(this))}))
+e?this.show():this.hide()
+return this}
+r().fn.disableIf=function(e){r().isFunction(e)&&(e=e.call(this))
+this.prop("disabled",!!e)
+return this}
+r().fn.indicate=function(e){e=e||{}
+let t
+if("remove"===e){t=this.data("indicator")
+t&&t.remove()
+return}r()(".indicator_box").remove()
+let n=this.offset()
+e&&e.offset&&(n=e.offset)
+const o=this.width()
+const i=this.height()
+const l=(e.container||this).zIndex()
+t=r()(document.createElement("div"))
+t.css({width:o+6,height:i+6,top:n.top-3,left:n.left-3,zIndex:l+1,position:"absolute",display:"block","-moz-border-radius":5,opacity:.8,border:"2px solid #870",backgroundColor:"#fd0"})
+t.addClass("indicator_box")
+t.mouseover((function(){r()(this).stop().fadeOut("fast",(function(){r()(this).remove()}))}))
+this.data("indicator")&&this.indicate("remove")
+this.data("indicator",t)
+r()("body").append(t)
+e&&e.singleFlash?t.hide().fadeIn().animate({opacity:.8},500).fadeOut("slow",(function(){r()(this).remove()})):t.hide().fadeIn().animate({opacity:.8},500).fadeOut("slow").fadeIn("slow").animate({opacity:.8},2500).fadeOut("slow",(function(){r()(this).remove()}))
+e&&e.scroll&&r()("html,body").scrollToVisible(t)}
+r().fn.hasScrollbar=function(){return this.length&&this[0].clientHeight<this[0].scrollHeight}
+r().fn.log=function(e){console.log("%s: %o",e,this)
+return this}
+r().fn.fillWindowWithMe=function(e){const t=r().extend({minHeight:400},e),n=r()(this),o=r()("#wrapper"),i=r()("#main"),l=r()("#not_right_side"),a=r()(window),s=r()(this).add(t.alsoResize)
+function c(){s.height(0)
+const e=a.height()-(o.offset().top+o.outerHeight())+(i.height()-l.height()),c=Math.max(400,e)
+s.height(c)
+r().isFunction(t.onResize)&&t.onResize.call(n,c)}c()
+a.unbind("resize.fillWindowWithMe").bind("resize.fillWindowWithMe",c)
+return this}
+r().fn.autoGrowInput=function(e){e=r().extend({maxWidth:1e3,minWidth:0,comfortZone:70},e)
+this.filter("input:text").each((function(){let t=""
+const n=e.minWidth||r()(this).width()
+const o=r()(this)
+const i=r()("<tester/>").css({position:"absolute",top:-9999,left:-9999,width:"auto",fontSize:o.css("fontSize"),fontFamily:o.css("fontFamily"),fontWeight:o.css("fontWeight"),letterSpacing:o.css("letterSpacing"),whiteSpace:"nowrap"})
+const l=function(){setTimeout((()=>{if(t===(t=o.val()))return
+i.text(t)
+const r=i.width(),l=r+e.comfortZone>=n?r+e.comfortZone:n,a=o.width(),s=l<a&&l>=n||l>n&&l<e.maxWidth
+s&&o.width(l)}))}
+i.insertAfter(o)
+r()(this).bind("keyup keydown blur update change",l)}))
+return this}},61263:(e,t,n)=>{"use strict"
+n.d(t,{Z:()=>d})
+var o=n(64598)
+var i=n(61323)
+var r=n(87155)
+var l=n(6507)
+var a=n.n(l)
+n(60314)
+const s=(0,i.useScope)("KeyboardNavDialog");(0,o.l)(c,r.G7)
+function c(){return c.__super__.constructor.apply(this,arguments)}c.prototype.el="#keyboard_navigation"
+c.prototype.initialize=function(){c.__super__.initialize.apply(this,arguments)
+return this}
+c.prototype.render=function(e){this.$el.html(e)
+return this}
+c.prototype.bindOpenKeys=function(){let e
+e=null
+return a()(document).keydown((t=this,function(n){const o=191===n.keyCode&&n.shiftKey
+if(o&&!a()(n.target).is(":input")&&!ENV.disable_keyboard_shortcuts){n.preventDefault()
+if(!t.$el.is(":visible")){e=document.activeElement
+return t.$el.dialog({title:s.t("titles.keyboard_shortcuts","Keyboard Shortcuts"),width:400,height:"auto",close(){a()("li",this).attr("tabindex","")
+if(e)return a()(e).focus()}})}t.$el.dialog("close")
+if(e)return a()(e).focus()}}))
+var t}
+const d=c},17074:(e,t,n)=>{"use strict"
+var o=n(6507)
+var i=n.n(o)
+var r=n(25683)
+var l=n.n(r)
+var a=n(83624)
+n(60314)
+i().fn.fixDialogButtons=function(){return this.each((function(){const e=i()(this)
+const t=e.find(".button-container:last .btn, button[type=submit]")
+if(t.length){e.find(".button-container:last, button[type=submit]").hide()
+let n=i().map(t.toArray(),(t=>{const n=i()(t)
+let o=n.attr("class")||""
+const r=n.attr("id")
+if(n.is(".dialog_closer")){n.off(".fixdialogbuttons")
+n.on("click.fixdialogbuttons",(0,a.Z)((()=>e.dialog("close"))))}"submit"===n.prop("type")&&n[0].form&&(o+=" button_type_submit")
+return{text:n.text(),"data-text-while-loading":n.data("textWhileLoading"),click:()=>n.click(),class:o,id:r}}))
+n=l().sortBy(n,(e=>e.class.match(/btn-primary/)?1:0))
+e.dialog("option","buttons",n)}}))}},69849:(e,t,n)=>{"use strict"
+n.d(t,{Z:()=>i})
+function o(e,t,n){if(!e)return e
+t=(t||"").toString()
+n=(n||"").toString().replace(/\s/g,"+")
+const o=new RegExp("(%7B|{){2}[\\s|%20|+]*"+t+"[\\s|%20|+]*(%7D|}){2}","g")
+return e.replace(o,n)}function i(e,t,n){if("object"===typeof t){for(const n in t)e=o(e,n,t[n])
+return e}return o(e,t,n)}},1560:(e,t,n)=>{"use strict"
+var o=n(6507)
+var i=n.n(o)
+n(88636)
+i().fn.scrollToVisible=function(e){const t={}
+const n=i()(e)
+if(0===n.length)return
+let o=n.offset(),r=n.outerWidth(),l=n.outerHeight(),a=o.top,s=a+l,c=o.left,d=c+r,g="html,body"==this.selector?i().windowScrollTop():this.scrollTop(),h=this.scrollLeft(),u=this.outerHeight(),f=this.outerWidth()
+if("html,body"!=this.selector){let e=i()("body").offset()
+this.each((function(){try{e=i()(this).offset()
+return false}catch(e){}}))
+a-=e.top
+s-=e.top
+c-=e.left
+d-=e.left}if("HTML"==this[0].tagName||"BODY"==this[0].tagName){u=i()(window).height()
+i()("#wizard_box:visible").length>0&&(u-=i()("#wizard_box:visible").height())
+f=i()(window).width()
+a-=g
+c-=h
+s-=g
+d-=h}a<0||u<l&&s>u?t.scrollTop=a+g:s>u&&(t.scrollTop=s+g-u+20)
+c<0?t.scrollLeft=c+h:d>f&&(t.scrollLeft=d+h-f+20)
+1==t.scrollTop&&(t.scrollTop=0)
+1==t.scrollLeft&&(t.scrollLeft=0)
+this.scrollTop(t.scrollTop)
+this.scrollLeft(t.scrollLeft)
+return this}},20912:(e,t,n)=>{const o=n(6507)
+var i,r,l,a=o({})
+o.subscribe=i=function(e,t){if(o.isPlainObject(e))return o.each(e,(function(e,t){i(e,t)}))
+function n(){return t.apply(this,Array.prototype.slice.call(arguments,1))}n.guid=t.guid=t.guid||o.guid++
+a.bind(e,n)}
+o.unsubscribe=r=function(){a.unbind.apply(a,arguments)}
+o.publish=l=function(){a.trigger.apply(a,arguments)}
+e.exports={subscribe:i,unsubscribe:r,publish:l}}}])
+
+//# sourceMappingURL=58392-c-a8c7e05bd3.js.map

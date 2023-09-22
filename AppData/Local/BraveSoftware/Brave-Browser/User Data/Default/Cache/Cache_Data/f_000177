@@ -1,0 +1,330 @@
+"use strict";(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[69706,75509,49308],{34069:(e,t,n)=>{n.r(t)
+var i=n(6507)
+var s=n.n(i)
+n(61584)
+var o=n(74556)
+var a=n(36437)
+var l=n(45503)
+var r=n(75869)
+var c=n.n(r)
+c()((()=>{const e=s()("#tool_form")
+const t=function(){const t=e.find("button")
+e.show()
+t.attr("disabled",false)
+setTimeout((()=>{t.attr("disabled",true).text(t.data("expired_message"))}),15e4)
+e.submit((function(){s()(this).find(".load_tab,.tab_loaded").toggle()}))}
+const n=function(){e.attr("target","_blank")
+t()}
+switch(e.data("tool-launch-type")){case"window":e.show()
+n()
+break
+case"self":e.removeAttr("target")
+e.submit()
+break
+default:e.submit()
+s()("#tool_content").bind("load",(()=>{if("https:"!==document.location.protocol||s()("#tool_form")[0].action.indexOf("https:")>-1){s()("#insecure_content_msg").hide()
+e.hide()}}))
+setTimeout((()=>{if(s()("#insecure_content_msg").is(":visible")){s()("#load_failure").show()
+n()}}),3e3)}const i=s()(".tool_content_wrapper")
+let l,r
+const c=s()(window)
+const u=new a.Z(l)
+const d=i.find(".before_external_content_info_alert, .after_external_content_info_alert")
+d.on("focus",(function(){i.find("iframe").css("border","2px solid #0374B5")
+s()(this).removeClass("screenreader-only-tool")}))
+d.on("blur",(function(){i.find("iframe").css("border","none")
+s()(this).addClass("screenreader-only-tool")}))
+const h=s()("body").hasClass("ic-full-screen-lti-tool")
+h||(r=i.offset().top+s()("#footer").outerHeight(true))
+i.length&&c.on("resize",(()=>{if(!i.data("height_overridden"))if(h){var e,t,n
+const s=(null===(e=document.querySelector("div.before_external_content_info_alert"))||void 0===e?void 0:e.offsetHeight)||0
+const o=(null===(t=document.querySelector("div.after_external_content_info_alert"))||void 0===t?void 0:t.offsetHeight)||0
+const a=(null===(n=document.querySelector("header#mobile-header"))||void 0===n?void 0:n.offsetHeight)||0
+l=window.innerHeight-a-s-o
+u.resize_tool_content_wrapper(l,i,true)}else u.resize_tool_content_wrapper(c.height()-r-s()("#sequence_footer").outerHeight(true))})).triggerHandler("resize")
+null!=ENV.LTI&&null!=ENV.LTI.SEQUENCE&&s()("#module_sequence_footer").moduleSequenceFooter({assetType:"Lti",assetID:ENV.LTI.SEQUENCE.ASSET_ID,courseID:ENV.LTI.SEQUENCE.COURSE_ID})
+s()("#content").on("click","#mark-as-done-checkbox",(function(){o.Z.toggle(this)}))}));(0,l.xI)()},92866:(e,t,n)=>{var i=n(61323)
+var s=n(6507)
+var o=n.n(s)
+var a=n(16916)
+var l=n(78674)
+n(38593)
+n(60314)
+n(1560)
+n(88636)
+const r=(0,i.useScope)("instructure_misc_plugins")
+o().fn.setOptions=function(e,t){let n=e?"<option value=''>"+(0,a.ZP)(e)+"</option>":""
+null==t&&(t=[])
+t.forEach((e=>{const t=(0,a.ZP)(e)
+n+='<option value="'+t+'">'+t+"</option>"}))
+return this.html(o().raw(n))}
+o().fn.ifExists=function(e){this.length&&e.call(this,this)
+return this}
+o().fn.scrollbarWidth=function(){const e=o()('<div style="width:50px;height:50px;overflow:hidden;position:absolute;top:-200px;left:-200px;"><div style="height:100px;"></div>').appendTo(this),t=e.find("div")
+const n=t.innerWidth()
+e.css("overflow-y","scroll")
+const i=t.innerWidth()
+e.remove()
+return n-i}
+o().fn.dim=function(e){return this.animate({opacity:.4},e)}
+o().fn.undim=function(e){return this.animate({opacity:1},e)}
+o().fn.confirmDelete=function(e){e=o().extend({},o().fn.confirmDelete.defaults,e)
+const t=this
+let n=null
+let i=true
+e.noMessage=e.noMessage||e.no_message
+const s=function(){if(!i){e.cancelled&&o().isFunction(e.cancelled)&&e.cancelled.call(t)
+return}e.confirmed||(e.confirmed=function(){t.dim()})
+e.confirmed.call(t)
+if(e.url){e.success||(e.success=function(e){t.fadeOut("slow",(()=>{t.remove()}))})
+const i=e.prepareData?e.prepareData.call(t,n):{}
+i.authenticity_token=(0,l.Z)()
+o().ajaxJSON(e.url,"DELETE",i,(n=>{e.success.call(t,n)}),((n,i,s,a)=>{e.error&&o().isFunction(e.error)?e.error.call(t,n,i,s,a):o().ajaxJSON.unhandledXHRs.push(i)}))}else{e.success||(e.success=function(){t.fadeOut("slow",(()=>{t.remove()}))})
+e.success.call(t)}}
+if(e.message&&!e.noMessage&&!o().skipConfirmations){if(e.dialog){i=false
+const t="object"===typeof e.dialog?e.dialog:{}
+const a=e.url.includes("assignments")?"btn-danger":"btn-primary"
+n=o()(e.message).dialog(o().extend({},{modal:true,close:s,buttons:[{text:r.t("#buttons.cancel","Cancel"),click(){o()(this).dialog("close")}},{text:r.t("#buttons.delete","Delete"),class:a,click(){i=true
+o()(this).dialog("close")}}]},t))
+return}i=window.confirm(e.message)}s()}
+o().fn.confirmDelete.defaults={get message(){return r.t("confirms.default_delete_thing","Are you sure you want to delete this?")}}
+o().fn.fragmentChange=function(e){if(e&&true!==e){const t=(window.location.search||"").replace(/^\?/,"").split("&")
+let n=null
+for(let e=0;e<t.length;e++){const i=t[e]
+i&&0===i.indexOf("hash=")&&(n="#"+i.substring(5))}this.bind("document_fragment_change",e)
+const i=this
+let s=false
+for(let e=0;e<o()._checkFragments.fragmentList.length;e++){const t=o()._checkFragments.fragmentList[e]
+t.doc[0]===i[0]&&(s=true)}s||o()._checkFragments.fragmentList.push({doc:i,fragment:""})
+o()(window).bind("hashchange",o()._checkFragments)
+setTimeout((()=>{n&&n.length>0?i.triggerHandler("document_fragment_change",n):i&&i[0]&&i[0].location&&i[0].location.hash.length>0&&i.triggerHandler("document_fragment_change",i[0].location.hash)}),500)}else this.triggerHandler("document_fragment_change",this[0].location.hash)
+return this}
+o()._checkFragments=function(){const e=o()._checkFragments.fragmentList
+for(let t=0;t<e.length;t++){const n=e[t]
+const i=n.doc
+if(i[0].location.hash!==n.fragment){i.triggerHandler("document_fragment_change",i[0].location.hash)
+n.fragment=i[0].location.hash
+o()._checkFragments.fragmentList[t]=n}}}
+o()._checkFragments.fragmentList=[]
+o().fn.clickLink=function(){const e=this.eq(0)
+e.hasClass("disabled_link")||e.click()}
+o().fn.showIf=function(e){if(o().isFunction(e))return this.each((function(t){o()(this).showIf(e.call(this))}))
+e?this.show():this.hide()
+return this}
+o().fn.disableIf=function(e){o().isFunction(e)&&(e=e.call(this))
+this.prop("disabled",!!e)
+return this}
+o().fn.indicate=function(e){e=e||{}
+let t
+if("remove"===e){t=this.data("indicator")
+t&&t.remove()
+return}o()(".indicator_box").remove()
+let n=this.offset()
+e&&e.offset&&(n=e.offset)
+const i=this.width()
+const s=this.height()
+const a=(e.container||this).zIndex()
+t=o()(document.createElement("div"))
+t.css({width:i+6,height:s+6,top:n.top-3,left:n.left-3,zIndex:a+1,position:"absolute",display:"block","-moz-border-radius":5,opacity:.8,border:"2px solid #870",backgroundColor:"#fd0"})
+t.addClass("indicator_box")
+t.mouseover((function(){o()(this).stop().fadeOut("fast",(function(){o()(this).remove()}))}))
+this.data("indicator")&&this.indicate("remove")
+this.data("indicator",t)
+o()("body").append(t)
+e&&e.singleFlash?t.hide().fadeIn().animate({opacity:.8},500).fadeOut("slow",(function(){o()(this).remove()})):t.hide().fadeIn().animate({opacity:.8},500).fadeOut("slow").fadeIn("slow").animate({opacity:.8},2500).fadeOut("slow",(function(){o()(this).remove()}))
+e&&e.scroll&&o()("html,body").scrollToVisible(t)}
+o().fn.hasScrollbar=function(){return this.length&&this[0].clientHeight<this[0].scrollHeight}
+o().fn.log=function(e){console.log("%s: %o",e,this)
+return this}
+o().fn.fillWindowWithMe=function(e){const t=o().extend({minHeight:400},e),n=o()(this),i=o()("#wrapper"),s=o()("#main"),a=o()("#not_right_side"),l=o()(window),r=o()(this).add(t.alsoResize)
+function c(){r.height(0)
+const e=l.height()-(i.offset().top+i.outerHeight())+(s.height()-a.height()),c=Math.max(400,e)
+r.height(c)
+o().isFunction(t.onResize)&&t.onResize.call(n,c)}c()
+l.unbind("resize.fillWindowWithMe").bind("resize.fillWindowWithMe",c)
+return this}
+o().fn.autoGrowInput=function(e){e=o().extend({maxWidth:1e3,minWidth:0,comfortZone:70},e)
+this.filter("input:text").each((function(){let t=""
+const n=e.minWidth||o()(this).width()
+const i=o()(this)
+const s=o()("<tester/>").css({position:"absolute",top:-9999,left:-9999,width:"auto",fontSize:i.css("fontSize"),fontFamily:i.css("fontFamily"),fontWeight:i.css("fontWeight"),letterSpacing:i.css("letterSpacing"),whiteSpace:"nowrap"})
+const a=function(){setTimeout((()=>{if(t===(t=i.val()))return
+s.text(t)
+const o=s.width(),a=o+e.comfortZone>=n?o+e.comfortZone:n,l=i.width(),r=a<l&&a>=n||a>n&&a<e.maxWidth
+r&&i.width(a)}))}
+s.insertAfter(i)
+o()(this).bind("keyup keydown blur update change",a)}))
+return this}},36437:(e,t,n)=>{n.d(t,{Z:()=>o})
+var i=n(6507)
+var s=n.n(i)
+class o{constructor(e){this.minToolHeight=void 0
+this.minToolHeight=e||450}sanitizedWrapperId(e){var t
+return null===e||void 0===e||null===(t=e.toString())||void 0===t?void 0:t.replace(/[^a-zA-Z0-9_-]/g,"")}tool_content_wrapper(e){let t=s()(`div[data-tool-wrapper-id*='${this.sanitizedWrapperId(e)}']`)
+const n=s()(".tool_content_wrapper")
+t.length<=0&&1===n.length&&(t=n)
+return t}resize_tool_content_wrapper(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2]
+let i=e
+"number"!==typeof i&&(i=this.minToolHeight)
+const s=t||this.tool_content_wrapper()
+n?s.height(i):s.height(!e||this.minToolHeight>i?this.minToolHeight:i)}}},61584:(e,t,n)=>{n.r(t)
+n.d(t,{default:()=>g})
+var i=n(6507)
+var s=n.n(i)
+var o=n(40202)
+var a=n(61323)
+n(89014)
+var l=o["default"]
+var r=l.template,c=l.templates=l.templates||{}
+var u="/work/generated/ui/shared/module-sequence-footer/jst/ModuleSequenceFooter"
+c[u]=r((function(e,t,n,i,s){this.compilerInfo=[4,">= 1.0.0"]
+n=this.merge(n,e.helpers)
+s=s||{}
+var o,a,l,r="",c=n.helperMissing,u=this.escapeExpression,d="function",h=this
+function m(e,t){var i,s,o,a=""
+a+='\n      <span class="module-sequence-footer-button--previous" data-tooltip="right" data-html-tooltip-title="'+u((i=(i=e&&e.previous,null==i||false===i?i:i.tooltip),typeof i===d?i.apply(e):i))+'">\n          <a\n            href="'+u((i=(i=e&&e.previous,null==i||false===i?i:i.url),typeof i===d?i.apply(e):i))+'"\n            class="Button"\n            aria-describedby="msf'
+if(s=n.instanceNumber)i=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+i=typeof s===d?s.call(e,{hash:{},data:t}):s}a+=u(i)+'-previous-desc"\n            aria-label="'+u((s=n.t||e&&e.t,o={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"previous_module_item_a9e57348","Previous Module Item",o):c.call(e,"t","previous_module_item_a9e57348","Previous Module Item",o)))
+i=n["if"].call(e,(i=e&&e.previous,null==i||false===i?i:i.externalItem),{hash:{},inverse:h.noop,fn:h.program(2,f,t),data:t});(i||0===i)&&(a+=i)
+a+='"\n          >\n            <i class="icon-mini-arrow-left"></i>'+u((s=n.t||e&&e.t,o={hash:{i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"jquery.module_sequence_footer.previous","Previous",o):c.call(e,"t","jquery.module_sequence_footer.previous","Previous",o)))+'\n            <span id="msf'
+if(s=n.instanceNumber)i=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+i=typeof s===d?s.call(e,{hash:{},data:t}):s}a+=u(i)+'-previous-desc" class="hidden" hidden>'+u((i=(i=e&&e.previous,null==i||false===i?i:i.tooltipText),typeof i===d?i.apply(e):i))+"</span>\n          </a>\n      </span>\n    "
+return a}function f(e,t){var i,s,o=""
+o+=" - "+u((i=n.t||e&&e.t,s={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:t},i?i.call(e,"opens_in_new_window_b4b99243","opens in new window",s):c.call(e,"t","opens_in_new_window_b4b99243","opens in new window",s)))
+return o}function p(e,t){var i,s,o,a=""
+a+='\n      <span class="module-sequence-footer-button--next" data-tooltip="left" data-html-tooltip-title="'+u((i=(i=e&&e.next,null==i||false===i?i:i.tooltip),typeof i===d?i.apply(e):i))+'">\n        <a\n          href="'+u((i=(i=e&&e.next,null==i||false===i?i:i.url),typeof i===d?i.apply(e):i))+'"\n          class="Button"\n          aria-describedby="msf'
+if(s=n.instanceNumber)i=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+i=typeof s===d?s.call(e,{hash:{},data:t}):s}a+=u(i)+'-next-desc"\n          aria-label="'+u((s=n.t||e&&e.t,o={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"next_module_item_19e835f3","Next Module Item",o):c.call(e,"t","next_module_item_19e835f3","Next Module Item",o)))
+i=n["if"].call(e,(i=e&&e.next,null==i||false===i?i:i.externalItem),{hash:{},inverse:h.noop,fn:h.program(2,f,t),data:t});(i||0===i)&&(a+=i)
+a+='"\n            '
+i=n["if"].call(e,(i=e&&e.next,null==i||false===i?i:i.modules_tab_disabled),{hash:{},inverse:h.noop,fn:h.program(5,_,t),data:t});(i||0===i)&&(a+=i)
+a+="\n          "+u((s=n.disabledIf||e&&e.disabledIf,o={hash:{},data:t},s?s.call(e,(i=e&&e.next,null==i||false===i?i:i.modules_tab_disabled),o):c.call(e,"disabledIf",(i=e&&e.next,null==i||false===i?i:i.modules_tab_disabled),o)))+"\n        >\n          "+u((s=n.t||e&&e.t,o={hash:{i18n_scope:"jquery.module_sequence_footer"},data:t},s?s.call(e,"jquery.module_sequence_footer.next","Next",o):c.call(e,"t","jquery.module_sequence_footer.next","Next",o)))+'<i class="icon-mini-arrow-right"></i>\n          <span id="msf'
+if(s=n.instanceNumber)i=s.call(e,{hash:{},data:t})
+else{s=e&&e.instanceNumber
+i=typeof s===d?s.call(e,{hash:{},data:t}):s}a+=u(i)+'-next-desc" class="hidden" hidden>'+u((i=(i=e&&e.next,null==i||false===i?i:i.tooltipText),typeof i===d?i.apply(e):i))+"</span>\n        </a>\n      </span>\n    "
+return a}function _(e,t){return' aria-disabled="true" '}r+="<div class='module-sequence-padding'></div>\n<div class='module-sequence-footer' role=\"navigation\" aria-label=\""+u((a=n.t||t&&t.t,l={hash:{i18n_inferred_key:true,i18n_scope:"jquery.module_sequence_footer"},data:s},a?a.call(t,"module_navigation_97043417","Module Navigation",l):c.call(t,"t","module_navigation_97043417","Module Navigation",l)))+'">\n  <div class="module-sequence-footer-content">\n    '
+o=n["if"].call(t,(o=t&&t.previous,null==o||false===o?o:o.show),{hash:{},inverse:h.noop,fn:h.program(1,m,s),data:s});(o||0===o)&&(r+=o)
+r+="\n\n    "
+o=n["if"].call(t,(o=t&&t.next,null==o||false===o?o:o.show),{hash:{},inverse:h.noop,fn:h.program(4,p,s),data:s});(o||0===o)&&(r+=o)
+r+="\n  </div>\n</div>\n"
+return r}))
+const d=c[u]
+var h=n(25683)
+var m=n.n(h)
+var f=n(16916)
+n(38593)
+const p=(0,a.useScope)("sequence_footer")
+let _=0
+s().fn.moduleSequenceFooter=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+if(!e.assetType||!e.assetID)throw new Error("Option must be set with assetType and assetID")
+this.msfAnimation=e=>this.find(".module-sequence-padding, .module-sequence-footer").toggleClass("no-animation",!e)
+if(!this.data("msfInstance")){this.msfInstance=new(s().fn.moduleSequenceFooter.MSFClass)(e)
+this.data("msfInstance",this.msfInstance)
+this.msfInstance.fetch().done((()=>{if(this.msfInstance.hide){this.hide()
+return}this.html(d({instanceNumber:this.msfInstance.instanceNumber,previous:this.msfInstance.previous,next:this.msfInstance.next}))
+e&&void 0!==e.animation&&this.msfAnimation(e.animation)
+this.show()
+s()(window).triggerHandler("resize")
+e.onFetchSuccess&&e.onFetchSuccess()}))}return this}
+class g{constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+this.iconClasses={ModuleItem:"icon-module",File:"icon-paperclip",Page:"icon-document",Discussion:"icon-discussion",Assignment:"icon-assignment",Quiz:"icon-quiz",ExternalTool:"icon-link",ExternalUrl:"icon-link","Lti::MessageHandler":"icon-link"}
+this.success=e=>{this.modules=e.modules
+if(!(e&&e.items&&1===e.items.length)){this.hide=true
+return}this.item=e.items[0];(this.previous.show=this.item.prev)&&this.buildPreviousData()
+if(this.item.next||this.awaitingPathProgress()){this.next.show=true
+const e=this.awaitingPathProgress()
+e?this.buildNextPathData():this.buildNextData()}}
+this.instanceNumber=_++
+this.courseID=e.courseID||"undefined"!==typeof ENV&&ENV.course_id
+this.assetID=e.assetID
+this.assetType=e.assetType
+this.location=e.location||document.location
+this.previous={}
+this.next={}
+this.url=`/api/v1/courses/${this.courseID}/module_item_sequence`}getQueryParams(e){let t
+e=e.split("+").join(" ")
+const n={}
+const i=/[?&]?([^=]+)=([^&]*)/g
+while(t=i.exec(e))n[decodeURIComponent(t[1])]=decodeURIComponent(t[2])
+return n}fetch(){const e=this.getQueryParams(this.location.search)
+return e.module_item_id?s().ajaxJSON(this.url,"GET",{asset_type:"ModuleItem",asset_id:e.module_item_id,frame_external_urls:true},this.success,null,{}):s().ajaxJSON(this.url,"GET",{asset_type:this.assetType,asset_id:this.assetID,frame_external_urls:true},this.success,null,{})}buildPreviousData(){this.previous.url=this.item.prev.html_url
+this.previous.externalItem="ExternalUrl"===this.item.prev.type&&this.item.prev.new_tab
+if(this.item.current.module_id===this.item.prev.module_id){this.previous.tooltip=`<i class='${(0,f.ZP)(this.iconClasses[this.item.prev.type])}'></i> ${(0,f.ZP)(this.item.prev.title)}`
+this.previous.tooltipText=p.t("prev_module_item_desc","Previous: *item*",{wrapper:this.item.prev.title})}else{const e=m().find(this.modules,(e=>e.id===this.item.prev.module_id))
+this.previous.tooltip=`<strong style='float:left'>${(0,f.ZP)(p.t("prev_module","Previous Module:"))}</strong> <br> ${(0,f.ZP)(e.name)}`
+this.previous.tooltipText=p.t("prev_module_desc","Previous Module: *module*",{wrapper:e.name})}}buildNextPathData(){const e=this.item.mastery_path
+if(e.awaiting_choice){this.next.url=e.choose_url
+this.next.tooltipText=p.t("Choose the next mastery path")}else{const t=p.t("Next mastery path is currently locked")
+const n=p.t("Next mastery path is still processing, please periodically refresh the page")
+const i=e.locked?t:n
+this.next.modules_tab_disabled=e.modules_tab_disabled
+this.next.url=e.modules_url
+this.next.tooltipText=i}this.next.tooltip=`<i class='${(0,f.ZP)(this.iconClasses.ModuleItem)}'/> ${this.next.tooltipText}`}buildNextData(){this.next.url=this.item.next.html_url
+this.next.externalItem="ExternalUrl"===this.item.next.type&&this.item.next.new_tab
+if(this.item.current.module_id===this.item.next.module_id){this.next.tooltip=`<i class='${(0,f.ZP)(this.iconClasses[this.item.next.type])}'></i> ${(0,f.ZP)(this.item.next.title)}`
+this.next.tooltipText=p.t("Next: *item*",{wrapper:this.item.next.title})}else{const e=m().find(this.modules,(e=>e.id===this.item.next.module_id))
+this.next.tooltip=`<strong style='float:left'>${(0,f.ZP)(p.t("next_module","Next Module:"))}</strong> <br> ${(0,f.ZP)(e.name)}`
+this.next.tooltipText=p.t("next_module_desc","Next Module: *module*",{wrapper:e.name})}}awaitingPathProgress(){const e=this.item.mastery_path
+if(e&&e.is_student)return e.awaiting_choice||e.locked||e.still_processing}}s().fn.moduleSequenceFooter.MSFClass=g},98349:(e,t,n)=>{n.d(t,{Z:()=>d})
+var i=n(6507)
+var s=n.n(i)
+var o=n(25683)
+var a=n.n(o)
+var l=n(16916)
+var r=n(61323)
+const c=(0,r.useScope)("user_content")
+const u={translateMathmlForScreenreaders(e){var t,n
+if(!(null!==(t=ENV)&&void 0!==t&&null!==(n=t.FEATURES)&&void 0!==n&&n.new_math_equation_handling)){const t=s()("<div/>").html(e.attr("x-canvaslms-safe-mathml")).html()
+const n=s()('<span class="hidden-readable"></span>')
+n.html(t)
+return n}},toMediaCommentLink(e){const t=s()(`<a\n        id='media_comment_${(0,l.ZP)(s()(e).data("media_comment_id"))}'\n        data-media_comment_type='${(0,l.ZP)(s()(e).data("media_comment_type"))}'\n        class='instructure_inline_media_comment ${(0,l.ZP)(e.nodeName.toLowerCase())}_comment'\n        data-alt='${(0,l.ZP)(s()(e).attr("data-alt"))}'\n      />`)
+t.html(s()(e).html())
+return t},convert(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+const n=s()("<div />").html(e)
+n.find("video.instructure_inline_media_comment,audio.instructure_inline_media_comment").replaceWith((function(){return u.toMediaCommentLink(this)}))
+n.find("object.instructure_user_content:not(#kaltura_player) embed").remove()
+if(!t.forEditing){n.find("object.instructure_user_content,embed.instructure_user_content").replaceWith((function(){const e=s()(this)
+if(!e.data("uc_snippet")||!e.data("uc_sig"))return this
+const t=a().uniqueId("uc_")
+let n="/object_snippet"
+ENV.files_domain&&(n=`//${ENV.files_domain}${n}`)
+const i=s()(`<form\n            action='${(0,l.ZP)(n)}'\n            method='post'\n            class='user_content_post_form'\n            target='${(0,l.ZP)(t)}'\n            id='form-${(0,l.ZP)(t)}'\n          />`)
+i.append(s()("<input type='hidden'/>").attr({name:"object_data",value:e.data("uc_snippet")}))
+i.append(s()("<input type='hidden'/>").attr({name:"s",value:e.data("uc_sig")}))
+s()("body").append(i)
+setTimeout((()=>i.submit()),0)
+return s()(`<iframe\n            class='user_content_iframe'\n            name='${(0,l.ZP)(t)}'\n            style='width: ${(0,l.ZP)(e.data("uc_width"))}; height: ${(0,l.ZP)(e.data("uc_height"))};'\n            frameborder='0'\n            title='${(0,l.ZP)(c.t("User Content"))}'\n          />`)}))
+n.find("img.equation_image").each(((e,t)=>{const n=s()(t)
+const i=u.translateMathmlForScreenreaders(n)
+n.removeAttr("x-canvaslms-safe-mathml")
+n.after(i)}))}return n.html()}}
+const d=u},1560:(e,t,n)=>{var i=n(6507)
+var s=n.n(i)
+n(88636)
+s().fn.scrollToVisible=function(e){const t={}
+const n=s()(e)
+if(0===n.length)return
+let i=n.offset(),o=n.outerWidth(),a=n.outerHeight(),l=i.top,r=l+a,c=i.left,u=c+o,d="html,body"==this.selector?s().windowScrollTop():this.scrollTop(),h=this.scrollLeft(),m=this.outerHeight(),f=this.outerWidth()
+if("html,body"!=this.selector){let e=s()("body").offset()
+this.each((function(){try{e=s()(this).offset()
+return false}catch(e){}}))
+l-=e.top
+r-=e.top
+c-=e.left
+u-=e.left}if("HTML"==this[0].tagName||"BODY"==this[0].tagName){m=s()(window).height()
+s()("#wizard_box:visible").length>0&&(m-=s()("#wizard_box:visible").height())
+f=s()(window).width()
+l-=d
+c-=h
+r-=d
+u-=h}l<0||m<a&&r>m?t.scrollTop=l+d:r>m&&(t.scrollTop=r+d-m+20)
+c<0?t.scrollLeft=c+h:u>f&&(t.scrollLeft=u+h-f+20)
+1==t.scrollTop&&(t.scrollTop=0)
+1==t.scrollLeft&&(t.scrollLeft=0)
+this.scrollTop(t.scrollTop)
+this.scrollLeft(t.scrollLeft)
+return this}}}])
+
+//# sourceMappingURL=external_tools_show-c-155e100724.js.map

@@ -1,0 +1,1112 @@
+D 2023-09-16 06:00:14.577091 [Main] {Main} Removing old/extra log file: battle.net-20230912T051941.276777.log
+D 2023-09-16 06:00:14.577726 [Main] {Main} Removing old/extra log file: libcef-20230905T053540.949084.log
+I 2023-09-16 06:00:14.578386 [Main] {Main} Logging started for Battle.net build 2.24.1.14385
+I 2023-09-16 06:00:14.579264 [Configuration] {Main} SharedConfigRoot: C:\ProgramData\Battle.net
+I 2023-09-16 06:00:14.580056 [Configuration] {Main} RoamingConfigRoot: C:\Users\dorian\AppData\Roaming\Battle.net
+I 2023-09-16 06:00:14.580086 [Configuration] {Main} LocalConfigRoot: C:\Users\dorian\AppData\Local\Battle.net
+D 2023-09-16 06:00:14.580561 [Configuration] {Main} Searching for config file: D:\Battle.net\Battle.net.14385\Battle.net.config
+D 2023-09-16 06:00:14.580697 [Configuration] {Main} Searching for config file: D:\Battle.net\Battle.net.config
+D 2023-09-16 06:00:14.581620 [Configuration] {Main} User Configuration File: C:\Users\dorian\AppData\Roaming\Battle.net\Battle.net.config
+I 2023-09-16 06:00:14.585493 [Main] {Main} Command line arguments: {}
+I 2023-09-16 06:00:14.588532 [Main] {Main} Opening IPC shared memory. queueName=User:Dorian:Battle.net IPC ShMem mode=server
+I 2023-09-16 06:00:14.614134 [Main] {Main} Adding ObserverRecord: QtLoggingRules
+I 2023-09-16 06:00:14.615774 [Frontend] {Main} Supplying list of renderers: d3d11,warp,desktop
+I 2023-09-16 06:00:15.202090 [LocalizationData] {Main} 22 language(s) loaded from languages.xml, default=enUS
+D 2023-09-16 06:00:15.237127 [Main] {Main} Adding application font: resources/fonts/BlizzardReg.ttf
+D 2023-09-16 06:00:15.240979 [Main] {Main} Adding application font: resources/fonts/BlizzardLig.ttf
+D 2023-09-16 06:00:15.244371 [Main] {Main} Adding application font: resources/fonts/BlizzardBol.ttf
+D 2023-09-16 06:00:15.247636 [Main] {Main} Adding application font: resources/fonts/NotoSans-Bold.ttf
+D 2023-09-16 06:00:15.258707 [Main] {Main} Adding application font: resources/fonts/NotoSans-BoldItalic.ttf
+D 2023-09-16 06:00:15.270030 [Main] {Main} Adding application font: resources/fonts/NotoSans-Italic.ttf
+D 2023-09-16 06:00:15.281708 [Main] {Main} Adding application font: resources/fonts/NotoSans-Regular.ttf
+D 2023-09-16 06:00:15.293131 [Main] {Main} Adding application font: resources/fonts/ObjectSans-Bold.ttf
+D 2023-09-16 06:00:15.296872 [Main] {Main} Adding application font: resources/fonts/ObjectSans-Medium.ttf
+D 2023-09-16 06:00:16.133659 [Main] {Main} Setting font to: Blizzard
+I 2023-09-16 06:00:16.133900 [HighDpiManager] {Main} Detected screen \\.\DISPLAY1 primary=1 devicePixelRatio=1
+I 2023-09-16 06:00:16.133944 [HighDpiManager] {Main} Detected screen \\.\DISPLAY4 primary=0 devicePixelRatio=1
+I 2023-09-16 06:00:16.135144 [CacheManager] {Main} Local storage cache at: C:\Users\dorian\AppData\Local\Battle.net\Cache
+I 2023-09-16 06:00:16.140691 [Main] {Main} Opened database at: C:\Users\dorian\AppData\Local\Battle.net\CachedData.db
+I 2023-09-16 06:00:16.141782 [Main] {Main} Adding ObserverRecord: UpdateInterval
+I 2023-09-16 06:00:16.141827 [Main] {Main} Adding ObserverRecord: UpdateIntervalOnFailure
+I 2023-09-16 06:00:16.141846 [Main] {Main} Adding ObserverRecord: UseNGDP
+I 2023-09-16 06:00:16.141991 [Main] {Main} Adding ObserverRecord: ExternalMetadata
+I 2023-09-16 06:00:16.142036 [Main] {Main} Adding ObserverRecord: SessionExpirationLimitsMin
+I 2023-09-16 06:00:16.142201 [Main] {Main} Adding ObserverRecord: EnableAgentClientLog
+I 2023-09-16 06:00:16.142267 [Main] {Main} Adding ObserverRecord: AgentUpdateIntervalMS
+I 2023-09-16 06:00:16.142320 [Main] {Main} Adding ObserverRecord: GameListUpdateIntervalMS
+I 2023-09-16 06:00:16.142370 [Main] {Main} Adding ObserverRecord: GameSessionListIntervalMS
+D 2023-09-16 06:00:16.142825 [Agent] {Main} PolicyHandler Thread STARTED
+D 2023-09-16 06:00:16.142866 [Agent] {Agent} PolicyHandlerThreadProc: I shall in all my best obey you.
+I 2023-09-16 06:00:16.366500 [DIAG_BNL_Voice] {Main} Audio device monitor using already-initialized COM
+I 2023-09-16 06:00:16.367911 [Main] {Main} Adding ObserverRecord: UpdatePrioritiesEnabed
+I 2023-09-16 06:00:16.367948 [Main] {Main} Adding ObserverRecord: BattlePlatformProductCode
+I 2023-09-16 06:00:16.367962 [Main] {Main} Adding ObserverRecord: UnattendPatchUid
+I 2023-09-16 06:00:16.368502 [Main] {Main} Adding ObserverRecord: MaxInitTimeMS
+I 2023-09-16 06:00:16.368530 [Main] {Main} Adding ObserverRecord: CooldownMS
+I 2023-09-16 06:00:16.368540 [Main] {Main} Adding ObserverRecord: EndPoints
+I 2023-09-16 06:00:16.368550 [Main] {Main} Adding ObserverRecord: Scope:TraceRoute
+I 2023-09-16 06:00:16.368658 [Main] {Main} Adding ObserverRecord: Enabled
+I 2023-09-16 06:00:16.368676 [Main] {Main} Adding ObserverRecord: GlobalDisable
+I 2023-09-16 06:00:16.368687 [Main] {Main} Adding ObserverRecord: ServerFlag
+I 2023-09-16 06:00:16.368698 [VoiceSessionBroker] {Main} Global voice is on
+I 2023-09-16 06:00:16.368795 [Main] {Main} Adding ObserverRecord: FilteredMarkdownLinkProtocols
+I 2023-09-16 06:00:16.368858 [Main] {Main} Adding ObserverRecord: ChatSendExpirationLimitsMin
+I 2023-09-16 06:00:16.368882 [Main] {Main} Adding ObserverRecord: ChatExpirationLimitsMin
+I 2023-09-16 06:00:16.369210 [Main] {Main} Execution environment changed. environment=EE_STANDARD
+I 2023-09-16 06:00:16.369773 [Main] {Main} Adding ObserverRecord: BetaAccessOverride
+I 2023-09-16 06:00:16.369803 [Main] {Main} Adding ObserverRecord: BetaBranchOverride
+I 2023-09-16 06:00:16.370936 [CatalogManager] {Main} Loaded catalog hash from the database cache. hash=b67f852d938e5248fb87eaf4e1e456ea
+I 2023-09-16 06:00:16.372295 [CatalogManager] {Main} Built-in catalog hash (catalog/digesthash.txt): b709cd13324b3c81bb04babdd7412eb4
+I 2023-09-16 06:00:16.372677 [CatalogManager] {Main} Built-in catalog hash (catalog/signaturehash.txt): 0930f7fc0771359ba40617c3ba51e4cc
+I 2023-09-16 06:00:16.372728 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: b67f852d938e5248fb87eaf4e1e456ea I) ***
+W 2023-09-16 06:00:17.432319 [FeatureManager] {Main} Feature 'odin_noaltcontent_ce8c0f8d' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432369 [FeatureManager] {Main} Feature 'diablo_iii_limited_starter_test_0c8f9577' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432384 [FeatureManager] {Main} Feature 'viper_noaltcontent_0f11890c' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432395 [FeatureManager] {Main} Feature 'diablo_iii_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432405 [FeatureManager] {Main} Feature 'fenris_noaltcontent_35b640c8' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432415 [FeatureManager] {Main} Feature 'zeus_noaltcontent_c59539dc' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432425 [FeatureManager] {Main} Feature 'fore_noaltcontent_de1ef22b' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432439 [FeatureManager] {Main} Feature 'hearthstone_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432449 [FeatureManager] {Main} Feature 'heroes_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432461 [FeatureManager] {Main} Feature 'lazarus_noaltcontent_d4cda575' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432473 [FeatureManager] {Main} Feature 'osi_noaltcontent_9c974b81' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432491 [FeatureManager] {Main} Feature 'osi_limited_install_8f28fd5a' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432502 [FeatureManager] {Main} Feature 'rtro_noaltcontent_51e6540b' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432511 [FeatureManager] {Main} Feature 'starcraft_ii_noaltcontent_1fa42bb9' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432521 [FeatureManager] {Main} Feature 'starcraft_remastered_noaltcontent_1efefb6b' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432533 [FeatureManager] {Main} Feature 'warcraft_iii_noaltcontent_f8563b8b' depends on missing feature 'alt_content_for_starter'
+W 2023-09-16 06:00:17.432543 [FeatureManager] {Main} Feature 'wlby_noaltcontent_1c629ae2' depends on missing feature 'alt_content_for_starter'
+I 2023-09-16 06:00:17.432566 [FeatureManager] {Main} Feature changed: starcraft_remastered_noaltcontent_1efefb6b=true
+I 2023-09-16 06:00:17.432590 [FeatureManager] {Main} Moving feature record from active to inactive: whisper_voice
+I 2023-09-16 06:00:17.432602 [FeatureManager] {Main} Feature changed: starcraft_ii_noaltcontent_1fa42bb9=true
+I 2023-09-16 06:00:17.432620 [FeatureManager] {Main} Moving feature record from active to inactive: trace_route
+I 2023-09-16 06:00:17.432639 [FeatureManager] {Main} Moving feature record from active to inactive: mapped_urls
+I 2023-09-16 06:00:17.432659 [FeatureManager] {Main} Feature changed: auks_quick_link_manage_content_c0a8b3f4=true
+I 2023-09-16 06:00:17.432673 [FeatureManager] {Main} Feature changed: auks_cia_limited_9b46f08f=true
+I 2023-09-16 06:00:17.432695 [FeatureManager] {Main} Feature changed: viper_noaltcontent_0f11890c=true
+I 2023-09-16 06:00:17.432710 [FeatureManager] {Main} Feature changed: diablo_iii_noaltcontent_1fa42bb9=true
+I 2023-09-16 06:00:17.432732 [FeatureManager] {Main} Feature changed: fenris_noaltcontent_35b640c8=true
+I 2023-09-16 06:00:17.432749 [FeatureManager] {Main} Feature changed: zeus_noaltcontent_c59539dc=true
+I 2023-09-16 06:00:17.432761 [FeatureManager] {Main} Feature changed: fore_limited_alpha_77d92e2d=true
+I 2023-09-16 06:00:17.432773 [FeatureManager] {Main} Feature changed: fore_quick_link_manage_content_c0a8b3f4=true
+I 2023-09-16 06:00:17.432791 [FeatureManager] {Main} Feature changed: hearthstone_limited_event_b0bc24ed=true
+I 2023-09-16 06:00:17.432804 [FeatureManager] {Main} Feature changed: hearthstone_noaltcontent_1fa42bb9=true
+I 2023-09-16 06:00:17.432818 [FeatureManager] {Main} Feature changed: heroes_noaltcontent_1fa42bb9=true
+I 2023-09-16 06:00:17.432830 [FeatureManager] {Main} Feature changed: lazarus_noaltcontent_d4cda575=true
+I 2023-09-16 06:00:17.432846 [FeatureManager] {Main} Feature changed: osi_limited_product_a451104f=true
+I 2023-09-16 06:00:17.432859 [FeatureManager] {Main} Feature changed: odin_deprecate_event_87cae325=true
+I 2023-09-16 06:00:17.432870 [FeatureManager] {Main} Feature changed: odin_quick_link_manage_content_c0a8b3f4=true
+I 2023-09-16 06:00:17.432881 [FeatureManager] {Main} Feature changed: osi_noaltcontent_9c974b81=true
+I 2023-09-16 06:00:17.432897 [FeatureManager] {Main} Feature changed: rtro_noaltcontent_51e6540b=true
+I 2023-09-16 06:00:17.515045 [FeatureManager] {Main} Feature changed: warcraft_iii_noaltcontent_f8563b8b=true
+I 2023-09-16 06:00:17.515119 [FeatureManager] {Main} Feature changed: wlby_noaltcontent_1c629ae2=true
+I 2023-09-16 06:00:17.515138 [FeatureManager] {Main} Feature changed: zeus_quick_link_manage_content_c0a8b3f4=true
+I 2023-09-16 06:00:17.540399 [FeatureManager] {Main} Updated feature next update time: id=last_played_nfe nextUpdate=2024-01-01 00:00:00.000000
+I 2023-09-16 06:00:17.540506 [FeatureManager] {Main} Feature 'odin_noaltcontent_ce8c0f8d' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540529 [FeatureManager] {Main} Feature 'diablo_iii_limited_starter_test_0c8f9577' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540543 [FeatureManager] {Main} Feature 'viper_noaltcontent_0f11890c' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540556 [FeatureManager] {Main} Feature 'diablo_iii_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540567 [FeatureManager] {Main} Feature 'fenris_noaltcontent_35b640c8' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540578 [FeatureManager] {Main} Feature 'zeus_noaltcontent_c59539dc' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540590 [FeatureManager] {Main} Feature 'fore_noaltcontent_de1ef22b' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540602 [FeatureManager] {Main} Feature 'hearthstone_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540613 [FeatureManager] {Main} Feature 'heroes_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540626 [FeatureManager] {Main} Feature 'lazarus_noaltcontent_d4cda575' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540640 [FeatureManager] {Main} Feature 'osi_noaltcontent_9c974b81' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540651 [FeatureManager] {Main} Feature 'osi_limited_install_8f28fd5a' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540662 [FeatureManager] {Main} Feature 'rtro_noaltcontent_51e6540b' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540672 [FeatureManager] {Main} Feature 'starcraft_ii_noaltcontent_1fa42bb9' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540687 [FeatureManager] {Main} Feature 'starcraft_remastered_noaltcontent_1efefb6b' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540700 [FeatureManager] {Main} Feature 'warcraft_iii_noaltcontent_f8563b8b' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540711 [FeatureManager] {Main} Feature 'wlby_noaltcontent_1c629ae2' had dependency errors but has been resolved.
+I 2023-09-16 06:00:17.540759 [Main] {Main} Adding ObserverRecord: VoiceTranscriptionOptIn for Feature
+I 2023-09-16 06:00:17.540791 [FeatureManager] {Main} Feature changed: mapped_urls=true
+I 2023-09-16 06:00:17.543112 [FeatureManager] {Main} Feature changed: blizzard_profiles=true
+I 2023-09-16 06:00:17.543183 [FeatureManager] {Main} Feature changed: social_tab=true
+I 2023-09-16 06:00:17.543196 [FeatureManager] {Main} Feature changed: auto_update_optimization=true
+I 2023-09-16 06:00:17.543207 [FeatureManager] {Main} Feature changed: embedded_web_view=true
+I 2023-09-16 06:00:17.543220 [FeatureManager] {Main} Feature changed: clear_chat_history=true
+I 2023-09-16 06:00:17.543248 [FeatureManager] {Main} Feature changed: alt_content_for_starter=true
+I 2023-09-16 06:00:17.543267 [FeatureManager] {Main} Feature changed: hearthstone_noaltcontent_1fa42bb9=false
+I 2023-09-16 06:00:17.543283 [FeatureManager] {Main} Feature changed: heroes_noaltcontent_1fa42bb9=false
+I 2023-09-16 06:00:17.543297 [FeatureManager] {Main} Feature changed: lazarus_noaltcontent_d4cda575=false
+I 2023-09-16 06:00:17.543346 [FeatureManager] {Main} Feature changed: home_page_retail_enable=true
+I 2023-09-16 06:00:17.543370 [FeatureManager] {Main} Feature changed: osi_limited_install_8f28fd5a=true
+I 2023-09-16 06:00:17.543385 [FeatureManager] {Main} Feature changed: osi_noaltcontent_9c974b81=false
+I 2023-09-16 06:00:17.543399 [FeatureManager] {Main} Feature changed: rtro_noaltcontent_51e6540b=false
+I 2023-09-16 06:00:17.543417 [FeatureManager] {Main} Feature changed: cui_token=true tags=token_share_variant
+I 2023-09-16 06:00:17.543436 [FeatureManager] {Main} Feature changed: warcraft_iii_noaltcontent_f8563b8b=false
+I 2023-09-16 06:00:17.543464 [FeatureManager] {Main} Feature changed: wlby_noaltcontent_1c629ae2=false
+I 2023-09-16 06:00:17.543479 [FeatureManager] {Main} Feature changed: link_previews=true
+I 2023-09-16 06:00:17.543493 [FeatureManager] {Main} Feature changed: app_feedback_dialog=true
+I 2023-09-16 06:00:17.543514 [FeatureManager] {Main} Feature changed: activision_auto_account_creation=true
+I 2023-09-16 06:00:17.543529 [FeatureManager] {Main} Feature changed: suggested_group_members=true
+I 2023-09-16 06:00:17.543540 [FeatureManager] {Main} Feature changed: all_games_v2=true
+I 2023-09-16 06:00:17.543551 [FeatureManager] {Main} Feature changed: all_games_new_badge=true
+I 2023-09-16 06:00:17.543562 [FeatureManager] {Main} Feature changed: appear_offline=true
+I 2023-09-16 06:00:17.543572 [FeatureManager] {Main} Feature changed: refresh_toast=true
+I 2023-09-16 06:00:17.543583 [FeatureManager] {Main} Feature changed: browser_main_window=true
+I 2023-09-16 06:00:17.543601 [FeatureManager] {Main} Feature changed: chat_giphy=true
+I 2023-09-16 06:00:17.543611 [FeatureManager] {Main} Feature changed: mentions=true
+I 2023-09-16 06:00:17.543621 [FeatureManager] {Main} Feature changed: high_dpi=true
+I 2023-09-16 06:00:17.543631 [FeatureManager] {Main} Feature changed: cn_age_alert=true
+I 2023-09-16 06:00:17.543644 [FeatureManager] {Main} Feature changed: group_privacy_settings=true
+I 2023-09-16 06:00:17.543654 [FeatureManager] {Main} Feature changed: collapsible_social_panel=true
+I 2023-09-16 06:00:17.543668 [FeatureManager] {Main} Feature changed: multichats=true
+I 2023-09-16 06:00:17.543702 [FeatureManager] {Main} Feature changed: content_ui=true
+I 2023-09-16 06:00:17.543713 [FeatureManager] {Main} Feature changed: first_time_experience=true
+I 2023-09-16 06:00:17.543723 [FeatureManager] {Main} Feature changed: content_ui_web_view=true
+I 2023-09-16 06:00:17.543734 [FeatureManager] {Main} Feature changed: cts_takeovers=true
+I 2023-09-16 06:00:17.543743 [FeatureManager] {Main} Feature changed: default_startup_screen=true
+I 2023-09-16 06:00:17.543755 [FeatureManager] {Main} Feature changed: sms_protect_requirements=true
+I 2023-09-16 06:00:17.543764 [FeatureManager] {Main} Feature changed: friend_request_management=true
+I 2023-09-16 06:00:17.543774 [FeatureManager] {Main} Feature changed: friends_list_popout=true
+I 2023-09-16 06:00:17.543784 [FeatureManager] {Main} Feature changed: gift_inventory=true
+I 2023-09-16 06:00:17.543794 [FeatureManager] {Main} Feature changed: refresh_friend_tooltip=true
+I 2023-09-16 06:00:17.543804 [FeatureManager] {Main} Feature changed: global_legendary_promos=true
+I 2023-09-16 06:00:17.543814 [FeatureManager] {Main} Feature changed: whisper_voice=true
+I 2023-09-16 06:00:17.543830 [FeatureManager] {Main} Feature changed: home_page=true tags=homepage
+I 2023-09-16 06:00:17.543846 [FeatureManager] {Main} Feature changed: last_played=true
+I 2023-09-16 06:00:17.543858 [FeatureManager] {Main} Feature changed: non_friend_whispers=true
+I 2023-09-16 06:00:17.543868 [FeatureManager] {Main} Feature changed: notification_center=true
+I 2023-09-16 06:00:17.543878 [FeatureManager] {Main} Feature changed: playscreen_migrate_cms=true
+I 2023-09-16 06:00:17.543889 [FeatureManager] {Main} Feature changed: shared_container_installs=true
+I 2023-09-16 06:00:17.543899 [FeatureManager] {Main} Feature changed: sc2_account_selection_dialog=true
+I 2023-09-16 06:00:17.543912 [FeatureManager] {Main} Feature changed: suggested_facebook_friends=true
+I 2023-09-16 06:00:17.543923 [FeatureManager] {Main} Feature changed: shop_wish_list=true
+I 2023-09-16 06:00:17.543947 [FeatureManager] {Main} Feature changed: starcraft_remastered_noaltcontent_1efefb6b=false
+I 2023-09-16 06:00:17.543961 [FeatureManager] {Main} Feature changed: starcraft_ii_noaltcontent_1fa42bb9=false
+I 2023-09-16 06:00:17.543977 [FeatureManager] {Main} Feature changed: alt_content_enabled_not=true tags=starter_cui_control
+I 2023-09-16 06:00:17.543990 [FeatureManager] {Main} Feature changed: diablo_iii_noaltcontent_1fa42bb9=false
+I 2023-09-16 06:00:17.544003 [FeatureManager] {Main} Feature changed: viper_noaltcontent_0f11890c=false
+I 2023-09-16 06:00:17.544016 [FeatureManager] {Main} Feature changed: fenris_noaltcontent_35b640c8=false
+I 2023-09-16 06:00:17.544028 [FeatureManager] {Main} Feature changed: zeus_noaltcontent_c59539dc=false
+D 2023-09-16 06:00:17.544346 [Configuration] {Main} Searching for config file: D:\Battle.net\Battle.net.14385\Environments.yaml
+D 2023-09-16 06:00:17.544507 [Configuration] {Main} Searching for config file: D:\Battle.net\Environments.yaml
+I 2023-09-16 06:00:17.544627 [EnvironmentManager] {Main} Login parameters changed: address=us.actual.battle.net:1119 region=US
+D 2023-09-16 06:00:17.585863 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2023-09-16 06:00:17.585939 [CatalogVarStorage] {Main} Setting var from catalog Client.Voice.LastDestroySessionLogoutTime=60000
+D 2023-09-16 06:00:17.585974 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2023-09-16 06:00:17.586007 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2023-09-16 06:00:17.586038 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2023-09-16 06:00:17.586054 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2023-09-16 06:00:17.586068 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2023-09-16 06:00:17.586084 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2023-09-16 06:00:17.586103 [CatalogVarStorage] {Main} Setting var from catalog Client.LastPlayedVisibleThresholdMin=26280000
+D 2023-09-16 06:00:17.586123 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2023-09-16 06:00:17.586140 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2023-09-16 06:00:17.586155 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2023-09-16 06:00:17.586171 [CatalogVarStorage] {Main} Setting var from catalog Client.Telemetry.SettingsTelemetrySendIntervalSec=604800
+D 2023-09-16 06:00:17.586197 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+I 2023-09-16 06:00:17.586210 [Main] {Main} Dispatch var changes
+I 2023-09-16 06:00:17.586226 [VersionManager] {Main} Beta Access: enabled
+D 2023-09-16 06:00:17.586242 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+I 2023-09-16 06:00:17.586259 [Main] {Main} Dispatch var changes
+D 2023-09-16 06:00:17.586277 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+I 2023-09-16 06:00:17.601042 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2023-09-16 06:00:17.601106 [CatalogManager] {Main} Loaded initial catalog: hash=b67f852d938e5248fb87eaf4e1e456ea
+I 2023-09-16 06:00:17.601130 [Main] {Main} Adding ObserverRecord: Scope:NGDP
+I 2023-09-16 06:00:17.736702 [WebServer] {Backend:0} Listening on port 22885
+I 2023-09-16 06:00:18.030121 [Main] {Main} Adding ObserverRecord: SingleInstance
+D 2023-09-16 06:00:18.031884 [UI] {Main} Fixup allowed regions and locales. installedRegion=US allowedRegions= allowedLocales=
+I 2023-09-16 06:00:18.032164 [ToastManager] {Main} Toasts are enabled in ClientSettings
+D 2023-09-16 06:00:18.033310 [ProductState] {Main} Game product state created: uid=
+D 2023-09-16 06:00:18.033353 [ProductState] {Main} InstallState (): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:00:18.033422 [Main] {Main} Adding ObserverRecord: Games
+I 2023-09-16 06:00:18.033438 [Main] {Main} Adding ObserverRecord: ShowLastPlayed
+I 2023-09-16 06:00:18.068433 [Main] {Main} Application path is: D:\Battle.net\Battle.net.exe
+I 2023-09-16 06:00:18.160855 [Agent] {Agent} Agent Version is now: 2.31.2.8390 (retail)
+I 2023-09-16 06:00:18.174222 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=3, oldRunning=0)
+D 2023-09-16 06:00:18.187654 [Agent] {Agent} GameResource created for uid: agent
+I 2023-09-16 06:00:18.187723 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+D 2023-09-16 06:00:18.187746 [Agent] {Agent} GameResource created for uid: auks
+I 2023-09-16 06:00:18.187783 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+D 2023-09-16 06:00:18.187800 [Agent] {Agent} GameResource created for uid: battle.net
+I 2023-09-16 06:00:18.187829 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+D 2023-09-16 06:00:18.187854 [Agent] {Agent} GameResource created for uid: fore
+I 2023-09-16 06:00:18.187891 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+D 2023-09-16 06:00:18.187911 [Agent] {Agent} GameResource created for uid: odin
+I 2023-09-16 06:00:18.187934 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+D 2023-09-16 06:00:18.187957 [Agent] {Agent} GameResource created for uid: zeus
+I 2023-09-16 06:00:18.187985 [Main] {Agent} Adding ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:00:18.387988 [Main] {Main} Adding ObserverRecord: Scope:Announcements
+I 2023-09-16 06:00:18.388208 [Main] {Main} Adding ObserverRecord: SaleNotificationEnabled
+I 2023-09-16 06:00:18.388229 [Main] {Main} Adding ObserverRecord: SaleNotificationVersion
+I 2023-09-16 06:00:18.388317 [Main] {Main} Adding ObserverRecord: LiveIndicatorEnabled
+I 2023-09-16 06:00:18.388352 [Main] {Main} Adding ObserverRecord: PromotedScreenName
+I 2023-09-16 06:00:18.388364 [Main] {Main} Adding ObserverRecord: PromotedScreenVersion
+D 2023-09-16 06:00:18.388782 [UrlManager] {Main} Resolved URL: key=client/App/alert; region=US; endpoint=https://alert-us.battle.net/App/default/live/en-us
+I 2023-09-16 06:00:18.398324 [ClientServiceAlertMonitor] {Main} Breaking News url has changed. url=https://alert-us.battle.net/App/default/live/en-us
+D 2023-09-16 06:00:18.398766 [RemoteContentCache] {Main} Found cached remote content. url=https://alert-us.battle.net/App/default/live/en-us
+I 2023-09-16 06:00:18.398837 [Main] {Main} Adding ObserverRecord: BreakingNewsURL
+D 2023-09-16 06:00:18.399217 [UrlManager] {Main} Resolved URL: key=client/App/maintenance; region=US; endpoint=https://alert-us.battle.net/App/default/live-maintenance/en-us
+I 2023-09-16 06:00:18.406150 [ClientServiceAlertMonitor] {Main} Maintenance url has changed. url=https://alert-us.battle.net/App/default/live-maintenance/en-us
+D 2023-09-16 06:00:18.406571 [RemoteContentCache] {Main} Found cached remote content. url=https://alert-us.battle.net/App/default/live-maintenance/en-us
+I 2023-09-16 06:00:18.406647 [Main] {Main} Adding ObserverRecord: MaintenanceURL
+I 2023-09-16 06:00:18.406701 [Main] {Main} Adding ObserverRecord: GenericToast
+I 2023-09-16 06:00:18.406725 [Main] {Main} Adding ObserverRecord: FriendOnline
+I 2023-09-16 06:00:18.406976 [Main] {Main} Adding ObserverRecord: FriendOffline
+I 2023-09-16 06:00:18.407010 [Main] {Main} Adding ObserverRecord: FriendStartsGame
+I 2023-09-16 06:00:18.407031 [Main] {Main} Adding ObserverRecord: ChatInitiated
+I 2023-09-16 06:00:18.407079 [Main] {Main} Adding ObserverRecord: ChatMessageIncoming
+I 2023-09-16 06:00:18.407136 [Main] {Main} Adding ObserverRecord: ChatMessageIncomingActive
+I 2023-09-16 06:00:18.407181 [Main] {Main} Adding ObserverRecord: ChatMessageOutgoing
+I 2023-09-16 06:00:18.407240 [Main] {Main} Adding ObserverRecord: WhisperVoiceIncoming
+I 2023-09-16 06:00:18.407274 [Main] {Main} Adding ObserverRecord: VoiceJoin
+I 2023-09-16 06:00:18.407296 [Main] {Main} Adding ObserverRecord: VoiceLeave
+I 2023-09-16 06:00:18.407317 [Main] {Main} Adding ObserverRecord: VoiceJoinOther
+I 2023-09-16 06:00:18.407336 [Main] {Main} Adding ObserverRecord: VoiceLeaveOther
+I 2023-09-16 06:00:18.407358 [Main] {Main} Adding ObserverRecord: VoiceMuteOtherOn
+I 2023-09-16 06:00:18.407381 [Main] {Main} Adding ObserverRecord: VoiceMuteOtherOff
+I 2023-09-16 06:00:18.407401 [Main] {Main} Adding ObserverRecord: VoiceMuteMicOn
+I 2023-09-16 06:00:18.407433 [Main] {Main} Adding ObserverRecord: VoiceMuteMicOff
+I 2023-09-16 06:00:18.407467 [Main] {Main} Adding ObserverRecord: VoiceMuteSpeakerOn
+I 2023-09-16 06:00:18.407490 [Main] {Main} Adding ObserverRecord: VoiceMuteSpeakerOff
+I 2023-09-16 06:00:18.407509 [Main] {Main} Adding ObserverRecord: VoicePushToTalkOn
+I 2023-09-16 06:00:18.407528 [Main] {Main} Adding ObserverRecord: VoicePushToTalkOff
+I 2023-09-16 06:00:18.407564 [Main] {Main} Adding ObserverRecord: VoiceError
+I 2023-09-16 06:00:18.407697 [Main] {Main} Adding ObserverRecord: HasSeenFirstTimeExperience
+I 2023-09-16 06:00:18.409144 [Frontend] {Main} Public Computer state changed. is_public=false
+D 2023-09-16 06:00:18.409213 [Frontend] {Main} Session id changed. session_id=9757989371601569604
+D 2023-09-16 06:00:18.409359 [Frontend] {Main} Tracking info changed. client_id=707100E6-F022-4859-8CFC-FA580FBB48DE, user_agent=
+I 2023-09-16 06:00:18.439705 [HighDpiManager] {Main} High dpi support available changed: 1
+I 2023-09-16 06:00:18.439739 [Frontend] {Main} High dpi support: enabled
+D 2023-09-16 06:00:18.441171 [Main] {WorkerPool:3} Checking permissions on path: C:\ProgramData\Battle.net\Setup depth=-1
+I 2023-09-16 06:00:18.445713 [FeatureManager] {Main} Feature changed: install_packages=true
+I 2023-09-16 06:00:18.445751 [FeatureManager] {Main} Feature changed: modify_install=true
+I 2023-09-16 06:00:18.446757 [Agent] {Main} AgentManager is now initialized
+I 2023-09-16 06:00:18.446783 [InstallManager] {Main} Install manager is now initialized
+D 2023-09-16 06:00:18.446797 [InstallManager] {Main} Selecting best game install data for game battle.net: savedUid=battle.net originalUid=<none> newUid=battle.net
+D 2023-09-16 06:00:18.446818 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=battle.net agentUid=battle.net
+D 2023-09-16 06:00:18.446843 [InstallManager] {Main} Selecting best game install data for game odin: savedUid=odin originalUid=<none> newUid=odin
+D 2023-09-16 06:00:18.446855 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=odin agentUid=odin
+D 2023-09-16 06:00:18.446875 [InstallManager] {Main} Selecting best game install data for game auks: savedUid=auks originalUid=<none> newUid=auks
+D 2023-09-16 06:00:18.446886 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=auks agentUid=auks
+D 2023-09-16 06:00:18.446900 [InstallManager] {Main} Selecting best game install data for game fore: savedUid=fore originalUid=<none> newUid=fore
+D 2023-09-16 06:00:18.446912 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=fore agentUid=fore
+D 2023-09-16 06:00:18.446927 [InstallManager] {Main} Selecting best game install data for game zeus: savedUid=zeus originalUid=<none> newUid=zeus
+D 2023-09-16 06:00:18.446947 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=zeus agentUid=zeus
+D 2023-09-16 06:00:18.447007 [ProductState] {Main} Game product state created: uid=odin
+D 2023-09-16 06:00:18.447096 [ProductState] {Main} InstallState (odin): currentOperation=Update currentOperationStatus=Paused installed=1 optionalPackageInstalled=1 installPath=D:/Call of Duty Modern Warfare canCreateShortcut=1 selectedRegion=us activeConfigKey=aa1747d31b99f4b1fc3c149eff517c1f regionalVersions=(eu: {playable:false config_key:54985dbaf6a1982299ef4c921df43515}, kr: {playable:false config_key:54985dbaf6a1982299ef4c921df43515}, us: {playable:false config_key:54985dbaf6a1982299ef4c921df43515}) repairSupported=true localVersion=1.66.13.15079557 latestVersion=1.59475e+07 progress=0.0711842
+D 2023-09-16 06:00:18.447150 [ProductState] {Main} Game product state created: uid=auks
+D 2023-09-16 06:00:18.447199 [ProductState] {Main} InstallState (auks): currentOperation=UpToDate currentOperationStatus=Paused installed=1 optionalPackageInstalled=1 installPath=D:/Call of Duty sharedContainerSubpath=_retail_ playable=1 canCreateShortcut=1 selectedRegion=us activeConfigKey=368ef612d56203ee288d55c462c58180 regionalVersions=(eu: {playable:true config_key:368ef612d56203ee288d55c462c58180}, kr: {playable:true config_key:368ef612d56203ee288d55c462c58180}, us: {playable:true config_key:368ef612d56203ee288d55c462c58180}) repairSupported=true localVersion=1.20.1.15731062 latestVersion=1.57311e+07 currentStage=Complete
+D 2023-09-16 06:00:18.447241 [ProductState] {Main} Game product state created: uid=fore
+D 2023-09-16 06:00:18.447287 [ProductState] {Main} InstallState (fore): currentOperation=Update currentOperationStatus=Paused installed=1 optionalPackageInstalled=1 installPath=D:/Call of Duty Vanguard canCreateShortcut=1 selectedRegion=us activeConfigKey=d435462aaf65cfbfd5a08b6b023594b5 regionalVersions=(eu: {playable:false config_key:f93cb21a4a32a0c3df8ba40b3d3e8b24}, kr: {playable:false config_key:f93cb21a4a32a0c3df8ba40b3d3e8b24}, us: {playable:false config_key:f93cb21a4a32a0c3df8ba40b3d3e8b24}) repairSupported=true localVersion=1.25.14.13860558 latestVersion=1.38606e+07
+D 2023-09-16 06:00:18.447328 [ProductState] {Main} Game product state created: uid=zeus
+D 2023-09-16 06:00:18.447375 [ProductState] {Main} InstallState (zeus): currentOperation=Update currentOperationStatus=Paused installed=1 optionalPackageInstalled=1 installPath=D:/Call of Duty Black Ops Cold War canCreateShortcut=1 selectedRegion=us activeConfigKey=b8f3f6edcf290f74ed277da58017f999 regionalVersions=(eu: {playable:false config_key:b96975b12e811885480c77491d286364}, kr: {playable:false config_key:b96975b12e811885480c77491d286364}, us: {playable:false config_key:b96975b12e811885480c77491d286364}) repairSupported=true localVersion=1.33.4.15877748 latestVersion=1.58777e+07 progress=0.740366
+D 2023-09-16 06:00:18.447407 [Agent] {Main} Versioning is now enabled
+D 2023-09-16 06:00:18.447425 [Agent] {Main} Triggering game versioning: auks
+D 2023-09-16 06:00:18.447458 [Agent] {Main} Triggering game versioning: battle.net
+D 2023-09-16 06:00:18.447475 [Agent] {Main} Triggering game versioning: fore
+D 2023-09-16 06:00:18.447493 [Agent] {Main} Triggering game versioning: odin
+D 2023-09-16 06:00:18.447509 [Agent] {Main} Triggering game versioning: zeus
+D 2023-09-16 06:00:18.447945 [InstallManager] {Main} Sending a queued OnProcessPidsUpdated notification: agentUid=battle.net binaryType=game
+D 2023-09-16 06:00:18.447985 [InstallManager] {Main} Sending a queued OnProcessRunning notification: agentUid=battle.net binaryType=game
+I 2023-09-16 06:00:18.448001 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2023-09-16 06:00:18.448021 [InstallInfo] {Main} Operation status changed: opType=Execute oldStatus=Off newStatus=On agentUid=battle.net
+D 2023-09-16 06:00:18.448213 [Main] {WorkerPool:3} Checking permissions on path: C:\ProgramData\Battle.net\Agent depth=1
+I 2023-09-16 06:00:18.448720 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: b67f852d938e5248fb87eaf4e1e456ea I) ***
+I 2023-09-16 06:00:18.453299 [Main] {Agent} Adding ObserverRecord: GameUpdateIntervalMS
+I 2023-09-16 06:00:18.453375 [Main] {Agent} Adding ObserverRecord: SelfUpdateIntervalMS
+I 2023-09-16 06:00:18.453411 [Main] {Agent} Adding ObserverRecord: GameUpdateIntervalMS
+I 2023-09-16 06:00:18.453452 [Main] {Agent} Adding ObserverRecord: GameUpdateIntervalMS
+I 2023-09-16 06:00:18.453485 [Main] {Agent} Adding ObserverRecord: GameUpdateIntervalMS
+D 2023-09-16 06:00:18.456677 [Main] {WorkerPool:3} Checking permissions on path: C:\ProgramData\Battle.net\Agent\Agent.8320 depth=1
+D 2023-09-16 06:00:18.458661 [Main] {WorkerPool:3} Checking permissions on path: C:\ProgramData\Battle.net\Agent\Agent.8390 depth=1
+D 2023-09-16 06:00:18.460660 [Main] {WorkerPool:3} Checking permissions on path: C:\ProgramData\Blizzard Entertainment depth=2
+I 2023-09-16 06:00:19.537531 [FeatureManager] {Main} Updated feature next update time: id=last_played_nfe nextUpdate=2024-01-01 00:00:00.000000
+I 2023-09-16 06:00:19.537978 [FeatureManager] {Main} Moving feature record from active to inactive: overwatch_league_tab
+I 2023-09-16 06:00:19.538008 [FeatureManager] {Main} Moving feature record from active to inactive: blizzcon_tab
+D 2023-09-16 06:00:19.572361 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572454 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572470 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572483 [ProductManager] {Main} Product modified: Fen ProductChangeFlags(quick_links,starter_items)
+D 2023-09-16 06:00:19.572500 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572514 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572611 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(install_disabled_message,quick_links,starter_items)
+D 2023-09-16 06:00:19.572658 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572675 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572689 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572702 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(quick_links,starter_items)
+D 2023-09-16 06:00:19.572716 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(quick_links,starter_items)
+D 2023-09-16 06:00:19.572733 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572746 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(starter_items)
+D 2023-09-16 06:00:19.572760 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(quick_links,starter_items)
+D 2023-09-16 06:00:19.572937 [ProductManager] {Main} Products updated
+D 2023-09-16 06:00:19.576338 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2023-09-16 06:00:19.576402 [CatalogVarStorage] {Main} Setting var from catalog Client.Voice.LastDestroySessionLogoutTime=60000
+D 2023-09-16 06:00:19.576426 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2023-09-16 06:00:19.576439 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2023-09-16 06:00:19.576471 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2023-09-16 06:00:19.576484 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2023-09-16 06:00:19.576498 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2023-09-16 06:00:19.576511 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2023-09-16 06:00:19.576527 [CatalogVarStorage] {Main} Setting var from catalog Client.LastPlayedVisibleThresholdMin=26280000
+D 2023-09-16 06:00:19.576542 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2023-09-16 06:00:19.576557 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2023-09-16 06:00:19.576569 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2023-09-16 06:00:19.576583 [CatalogVarStorage] {Main} Setting var from catalog Client.Telemetry.SettingsTelemetrySendIntervalSec=604800
+D 2023-09-16 06:00:19.576598 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+D 2023-09-16 06:00:19.576610 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2023-09-16 06:00:19.576628 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+I 2023-09-16 06:00:19.589293 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2023-09-16 06:00:19.854941 [UnifiedAuth] {Main} UAuth: setting url: https://account.battle.net/login/en/logout?ref=https://account.battle.net/login/en/login.app?app=app reason: reset
+D 2023-09-16 06:00:19.884983 [ClientServiceAlertMonitor] {Main} Service alert monitor force update requested
+D 2023-09-16 06:00:19.885023 [ClientServiceAlertMonitor] {Main} Breaking News update requested
+D 2023-09-16 06:00:19.892162 [ClientServiceAlertMonitor] {Main} Maintenance update requested
+W 2023-09-16 06:00:19.966027 [RemoteContentManager] {http} Request failed. url=https://alert-us.battle.net/App/default/live-maintenance/en-us statusCode=0 err=Resolving timed out after 4 milliseconds
+W 2023-09-16 06:00:19.966155 [RemoteContentManager] {http} Request failed. url=https://alert-us.battle.net/App/default/live/en-us statusCode=0 err=Resolving timed out after 73 milliseconds
+D 2023-09-16 06:00:20.293212 [InstallManager] {Main} Game finished versioning fore
+D 2023-09-16 06:00:20.293278 [InstallManager] {Main} Game finished versioning odin
+D 2023-09-16 06:00:20.293313 [InstallManager] {Main} Game finished versioning zeus
+D 2023-09-16 06:00:20.293356 [InstallManager] {Main} Game finished versioning auks
+I 2023-09-16 06:00:20.293912 [CacheManager] {Main} CacheManager is now initialized
+I 2023-09-16 06:00:20.293935 [TactVersionWatcher] {Main} Fetched new tact metadata. productCode=catalogs region=us branch=PUB-29 version=2422 seq=366 buildConfig=a0afa4816a1f80f58fe515614ddc00a7
+I 2023-09-16 06:00:20.321563 [DIAG_BuildConfig] {Main} no 'encoding' key in build configuration 'a0afa4816a1f80f58fe515614ddc00a7', selecting plain-data mode
+I 2023-09-16 06:00:20.321605 [CatalogLoader] {Main} *** LOAD STARTED default: Context(RemoteCAS: b67f852d938e5248fb87eaf4e1e456ea|tpr/catalogs/data) ***
+I 2023-09-16 06:00:20.636807 [FeatureManager] {Main} Updated feature next update time: id=last_played_nfe nextUpdate=2024-01-01 00:00:00.000000
+D 2023-09-16 06:00:20.667537 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2023-09-16 06:00:20.667616 [CatalogVarStorage] {Main} Setting var from catalog Client.Voice.LastDestroySessionLogoutTime=60000
+D 2023-09-16 06:00:20.667658 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2023-09-16 06:00:20.667680 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2023-09-16 06:00:20.667730 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2023-09-16 06:00:20.667765 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2023-09-16 06:00:20.667800 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2023-09-16 06:00:20.667827 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2023-09-16 06:00:20.667854 [CatalogVarStorage] {Main} Setting var from catalog Client.LastPlayedVisibleThresholdMin=26280000
+D 2023-09-16 06:00:20.667892 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2023-09-16 06:00:20.667918 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2023-09-16 06:00:20.667941 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2023-09-16 06:00:20.667972 [CatalogVarStorage] {Main} Setting var from catalog Client.Telemetry.SettingsTelemetrySendIntervalSec=604800
+D 2023-09-16 06:00:20.668025 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+D 2023-09-16 06:00:20.668055 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2023-09-16 06:00:20.668085 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+I 2023-09-16 06:00:20.698826 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2023-09-16 06:00:20.711070 [Main] {Main} Adding ObserverRecord: Scope:Root for Browser
+D 2023-09-16 06:00:21.109261 [UnifiedAuth] {} UAuth: browser state changed: Login
+D 2023-09-16 06:00:21.120641 [UnifiedAuth] {Main} UAuth: begin loading: https://account.battle.net/login/en/login.app?app=app
+D 2023-09-16 06:00:21.120698 [UnifiedAuth] {Main} UAuth: set size from headers: 344x226 popup=0
+D 2023-09-16 06:00:21.841126 [UnifiedAuth] {Main} UAuth: finished loading. statusCode=200 state=Login
+D 2023-09-16 06:00:23.412816 [VersionManager] {Main} Branch change from Agent detected. activeBranch= branches={[0]=beta, [1]=cn, [2]=eu, [3]=kr, [4]=macos-10.12, [5]=sg, [6]=tw, [7]=us}
+D 2023-09-16 06:00:23.412885 [VersionManager] {Main} Beta branch is available: true
+D 2023-09-16 06:00:23.412915 [InstallManager] {Main} Game finished versioning battle.net
+I 2023-09-16 06:00:24.375186 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=4, oldRunning=3)
+I 2023-09-16 06:00:24.382489 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2023-09-16 06:00:26.670882 [UnifiedAuth] {Main} UAuth: status changed: RequestingToken
+D 2023-09-16 06:00:26.670918 [UnifiedAuth] {Main} UAuth: login submitted
+D 2023-09-16 06:00:27.495211 [UnifiedAuth] {Main} UAuth: browser state changed: None
+D 2023-09-16 06:00:27.932354 [UnifiedAuth] {} UAuth: browser state changed: Challenge
+D 2023-09-16 06:00:27.960475 [UnifiedAuth] {Main} UAuth: begin loading: https://account.battle.net/login/en/challenge/4c8fc406-31f6-4563-b53b-25430a7ba0b5/choose?ref=/login/en/account-unlock&app=app
+D 2023-09-16 06:00:27.960548 [UnifiedAuth] {Main} UAuth: set size from headers: 344x578 popup=1
+D 2023-09-16 06:00:29.968056 [UnifiedAuth] {Main} UAuth: finished loading. statusCode=200 state=Challenge
+D 2023-09-16 06:00:31.848640 [UnifiedAuth] {Main} UAuth: browser state changed: None
+D 2023-09-16 06:00:32.142383 [UnifiedAuth] {} UAuth: browser state changed: Challenge
+D 2023-09-16 06:00:32.167788 [UnifiedAuth] {Main} UAuth: begin loading: https://account.battle.net/login/en/challenge/4c8fc406-31f6-4563-b53b-25430a7ba0b5?ref=/login/en/account-unlock&app=app&sendCode=true
+D 2023-09-16 06:00:32.167848 [UnifiedAuth] {Main} UAuth: set size from headers: 344x578 popup=1
+D 2023-09-16 06:00:32.464240 [UnifiedAuth] {Main} UAuth: finished loading. statusCode=200 state=Challenge
+D 2023-09-16 06:01:05.319465 [UnifiedAuth] {Main} UAuth: browser state changed: None
+D 2023-09-16 06:01:05.731925 [UnifiedAuth] {Main} UAuth: status changed: ReceivedToken
+D 2023-09-16 06:01:05.747477 [UnifiedAuth] {Main} UAuth: web login complete, beginning connection.
+I 2023-09-16 06:01:05.752529 [Main] {Main} Connecting to server. address=us.actual.battle.net port=1119
+D 2023-09-16 06:01:05.760365 [ClientServiceAlertMonitor] {Main} Service alert monitor force update requested
+D 2023-09-16 06:01:05.760405 [ClientServiceAlertMonitor] {Main} Breaking News update requested
+D 2023-09-16 06:01:05.764888 [ClientServiceAlertMonitor] {Main} Maintenance update requested
+D 2023-09-16 06:01:05.898316 [UnifiedAuth] {Main} UAuth: browser state changed: Done
+D 2023-09-16 06:01:07.682623 [LoginController] {Main} Login_QueueUpdate (position=1,clientWaitTime=00:00:01.815182,skipLoginQueueUi=true)
+I 2023-09-16 06:01:08.243393 [Main] {Main} Opened database at: C:\Users\dorian\AppData\Local\Battle.net\Account\820813830\account.db
+I 2023-09-16 06:01:08.247467 [Main] {Main} Dispatch var changes
+I 2023-09-16 06:01:08.249409 [GSAccountProvider] {Main} Login triggered. entityId=1:0:30eca006
+I 2023-09-16 06:01:08.249456 [GSStateTracker] {Main} State changed to: WaitingForAccountState
+I 2023-09-16 06:01:08.249480 [AccountManager] {Main} Account manager state has changed to: Loading
+D 2023-09-16 06:01:08.250445 [GSAccountProvider] {Main} Querying account level info for account: 1:0:30eca006
+D 2023-09-16 06:01:08.250523 [GSAccountProvider] {Main} Querying parental control info for account: 1:0:30eca006
+D 2023-09-16 06:01:08.250547 [GSAccountProvider] {Main} Querying game accounts for region: US
+D 2023-09-16 06:01:08.250573 [GSAccountProvider] {Main} Querying game accounts for region: EU
+D 2023-09-16 06:01:08.250589 [GSAccountProvider] {Main} Querying game accounts for region: KR
+D 2023-09-16 06:01:08.250602 [GSAccountProvider] {Main} Querying game accounts for region: SG
+D 2023-09-16 06:01:08.250615 [GSAccountProvider] {Main} Querying game accounts for region: XX
+D 2023-09-16 06:01:08.250630 [GSAccountProvider] {Main} Querying game accounts for region: GLOBAL
+D 2023-09-16 06:01:08.250646 [GSAccountProvider] {Main} Querying parental control info for account: 1:0:30eca006
+D 2023-09-16 06:01:08.250686 [GSAccountProvider] {Main} Querying program level information for program: OSI
+D 2023-09-16 06:01:08.250711 [GSAccountProvider] {Main} Querying program level information for program: Fen
+D 2023-09-16 06:01:08.250733 [GSAccountProvider] {Main} Querying program level information for program: D3
+D 2023-09-16 06:01:08.250752 [GSAccountProvider] {Main} Querying program level information for program: S2
+D 2023-09-16 06:01:08.250768 [GSAccountProvider] {Main} Querying program level information for program: S1
+D 2023-09-16 06:01:08.250789 [GSAccountProvider] {Main} Querying program level information for program: FORE
+D 2023-09-16 06:01:08.250811 [GSAccountProvider] {Main} Querying program level information for program: W3
+D 2023-09-16 06:01:08.250832 [GSAccountProvider] {Main} Querying program level information for program: WoW
+D 2023-09-16 06:01:08.250854 [GSAccountProvider] {Main} Querying program level information for program: Pro
+D 2023-09-16 06:01:08.250871 [GSAccountProvider] {Main} Querying program level information for program: ODIN
+D 2023-09-16 06:01:08.250898 [GSAccountProvider] {Main} Querying program level information for program: ANBS
+D 2023-09-16 06:01:08.250914 [GSAccountProvider] {Main} Querying program level information for program: Hero
+D 2023-09-16 06:01:08.250931 [GSAccountProvider] {Main} Querying program level information for program: D3CN
+D 2023-09-16 06:01:08.250952 [GSAccountProvider] {Main} Querying program level information for program: AUKS
+D 2023-09-16 06:01:08.250973 [GSAccountProvider] {Main} Querying program level information for program: LAZR
+D 2023-09-16 06:01:08.250990 [GSAccountProvider] {Main} Querying program level information for program: RTRO
+D 2023-09-16 06:01:08.251011 [GSAccountProvider] {Main} Querying program level information for program: SPOT
+D 2023-09-16 06:01:08.251029 [GSAccountProvider] {Main} Querying program level information for program: VIPR
+D 2023-09-16 06:01:08.251074 [GSAccountProvider] {Main} Querying program level information for program: WLBY
+D 2023-09-16 06:01:08.251091 [GSAccountProvider] {Main} Querying program level information for program: WTCG
+D 2023-09-16 06:01:08.251107 [GSAccountProvider] {Main} Querying program level information for program: ZEUS
+D 2023-09-16 06:01:08.269323 [GSAccountProvider] {Main} Received AccountLevelInfo for account. entityId=1:0:30eca006 accountLevelInfo=|licenses:|id=29256|id=43336|id=43337|id=43338|id=43339|id=43356|id=53638|id=92204|id=107621|id=107622|id=107623|id=107624|id=107625|id=455728|id=455729|id=455730|id=455731|id=460892|:licenses|default_currency=5591876|country=USA|preferred_region=1|account_paid_any=1
+I 2023-09-16 06:01:08.269419 [AccountManager] {Main} Account site region code changed: US
+I 2023-09-16 06:01:08.269431 [AccountManager] {Main} Account country changed: USA
+D 2023-09-16 06:01:08.269480 [GSAccountProvider] {Main} Parental control info for account (1:0:30eca006) resulted in cache miss.
+D 2023-09-16 06:01:08.269513 [GSAccountProvider] {Main} Querying game level information for entity: (Game: US-AUKS-666355855)
+D 2023-09-16 06:01:08.269541 [GSAccountProvider] {Main} Querying game time info for entity Id: (Game: US-AUKS-666355855)
+D 2023-09-16 06:01:08.269586 [GSAccountProvider] {Main} Querying game level information for entity: (Game: US-FORE-595173788)
+D 2023-09-16 06:01:08.269611 [GSAccountProvider] {Main} Querying game time info for entity Id: (Game: US-FORE-595173788)
+D 2023-09-16 06:01:08.269645 [GSAccountProvider] {Main} Querying game level information for entity: (Game: US-ODIN-592357693)
+D 2023-09-16 06:01:08.269662 [GSAccountProvider] {Main} Querying game time info for entity Id: (Game: US-ODIN-592357693)
+D 2023-09-16 06:01:08.269678 [GSAccountProvider] {Main} Received 3 game accounts from region 'US'
+D 2023-09-16 06:01:08.269696 [GSAccountProvider] {Main} Game account list for region 'EU' resulted in cache miss.
+I 2023-09-16 06:01:08.269709 [GSStateTracker] {Main} State changed to: Loading
+D 2023-09-16 06:01:08.269724 [GSAccountProvider] {Main} Game account list for region 'KR' resulted in cache miss.
+D 2023-09-16 06:01:08.269740 [GSAccountProvider] {Main} Game account list for region 'SG' resulted in cache miss.
+D 2023-09-16 06:01:08.269755 [GSAccountProvider] {Main} Game account list for region 'XX' resulted in cache miss.
+D 2023-09-16 06:01:08.269770 [GSAccountProvider] {Main} Game account list for region 'GLOBAL' resulted in cache miss.
+D 2023-09-16 06:01:08.269785 [GSAccountProvider] {Main} Parental control info for account (1:0:30eca006) resulted in cache miss.
+D 2023-09-16 06:01:08.269809 [GSAccountProvider] {Main} Received program level info. programId=OSI programLevelInfo=|program=5198665
+D 2023-09-16 06:01:08.269846 [GSAccountProvider] {Main} Received program level info. programId=Fen programLevelInfo=|program=4613486
+D 2023-09-16 06:01:08.269865 [GSAccountProvider] {Main} Received program level info. programId=D3 programLevelInfo=|program=17459
+D 2023-09-16 06:01:08.269885 [GSAccountProvider] {Main} Received program level info. programId=S2 programLevelInfo=|program=21298
+D 2023-09-16 06:01:08.269906 [GSAccountProvider] {Main} Received program level info. programId=S1 programLevelInfo=|program=21297
+D 2023-09-16 06:01:08.269927 [GSAccountProvider] {Main} Received program level info. programId=FORE programLevelInfo=|program=1179603525|licenses:|id=53638|:licenses|licenses:|id=107621|:licenses|licenses:|id=107622|:licenses|licenses:|id=107623|:licenses|licenses:|id=107624|:licenses|licenses:|id=107625|:licenses
+D 2023-09-16 06:01:08.269976 [GSAccountProvider] {Main} Received program level info. programId=W3 programLevelInfo=|program=22323
+D 2023-09-16 06:01:08.269996 [GSAccountProvider] {Main} Received program level info. programId=WoW programLevelInfo=|program=5730135
+D 2023-09-16 06:01:08.270013 [GSAccountProvider] {Main} Received program level info. programId=Pro programLevelInfo=|program=5272175
+D 2023-09-16 06:01:08.270029 [GSAccountProvider] {Main} Received program level info. programId=ODIN programLevelInfo=|is_lifetime=1|program=1329875278|licenses:|id=29256|:licenses|licenses:|id=43336|:licenses|licenses:|id=43337|:licenses|licenses:|id=43338|:licenses|licenses:|id=43339|:licenses|licenses:|id=43356|:licenses
+D 2023-09-16 06:01:08.270088 [GSAccountProvider] {Main} Received program level info. programId=ANBS programLevelInfo=|program=1095647827
+D 2023-09-16 06:01:08.270108 [GSAccountProvider] {Main} Received program level info. programId=Hero programLevelInfo=|program=1214607983
+D 2023-09-16 06:01:08.270125 [GSAccountProvider] {Main} Cache miss for program level info. programId=D3CN
+D 2023-09-16 06:01:08.270139 [GSAccountProvider] {Main} Received program level info. programId=AUKS programLevelInfo=|program=1096108883|licenses:|id=92204|:licenses|licenses:|id=455728|:licenses|licenses:|id=455729|:licenses|licenses:|id=455730|:licenses|licenses:|id=455731|:licenses|licenses:|id=460892|:licenses
+D 2023-09-16 06:01:08.270183 [GSAccountProvider] {Main} Received program level info. programId=LAZR programLevelInfo=|program=1279351378
+D 2023-09-16 06:01:08.270205 [GSAccountProvider] {Main} Received program level info. programId=RTRO programLevelInfo=|program=1381257807
+D 2023-09-16 06:01:08.270224 [GSAccountProvider] {Main} Received program level info. programId=SPOT programLevelInfo=|program=1397772116
+D 2023-09-16 06:01:08.270243 [GSAccountProvider] {Main} Received program level info. programId=VIPR programLevelInfo=|program=1447645266
+D 2023-09-16 06:01:08.270262 [GSAccountProvider] {Main} Received program level info. programId=WLBY programLevelInfo=|program=1464615513
+D 2023-09-16 06:01:08.270285 [GSAccountProvider] {Main} Received program level info. programId=WTCG programLevelInfo=|program=1465140039
+D 2023-09-16 06:01:08.270304 [GSAccountProvider] {Main} Received program level info. programId=ZEUS programLevelInfo=|program=1514493267
+D 2023-09-16 06:01:08.272223 [GSAccountProvider] {Main} Received GameLevelInfo: (Game: US-AUKS-666355855) info=|name="AUKS1"|program=1096108883|realm_permissions=1
+D 2023-09-16 06:01:08.272304 [GSAccountProvider] {Main} Received GameTimeInfo: (Game: US-AUKS-666355855) info=
+D 2023-09-16 06:01:08.272330 [GSAccountProvider] {Main} Received GameLevelInfo: (Game: US-FORE-595173788) info=|name="FORE1"|program=1179603525|realm_permissions=0
+D 2023-09-16 06:01:08.272348 [GSAccountProvider] {Main} Received GameTimeInfo: (Game: US-FORE-595173788) info=
+D 2023-09-16 06:01:08.272360 [GSAccountProvider] {Main} Received GameLevelInfo: (Game: US-ODIN-592357693) info=|name="ODIN1"|program=1329875278|realm_permissions=1
+D 2023-09-16 06:01:08.272376 [GSAccountProvider] {Main} Received GameTimeInfo: (Game: US-ODIN-592357693) info=
+I 2023-09-16 06:01:09.452244 [FeatureManager] {Main} Feature changed: btlr_b3bdb567=false
+I 2023-09-16 06:01:09.452330 [FeatureManager] {Main} Feature changed: moon_d7efa244=false
+I 2023-09-16 06:01:09.452393 [FeatureManager] {Main} Feature changed: btlr_b3bdb567=false
+I 2023-09-16 06:01:09.452419 [FeatureManager] {Main} Feature changed: moon_d7efa244=false
+D 2023-09-16 06:01:09.452480 [GSAccountProvider] {Main} Subscription has been activated. entityId=(Game: US-AUKS-666355855)
+D 2023-09-16 06:01:09.452504 [GSAccountProvider] {Main} Subscription has been activated. entityId=(Game: US-FORE-595173788)
+D 2023-09-16 06:01:09.452515 [GSAccountProvider] {Main} Subscription has been activated. entityId=(Game: US-ODIN-592357693)
+I 2023-09-16 06:01:09.462020 [CatalogLoader] {Main} *** LOAD STARTED default: Context(RemoteCAS: b67f852d938e5248fb87eaf4e1e456ea|tpr/catalogs/data) ***
+D 2023-09-16 06:01:10.012038 [GSAccountProvider] {Main} Subscription has been activated. entityId=(BNet: 1:0:30eca006)
+D 2023-09-16 06:01:10.012085 [GSAccountProvider] {Main} Querying game accounts for region: EU
+D 2023-09-16 06:01:10.012108 [GSAccountProvider] {Main} Querying game accounts for region: KR
+D 2023-09-16 06:01:10.012124 [GSAccountProvider] {Main} Querying game accounts for region: SG
+D 2023-09-16 06:01:10.012136 [GSAccountProvider] {Main} Querying game accounts for region: XX
+D 2023-09-16 06:01:10.012156 [GSAccountProvider] {Main} Querying game accounts for region: GLOBAL
+D 2023-09-16 06:01:10.012195 [GSAccountProvider] {Main} Received GameTimeRemainingInfo: (Game: US-FORE-595173788) info=
+D 2023-09-16 06:01:10.012219 [GSAccountProvider] {Main} Received GameTimeRemainingInfo: (Game: US-AUKS-666355855) info=
+D 2023-09-16 06:01:10.012232 [GSAccountProvider] {Main} Received GameTimeRemainingInfo: (Game: US-ODIN-592357693) info=
+D 2023-09-16 06:01:10.022218 [GSAccountProvider] {Main} Region 'EU' has no game accounts.
+D 2023-09-16 06:01:10.022256 [GSAccountProvider] {Main} Region 'KR' has no game accounts.
+D 2023-09-16 06:01:10.022277 [GSAccountProvider] {Main} Region 'SG' has no game accounts.
+D 2023-09-16 06:01:10.022291 [GSAccountProvider] {Main} Region 'XX' has no game accounts.
+D 2023-09-16 06:01:10.022302 [GSAccountProvider] {Main} Region 'GLOBAL' has no game accounts.
+I 2023-09-16 06:01:10.022313 [GSStateTracker] {Main} All region requests have been completed!
+I 2023-09-16 06:01:10.022325 [GSStateTracker] {Main} State changed to: WaitingForEntitlements
+D 2023-09-16 06:01:10.022362 [GSAccountProvider] {Main} Completed initial load.
+D 2023-09-16 06:01:10.022373 [GSAccountProvider] {Main} Querying game status for program id: D3
+D 2023-09-16 06:01:10.022392 [GSAccountProvider] {Main} Querying game status for program id: S1
+D 2023-09-16 06:01:10.022404 [GSAccountProvider] {Main} Querying game status for program id: S2
+D 2023-09-16 06:01:10.022416 [GSAccountProvider] {Main} Querying game status for program id: W3
+D 2023-09-16 06:01:10.022427 [GSAccountProvider] {Main} Querying game status for program id: Fen
+D 2023-09-16 06:01:10.022439 [GSAccountProvider] {Main} Querying game status for program id: OSI
+D 2023-09-16 06:01:10.022456 [GSAccountProvider] {Main} Querying game status for program id: Pro
+D 2023-09-16 06:01:10.022467 [GSAccountProvider] {Main} Querying game status for program id: ANBS
+D 2023-09-16 06:01:10.022482 [GSAccountProvider] {Main} Querying game status for program id: AUKS
+D 2023-09-16 06:01:10.022494 [GSAccountProvider] {Main} Querying game status for program id: D3CN
+D 2023-09-16 06:01:10.022506 [GSAccountProvider] {Main} Querying game status for program id: FORE
+D 2023-09-16 06:01:10.022517 [GSAccountProvider] {Main} Querying game status for program id: Hero
+D 2023-09-16 06:01:10.022528 [GSAccountProvider] {Main} Querying game status for program id: LAZR
+D 2023-09-16 06:01:10.022540 [GSAccountProvider] {Main} Querying game status for program id: ODIN
+D 2023-09-16 06:01:10.022556 [GSAccountProvider] {Main} Querying game status for program id: RTRO
+D 2023-09-16 06:01:10.022567 [GSAccountProvider] {Main} Querying game status for program id: SPOT
+D 2023-09-16 06:01:10.022577 [GSAccountProvider] {Main} Querying game status for program id: VIPR
+D 2023-09-16 06:01:10.022588 [GSAccountProvider] {Main} Querying game status for program id: WLBY
+D 2023-09-16 06:01:10.022599 [GSAccountProvider] {Main} Querying game status for program id: WTCG
+D 2023-09-16 06:01:10.022610 [GSAccountProvider] {Main} Querying game status for program id: ZEUS
+I 2023-09-16 06:01:10.032087 [GSStateTracker] {Main} State changed to: Ready
+I 2023-09-16 06:01:10.032134 [GSAccountProvider] {Main} Loaded accounts: 9
+I 2023-09-16 06:01:10.032155 [GSAccountProvider] {Main} [ODIN-ODIN_MW:retail]
+I 2023-09-16 06:01:10.032168 [GSAccountProvider] {Main} [OSI-OSI:beta]
+I 2023-09-16 06:01:10.032177 [GSAccountProvider] {Main} [S1-S1:ptr]
+I 2023-09-16 06:01:10.032186 [GSAccountProvider] {Main} [FORE-FORE:retail]
+I 2023-09-16 06:01:10.032197 [GSAccountProvider] {Main} [ZEUS-ZEUS:beta]
+I 2023-09-16 06:01:10.032206 [GSAccountProvider] {Main} [AUKS-AUKS_MWII:retail]
+I 2023-09-16 06:01:10.032216 [GSAccountProvider] {Main} [FORE-FORE:beta]
+I 2023-09-16 06:01:10.032226 [GSAccountProvider] {Main} [ODIN-ODIN_MW:beta]
+I 2023-09-16 06:01:10.032236 [GSAccountProvider] {Main} [Hero-Hero:ptr]
+I 2023-09-16 06:01:10.032246 [AccountManager] {Main} Account manager state has changed to: Ready
+I 2023-09-16 06:01:10.032355 [GameProvider] {Main} Beginning GameProvider initialization.
+D 2023-09-16 06:01:10.032436 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=D3CN_retail
+D 2023-09-16 06:01:10.033638 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=ANBS_retail
+D 2023-09-16 06:01:10.035094 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=AUKS_retail
+D 2023-09-16 06:01:10.035140 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=D3_retail
+D 2023-09-16 06:01:10.036317 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=S2_retail
+D 2023-09-16 06:01:10.037493 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=Fen_retail
+D 2023-09-16 06:01:10.038715 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=FORE_retail
+D 2023-09-16 06:01:10.038762 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=GRY_retail
+D 2023-09-16 06:01:10.040067 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=Hero_retail
+D 2023-09-16 06:01:10.041429 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=OSI_retail
+D 2023-09-16 06:01:10.042906 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=LAZR_retail
+D 2023-09-16 06:01:10.044207 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=ODIN_retail
+D 2023-09-16 06:01:10.044263 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=Pro_retail
+D 2023-09-16 06:01:10.045251 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=WoW_retail
+D 2023-09-16 06:01:10.046274 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=RTRO_retail
+D 2023-09-16 06:01:10.047147 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=S1_retail
+D 2023-09-16 06:01:10.047979 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=SPOT_retail
+D 2023-09-16 06:01:10.048974 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=VIPR_retail
+D 2023-09-16 06:01:10.049832 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=W3_retail
+D 2023-09-16 06:01:10.050625 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=WLBY_retail
+D 2023-09-16 06:01:10.051416 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=WTCG_retail
+D 2023-09-16 06:01:10.052360 [GameProvider] {Main} Tried to insert an unbound entity with no uid. productCode=WoWC_wow_classic
+D 2023-09-16 06:01:10.052395 [GameProvider] {Main} Inserting new unbound entity because no suitable match was found. uniqueId=ZEUS_retail
+D 2023-09-16 06:01:10.052443 [GameProvider] {Main} Tried to insert an unbound entity that already exists. productCode=ODIN_retail bound=0
+D 2023-09-16 06:01:10.052461 [GameProvider] {Main} Tried to insert an unbound entity that already exists. productCode=AUKS_retail bound=0
+D 2023-09-16 06:01:10.052475 [GameProvider] {Main} Tried to insert an unbound entity that already exists. productCode=FORE_retail bound=0
+D 2023-09-16 06:01:10.052489 [GameProvider] {Main} Tried to insert an unbound entity that already exists. productCode=ZEUS_retail bound=0
+D 2023-09-16 06:01:10.052543 [GameProvider] {Main} Binding account info to available unbound entity. productCode=ODIN_retail accountInfo=[ODIN-ODIN_MW:retail]
+I 2023-09-16 06:01:10.052584 [GameProvider] {Main} Inserting new bound entity because no suitable match was found. accountInfo=[OSI-OSI:beta] productId=OSI productType=beta
+I 2023-09-16 06:01:10.053414 [GameProvider] {Main} Inserting new bound entity because no suitable match was found. accountInfo=[S1-S1:ptr] productId=S1 productType=ptr
+D 2023-09-16 06:01:10.054482 [GameProvider] {Main} Binding account info to available unbound entity. productCode=FORE_retail accountInfo=[FORE-FORE:retail]
+I 2023-09-16 06:01:10.054528 [GameProvider] {Main} Inserting new bound entity because no suitable match was found. accountInfo=[ZEUS-ZEUS:beta] productId=ZEUS productType=beta
+D 2023-09-16 06:01:10.055366 [GameProvider] {Main} Binding account info to available unbound entity. productCode=AUKS_retail accountInfo=[AUKS-AUKS_MWII:retail]
+I 2023-09-16 06:01:10.055414 [GameProvider] {Main} Inserting new bound entity because no suitable match was found. accountInfo=[FORE-FORE:beta] productId=FORE productType=beta
+I 2023-09-16 06:01:10.056313 [GameProvider] {Main} Inserting new bound entity because no suitable match was found. accountInfo=[ODIN-ODIN_MW:beta] productId=ODIN_MW productType=beta
+I 2023-09-16 06:01:10.057114 [GameProvider] {Main} Inserting new bound entity because no suitable match was found. accountInfo=[Hero-Hero:ptr] productId=Hero productType=ptr
+I 2023-09-16 06:01:10.057889 [GameProvider] {Main} Game provider is now initialized
+I 2023-09-16 06:01:10.058178 [InstallFlow] {Main} FlowController is now initialized
+I 2023-09-16 06:01:10.058224 [GameController] {Main} Beginning GameController initialization
+D 2023-09-16 06:01:10.058326 [GameController] {Main} Game Family Added: id=FORE visible=0
+D 2023-09-16 06:01:10.058474 [ProductState] {Main} Game product state created: uid=fore_beta
+D 2023-09-16 06:01:10.058509 [ProductState] {Main} InstallState (fore_beta): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.058692 [GameController] {Main} GameAccount added to family: family=FORE account=GameAccount(FORE:beta region=US hidden)
+D 2023-09-16 06:01:10.058731 [GameController] {Main} Adding product state reference. uid=fore_beta refCount=0
+D 2023-09-16 06:01:10.082270 [GameController] {Main} Game Family Added: id=Fen visible=0
+D 2023-09-16 06:01:10.082434 [ProductState] {Main} Game product state created: uid=fenris
+D 2023-09-16 06:01:10.082470 [ProductState] {Main} InstallState (fenris): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.082568 [GameController] {Main} GameAccount added to family: family=Fen account=GameAccount(Fen:retail region=GLOBAL unbound)
+D 2023-09-16 06:01:10.082620 [GameController] {Main} Adding product state reference. uid=fenris refCount=0
+D 2023-09-16 06:01:10.082697 [GameController] {Main} Visibility Changed. family=Fen visible=1
+D 2023-09-16 06:01:10.083623 [GameController] {Main} Game Family Added: id=D3CN visible=0
+D 2023-09-16 06:01:10.083775 [ProductState] {Main} Game product state created: uid=d3cn
+D 2023-09-16 06:01:10.083806 [ProductState] {Main} InstallState (d3cn): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.083898 [GameController] {Main} GameAccount added to family: family=D3CN account=GameAccount(D3CN:retail region=<none> unbound hidden)
+D 2023-09-16 06:01:10.083931 [GameController] {Main} Adding product state reference. uid=d3cn refCount=0
+D 2023-09-16 06:01:10.084583 [GameController] {Main} Game Family Added: id=D3 visible=0
+D 2023-09-16 06:01:10.084687 [ProductState] {Main} Game product state created: uid=diablo3
+D 2023-09-16 06:01:10.084719 [ProductState] {Main} InstallState (diablo3): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.084821 [GameController] {Main} GameAccount added to family: family=D3 account=GameAccount(D3:retail region=US unbound)
+D 2023-09-16 06:01:10.084864 [GameController] {Main} Adding product state reference. uid=diablo3 refCount=0
+D 2023-09-16 06:01:10.084937 [GameController] {Main} Visibility Changed. family=D3 visible=1
+D 2023-09-16 06:01:10.085540 [GameController] {Main} Game Family Added: id=ANBS visible=0
+D 2023-09-16 06:01:10.085658 [ProductState] {Main} Game product state created: uid=anbs
+D 2023-09-16 06:01:10.085697 [ProductState] {Main} InstallState (anbs): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.085819 [GameController] {Main} GameAccount added to family: family=ANBS account=GameAccount(ANBS:retail region=US unbound)
+D 2023-09-16 06:01:10.085861 [GameController] {Main} Adding product state reference. uid=anbs refCount=0
+D 2023-09-16 06:01:10.085938 [GameController] {Main} Visibility Changed. family=ANBS visible=1
+D 2023-09-16 06:01:10.086592 [GameController] {Main} Game Family Added: id=GRY visible=0
+D 2023-09-16 06:01:10.086730 [ProductState] {Main} Game product state created: uid=gryphon
+D 2023-09-16 06:01:10.086764 [ProductState] {Main} InstallState (gryphon): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.086857 [GameController] {Main} GameAccount added to family: family=GRY account=GameAccount(GRY:retail region=US unbound)
+D 2023-09-16 06:01:10.086906 [GameController] {Main} Adding product state reference. uid=gryphon refCount=0
+D 2023-09-16 06:01:10.086987 [GameController] {Main} Visibility Changed. family=GRY visible=1
+D 2023-09-16 06:01:10.087673 [GameController] {Main} Game Family Added: id=WTCG visible=0
+D 2023-09-16 06:01:10.087841 [ProductState] {Main} Game product state created: uid=hs_beta
+D 2023-09-16 06:01:10.087874 [ProductState] {Main} InstallState (hs_beta): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.088026 [GameController] {Main} GameAccount added to family: family=WTCG account=GameAccount(WTCG:retail region=US unbound)
+D 2023-09-16 06:01:10.088069 [GameController] {Main} Adding product state reference. uid=hs_beta refCount=0
+D 2023-09-16 06:01:10.088146 [GameController] {Main} Visibility Changed. family=WTCG visible=1
+D 2023-09-16 06:01:10.088781 [GameController] {Main} Game Family Added: id=AUKS visible=0
+I 2023-09-16 06:01:10.089130 [GameController] {Main} GameAccount added to family: family=AUKS account=GameAccount(AUKS:retail region=US)
+D 2023-09-16 06:01:10.089186 [GameController] {Main} Adding product state reference. uid=auks refCount=0
+D 2023-09-16 06:01:10.089268 [GameController] {Main} Visibility Changed. family=AUKS visible=1
+D 2023-09-16 06:01:10.089928 [GameController] {Main} Game Family Added: id=S2 visible=0
+D 2023-09-16 06:01:10.090038 [ProductState] {Main} Game product state created: uid=s2
+D 2023-09-16 06:01:10.090068 [ProductState] {Main} InstallState (s2): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.090178 [GameController] {Main} GameAccount added to family: family=S2 account=GameAccount(S2:retail region=US unbound)
+D 2023-09-16 06:01:10.090218 [GameController] {Main} Adding product state reference. uid=s2 refCount=0
+D 2023-09-16 06:01:10.090287 [GameController] {Main} Visibility Changed. family=S2 visible=1
+I 2023-09-16 06:01:10.091013 [GameController] {Main} GameAccount added to family: family=FORE account=GameAccount(FORE:retail region=US)
+D 2023-09-16 06:01:10.091056 [GameController] {Main} Adding product state reference. uid=fore refCount=0
+D 2023-09-16 06:01:10.091117 [GameController] {Main} Visibility Changed. family=FORE visible=1
+D 2023-09-16 06:01:10.091786 [GameController] {Main} Game Family Added: id=S1 visible=0
+D 2023-09-16 06:01:10.091920 [ProductState] {Main} Game product state created: uid=s1_ptr
+D 2023-09-16 06:01:10.091949 [ProductState] {Main} InstallState (s1_ptr): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.092036 [GameController] {Main} GameAccount added to family: family=S1 account=GameAccount(S1:ptr region=XX)
+D 2023-09-16 06:01:10.092081 [GameController] {Main} Adding product state reference. uid=s1_ptr refCount=0
+D 2023-09-16 06:01:10.092198 [GameController] {Main} Visibility Changed. family=S1 visible=1
+D 2023-09-16 06:01:10.092869 [GameController] {Main} Game Family Added: id=Hero visible=0
+D 2023-09-16 06:01:10.092977 [ProductState] {Main} Game product state created: uid=heroes
+D 2023-09-16 06:01:10.093006 [ProductState] {Main} InstallState (heroes): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.093101 [GameController] {Main} GameAccount added to family: family=Hero account=GameAccount(Hero:retail region=US unbound)
+D 2023-09-16 06:01:10.093147 [GameController] {Main} Adding product state reference. uid=heroes refCount=0
+D 2023-09-16 06:01:10.093236 [GameController] {Main} Visibility Changed. family=Hero visible=1
+D 2023-09-16 06:01:10.093920 [GameController] {Main} Game Family Added: id=OSI visible=0
+D 2023-09-16 06:01:10.094105 [ProductState] {Main} Game product state created: uid=osi
+D 2023-09-16 06:01:10.094152 [ProductState] {Main} InstallState (osi): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.094261 [GameController] {Main} GameAccount added to family: family=OSI account=GameAccount(OSI:retail region=US unbound)
+D 2023-09-16 06:01:10.094309 [GameController] {Main} Adding product state reference. uid=osi refCount=0
+D 2023-09-16 06:01:10.094398 [GameController] {Main} Visibility Changed. family=OSI visible=1
+D 2023-09-16 06:01:10.095100 [GameController] {Main} Game Family Added: id=LAZR visible=0
+D 2023-09-16 06:01:10.095215 [ProductState] {Main} Game product state created: uid=lazarus
+D 2023-09-16 06:01:10.095242 [ProductState] {Main} InstallState (lazarus): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.095342 [GameController] {Main} GameAccount added to family: family=LAZR account=GameAccount(LAZR:retail region=US unbound)
+D 2023-09-16 06:01:10.095386 [GameController] {Main} Adding product state reference. uid=lazarus refCount=0
+D 2023-09-16 06:01:10.095460 [GameController] {Main} Visibility Changed. family=LAZR visible=1
+D 2023-09-16 06:01:10.096144 [GameController] {Main} Game Family Added: id=SPOT visible=0
+D 2023-09-16 06:01:10.096245 [ProductState] {Main} Game product state created: uid=spot
+D 2023-09-16 06:01:10.096275 [ProductState] {Main} InstallState (spot): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.096365 [GameController] {Main} GameAccount added to family: family=SPOT account=GameAccount(SPOT:retail region=US unbound hidden)
+D 2023-09-16 06:01:10.096408 [GameController] {Main} Adding product state reference. uid=spot refCount=0
+D 2023-09-16 06:01:10.097129 [GameController] {Main} Game Family Added: id=ODIN visible=0
+I 2023-09-16 06:01:10.097330 [GameController] {Main} GameAccount added to family: family=ODIN account=GameAccount(ODIN:retail region=US)
+D 2023-09-16 06:01:10.097380 [GameController] {Main} Adding product state reference. uid=odin refCount=0
+D 2023-09-16 06:01:10.097450 [GameController] {Main} Visibility Changed. family=ODIN visible=1
+D 2023-09-16 06:01:10.098196 [GameController] {Main} Game Family Added: id=Pro visible=0
+D 2023-09-16 06:01:10.098382 [ProductState] {Main} Game product state created: uid=prometheus
+D 2023-09-16 06:01:10.098420 [ProductState] {Main} InstallState (prometheus): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.098527 [GameController] {Main} GameAccount added to family: family=Pro account=GameAccount(Pro:retail region=US unbound)
+D 2023-09-16 06:01:10.098580 [GameController] {Main} Adding product state reference. uid=prometheus refCount=0
+D 2023-09-16 06:01:10.098657 [GameController] {Main} Visibility Changed. family=Pro visible=1
+D 2023-09-16 06:01:10.099417 [GameController] {Main} Game Family Added: id=WoW visible=0
+D 2023-09-16 06:01:10.099516 [ProductState] {Main} Game product state created: uid=wow
+D 2023-09-16 06:01:10.099547 [ProductState] {Main} InstallState (wow): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.099640 [GameController] {Main} GameAccount added to family: family=WoW account=GameAccount(WoW:retail region=US unbound)
+D 2023-09-16 06:01:10.099686 [GameController] {Main} Adding product state reference. uid=wow refCount=0
+D 2023-09-16 06:01:10.099755 [GameController] {Main} Visibility Changed. family=WoW visible=1
+D 2023-09-16 06:01:10.100416 [GameController] {Main} Game Family Added: id=RTRO visible=0
+D 2023-09-16 06:01:10.100597 [ProductState] {Main} Game product state created: uid=rtro
+D 2023-09-16 06:01:10.100640 [ProductState] {Main} InstallState (rtro): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.100753 [GameController] {Main} GameAccount added to family: family=RTRO account=GameAccount(RTRO:retail region=US unbound)
+D 2023-09-16 06:01:10.100846 [GameController] {Main} Adding product state reference. uid=rtro refCount=0
+D 2023-09-16 06:01:10.100964 [GameController] {Main} Visibility Changed. family=RTRO visible=1
+D 2023-09-16 06:01:10.101720 [ProductState] {Main} Game product state created: uid=s1
+D 2023-09-16 06:01:10.101766 [ProductState] {Main} InstallState (s1): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.101882 [GameController] {Main} GameAccount added to family: family=S1 account=GameAccount(S1:retail region=US unbound)
+D 2023-09-16 06:01:10.101945 [GameController] {Main} Adding product state reference. uid=s1 refCount=0
+D 2023-09-16 06:01:10.102718 [GameController] {Main} Game Family Added: id=VIPR visible=0
+D 2023-09-16 06:01:10.102852 [ProductState] {Main} Game product state created: uid=viper
+D 2023-09-16 06:01:10.102887 [ProductState] {Main} InstallState (viper): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.102982 [GameController] {Main} GameAccount added to family: family=VIPR account=GameAccount(VIPR:retail region=US unbound)
+D 2023-09-16 06:01:10.103049 [GameController] {Main} Adding product state reference. uid=viper refCount=0
+D 2023-09-16 06:01:10.103126 [GameController] {Main} Visibility Changed. family=VIPR visible=1
+D 2023-09-16 06:01:10.103803 [GameController] {Main} Game Family Added: id=W3 visible=0
+D 2023-09-16 06:01:10.103919 [ProductState] {Main} Game product state created: uid=w3
+D 2023-09-16 06:01:10.103948 [ProductState] {Main} InstallState (w3): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.104045 [GameController] {Main} GameAccount added to family: family=W3 account=GameAccount(W3:retail region=US unbound)
+D 2023-09-16 06:01:10.104091 [GameController] {Main} Adding product state reference. uid=w3 refCount=0
+D 2023-09-16 06:01:10.104164 [GameController] {Main} Visibility Changed. family=W3 visible=1
+D 2023-09-16 06:01:10.104837 [GameController] {Main} Game Family Added: id=WLBY visible=0
+D 2023-09-16 06:01:10.105000 [ProductState] {Main} Game product state created: uid=wlby
+D 2023-09-16 06:01:10.105029 [ProductState] {Main} InstallState (wlby): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.105140 [GameController] {Main} GameAccount added to family: family=WLBY account=GameAccount(WLBY:retail region=US unbound)
+D 2023-09-16 06:01:10.105177 [GameController] {Main} Adding product state reference. uid=wlby refCount=0
+D 2023-09-16 06:01:10.105266 [GameController] {Main} Visibility Changed. family=WLBY visible=1
+D 2023-09-16 06:01:10.105957 [GameController] {Main} Game Family Added: id=ZEUS visible=0
+I 2023-09-16 06:01:10.106120 [GameController] {Main} GameAccount added to family: family=ZEUS account=GameAccount(ZEUS:retail region=US unbound)
+D 2023-09-16 06:01:10.106160 [GameController] {Main} Adding product state reference. uid=zeus refCount=0
+D 2023-09-16 06:01:10.106227 [GameController] {Main} Visibility Changed. family=ZEUS visible=1
+D 2023-09-16 06:01:10.106948 [ProductState] {Main} Game product state created: uid=osi_beta
+D 2023-09-16 06:01:10.106983 [ProductState] {Main} InstallState (osi_beta): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.107134 [GameController] {Main} GameAccount added to family: family=OSI account=GameAccount(OSI:beta region=US hidden)
+D 2023-09-16 06:01:10.107175 [GameController] {Main} Adding product state reference. uid=osi_beta refCount=0
+D 2023-09-16 06:01:10.107974 [ProductState] {Main} Game product state created: uid=zeus_beta
+D 2023-09-16 06:01:10.108007 [ProductState] {Main} InstallState (zeus_beta): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.108136 [GameController] {Main} GameAccount added to family: family=ZEUS account=GameAccount(ZEUS:beta region=US hidden)
+D 2023-09-16 06:01:10.108170 [GameController] {Main} Adding product state reference. uid=zeus_beta refCount=0
+D 2023-09-16 06:01:10.108931 [ProductState] {Main} Game product state created: uid=odin_beta
+D 2023-09-16 06:01:10.108969 [ProductState] {Main} InstallState (odin_beta): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.109102 [GameController] {Main} GameAccount added to family: family=ODIN account=GameAccount(ODIN:beta region=US hidden)
+D 2023-09-16 06:01:10.109138 [GameController] {Main} Adding product state reference. uid=odin_beta refCount=0
+D 2023-09-16 06:01:10.109962 [ProductState] {Main} Game product state created: uid=heroes_ptr
+D 2023-09-16 06:01:10.110006 [ProductState] {Main} InstallState (heroes_ptr): currentOperation=Install currentOperationStatus=New
+I 2023-09-16 06:01:10.110114 [GameController] {Main} GameAccount added to family: family=Hero account=GameAccount(Hero:ptr region=XX)
+D 2023-09-16 06:01:10.110160 [GameController] {Main} Adding product state reference. uid=heroes_ptr refCount=0
+I 2023-09-16 06:01:10.132311 [GameController] {Main} Setting default selections for game controller
+D 2023-09-16 06:01:10.132350 [GameController] {Main} Picked default selection by type for product group: Pro account=GameAccount(Pro:retail region=US unbound)
+D 2023-09-16 06:01:10.134596 [GameController] {Main} Selected region change: GameAccount(Pro:retail region=US unbound)
+D 2023-09-16 06:01:10.134638 [GameController] {Main} Region changed for selected game account: GameAccount(Pro:retail region=US unbound)
+D 2023-09-16 06:01:10.134888 [UrlManager] {Main} Resolved URL: key=client/overwatch/alert; region=US; endpoint=https://alert-us.battle.net/overwatch/default/live/en-us
+D 2023-09-16 06:01:10.141009 [GameController] {Main} New selection for product group Pro: account=GameAccount(Pro:retail region=US unbound) selectedItem=Overwatch 2
+D 2023-09-16 06:01:10.141247 [GameController] {Main} Picked default selection by type for product group: ANBS account=GameAccount(ANBS:retail region=US unbound)
+D 2023-09-16 06:01:10.143396 [GameController] {Main} Selected region change: GameAccount(ANBS:retail region=US unbound)
+D 2023-09-16 06:01:10.143446 [GameController] {Main} Region changed for selected game account: GameAccount(ANBS:retail region=US unbound)
+D 2023-09-16 06:01:10.143828 [UrlManager] {Main} Resolved URL: key=client/immortal/alert; region=US; endpoint=https://alert-us.battle.net/immortal/default/live/en-us
+D 2023-09-16 06:01:10.148843 [GameController] {Main} New selection for product group ANBS: account=GameAccount(ANBS:retail region=US unbound) selectedItem=Diablo Immortal
+D 2023-09-16 06:01:10.149060 [GameController] {Main} Picked default selection by type for product group: Fen account=GameAccount(Fen:retail region=GLOBAL unbound)
+D 2023-09-16 06:01:10.150099 [GameController] {Main} New selection for product group Fen: account=GameAccount(Fen:retail region=GLOBAL unbound) selectedItem=Diablo IV
+D 2023-09-16 06:01:10.150420 [UrlManager] {Main} Resolved URL: key=client/d4/alert; region=US; endpoint=https://alert-us.battle.net/d4/default/live/en-us
+D 2023-09-16 06:01:10.156401 [RemoteContentCache] {Main} Found cached remote content. url=https://alert-us.battle.net/d4/default/live/en-us
+D 2023-09-16 06:01:10.156505 [GameController] {Main} Picked default selection by type for product group: GRY account=GameAccount(GRY:retail region=US unbound)
+D 2023-09-16 06:01:10.159015 [GameController] {Main} Selected region change: GameAccount(GRY:retail region=US unbound)
+D 2023-09-16 06:01:10.159082 [GameController] {Main} Region changed for selected game account: GameAccount(GRY:retail region=US unbound)
+D 2023-09-16 06:01:10.159125 [GameController] {Main} New selection for product group GRY: account=GameAccount(GRY:retail region=US unbound) selectedItem=Warcraft Rumble
+D 2023-09-16 06:01:10.159173 [GameController] {Main} Picked default selection by type for product group: OSI account=GameAccount(OSI:retail region=US unbound)
+D 2023-09-16 06:01:10.161594 [GameController] {Main} Selected region change: GameAccount(OSI:retail region=US unbound)
+D 2023-09-16 06:01:10.161653 [GameController] {Main} Region changed for selected game account: GameAccount(OSI:retail region=US unbound)
+D 2023-09-16 06:01:10.162012 [UrlManager] {Main} Resolved URL: key=client/d2r/alert; region=US; endpoint=https://alert-us.battle.net/d2r/default/live/en-us
+D 2023-09-16 06:01:10.167499 [GameController] {Main} New selection for product group OSI: account=GameAccount(OSI:retail region=US unbound) selectedItem=Diablo II: Resurrected
+D 2023-09-16 06:01:10.167749 [GameController] {Main} Picked default selection by type for product group: WoW account=GameAccount(WoW:retail region=US unbound)
+D 2023-09-16 06:01:10.169799 [GameController] {Main} Selected region change: GameAccount(WoW:retail region=US unbound)
+D 2023-09-16 06:01:10.169846 [GameController] {Main} Region changed for selected game account: GameAccount(WoW:retail region=US unbound)
+D 2023-09-16 06:01:10.170161 [UrlManager] {Main} Resolved URL: key=client/WoW/alert; region=US; endpoint=https://alert-us.battle.net/WoW/default/live/en-us
+D 2023-09-16 06:01:10.174919 [GameController] {Main} New selection for product group WoW: account=GameAccount(WoW:retail region=US unbound) selectedItem=World of Warcraft
+D 2023-09-16 06:01:10.175125 [GameController] {Main} Picked default selection by type for product group: VIPR account=GameAccount(VIPR:retail region=US unbound)
+D 2023-09-16 06:01:10.177537 [GameController] {Main} Selected region change: GameAccount(VIPR:retail region=US unbound)
+D 2023-09-16 06:01:10.177579 [GameController] {Main} Region changed for selected game account: GameAccount(VIPR:retail region=US unbound)
+D 2023-09-16 06:01:10.177871 [UrlManager] {Main} Resolved URL: key=client/VIPR/alert; region=US; endpoint=https://alert-us.battle.net/VIPR/default/live/en-us
+D 2023-09-16 06:01:10.182837 [GameController] {Main} New selection for product group VIPR: account=GameAccount(VIPR:retail region=US unbound) selectedItem=Call of Duty: Black Ops 4
+D 2023-09-16 06:01:10.183042 [GameController] {Main} Picked default selection by type for product group: S1 account=GameAccount(S1:retail region=US unbound)
+D 2023-09-16 06:01:10.185492 [GameController] {Main} Selected region change: GameAccount(S1:retail region=US unbound)
+D 2023-09-16 06:01:10.185537 [GameController] {Main} Region changed for selected game account: GameAccount(S1:retail region=US unbound)
+D 2023-09-16 06:01:10.185871 [UrlManager] {Main} Resolved URL: key=client/S1/alert; region=US; endpoint=https://alert-us.battle.net/S1/default/live/en-us
+D 2023-09-16 06:01:10.191658 [GameController] {Main} New selection for product group S1: account=GameAccount(S1:retail region=US unbound) selectedItem=StarCraft
+D 2023-09-16 06:01:10.191909 [GameController] {Main} Picked default selection by type for product group: RTRO account=GameAccount(RTRO:retail region=US unbound)
+D 2023-09-16 06:01:10.194409 [GameController] {Main} Selected region change: GameAccount(RTRO:retail region=US unbound)
+D 2023-09-16 06:01:10.194459 [GameController] {Main} Region changed for selected game account: GameAccount(RTRO:retail region=US unbound)
+D 2023-09-16 06:01:10.194840 [UrlManager] {Main} Resolved URL: key=client/arcade/alert; region=US; endpoint=https://alert-us.battle.net/arcade/default/live/en-us
+D 2023-09-16 06:01:10.200143 [GameController] {Main} New selection for product group RTRO: account=GameAccount(RTRO:retail region=US unbound) selectedItem=Blizzard Arcade Collection
+D 2023-09-16 06:01:10.200397 [GameController] {Main} Picked default selection by type for product group: WTCG account=GameAccount(WTCG:retail region=US unbound)
+D 2023-09-16 06:01:10.202844 [GameController] {Main} Selected region change: GameAccount(WTCG:retail region=US unbound)
+D 2023-09-16 06:01:10.202895 [GameController] {Main} Region changed for selected game account: GameAccount(WTCG:retail region=US unbound)
+D 2023-09-16 06:01:10.203227 [UrlManager] {Main} Resolved URL: key=client/WTCG/alert; region=US; endpoint=https://alert-us.battle.net/WTCG/default/live/en-us
+D 2023-09-16 06:01:10.209244 [GameController] {Main} New selection for product group WTCG: account=GameAccount(WTCG:retail region=US unbound) selectedItem=Hearthstone
+D 2023-09-16 06:01:10.209508 [GameController] {Main} Picked default selection by type for product group: LAZR account=GameAccount(LAZR:retail region=US unbound)
+D 2023-09-16 06:01:10.212165 [GameController] {Main} Selected region change: GameAccount(LAZR:retail region=US unbound)
+D 2023-09-16 06:01:10.212219 [GameController] {Main} Region changed for selected game account: GameAccount(LAZR:retail region=US unbound)
+D 2023-09-16 06:01:10.212537 [UrlManager] {Main} Resolved URL: key=client/lazarus/alert; region=US; endpoint=https://alert-us.battle.net/lazarus/default/live/en-us
+D 2023-09-16 06:01:10.218919 [GameController] {Main} New selection for product group LAZR: account=GameAccount(LAZR:retail region=US unbound) selectedItem=Call of Duty: MW2 Campaign Remastered
+D 2023-09-16 06:01:10.219214 [GameController] {Main} Picked default selection by type for product group: ZEUS account=GameAccount(ZEUS:retail region=US unbound)
+D 2023-09-16 06:01:10.221717 [GameController] {Main} Selected region change: GameAccount(ZEUS:retail region=US unbound)
+D 2023-09-16 06:01:10.221763 [GameController] {Main} Region changed for selected game account: GameAccount(ZEUS:retail region=US unbound)
+D 2023-09-16 06:01:10.222084 [UrlManager] {Main} Resolved URL: key=client/zeus/alert; region=US; endpoint=https://alert-us.battle.net/zeus/default/live/en-us
+D 2023-09-16 06:01:10.228405 [RemoteContentCache] {Main} Found cached remote content. url=https://alert-us.battle.net/zeus/default/live/en-us
+D 2023-09-16 06:01:10.228505 [GameController] {Main} New selection for product group ZEUS: account=GameAccount(ZEUS:retail region=US unbound) selectedItem=Call of Duty: Black Ops Cold War
+D 2023-09-16 06:01:10.228740 [GameController] {Main} Picked default selection by type for product group: ODIN account=GameAccount(ODIN:retail region=US)
+D 2023-09-16 06:01:10.231073 [GameController] {Main} Selected region change: GameAccount(ODIN:retail region=US)
+D 2023-09-16 06:01:10.231128 [GameController] {Main} Region changed for selected game account: GameAccount(ODIN:retail region=US)
+D 2023-09-16 06:01:10.231485 [UrlManager] {Main} Resolved URL: key=client/odin/alert; region=US; endpoint=https://alert-us.battle.net/odin/default/live/en-us
+D 2023-09-16 06:01:10.237152 [RemoteContentCache] {Main} Found cached remote content. url=https://alert-us.battle.net/odin/default/live/en-us
+D 2023-09-16 06:01:10.237244 [GameController] {Main} New selection for product group ODIN: account=GameAccount(ODIN:retail region=US) selectedItem=Call of Duty: Modern Warfare
+D 2023-09-16 06:01:10.237453 [GameController] {Main} Picked default selection by type for product group: D3 account=GameAccount(D3:retail region=US unbound)
+D 2023-09-16 06:01:10.239952 [GameController] {Main} Selected region change: GameAccount(D3:retail region=US unbound)
+D 2023-09-16 06:01:10.240005 [GameController] {Main} Region changed for selected game account: GameAccount(D3:retail region=US unbound)
+D 2023-09-16 06:01:10.240337 [UrlManager] {Main} Resolved URL: key=client/D3/alert; region=US; endpoint=https://alert-us.battle.net/D3/default/live/en-us
+D 2023-09-16 06:01:10.246447 [GameController] {Main} New selection for product group D3: account=GameAccount(D3:retail region=US unbound) selectedItem=Diablo III
+D 2023-09-16 06:01:10.246670 [GameController] {Main} Picked default selection by type for product group: SPOT account=GameAccount(null)
+D 2023-09-16 06:01:10.246713 [GameController] {Main} Picked default selection by type for product group: FORE account=GameAccount(FORE:retail region=US)
+D 2023-09-16 06:01:10.248537 [GameController] {Main} Selected region change: GameAccount(FORE:retail region=US)
+D 2023-09-16 06:01:10.248578 [GameController] {Main} Region changed for selected game account: GameAccount(FORE:retail region=US)
+D 2023-09-16 06:01:10.248620 [GameController] {Main} New selection for product group FORE: account=GameAccount(FORE:retail region=US) selectedItem=Call of Duty: Vanguard
+D 2023-09-16 06:01:10.248693 [GameController] {Main} Picked default selection by type for product group: S2 account=GameAccount(S2:retail region=US unbound)
+D 2023-09-16 06:01:10.250402 [GameController] {Main} Selected region change: GameAccount(S2:retail region=US unbound)
+D 2023-09-16 06:01:10.250454 [GameController] {Main} Region changed for selected game account: GameAccount(S2:retail region=US unbound)
+D 2023-09-16 06:01:10.250734 [UrlManager] {Main} Resolved URL: key=client/S2/alert; region=US; endpoint=https://alert-us.battle.net/S2/default/live/en-us
+D 2023-09-16 06:01:10.255787 [GameController] {Main} New selection for product group S2: account=GameAccount(S2:retail region=US unbound) selectedItem=StarCraft II
+D 2023-09-16 06:01:10.255996 [GameController] {Main} Picked default selection by type for product group: Hero account=GameAccount(Hero:retail region=US unbound)
+D 2023-09-16 06:01:10.258034 [GameController] {Main} Selected region change: GameAccount(Hero:retail region=US unbound)
+D 2023-09-16 06:01:10.258073 [GameController] {Main} Region changed for selected game account: GameAccount(Hero:retail region=US unbound)
+D 2023-09-16 06:01:10.258358 [UrlManager] {Main} Resolved URL: key=client/Hero/alert; region=US; endpoint=https://alert-us.battle.net/Hero/default/live/en-us
+D 2023-09-16 06:01:10.264517 [GameController] {Main} New selection for product group Hero: account=GameAccount(Hero:retail region=US unbound) selectedItem=Heroes of the Storm
+D 2023-09-16 06:01:10.264739 [GameController] {Main} Picked default selection by type for product group: W3 account=GameAccount(W3:retail region=US unbound)
+D 2023-09-16 06:01:10.267218 [GameController] {Main} Selected region change: GameAccount(W3:retail region=US unbound)
+D 2023-09-16 06:01:10.267277 [GameController] {Main} Region changed for selected game account: GameAccount(W3:retail region=US unbound)
+D 2023-09-16 06:01:10.267679 [UrlManager] {Main} Resolved URL: key=client/war3r/alert; region=US; endpoint=https://alert-us.battle.net/war3r/default/live/en-us
+D 2023-09-16 06:01:10.273899 [GameController] {Main} New selection for product group W3: account=GameAccount(W3:retail region=US unbound) selectedItem=Warcraft III
+D 2023-09-16 06:01:10.274084 [GameController] {Main} Picked default selection by type for product group: AUKS account=GameAccount(AUKS:retail region=US)
+D 2023-09-16 06:01:10.276014 [GameController] {Main} Selected region change: GameAccount(AUKS:retail region=US)
+D 2023-09-16 06:01:10.276054 [GameController] {Main} Region changed for selected game account: GameAccount(AUKS:retail region=US)
+D 2023-09-16 06:01:10.276101 [GameController] {Main} New selection for product group AUKS: account=GameAccount(AUKS:retail region=US) selectedItem=Call of Duty
+D 2023-09-16 06:01:10.276159 [GameController] {Main} Picked default selection by type for product group: WLBY account=GameAccount(WLBY:retail region=US unbound)
+D 2023-09-16 06:01:10.278657 [GameController] {Main} Selected region change: GameAccount(WLBY:retail region=US unbound)
+D 2023-09-16 06:01:10.278736 [GameController] {Main} Region changed for selected game account: GameAccount(WLBY:retail region=US unbound)
+D 2023-09-16 06:01:10.279046 [UrlManager] {Main} Resolved URL: key=client/crash4/alert; region=US; endpoint=https://alert-us.battle.net/crash4/default/live/en-us
+D 2023-09-16 06:01:10.284169 [GameController] {Main} New selection for product group WLBY: account=GameAccount(WLBY:retail region=US unbound) selectedItem=Crash Bandicoot 4: It's About Time
+D 2023-09-16 06:01:10.284381 [GameController] {Main} Picked default selection by type for product group: D3CN account=GameAccount(null)
+D 2023-09-16 06:01:10.284494 [GameController] {Main} Selecting game family by id: AUKS
+D 2023-09-16 06:01:10.284515 [GameController] {Main} Active family set to: AUKS
+D 2023-09-16 06:01:10.289623 [GameController] {Main} Active product set to: AUKS_MWII_retail
+I 2023-09-16 06:01:10.289753 [GameController] {Main} GameController initialization complete
+I 2023-09-16 06:01:10.293625 [FeatureManager] {Main} Feature changed: last_played_nfe=true
+D 2023-09-16 06:01:10.293754 [GSAccountProvider] {Main} Completed final load.
+I 2023-09-16 06:01:10.295656 [FeatureManager] {Main} Updated feature next update time: id=last_played_nfe nextUpdate=2024-01-01 00:00:00.000000
+D 2023-09-16 06:01:10.311952 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.314239 [ProductManager] {Main} Product modified: AUKS ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.316339 [ProductManager] {Main} Product modified: AUKSDEV ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.316390 [ProductManager] {Main} Product modified: AUKS_MW ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.316412 [ProductManager] {Main} Product modified: AUKS_MWII ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.316441 [ProductManager] {Main} Product modified: AUKS_MWIII ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.316462 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.318411 [ProductManager] {Main} Product modified: D3CN ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.318487 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.318515 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.318533 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.320541 [ProductManager] {Main} Product modified: Fen ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.321860 [ProductManager] {Main} Product modified: GRY ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.323888 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.326521 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.328842 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.330894 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.330949 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.333184 [ProductManager] {Main} Product modified: Pro ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.336335 [ProductManager] {Main} Product modified: ProDemo3 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.336393 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.338926 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.342275 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.345695 [ProductManager] {Main} Product modified: SPOT ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.345808 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.348365 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.350732 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(type_name,81)
+D 2023-09-16 06:01:10.352981 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.355101 [ProductManager] {Main} Product modified: WoW ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.357557 [ProductManager] {Main} Product modified: WoWC ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.360224 [ProductManager] {Main} Product modified: WoWX2 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.360299 [ProductManager] {Main} Product modified: WoWX8 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.360322 [ProductManager] {Main} Product modified: WoWX9 ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.360337 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(type_name,supports_starter_mode,81)
+D 2023-09-16 06:01:10.362684 [ProductManager] {Main} Products updated
+D 2023-09-16 06:01:10.362835 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2023-09-16 06:01:10.362880 [CatalogVarStorage] {Main} Setting var from catalog Client.Voice.LastDestroySessionLogoutTime=60000
+D 2023-09-16 06:01:10.362904 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2023-09-16 06:01:10.362918 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2023-09-16 06:01:10.362944 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2023-09-16 06:01:10.362958 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2023-09-16 06:01:10.362966 [CatalogVarStorage] {Main} Setting var from catalog Client.Browser.LoadSequenceStatsBrowserNameRegex=^(content_browser|shop|home_page_content|alt_content)(.*)
+D 2023-09-16 06:01:10.362973 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2023-09-16 06:01:10.362981 [CatalogVarStorage] {Main} Setting var from catalog Client.LastPlayedVisibleThresholdMin=26280000
+D 2023-09-16 06:01:10.362990 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2023-09-16 06:01:10.362997 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2023-09-16 06:01:10.363003 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2023-09-16 06:01:10.363012 [CatalogVarStorage] {Main} Setting var from catalog Client.Telemetry.SettingsTelemetrySendIntervalSec=604800
+D 2023-09-16 06:01:10.363026 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+D 2023-09-16 06:01:10.363045 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2023-09-16 06:01:10.363063 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+I 2023-09-16 06:01:10.375671 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2023-09-16 06:01:10.689839 [Main] {Main} Adding ObserverRecord: MaxFavoriteGames
+D 2023-09-16 06:01:10.691556 [BAPIGateway] {Main} API request: https://us.api.blizzard.com/content-api/v1/layoutTemplates/blt478cfc6c41578ddb/layout?cxpProductId=blt90855744d00cd378, tokenType=CTS
+I 2023-09-16 06:01:10.715120 [ScreenController] {Main} Changing screen to: HomeNav
+I 2023-09-16 06:01:10.715277 [StartupGameSearch] {Main} Skipping automated search for unregistered games
+W 2023-09-16 06:01:10.715294 [InstallManager] {Main} Skipping search for unregistered games.
+I 2023-09-16 06:01:10.715302 [InstallManager] {Main} Searching for unregistered games finished.
+I 2023-09-16 06:01:10.715362 [StartupGameSearch] {Main} Completed automated search for unregistered games
+I 2023-09-16 06:01:10.715593 [InstallFlow] {Main} No longer waiting for game registration search to complete.
+D 2023-09-16 06:01:10.717953 [InventoryController] {Main} Updating inventory
+D 2023-09-16 06:01:10.717994 [InventoryController] {Main} GetInventoryInfo request
+D 2023-09-16 06:01:10.718019 [BAPIGateway] {Main} API request: https://us.api.blizzard.com/AccountInventoryService/v1/GetNewInventoryItemCount, tokenType=Default
+I 2023-09-16 06:01:10.724506 [Clubs] {Main} Subscribing to club membership.
+I 2023-09-16 06:01:10.724614 [ChannelV2] {Main} Subscribing to channelv2 membership service. |agentId=|id=592338244|program=4288624|region=1
+I 2023-09-16 06:01:10.724676 [BNLogin] {Main} Logged into Battle.net successfully. |bnet=1:0:30eca006|game=2:100417070:234e5d44
+I 2023-09-16 06:01:10.772235 [Main] {Main} Destroying ObserverRecord: Scope:Root for Browser
+I 2023-09-16 06:01:10.793722 [InstallManager] {Main} Starting [Auto] UPDATE operation for "zeus".
+D 2023-09-16 06:01:10.793772 [InstallInfo] {Main} Operation status changed: opType=Update oldStatus=Off newStatus=On agentUid=zeus
+D 2023-09-16 06:01:10.793841 [ProductState] {Main} InstallState (zeus): currentOperationStatus=Waiting
+I 2023-09-16 06:01:11.020717 [Main] {Main} Adding ObserverRecord: Scope:Root for Browser
+D 2023-09-16 06:01:11.286901 [UrlManager] {Main} Resolved URL: key=/client/shop; region=US; endpoint=https://us.shop.battle.net/en-us/?autoRegion=true
+D 2023-09-16 06:01:11.292728 [UrlManager] {Main} Resolved URL: key=/client/overwatchleague; region=US; endpoint=https://overwatchleague.com/en-us
+D 2023-09-16 06:01:11.298349 [UrlManager] {Main} Resolved URL: key=/client/blizzcon; region=US; endpoint=https://blizzcon.com/en-us
+D 2023-09-16 06:01:11.304314 [UrlManager] {Main} Resolved URL: key=client/content/ui/cui_token/browser/cod-mwii; region=US; endpoint=https://content-ui.battle.net/en-us/phoenix/home/cod-mwii
+D 2023-09-16 06:01:11.310477 [UrlManager] {Main} Resolved URL: key=client/content/ui/cui_token/viewer; region=US; endpoint=https://content-ui.battle.net/en-us/phoenix/news/bootstrap
+D 2023-09-16 06:01:11.317719 [UrlManager] {Main} Resolved URL: key=client/homepage/ui/cui_token; region=US; endpoint=https://content-ui.battle.net/en-us/phoenix/homepage
+D 2023-09-16 06:01:11.442596 [ProductState] {Main} InstallState (zeus): currentOperationStatus=Initializing downloadRemainingExists=1 playableProgress=0.740366
+D 2023-09-16 06:01:11.442873 [InstallManager] {Main} Update started: zeus
+D 2023-09-16 06:01:11.942620 [ProductState] {Main} InstallState (zeus):
+I 2023-09-16 06:01:12.394253 [ChannelV2] {Main} ChannelV2 membership subscription created.
+I 2023-09-16 06:01:12.394752 [Clubs] {Main} Club membership subscription created: |accountId=|id=820813830
+D 2023-09-16 06:01:13.148465 [BrowserClientHandler] {Main} Recording load sequence for browser home_page_content (Webview)
+E 2023-09-16 06:01:14.862815 [BNSocialNetwork] {Main} Error response for BGS Facebook friend list. error=ERROR_SOCIAL_NETWORK_NO_ACCOUNT_DATA (9005)
+E 2023-09-16 06:01:15.362305 [BNSocialNetwork] {Main} Error response for BGS Facebook friend list. error=ERROR_SOCIAL_NETWORK_NO_ACCOUNT_DATA (9005)
+I 2023-09-16 06:01:15.605085 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=5, oldRunning=4)
+I 2023-09-16 06:01:15.612138 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2023-09-16 06:01:16.089595 [BrowserClientHandler] {Main} End recording load sequence for browser home_page_content (Webview); result=200; hop_count=1; time_elapsed=2934msec
+D 2023-09-16 06:01:18.277457 [GameController] {Main} Selecting game family by id: AUKS
+I 2023-09-16 06:01:18.278102 [ScreenController] {Main} Changing screen to: Games
+D 2023-09-16 06:01:18.816775 [BrowserClientHandler] {Main} Recording load sequence for browser content_browser (Webview)
+D 2023-09-16 06:01:19.721955 [GameController] {Main} Selecting game family by id: AUKS
+I 2023-09-16 06:01:19.722091 [Main] {Main} LaunchBinary: uid=auks selectedRegion=US binaryType=game
+D 2023-09-16 06:01:19.734145 [InstallInfo] {Main} Operation status changed: opType=Execute oldStatus=Off newStatus=Pending agentUid=auks
+D 2023-09-16 06:01:19.734297 [ProductState] {Main} InstallState (auks): GameLaunching=1
+D 2023-09-16 06:01:19.776572 [BrowserClientHandler] {Main} End recording load sequence for browser content_browser (Webview); result=200; hop_count=1; time_elapsed=953msec
+I 2023-09-16 06:01:20.525066 [InstallManager] {Main} Game launch options: programId=AUKS GAME_ACCOUNT= REGION=US LOCALE=enUS LOCALE_AUDIO=enUS LAUNCH_64BIT=0
+I 2023-09-16 06:01:20.526009 [InstallManager] {Main} Game launch options: programId=AUKS ACCOUNT=(hidden) ACCOUNT_TS=1694844080
+D 2023-09-16 06:01:20.526072 [InstallInfo] {Main} Operation status changed: opType=Update oldStatus=On newStatus=Off agentUid=zeus
+D 2023-09-16 06:01:20.526151 [ProductState] {Main} InstallState (zeus): currentOperationStatus=Paused
+I 2023-09-16 06:01:20.607442 [InstallManager] {Main} Launched D:/Call of Duty/_retail_/bootstrapper.exe with args: cod.exe -uid auks, pid: 18528
+D 2023-09-16 06:01:20.615258 [ProductState] {Main} InstallState (zeus):
+I 2023-09-16 06:01:21.746599 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=auks, type=game, opStatus=On, reqId=0, running=1, oldRunning=0)
+I 2023-09-16 06:01:21.752129 [InstallManager] {Main} Setting Process Running: true uid=auks binaryType=game any=true
+D 2023-09-16 06:01:21.752183 [InstallInfo] {Main} Operation status changed: opType=Execute oldStatus=Pending newStatus=On agentUid=auks
+D 2023-09-16 06:01:21.752220 [InstallManager] {Main} Game is running: auks
+D 2023-09-16 06:01:21.754078 [ProductState] {Main} InstallState (auks): gameRunning=1 isGameProcessRunning=1 GameLaunching=0
+I 2023-09-16 06:01:24.746637 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=7, oldRunning=5)
+I 2023-09-16 06:01:24.752206 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+I 2023-09-16 06:01:30.759932 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=auks, type=game, opStatus=On, reqId=0, running=2, oldRunning=1)
+I 2023-09-16 06:01:30.762757 [InstallManager] {Main} Setting Process Running: true uid=auks binaryType=game any=true
+D 2023-09-16 06:01:30.762814 [InstallManager] {Main} Game is running: auks
+I 2023-09-16 06:01:30.764524 [Main] {Main} Pre-existing game session detected without a pending launch. Not performing game launch behavior.
+I 2023-09-16 06:01:38.979191 [Main] {Main} Frontend is requesting to close window.
+I 2023-09-16 06:01:39.006623 [Main] {Main} Destroying ObserverRecord: Scope:Announcements
+D 2023-09-16 06:01:39.006800 [GameController] {Main} Shutting down GameController
+D 2023-09-16 06:01:39.006825 [Main] {Main} Shutting down GameLaunchController
+I 2023-09-16 06:01:39.006836 [Main] {Main} Destroying ObserverRecord: Games
+I 2023-09-16 06:01:39.006878 [Main] {Main} Destroying ObserverRecord: MaxFavoriteGames
+I 2023-09-16 06:01:39.007025 [Main] {Main} Destroying ObserverRecord: ShowLastPlayed
+I 2023-09-16 06:01:39.007052 [GameController] {Main} Deleting GameFamily: , # of game accounts:0
+I 2023-09-16 06:01:39.007112 [GameController] {Main} Deleting GameFamily: SPOT, # of game accounts:1
+I 2023-09-16 06:01:39.007173 [GameController] {Main} Deleting GameFamily: D3CN, # of game accounts:1
+D 2023-09-16 06:01:39.007264 [ProductState] {Main} Game product state destroyed: uid=
+D 2023-09-16 06:01:39.007291 [ProductState] {Main} Game product state destroyed: uid=d3cn
+D 2023-09-16 06:01:39.007380 [ProductState] {Main} Game product state destroyed: uid=spot
+I 2023-09-16 06:01:39.007504 [GameController] {Main} Deleting GameFamily: Fen, # of game accounts:1
+D 2023-09-16 06:01:39.007560 [ProductState] {Main} Game product state destroyed: uid=fenris
+I 2023-09-16 06:01:39.007614 [GameController] {Main} Deleting GameFamily: WoW, # of game accounts:1
+D 2023-09-16 06:01:39.007661 [ProductState] {Main} Game product state destroyed: uid=wow
+I 2023-09-16 06:01:39.007710 [GameController] {Main} Deleting GameFamily: Pro, # of game accounts:1
+D 2023-09-16 06:01:39.007760 [ProductState] {Main} Game product state destroyed: uid=prometheus
+I 2023-09-16 06:01:39.007815 [GameController] {Main} Deleting GameFamily: WTCG, # of game accounts:1
+D 2023-09-16 06:01:39.007874 [ProductState] {Main} Game product state destroyed: uid=hs_beta
+I 2023-09-16 06:01:39.007935 [GameController] {Main} Deleting GameFamily: ANBS, # of game accounts:1
+D 2023-09-16 06:01:39.007986 [ProductState] {Main} Game product state destroyed: uid=anbs
+I 2023-09-16 06:01:39.008041 [GameController] {Main} Deleting GameFamily: OSI, # of game accounts:2
+D 2023-09-16 06:01:39.008078 [ProductState] {Main} Game product state destroyed: uid=osi_beta
+D 2023-09-16 06:01:39.008119 [ProductState] {Main} Game product state destroyed: uid=osi
+I 2023-09-16 06:01:39.008170 [GameController] {Main} Deleting GameFamily: D3, # of game accounts:1
+D 2023-09-16 06:01:39.008217 [ProductState] {Main} Game product state destroyed: uid=diablo3
+I 2023-09-16 06:01:39.008267 [GameController] {Main} Deleting GameFamily: S2, # of game accounts:1
+D 2023-09-16 06:01:39.008314 [ProductState] {Main} Game product state destroyed: uid=s2
+I 2023-09-16 06:01:39.008363 [GameController] {Main} Deleting GameFamily: W3, # of game accounts:1
+D 2023-09-16 06:01:39.008409 [ProductState] {Main} Game product state destroyed: uid=w3
+I 2023-09-16 06:01:39.008463 [GameController] {Main} Deleting GameFamily: GRY, # of game accounts:1
+D 2023-09-16 06:01:39.008505 [ProductState] {Main} Game product state destroyed: uid=gryphon
+I 2023-09-16 06:01:39.008555 [GameController] {Main} Deleting GameFamily: S1, # of game accounts:2
+D 2023-09-16 06:01:39.008599 [ProductState] {Main} Game product state destroyed: uid=s1_ptr
+D 2023-09-16 06:01:39.008638 [ProductState] {Main} Game product state destroyed: uid=s1
+I 2023-09-16 06:01:39.008698 [GameController] {Main} Deleting GameFamily: Hero, # of game accounts:2
+D 2023-09-16 06:01:39.008743 [ProductState] {Main} Game product state destroyed: uid=heroes_ptr
+D 2023-09-16 06:01:39.008784 [ProductState] {Main} Game product state destroyed: uid=heroes
+I 2023-09-16 06:01:39.008841 [GameController] {Main} Deleting GameFamily: RTRO, # of game accounts:1
+D 2023-09-16 06:01:39.008886 [ProductState] {Main} Game product state destroyed: uid=rtro
+I 2023-09-16 06:01:39.008941 [GameController] {Main} Deleting GameFamily: AUKS, # of game accounts:1
+D 2023-09-16 06:01:39.008986 [ProductState] {Main} Game product state destroyed: uid=auks
+I 2023-09-16 06:01:39.009041 [GameController] {Main} Deleting GameFamily: ZEUS, # of game accounts:2
+D 2023-09-16 06:01:39.009070 [ProductState] {Main} Game product state destroyed: uid=zeus_beta
+D 2023-09-16 06:01:39.009114 [ProductState] {Main} Game product state destroyed: uid=zeus
+I 2023-09-16 06:01:39.009170 [GameController] {Main} Deleting GameFamily: ODIN, # of game accounts:2
+D 2023-09-16 06:01:39.009202 [ProductState] {Main} Game product state destroyed: uid=odin_beta
+D 2023-09-16 06:01:39.009237 [ProductState] {Main} Game product state destroyed: uid=odin
+I 2023-09-16 06:01:39.009289 [GameController] {Main} Deleting GameFamily: FORE, # of game accounts:2
+D 2023-09-16 06:01:39.009326 [ProductState] {Main} Game product state destroyed: uid=fore_beta
+D 2023-09-16 06:01:39.009360 [ProductState] {Main} Game product state destroyed: uid=fore
+I 2023-09-16 06:01:39.009433 [GameController] {Main} Deleting GameFamily: LAZR, # of game accounts:1
+D 2023-09-16 06:01:39.009477 [ProductState] {Main} Game product state destroyed: uid=lazarus
+I 2023-09-16 06:01:39.009527 [GameController] {Main} Deleting GameFamily: VIPR, # of game accounts:1
+D 2023-09-16 06:01:39.009572 [ProductState] {Main} Game product state destroyed: uid=viper
+I 2023-09-16 06:01:39.009631 [GameController] {Main} Deleting GameFamily: WLBY, # of game accounts:1
+D 2023-09-16 06:01:39.009695 [ProductState] {Main} Game product state destroyed: uid=wlby
+I 2023-09-16 06:01:39.009828 [Main] {Main} Destroying ObserverRecord: HasSeenFirstTimeExperience
+I 2023-09-16 06:01:39.009911 [Main] {Main} Destroying ObserverRecord: PromotedScreenName
+I 2023-09-16 06:01:39.009932 [Main] {Main} Destroying ObserverRecord: PromotedScreenVersion
+I 2023-09-16 06:01:39.009962 [Main] {Main} Destroying ObserverRecord: LiveIndicatorEnabled
+I 2023-09-16 06:01:39.010001 [Main] {Main} Destroying ObserverRecord: SaleNotificationEnabled
+I 2023-09-16 06:01:39.010015 [Main] {Main} Destroying ObserverRecord: SaleNotificationVersion
+I 2023-09-16 06:01:39.010338 [Main] {Main} Destroying ObserverRecord: BreakingNewsURL
+I 2023-09-16 06:01:39.010360 [Main] {Main} Destroying ObserverRecord: MaintenanceURL
+I 2023-09-16 06:01:39.010434 [ToastManager] {Main} Clearing toast queue
+I 2023-09-16 06:01:39.052684 [Main] {Main} Destroying ObserverRecord: WhisperVoiceIncoming
+I 2023-09-16 06:01:39.052731 [Main] {Main} Destroying ObserverRecord: GenericToast
+I 2023-09-16 06:01:39.052798 [Main] {Main} Destroying ObserverRecord: FriendOnline
+I 2023-09-16 06:01:39.052814 [Main] {Main} Destroying ObserverRecord: FriendOffline
+I 2023-09-16 06:01:39.052823 [Main] {Main} Destroying ObserverRecord: FriendStartsGame
+I 2023-09-16 06:01:39.052846 [Main] {Main} Destroying ObserverRecord: ChatInitiated
+I 2023-09-16 06:01:39.052863 [Main] {Main} Destroying ObserverRecord: ChatMessageIncoming
+I 2023-09-16 06:01:39.052882 [Main] {Main} Destroying ObserverRecord: ChatMessageIncomingActive
+I 2023-09-16 06:01:39.052900 [Main] {Main} Destroying ObserverRecord: ChatMessageOutgoing
+I 2023-09-16 06:01:39.052909 [Main] {Main} Destroying ObserverRecord: VoiceJoin
+I 2023-09-16 06:01:39.052917 [Main] {Main} Destroying ObserverRecord: VoiceLeave
+I 2023-09-16 06:01:39.052925 [Main] {Main} Destroying ObserverRecord: VoiceJoinOther
+I 2023-09-16 06:01:39.052932 [Main] {Main} Destroying ObserverRecord: VoiceLeaveOther
+I 2023-09-16 06:01:39.052940 [Main] {Main} Destroying ObserverRecord: VoiceMuteOtherOn
+I 2023-09-16 06:01:39.052948 [Main] {Main} Destroying ObserverRecord: VoiceMuteOtherOff
+I 2023-09-16 06:01:39.052956 [Main] {Main} Destroying ObserverRecord: VoiceMuteMicOn
+I 2023-09-16 06:01:39.052963 [Main] {Main} Destroying ObserverRecord: VoiceMuteMicOff
+I 2023-09-16 06:01:39.052971 [Main] {Main} Destroying ObserverRecord: VoiceMuteSpeakerOn
+I 2023-09-16 06:01:39.052979 [Main] {Main} Destroying ObserverRecord: VoiceMuteSpeakerOff
+I 2023-09-16 06:01:39.052986 [Main] {Main} Destroying ObserverRecord: VoicePushToTalkOn
+I 2023-09-16 06:01:39.052994 [Main] {Main} Destroying ObserverRecord: VoicePushToTalkOff
+I 2023-09-16 06:01:39.053001 [Main] {Main} Destroying ObserverRecord: VoiceError
+I 2023-09-16 06:01:39.125908 [Main] {Main} Destroying ObserverRecord: Scope:Root for Browser
+I 2023-09-16 06:01:39.706766 [Main] {Main} Destroying ObserverRecord: QtLoggingRules
+D 2023-09-16 06:01:39.717480 [Main] {Main} Shutting down Backend
+D 2023-09-16 06:01:39.717523 [Main] {Main} Closing IPC Service
+D 2023-09-16 06:01:39.717532 [CommandQueue] {Main} IPCService is shutting down
+D 2023-09-16 06:01:39.717859 [Main] {Main} Shutting down account manager
+I 2023-09-16 06:01:39.717911 [GSStateTracker] {Main} State changed to: Incomplete
+I 2023-09-16 06:01:39.717934 [AccountManager] {Main} Account manager state has changed to: Incomplete
+I 2023-09-16 06:01:39.717995 [GameProvider] {Main} Game provider is no longer initialized and is now reset
+D 2023-09-16 06:01:39.718359 [Main] {Main} Shutting down CacheManager
+D 2023-09-16 06:01:39.718374 [Main] {Main} Shutting down analytics processor
+D 2023-09-16 06:01:39.718763 [Main] {Main} Shutting down worker pool
+D 2023-09-16 06:01:39.720203 [Main] {Main} Shutting down backend processor
+I 2023-09-16 06:01:42.889091 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=1, oldRunning=7)
+D 2023-09-16 06:01:44.748547 [Main] {Main} Shutting down data cache
+D 2023-09-16 06:01:44.749183 [Main] {Main} Shutting down catalog manager
+I 2023-09-16 06:01:44.749712 [Main] {Main} Destroying ObserverRecord: Scope:NGDP
+D 2023-09-16 06:01:44.749765 [Main] {Main} Shutting down environment manager
+D 2023-09-16 06:01:44.749812 [Main] {Main} Shutting down battle.net api gateway
+D 2023-09-16 06:01:44.749824 [Main] {Main} Shutting down suggested friends service
+D 2023-09-16 06:01:44.749836 [Main] {Main} Shutting down voice service
+D 2023-09-16 06:01:44.749842 [Main] {Main} Shutting down remote content manager
+D 2023-09-16 06:01:44.749849 [Main] {Main} Shutting down analytics session
+D 2023-09-16 06:01:44.749855 [Main] {Main} Shutting down agent manager
+D 2023-09-16 06:01:44.749871 [Agent] {Main} PolicyHandler Thread STOPPING
+D 2023-09-16 06:01:44.749889 [Agent] {Agent} PolicyHandlerThreadProc: The rest is silence.
+D 2023-09-16 06:01:44.750603 [Agent] {Main} PolicyHandler Thread STOPPED
+I 2023-09-16 06:01:44.750643 [Main] {Main} Destroying ObserverRecord: GameSessionListIntervalMS
+D 2023-09-16 06:01:44.756476 [Agent] {Main} Communicated shutdown to Agent
+D 2023-09-16 06:01:44.756625 [Main] {Main} Shutting down game provider
+I 2023-09-16 06:01:44.756653 [Main] {Main} Destroying ObserverRecord: BetaAccessOverride
+I 2023-09-16 06:01:44.756662 [Main] {Main} Destroying ObserverRecord: BetaBranchOverride
+D 2023-09-16 06:01:44.756670 [Main] {Main} Shutting down battle.net interface
+D 2023-09-16 06:01:45.318958 [Main] {Main} Shutting down callback queue
+I 2023-09-16 06:01:45.319078 [Main] {Main} Destroying ObserverRecord: MaxInitTimeMS
+I 2023-09-16 06:01:45.319093 [Main] {Main} Destroying ObserverRecord: CooldownMS
+I 2023-09-16 06:01:45.319103 [Main] {Main} Destroying ObserverRecord: EndPoints
+I 2023-09-16 06:01:45.319110 [Main] {Main} Destroying ObserverRecord: Scope:TraceRoute
+D 2023-09-16 06:01:45.319137 [WebServer] {Main} Shutting down WebServerImpl
+D 2023-09-16 06:01:45.319770 [WebServer] {Main} WebServerImpl is stopped
+I 2023-09-16 06:01:45.320014 [Main] {Main} Destroying ObserverRecord: FilteredMarkdownLinkProtocols
+I 2023-09-16 06:01:45.320051 [Main] {Main} Destroying ObserverRecord: Enabled
+I 2023-09-16 06:01:45.320061 [Main] {Main} Destroying ObserverRecord: GlobalDisable
+I 2023-09-16 06:01:45.320069 [Main] {Main} Destroying ObserverRecord: ServerFlag
+I 2023-09-16 06:01:45.321684 [Main] {Main} Destroying ObserverRecord: UpdatePrioritiesEnabed
+I 2023-09-16 06:01:45.321747 [Main] {Main} Destroying ObserverRecord: BattlePlatformProductCode
+I 2023-09-16 06:01:45.321766 [Main] {Main} Destroying ObserverRecord: UnattendPatchUid
+I 2023-09-16 06:01:45.325423 [Main] {Main} Destroying ObserverRecord: EnableAgentClientLog
+I 2023-09-16 06:01:45.325480 [Main] {Main} Destroying ObserverRecord: GameListUpdateIntervalMS
+I 2023-09-16 06:01:45.325503 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:01:45.325522 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:01:45.325536 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:01:45.325553 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:01:45.325566 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:01:45.325584 [Main] {Main} Destroying ObserverRecord: GameMessageIntervalMS
+I 2023-09-16 06:01:45.325775 [Main] {Main} Destroying ObserverRecord: SessionExpirationLimitsMin
+I 2023-09-16 06:01:45.325811 [Main] {Main} Destroying ObserverRecord: ChatExpirationLimitsMin
+I 2023-09-16 06:01:45.325825 [Main] {Main} Destroying ObserverRecord: ChatSendExpirationLimitsMin
+I 2023-09-16 06:01:45.325867 [Main] {Main} Destroying ObserverRecord: ExternalMetadata
+I 2023-09-16 06:01:45.325950 [Main] {Main} Destroying ObserverRecord: UpdateInterval
+I 2023-09-16 06:01:45.325965 [Main] {Main} Destroying ObserverRecord: UpdateIntervalOnFailure
+I 2023-09-16 06:01:45.325972 [Main] {Main} Destroying ObserverRecord: UseNGDP
+D 2023-09-16 06:01:45.443216 [DIAG_BNL_Voice] {Main} {2a74} debug: Notification client reference removed: 0

@@ -1,0 +1,117 @@
+{
+	"name": "live-code-runner",
+	"displayName": "Live Code Runner",
+	"description": "Run your codes via Backend.AI Cloud (https://cloud.backend.ai)",
+	"version": "4.5.0",
+	"icon": "images/live-code-runner-logo.png",
+	"publisher": "lablup",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lablup/vscode-live-code-runner/issues"
+	},
+	"homepage": "https://github.com/lablup/vscode-live-code-runner/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lablup/vscode-live-code-runner.git"
+	},
+	"categories": [
+		"Languages",
+		"Debuggers",
+		"Other"
+	],
+	"engines": {
+		"vscode": "^1.9.0"
+	},
+	"keywords": [
+		"python",
+		"javascript",
+		"tensorflow",
+		"language",
+		"cloud"
+	],
+	"main": "./out/src/extension",
+	"activationEvents": [
+		"onCommand:live-code-runner.runCode"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "live-code-runner.runCode",
+				"title": "Run Code On Backend.AI Cloud"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "live-code-runner.runCode",
+				"key": "ctrl+alt+r"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "!inOutput",
+					"command": "live-code-runner.runCode",
+					"group": "navigation"
+				}
+			]
+		},
+		"languages": [
+			{
+				"id": "live-code-runner-console",
+				"mimetypes": [
+					"text/x-code-output"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "live-code-runner-console",
+				"scopeName": "live-code-runner.console",
+				"path": "./syntaxes/console.tmLanguage"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Live code runner",
+			"properties": {
+				"live-code-runner.accessKey": {
+					"type": "string",
+					"default": "",
+					"description": "Access API key generated at cloud.backend.ai."
+				},
+				"live-code-runner.secretKey": {
+					"type": "string",
+					"default": "",
+					"description": "Secret API key generated at cloud.backend.ai."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"backend.ai-client": ">=0.4.0",
+		"punycode": "^2.1.0"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.40",
+		"mocha": "^2.3.3",
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.0"
+	},
+	"__metadata": {
+		"id": "8e876cbc-d20a-4dd6-afe8-48021ce0f890",
+		"publisherId": "5212fa3f-37ad-43d8-95bc-97e5324b5dce",
+		"publisherDisplayName": "lablup",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1692241173407,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,541 @@
+2023-04-16 13:19:32.443146 -0700 (0x000039b8) [info] [CrashDump] Starting handler at C:/Program Files/4KDownload/4kyoutubetomp3
+2023-04-16 13:19:32.501232 -0700 (0x000039b8) [info] [app_Gui] [BaseTranslator] Using locale en_US
+2023-04-16 13:19:32.502533 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kyoutubetomp3.crash.json
+2023-04-16 13:19:32.508521 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Application&ea=Run&el=First&ev=0&cprop=%7B%22start_day%22%3A106%2C%22start_year%22%3A2023%7D&z=29764
+2023-04-16 13:19:32.508521 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Application&ea=Platform&el=windows-64-10.0.22621&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.22621%22%7D&z=5889
+2023-04-16 13:19:32.511021 -0700 (0x00005804) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader https://dl.4kdownload.com/app/advertisement/youtubetomp3.xml
+2023-04-16 13:19:32.512129 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] appId=4kyoutubetomp3, appName=4K YouTube to MP3, appVersion=4.9.1.5242, appCast=https://dl.4kdownload.com/app/appcast/youtubetomp3.xml
+2023-04-16 13:19:32.512325 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=License&ea=State&el=free&cprop=%7B%22license%22%3A%22free%22%7D&z=23866
+2023-04-16 13:19:32.514123 -0700 (0x000039b8) [warning] Qt WebEngine resources not found at C:/Program Files/4KDownload/4kyoutubetomp3/resources. Trying parent directory... (:0, )
+2023-04-16 13:19:32.515121 -0700 (0x000039b8) [warning] Installed Qt WebEngine locales directory not found at location C:/Program Files/4KDownload/4kyoutubetomp3/translations\qtwebengine_locales. Trying application directory... (:0, )
+2023-04-16 13:19:32.947507 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:19:34.812486 -0700 (0x00004c60) [info] Enter WorkerGraphManager::checkingThread
+2023-04-16 13:19:34.812486 -0700 (0x000008e0) [info] Enter WorkerGraphManager::statisticsLogThread
+2023-04-16 13:19:34.828046 -0700 (0x000039b8) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Set max active count 1 -> 4
+2023-04-16 13:19:34.828046 -0700 (0x000039b8) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Set max active count 1 -> 4
+2023-04-16 13:19:34.828046 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Checking queue: state: Initial; force: no; size: 0
+2023-04-16 13:19:34.828046 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Checking queue: state: Pending; force: no; size: 0
+2023-04-16 13:19:34.828046 -0700 (0x000039b8) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader http://sa.openmedia.co:8018/getinfo
+2023-04-16 13:19:34.828046 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Checking queue: state: Initial; force: no; size: 0
+2023-04-16 13:19:34.828046 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Checking queue: state: Pending; force: no; size: 0
+2023-04-16 13:19:34.845469 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Notification&ea=Clear%20Outdated&el=Count&ev=0&z=25031
+2023-04-16 13:19:34.846428 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader https://dl.4kdownload.com/app/news/youtubetomp3.json
+2023-04-16 13:19:34.847425 -0700 (0x00005ab0) [info] EventDispatcher is started
+2023-04-16 13:19:34.847425 -0700 (0x000039b8) [info] Creating new io context pool '' with 6 thread(s)
+2023-04-16 13:19:34.848424 -0700 (0x00000d54) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:34.848424 -0700 (0x000049a0) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:34.848424 -0700 (0x00005750) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:34.848424 -0700 (0x0000461c) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:34.848424 -0700 (0x000059a0) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:34.849420 -0700 (0x00005d84) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:34.850419 -0700 (0x000039b8) [debug] threaded render loop (:0, )
+2023-04-16 13:19:34.850419 -0700 (0x000039b8) [debug] Using sg animation driver (:0, )
+2023-04-16 13:19:34.850419 -0700 (0x000039b8) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:19:34.980907 -0700 (0x00005c38) [info] User external ip info: {"ip":"71.38.9.113"}
+2023-04-16 13:19:36.346229 -0700 (0x000039b8) [info] [AuthView::fakeLoad] Openning invisible window
+2023-04-16 13:19:36.346229 -0700 (0x000039b8) [info] [AuthView::logIn] Logging in at https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Dm%26hl%3Den%26next%3D%252F&hl=en
+2023-04-16 13:19:36.448192 -0700 (0x000039b8) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] R/G/B/A Buffers:   8 8 8 8 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] Depth Buffer:      24 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] Stencil Buffer:    8 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] Samples:           0 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] GL_VENDOR:         Intel (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] GL_RENDERER:       Intel(R) UHD Graphics 630 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] GL_VERSION:        4.6.0 - Build 31.0.101.2115 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] GL_EXTENSIONS:    GL_3DFX_texture_compression_FXT1 GL_AMD_depth_clamp_separate GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_cl_event GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_robustness_isolation GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_separate_stencil GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_memory_object GL_EXT_memory_object_win32 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_polygon_offset_clamp GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_semaphore GL_EXT_semaphore_win32 GL_EXT_separate_specular_color GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_IBM_texture_mirrored_repeat GL_INTEL_conservative_rasterization GL_INTEL_fragment_shader_ordering GL_INTEL_framebuffer_CMAA GL_INTEL_map_texture GL_INTEL_multi_rate_fragment_shader GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_shader_subgroup GL_KHR_shader_subgroup_arithmetic GL_KHR_shader_subgroup_ballot GL_KHR_shader_subgroup_basic GL_KHR_shader_subgroup_clustered GL_KHR_shader_subgroup_quad GL_KHR_shader_subgroup_shuffle GL_KHR_shader_subgroup_shuffle_relative GL_KHR_shader_subgroup_vote GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_NV_blend_square GL_NV_conditional_render GL_NV_primitive_restart GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint WGL_EXT_swap_control (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] Max Texture Size: 16384 (:0, )
+2023-04-16 13:19:36.449190 -0700 (0x000039b8) [debug] Debug context:    false (:0, )
+2023-04-16 13:19:36.490390 -0700 (0x000039b8) [info] [Feedback] [NewsCenter] downloaded
+2023-04-16 13:19:36.539325 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000009] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Application&ea=Resolution&el=1920x1080&z=8739
+2023-04-16 13:19:36.539325 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000000A] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Application&ea=LogicalDPI&el=96&z=4788
+2023-04-16 13:19:36.608551 -0700 (0x00004a74) [debug] Using sg animation driver (:0, )
+2023-04-16 13:19:36.608551 -0700 (0x00004a74) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:19:36.633503 -0700 (0x00004a74) [debug] opengl texture atlas dimensions: 1024x1024 (:0, )
+2023-04-16 13:19:37.358646 -0700 (0x000039b8) [info] [AuthView::fakeLoad] Accepting the window after 1000 ms. Logins status - 0
+2023-04-16 13:19:37.473878 -0700 (0x000039b8) [error] Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+ (https://accounts.google.com/v3/signin/identifier?dsh=S1040804096A1681676377394819&continue=httpsA0F0Fwww.youtube.com0FsigninFaction_handle_signinDtrue%26appDm%26hlDen%26nextD%252F&hl=en&ifkv=AQMjQ7QwBOzUqKYcg2busH68xUzF3vP3uNVukHXOPAvSh8T_gF9PPlBxa1vL7yoE5_f6rWGHZjB9TA&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin:, %4)
+2023-04-16 13:19:38.576988 -0700 (0x000039b8) [error] Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+ (https://accounts.google.com/v3/signin/identifier?dsh=S1040804096A1681676377394819&continue=httpsA0F0Fwww.youtube.com0FsigninFaction_handle_signinDtrue%26appDm%26hlDen%26nextD%252F&hl=en&ifkv=AQMjQ7QwBOzUqKYcg2busH68xUzF3vP3uNVukHXOPAvSh8T_gF9PPlBxa1vL7yoE5_f6rWGHZjB9TA&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin:, %4)
+2023-04-16 13:19:38.722375 -0700 (0x000039b8) [error] Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+ (https://accounts.google.com/v3/signin/identifier?dsh=S1040804096A1681676377394819&continue=httpsA0F0Fwww.youtube.com0FsigninFaction_handle_signinDtrue%26appDm%26hlDen%26nextD%252F&hl=en&ifkv=AQMjQ7QwBOzUqKYcg2busH68xUzF3vP3uNVukHXOPAvSh8T_gF9PPlBxa1vL7yoE5_f6rWGHZjB9TA&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin:, %4)
+2023-04-16 13:19:38.745684 -0700 (0x000039b8) [warning] A cookie associated with a cross-site resource at http://accounts.youtube.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. (https://accounts.google.com/v3/signin/identifier?dsh=S1040804096A1681676377394819&continue=httpsA0F0Fwww.youtube.com0FsigninFaction_handle_signinDtrue%26appDm%26hlDen%26nextD%252F&hl=en&ifkv=AQMjQ7QwBOzUqKYcg2busH68xUzF3vP3uNVukHXOPAvSh8T_gF9PPlBxa1vL7yoE5_f6rWGHZjB9TA&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin:, %4)
+2023-04-16 13:19:38.822981 -0700 (0x000039b8) [info] Agreement accepted
+2023-04-16 13:19:42.510375 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] checking
+2023-04-16 13:19:42.510908 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000000B] Start http downloader https://dl.4kdownload.com/app/appcast/youtubetomp3.xml
+2023-04-16 13:19:43.005205 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] parsing
+2023-04-16 13:19:43.009205 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] no update available
+2023-04-16 13:19:53.459524 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000000C] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Browser&ea=Open&z=20007
+2023-04-16 13:19:55.310444 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000000D] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Browser&ea=Open&z=216
+2023-04-16 13:19:55.853764 -0700 (0x000039b8) [info] App Graph: preparing request for url: parsers/determine_service
+2023-04-16 13:19:55.853764 -0700 (0x000039b8) [info] App Graph: preparing request for graph
+2023-04-16 13:19:55.853764 -0700 (0x000039b8) [info] App Graph: performing request for url: parsers/determine_service
+2023-04-16 13:19:55.853764 -0700 (0x000039b8) [info] Creating graph: ServiceDeterminatorGraph
+2023-04-16 13:19:55.855758 -0700 (0x00004c60) [debug] [1747156029000] [ServiceDeterminatorGraphWrapper] Finished
+2023-04-16 13:19:55.855758 -0700 (0x000039b8) [info] Creating new io context pool 'graph_stop' with 6 thread(s)
+2023-04-16 13:19:55.855758 -0700 (0x00002f98) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:55.855758 -0700 (0x00005904) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:55.855758 -0700 (0x00005024) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:55.855758 -0700 (0x00000c90) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:55.855758 -0700 (0x00005db8) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:55.855758 -0700 (0x00005494) [info] AsioContext::IoContext::threadFunc started
+2023-04-16 13:19:57.685487 -0700 (0x000039b8) [warning] A cookie associated with a cross-site resource at https://accounts.google.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032. (https://www.youtube.com/watch?v=8bXbUluaRcs:0, )
+2023-04-16 13:19:57.694165 -0700 (0x000039b8) [error] Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+ (https://accounts.google.com/v3/signin/identifier?dsh=S-804537394A1681676397103083&continue=httpsA0F0Fwww.youtube.com0FsigninFaction_handle_signinDtrue%26appDdesktop%26hlDen%26nextD%252Fsignin_passive%26featureDpassive&hl=en&ifkv=AQMjQ7R3tJPPhGvr0xmrlk7PTfQ_objcpB4wOp2qnsr47uIEckOiZfzJvOkfv-V1KWkIFxyOdkML&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin:, %4)
+2023-04-16 13:19:58.516463 -0700 (0x000039b8) [info] App Graph: preparing request for url: parsers/determine_service
+2023-04-16 13:19:58.516463 -0700 (0x000039b8) [info] App Graph: preparing request for graph
+2023-04-16 13:19:58.516463 -0700 (0x000039b8) [info] App Graph: performing request for url: parsers/determine_service
+2023-04-16 13:19:58.516463 -0700 (0x000039b8) [info] Creating graph: ServiceDeterminatorGraph
+2023-04-16 13:19:58.517464 -0700 (0x00004c60) [debug] [1747259147736] [ServiceDeterminatorGraphWrapper] Finished
+2023-04-16 13:19:58.517464 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000000E] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Download&ea=Start&el=clip%20%7C%20www.youtube.com&z=30818
+2023-04-16 13:19:58.517464 -0700 (0x000039b8) [info] Started url parsing: https://www.youtube.com/watch?v=8bXbUluaRcs
+2023-04-16 13:19:58.517464 -0700 (0x000039b8) [info] App Graph: preparing request for url: parsers/youtube
+2023-04-16 13:19:58.517464 -0700 (0x000039b8) [info] App Graph: preparing request for graph
+2023-04-16 13:19:58.517464 -0700 (0x00005af4) [info] [downloadermodel] [NotificationHandlingThread_00000196D3748AB0] started
+2023-04-16 13:19:58.518462 -0700 (0x00004448) [info] [downloadermodel] [QueueHandlingThread_00000196D3748AB0] started
+2023-04-16 13:19:58.518462 -0700 (0x00004448) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] Checking queue: state: Initial; force: no; size: 1
+2023-04-16 13:19:58.518462 -0700 (0x00004448) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] Creating queue element:1
+2023-04-16 13:19:58.518462 -0700 (0x00004448) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] Queue element:1 was created
+2023-04-16 13:19:58.518462 -0700 (0x00004448) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] Checking queue: state: Pending; force: no; size: 1
+2023-04-16 13:19:58.519458 -0700 (0x00005ab0) [info] Creating graph: YoutubeParserGraph
+2023-04-16 13:19:58.520960 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000000F] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Paste&ea=Source&el=browser&z=16588
+2023-04-16 13:19:58.520960 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000010] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Paste&ea=Mode&el=smart&ev=1&z=17383
+2023-04-16 13:19:58.531324 -0700 (0x00005d84) [debug] [1747259146520] [ParsingInitializationNode] Initialized
+2023-04-16 13:19:58.531324 -0700 (0x00005750) [info] YoutubeSingleVideoUrlAnalyzerNode url: https://www.youtube.com/watch?v=8bXbUluaRcs
+2023-04-16 13:19:58.532617 -0700 (0x00005750) [info] [http] [HttpDownloaderImpl_0000000000000011] Start http downloader https://dl.4kdownload.com/app/settings/4kyoutubetomp3.settings.json
+2023-04-16 13:19:59.242383 -0700 (0x000059a0) [info] [http] [HttpDownloaderImpl_0000000000000012] Start http downloader https://www.youtube.com/watch?v=8bXbUluaRcs&gl=US&hl=en&has_verified=1&bpctr=9999999999
+2023-04-16 13:19:59.862271 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000013] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Debug&ea=PlayerUrl&el=https%3A%2F%2Fwww.youtube.com%2Fs%2Fplayer%2F36754c51%2Fplayer_ias.vflset%2Fen_US%2Fbase.js&z=17629
+2023-04-16 13:19:59.897264 -0700 (0x00005750) [warning] Cannot parse json. Error: [json.exception.out_of_range.403] key 'INITIAL_ENDPOINT' not found
+2023-04-16 13:19:59.897264 -0700 (0x00005750) [warning] Cannot parse json. Error: [json.exception.parse_error.101] parse error at 22: syntax error - invalid literal; last read: '"CSI_SERVICE_NAME": ''
+2023-04-16 13:19:59.897264 -0700 (0x00005750) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2023-04-16 13:19:59.978450 -0700 (0x00005750) [info] [http] [HttpDownloaderImpl_0000000000000014] Start http downloader https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+2023-04-16 13:20:00.402416 -0700 (0x00005d84) [info] [http] [HttpDownloaderImpl_0000000000000015] Start http downloader https://i.ytimg.com/vi_webp/8bXbUluaRcs/sddefault.webp
+2023-04-16 13:20:00.676860 -0700 (0x00005750) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2023-04-16 13:20:00.680373 -0700 (0x00005750) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D9831F20] ~WebEnginePagePlayerSigDecryptor: All decryptions time is 0 seconds
+2023-04-16 13:20:00.686896 -0700 (0x00005750) [info] [http] [HttpDownloaderImpl_0000000000000016] Start http downloader https://i.ytimg.com/vi_webp/8bXbUluaRcs/maxresdefault.webp
+2023-04-16 13:20:00.860484 -0700 (0x000039b8) [warning] The resource https://rr2---sn-a5meknsd.googlevideo.com/generate_204?conn2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. (:0, )
+2023-04-16 13:20:00.860999 -0700 (0x000039b8) [warning] The resource https://rr2---sn-a5meknsd.googlevideo.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. (:0, )
+2023-04-16 13:20:00.860999 -0700 (0x000039b8) [warning] The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. (:0, )
+2023-04-16 13:20:00.885395 -0700 (0x00005d84) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2023-04-16 13:20:00.888386 -0700 (0x00005d84) [debug] Json exception: [json.exception.out_of_range.403] key 'decryptionMode' not found
+2023-04-16 13:20:00.888386 -0700 (0x00005d84) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] decryptAsyncImpl: Local WebEngine mode
+2023-04-16 13:20:00.890329 -0700 (0x00005d84) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] decryptAsyncImpl: WebEngine creation time 0.001156 seconds
+2023-04-16 13:20:00.890329 -0700 (0x00005d84) [info] [http] [HttpDownloaderImpl_0000000000000017] Start http downloader https://www.youtube.com/s/player/36754c51/player_ias.vflset/en_US/base.js
+2023-04-16 13:20:01.512586 -0700 (0x000039b8) [info] [decrypting] [JSExecutionTracker::Internal_00000196D448F1C0] Execution result is empty
+2023-04-16 13:20:01.513581 -0700 (0x00005750) [debug] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] callDecryptionFunction: Attempt 0
+2023-04-16 13:20:01.552452 -0700 (0x000039b8) [debug] [decrypting] [JSExecutionTracker::Internal_00000196D4490B60] Execution successful
+2023-04-16 13:20:01.552452 -0700 (0x00005750) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] decryptAsyncImpl: Decryption time is 0.662684 seconds
+2023-04-16 13:20:01.555495 -0700 (0x00005750) [debug] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] callDecryptionFunction: Attempt 0
+2023-04-16 13:20:01.570021 -0700 (0x000039b8) [debug] [decrypting] [JSExecutionTracker::Internal_00000196D4490B60] Execution successful
+2023-04-16 13:20:01.570021 -0700 (0x00005750) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] decryptAsyncImpl: Decryption time is 0.014209 seconds
+2023-04-16 13:20:01.571022 -0700 (0x00005750) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D9830210] ~WebEnginePagePlayerSigDecryptor: All decryptions time is 0 seconds
+2023-04-16 13:20:01.572568 -0700 (0x00005d84) [debug] Json exception: [json.exception.out_of_range.403] key 'microformat' not found
+2023-04-16 13:20:01.572568 -0700 (0x00005d84) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2023-04-16 13:20:01.572568 -0700 (0x00005d84) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2023-04-16 13:20:01.572568 -0700 (0x00005d84) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2023-04-16 13:20:01.574127 -0700 (0x0000461c) [info] [http] [HttpDownloaderImpl_0000000000000018] Start http downloader https://i.ytimg.com/vi_webp/8bXbUluaRcs/sddefault.webp
+2023-04-16 13:20:01.574236 -0700 (0x000059a0) [debug] Json exception: [json.exception.out_of_range.403] key 'simpleText' not found
+2023-04-16 13:20:01.574236 -0700 (0x000059a0) [info] [http] [HttpDownloaderImpl_0000000000000019] Start http downloader https://www.youtube.com/api/timedtext?v=8bXbUluaRcs&caps=asr&xoaf=4&hl=en&ip=0.0.0.0&ipbits=0&expire=1681701600&sparams=ip,ipbits,expire,v,caps,xoaf&signature=CC32B6CF56F7B2E2E8453A9648EF16FA130A5A56.49201523F6F35794C32265B4D1CF764245A6EA58&key=yt8&kind=asr&lang=nl&fmt=srv3
+2023-04-16 13:20:01.812166 -0700 (0x000059a0) [info] [http] [HttpDownloaderImpl_000000000000001A] Start http downloader https://www.youtube.com/api/timedtext?v=8bXbUluaRcs&caps=asr&xoaf=4&hl=en&ip=0.0.0.0&ipbits=0&expire=1681701599&sparams=ip,ipbits,expire,v,caps,xoaf&signature=C62F1DF2D30046EB120669F6290064BA5FB6646C.A66E3AD2A26DB2C8240002D671764E0854181150&key=yt8&kind=asr&lang=nl
+2023-04-16 13:20:02.094356 -0700 (0x00004c60) [debug] [1747259146520] [YoutubeParserGraphWrapper] Finished
+2023-04-16 13:20:02.095381 -0700 (0x00004c60) [info] Finished url parsing: https://www.youtube.com/watch?v=8bXbUluaRcs
+2023-04-16 13:20:02.095381 -0700 (0x00005af4) [debug] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] notify element:1 state:Finished
+2023-04-16 13:20:02.095381 -0700 (0x00004448) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] Checking queue: state: Initial; force: no; size: 0
+2023-04-16 13:20:02.095381 -0700 (0x00004448) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] Checking queue: state: Pending; force: no; size: 0
+2023-04-16 13:20:02.096349 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000001B] Start http downloader http://vdr.openmedia.co:8018/vdr?_os_version=10.0.22621&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&_os_name=windows&av=4.9.1.5242&an=4K%20YouTube%20to%20MP3&_platform=windows-64&ev=parsed&_ChannelUrl=http%3A%2F%2Fwww.youtube.com%2F%40guidonrob&_Username=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80&u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8bXbUluaRcs&ut=regular
+2023-04-16 13:20:02.096349 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000001C] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Download&ea=Parse&el=succeeded%20%7C%20clip&z=8453
+2023-04-16 13:20:02.097347 -0700 (0x000039b8) [info] Requested to download 0 subtitle(s) : 
+2023-04-16 13:20:02.098345 -0700 (0x00005968) [info] [downloadermodel] [QueueHandlingThread_00000196D3749350] started
+2023-04-16 13:20:02.098345 -0700 (0x00005844) [info] [downloadermodel] [NotificationHandlingThread_00000196D3749350] started
+2023-04-16 13:20:02.105574 -0700 (0x000039b8) [info] Started file downloading: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3
+2023-04-16 13:20:02.115503 -0700 (0x000039b8) [info] App Graph: preparing request for graph
+2023-04-16 13:20:02.115503 -0700 (0x00005968) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] Checking queue: state: Initial; force: no; size: 1
+2023-04-16 13:20:02.115503 -0700 (0x00005968) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] Creating queue element:1
+2023-04-16 13:20:02.115503 -0700 (0x00005968) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] Queue element:1 was created
+2023-04-16 13:20:02.115503 -0700 (0x00005968) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] Checking queue: state: Pending; force: no; size: 1
+2023-04-16 13:20:02.115503 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000001D] Start http downloader http://vdr.openmedia.co:8018/vdr?_os_version=10.0.22621&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&_os_name=windows&av=4.9.1.5242&an=4K%20YouTube%20to%20MP3&_platform=windows-64&ev=download&_ChannelUrl=http%3A%2F%2Fwww.youtube.com%2F%40guidonrob&_Username=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80&u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8bXbUluaRcs&ut=regular
+2023-04-16 13:20:02.116507 -0700 (0x0000584c) [info] [downloader] [QueueHandlingThread_00000196CD61B130] started
+2023-04-16 13:20:02.116507 -0700 (0x00005950) [info] [downloader] [NotificationHandlingThread_00000196CD61B130] started
+2023-04-16 13:20:02.118494 -0700 (0x00005ab0) [info] Creating graph: DownloaderGraphParent
+2023-04-16 13:20:02.118494 -0700 (0x00005ab0) [debug] [1747407836344] [DownloadTrackerWorkerNode] Initialized: throttleSpeedBitPerSec 512000, minThrottleDuration 3000000000
+2023-04-16 13:20:02.118494 -0700 (0x00005ab0) [debug] [1747407836344] [SearchMusicTagsNode] Enabled: yes
+2023-04-16 13:20:02.119492 -0700 (0x00005ab0) [debug] [1747407836344] [AudioWriterNode] Target media: container=MP3; Audio#0:codec=MP3,layout=stereo,bitrate=129523;
+2023-04-16 13:20:02.119492 -0700 (0x000059a0) [info] [1747407836344] [DownloaderPreparationNode] Downloading has been started: <type = ; service = youtube; url = https://www.youtube.com/watch?v=8bXbUluaRcs>
+2023-04-16 13:20:02.119492 -0700 (0x000049a0) [debug] [1747407836344] [SearchMusicTagsNode] Started: ZIllaKami - Outer Space
+2023-04-16 13:20:02.120489 -0700 (0x0000461c) [info] [1747407836344] [DownloaderNode] Started
+2023-04-16 13:20:02.120995 -0700 (0x00005df4) [info] [http] [HttpDownloaderImpl_000000000000001E] Start http downloader https://musicbrainz.org/ws/2/recording?query=ZIllaKami%20Outer%20Space&limit=25&offset=0
+2023-04-16 13:20:02.122420 -0700 (0x00004448) [error] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000196D3748AB0] cancel: element:1 is not found
+2023-04-16 13:20:02.122420 -0700 (0x000039b8) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D3DF1E30] ~WebEnginePagePlayerSigDecryptor: All decryptions time is 0.676893 seconds
+2023-04-16 13:20:02.122420 -0700 (0x00000d54) [debug] [1747407836344] [DownloaderNode] Audio downloader has been created, old file: none, new file: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3.e006-bfcc-dd77-75d8.part, new file size: 1834965, restartable: yes, media info: container=M4A; Audio#0:codec=AAC,layout=stereo,bitrate=129523;
+2023-04-16 13:20:02.122420 -0700 (0x00000d54) [debug] [1747407836344] [DownloaderNode] 1 downloaders have been created
+2023-04-16 13:20:02.122420 -0700 (0x0000461c) [debug] [1747407836344] [DownloadTrackerWorkerNode] Downloaders are restartable: yes
+2023-04-16 13:20:02.122420 -0700 (0x00005750) [debug] [1747407836344] [DownloaderNode] Audio downloader has been started
+2023-04-16 13:20:02.122420 -0700 (0x00005750) [debug] [1747407836344] [DownloaderNode] 1 downloaders have been started
+2023-04-16 13:20:02.123324 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Checking queue: state: Initial; force: no; size: 1
+2023-04-16 13:20:02.123324 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Creating queue element:1
+2023-04-16 13:20:02.124319 -0700 (0x00005468) [info] [http] [HttpDownloaderImpl_00000196D9A88C20] Start http downloader https://rr5---sn-a5meknzk.googlevideo.com/videoplayback?expire=1681698000&mn=sn-a5meknzk%2Csn-a5msenek&requiressl=yes&ei=cFg8ZLbiE9-gsfIP47GV0AM&ip=71.38.9.113&fexp=24007246&lsig=AG3C_xAwRQIgQeeiwrlgAdT5tOaS_GrYzhQrX29TScvAYCc03vtIXtcCIQCd6HyQ1BzXJ_GKWoqx8RUfTGKsXkh7jgBzPkRH8NNLMw%3D%3D&itag=140&mh=TN&source=youtube&dur=113.336&id=o-ABuuMnmS-Lv1gfKTXSQ7cMzsA61CtM9u58vfALFcjSda&mm=31%2C29&ms=au%2Crdu&mv=m&clen=1834965&pl=19&mvi=5&sig=AOq0QJ8wRQIgXg9hmQ7C8VxyP2eXZi3ATBK_TNdKUlHE9uV5vAX_HZECIQCNqvifa92jyIKxwVn8CkwCM_qAfqL_StTeUWs-JMAhSQ%3D%3D&initcwndbps=1052500&vprv=1&gir=yes&mime=audio%2Fmp4&lmt=1634247601810140&fvip=5&mt=1681675990&keepalive=yes&c=ANDROID&range=0-1834965&txp=5311222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps
+2023-04-16 13:20:02.124319 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Queue element:1 was created
+2023-04-16 13:20:02.124319 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Checking queue: state: Pending; force: no; size: 1
+2023-04-16 13:20:02.398372 -0700 (0x00003298) [debug] [downloader] [HttpDownloaderQueue_00000196C1C79E40] notify element:1 state:Active
+2023-04-16 13:20:02.398372 -0700 (0x00003298) [info] Media Downloader: stateStart
+2023-04-16 13:20:02.398372 -0700 (0x00003298) [info] [1747407836344] [DownloaderNode] Downloading Audio has been started, target size 1834965
+2023-04-16 13:20:02.465089 -0700 (0x0000461c) [debug] [1747407836344] [DownloadProgressWorkerNode] 10%
+2023-04-16 13:20:02.494905 -0700 (0x000049a0) [debug] [1747407836344] [DownloadProgressWorkerNode] 30%
+2023-04-16 13:20:02.521592 -0700 (0x000049a0) [debug] [1747407836344] [DownloadProgressWorkerNode] 50%
+2023-04-16 13:20:02.537150 -0700 (0x000049a0) [debug] [1747407836344] [DownloadProgressWorkerNode] 60%
+2023-04-16 13:20:02.563559 -0700 (0x00005750) [debug] [1747407836344] [DownloadProgressWorkerNode] 80%
+2023-04-16 13:20:02.588642 -0700 (0x000059a0) [debug] [1747407836344] [DownloadProgressWorkerNode] 100%
+2023-04-16 13:20:02.590083 -0700 (0x00003298) [debug] [downloader] [HttpDownloaderQueue_00000196C1C79E40] notify element:1 state:Finished
+2023-04-16 13:20:02.590083 -0700 (0x00003298) [info] Media Downloader: stateFinish
+2023-04-16 13:20:02.590083 -0700 (0x000059a0) [info] [1747407836344] [DownloaderNode] Audio file has been downloaded
+2023-04-16 13:20:02.590083 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Checking queue: state: Initial; force: no; size: 0
+2023-04-16 13:20:02.590083 -0700 (0x000059a0) [debug] [1747407836344] [DownloaderNode] Audio file has been sent: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3.e006-bfcc-dd77-75d8.part
+2023-04-16 13:20:02.590083 -0700 (0x00005468) [info] [downloader] [HttpDownloaderQueue_00000196C1C79E40] Checking queue: state: Pending; force: no; size: 0
+2023-04-16 13:20:02.590083 -0700 (0x00005d84) [debug] [1747407836344] [AudioWriterNode] File has been got: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3.e006-bfcc-dd77-75d8.part
+2023-04-16 13:20:02.590083 -0700 (0x00000d54) [debug] [1747407836344] [DownloaderNode] Audio downloader has been finished
+2023-04-16 13:20:02.590083 -0700 (0x000049a0) [debug] media_downloader::cancel
+2023-04-16 13:20:02.590083 -0700 (0x000049a0) [debug] [1747407836344] [DownloaderNode] Audio downloader has been stopped
+2023-04-16 13:20:02.590083 -0700 (0x00005468) [error] [downloader] [HttpDownloaderQueue_00000196C1C79E40] cancel: element:1 is not found
+2023-04-16 13:20:02.590083 -0700 (0x000049a0) [debug] [1747407836344] [DownloaderNode] Downloaders have been stopped
+2023-04-16 13:20:02.590083 -0700 (0x000049a0) [debug] [1747407836344] [DownloadProgressWorkerNode] Downloading has been finished
+2023-04-16 13:20:02.590083 -0700 (0x0000461c) [info] [1747407836344] [DownloadTrackerWorkerNode] Finished <type = ; service = youtube; url = https://www.youtube.com/watch?v=8bXbUluaRcs>
+2023-04-16 13:20:03.267320 -0700 (0x000049a0) [debug] [1747407836344] [SearchMusicTagsNode] Finished
+2023-04-16 13:20:03.267320 -0700 (0x000049a0) [debug] [1747407836344] [AudioWriterNode] Meta info has been got
+2023-04-16 13:20:03.268317 -0700 (0x000049a0) [info] [1747407836344] [AVInitializationNode] Initialization has been started
+2023-04-16 13:20:03.276925 -0700 (0x000049a0) [warning] chooseFrameRate: Codec available frame rates collection is inaccessible, desired value will be return
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] Output #0, mp3, to 'C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3':
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg]     Stream #0:0
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] : Audio: mp3, 44100 Hz, stereo, fltp, 129 kb/s
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] 
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg]     Stream #0:1
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] : Video: mjpeg, yuvj420p(pc), 320x240, q=2-31
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] , 
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] 1 tbn
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [ffmpeg] 
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [debug] [1747407836344] [AVMuxingNode] Initialized: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3
+2023-04-16 13:20:03.277925 -0700 (0x000049a0) [info] [1747407836344] [AudioWriterNode] Converting has been started
+2023-04-16 13:20:03.277925 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Checking queue: state: Initial; force: no; size: 1
+2023-04-16 13:20:03.277925 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Creating queue element:1
+2023-04-16 13:20:03.278922 -0700 (0x000018f0) [debug] [1747407836344] [AVMuxingNode] Muxing has been started
+2023-04-16 13:20:03.278922 -0700 (0x00005d84) [warning] [ffmpeg] [swscaler @ 00000196D9A6ED80] deprecated pixel format used, make sure you did set range correctly
+2023-04-16 13:20:03.278922 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Queue element:1 was created
+2023-04-16 13:20:03.278922 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Checking queue: state: Pending; force: no; size: 1
+2023-04-16 13:20:03.278922 -0700 (0x00000d54) [info] [1747407836344] [AVDemuxingNode] Demuxing has been started: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3.e006-bfcc-dd77-75d8.part
+2023-04-16 13:20:03.278922 -0700 (0x00000d54) [info] [1747407836344] [AVDemuxingNode] Demuxing has been started: byte_array_stream
+2023-04-16 13:20:03.278922 -0700 (0x0000461c) [warning] [ffmpeg] Invalid return value 0 for stream protocol
+2023-04-16 13:20:03.278922 -0700 (0x0000461c) [warning] [ffmpeg] Invalid return value 0 for stream protocol
+2023-04-16 13:20:03.278922 -0700 (0x0000461c) [info] [1747407836344] [AVDemuxingNode] Demuxing has been finished: byte_array_stream (End of file)
+2023-04-16 13:20:03.283956 -0700 (0x000049a0) [info] [1747407836344] [AVDecoderNode (Stream 1)] Finished, empty frame sent
+2023-04-16 13:20:03.283956 -0700 (0x000059a0) [info] [1747407836344] [AVRescalerNode (Stream 1)] Finished, empty frame sent
+2023-04-16 13:20:03.285951 -0700 (0x000049a0) [info] [1747407836344] [AVVideoEncoderNode (Stream 1)] tryGetPacketFromEncoder: Encoder flushed, End of file
+2023-04-16 13:20:03.285951 -0700 (0x00005d84) [info] [1747407836344] [AVVideoEncoderNode (Stream 1)] Finished, empty packet sent
+2023-04-16 13:20:03.285951 -0700 (0x0000461c) [warning] [ffmpeg] [mp3 @ 00000196D9778000] Encoder did not produce proper pts, making some up.
+2023-04-16 13:20:03.285951 -0700 (0x000059a0) [info] [1747407836344] [AVPacketCollectorNode] handleStream: stream 1 finished
+2023-04-16 13:20:03.285951 -0700 (0x0000461c) [info] [1747407836344] [AVMuxingNode] Stream 1: Muxing complete
+2023-04-16 13:20:03.285951 -0700 (0x00005d84) [info] [1747407836344] [AVProgressNode] Stream 1: processing has been finished
+2023-04-16 13:20:03.550462 -0700 (0x000059a0) [debug] [1747407836344] [AVProgressNode] Stream 0: 10%
+2023-04-16 13:20:03.817597 -0700 (0x000049a0) [debug] [1747407836344] [AVProgressNode] Stream 0: 20%
+2023-04-16 13:20:04.063253 -0700 (0x00000d54) [debug] [1747407836344] [AVProgressNode] Stream 0: 30%
+2023-04-16 13:20:04.335059 -0700 (0x00005d84) [debug] [1747407836344] [AVProgressNode] Stream 0: 40%
+2023-04-16 13:20:04.576884 -0700 (0x000049a0) [debug] [1747407836344] [AVProgressNode] Stream 0: 50%
+2023-04-16 13:20:04.833302 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000001F] Start http downloader https://dl.4kdownload.com/app/messages/youtubetomp3.xml
+2023-04-16 13:20:04.835298 -0700 (0x00000d54) [debug] [1747407836344] [AVProgressNode] Stream 0: 60%
+2023-04-16 13:20:05.105510 -0700 (0x00005d84) [debug] [1747407836344] [AVProgressNode] Stream 0: 70%
+2023-04-16 13:20:05.238554 -0700 (0x000039b8) [info] [Feedback] [MessageCenter] downloaded
+2023-04-16 13:20:05.238554 -0700 (0x000039b8) [info] [Feedback] [MessageCenter] extracting messages
+2023-04-16 13:20:05.238554 -0700 (0x000039b8) [info] [Feedback] [MessageCenter] extracted 0 messages
+2023-04-16 13:20:05.370193 -0700 (0x0000461c) [debug] [1747407836344] [AVProgressNode] Stream 0: 80%
+2023-04-16 13:20:05.643486 -0700 (0x00000d54) [debug] [1747407836344] [AVProgressNode] Stream 0: 90%
+2023-04-16 13:20:05.883417 -0700 (0x00005d84) [info] [1747407836344] [AVDemuxingNode] Demuxing has been finished: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3.e006-bfcc-dd77-75d8.part (End of file)
+2023-04-16 13:20:05.885402 -0700 (0x0000461c) [info] [1747407836344] [AVDecoderNode (Stream 0)] Finished, empty frame sent
+2023-04-16 13:20:05.886400 -0700 (0x00000d54) [debug] [1747407836344] [AVProgressNode] Stream 0: 100%
+2023-04-16 13:20:05.887397 -0700 (0x00005750) [info] [1747407836344] [AudioResamplerNode (Stream 0)] Finished, empty frame sent
+2023-04-16 13:20:05.890893 -0700 (0x000059a0) [info] [1747407836344] [AVAudioEncoderNode (Stream 0)] tryGetPacketFromEncoder: Encoder flushed, End of file
+2023-04-16 13:20:05.890893 -0700 (0x000049a0) [info] [1747407836344] [AVAudioEncoderNode (Stream 0)] Finished, empty packet sent
+2023-04-16 13:20:05.890893 -0700 (0x00005d84) [info] [1747407836344] [AVPacketCollectorNode] handleStream: stream 0 finished
+2023-04-16 13:20:05.890893 -0700 (0x00005750) [info] [1747407836344] [AVMuxingNode] Stream 0: Muxing complete
+2023-04-16 13:20:05.890893 -0700 (0x0000461c) [info] [1747407836344] [AVProgressNode] Stream 0: processing has been finished
+2023-04-16 13:20:05.890893 -0700 (0x00005750) [info] [1747407836344] [AVProgressNode] Converting finished
+2023-04-16 13:20:05.892012 -0700 (0x0000461c) [info] [1747407836344] [AVMuxingNode] Muxing has been finished
+2023-04-16 13:20:05.892012 -0700 (0x00005d84) [info] [1747407836344] [AudioWriterNode] Converting has been finished
+2023-04-16 13:20:05.892012 -0700 (0x00004a0c) [debug] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] notify element:1 state:Finished
+2023-04-16 13:20:05.892012 -0700 (0x00005d84) [debug] [1747407836344] [AudioWriterNode] File has been sent: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3
+2023-04-16 13:20:05.892012 -0700 (0x0000461c) [debug] [1747407836344] [FileReleaserWorkerNode] File has been got: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3
+2023-04-16 13:20:05.892012 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Checking queue: state: Initial; force: no; size: 0
+2023-04-16 13:20:05.892012 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000196C1C86AD0] Checking queue: state: Pending; force: no; size: 0
+2023-04-16 13:20:05.912170 -0700 (0x00004c60) [debug] media_downloader::cancel
+2023-04-16 13:20:05.912170 -0700 (0x00004c60) [debug] [1747407836344] [DownloaderNode] Audio downloader has been stopped
+2023-04-16 13:20:05.912170 -0700 (0x00004c60) [debug] [1747407836344] [DownloaderNode] Downloading has been stopped
+2023-04-16 13:20:05.912170 -0700 (0x00005468) [error] [downloader] [HttpDownloaderQueue_00000196C1C79E40] cancel: element:1 is not found
+2023-04-16 13:20:05.913592 -0700 (0x00004c60) [debug] [1747407836344] [DownloaderGraphParentWrapper] Finished
+2023-04-16 13:20:05.922624 -0700 (0x00004c60) [info] Finished file downloading: C:\Users\dorian\Music\4K YouTube to MP3\ZIllaKami - Outer Space.mp3
+2023-04-16 13:20:05.922624 -0700 (0x00005844) [debug] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] notify element:1 state:Finished
+2023-04-16 13:20:05.922624 -0700 (0x00005968) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] Checking queue: state: Initial; force: no; size: 0
+2023-04-16 13:20:05.922624 -0700 (0x00005968) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] Checking queue: state: Pending; force: no; size: 0
+2023-04-16 13:20:05.946889 -0700 (0x00005968) [error] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000196D3749350] cancel: element:1 is not found
+2023-04-16 13:20:05.946889 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000020] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Download&ea=Finish&el=succeeded%20%7C%20audio&z=18541
+2023-04-16 13:20:05.946889 -0700 (0x00005468) [error] [downloader] [HttpDownloaderQueue_00000196C1C79E40] cancel: element:1 is not found
+2023-04-16 13:20:05.947860 -0700 (0x000039b8) [info] [decrypting] [WebEnginePagePlayerSigDecryptor_00000196D982EB90] ~WebEnginePagePlayerSigDecryptor: All decryptions time is 0 seconds
+2023-04-16 13:20:05.966530 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000021] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Notification&ea=Show&el=Download%20is%20complete&z=13257
+2023-04-16 13:20:15.946218 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000022] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=Notification&ea=Close&el=Download%20is%20complete%7CTimerEnd%7C&z=2711
+2023-04-16 13:20:33.282442 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:21:33.577482 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:22:23.660901 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000023] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=ControlPanel&ea=Show&z=963
+2023-04-16 13:22:33.928811 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:22:37.521715 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000024] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=ControlPanel&ea=Show&z=7186
+2023-04-16 13:22:48.808887 -0700 (0x00003de4) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:48.808887 -0700 (0x00003de4) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:48.817805 -0700 (0x00003de4) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:22:49.565069 -0700 (0x00005f78) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:49.565069 -0700 (0x00005f78) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:49.572507 -0700 (0x00005f78) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:22:50.112960 -0700 (0x000049b4) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:50.112960 -0700 (0x000049b4) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:50.117656 -0700 (0x000049b4) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:22:51.593326 -0700 (0x000054fc) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:51.593326 -0700 (0x000054fc) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:51.597315 -0700 (0x000054fc) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:22:52.040280 -0700 (0x00004b7c) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:52.040280 -0700 (0x00004b7c) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:52.044137 -0700 (0x00004b7c) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:22:52.339343 -0700 (0x00005f74) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:52.339343 -0700 (0x00005f74) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:52.343871 -0700 (0x00005f74) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:22:52.785522 -0700 (0x00000598) [debug] Using sg animation driver (:0, )
+2023-04-16 13:22:52.785522 -0700 (0x00000598) [debug] Animation Driver: using vsync: 16.67 ms (:0, )
+2023-04-16 13:22:52.789514 -0700 (0x00000598) [debug] opengl texture atlas dimensions: 512x512 (:0, )
+2023-04-16 13:23:05.952615 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000025] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=License&ea=Show&el=export&z=22797
+2023-04-16 13:23:12.340262 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000026] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=7c469968-976e-4c7a-a66d-d8a84a0719ff&t=event&an=4K%20YouTube%20to%20MP3&av=4.9.1.5242&ec=License&ea=ShowReason&z=17496
+2023-04-16 13:23:34.257200 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:24:34.625353 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:25:34.986052 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:26:35.367303 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:27:35.695619 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:27:49.840526 -0700 (0x000039b8) [warning] Retrying to obtain clipboard. (:0, )
+2023-04-16 13:28:36.040328 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:29:36.380989 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:30:02.204606 -0700 (0x000039b8) [warning] Retrying to obtain clipboard. (:0, )
+2023-04-16 13:30:36.744410 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:31:37.153245 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:32:37.472344 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:33:37.872151 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:34:38.192225 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:35:38.498476 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:36:38.860029 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:37:39.303930 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:38:39.698228 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:39:40.035473 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:40:40.383435 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:41:40.752149 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:42:41.173972 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:43:41.493158 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:44:41.833267 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:45:42.243858 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:46:42.580354 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:47:43.051298 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:48:43.438517 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:49:43.822363 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:50:44.150871 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:51:44.475280 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:52:44.854347 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:53:45.184533 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:54:45.550113 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:55:45.948071 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:56:46.342146 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:57:46.736359 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:58:47.124344 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 13:59:47.512351 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:00:47.886077 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:01:48.224650 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:02:48.534048 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:03:48.938157 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:04:49.246319 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:05:49.639076 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:06:49.993234 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:07:50.422549 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:08:50.800292 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:09:51.187260 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:10:51.607446 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:11:51.952190 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:12:52.083304 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:13:52.404218 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:14:52.791013 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:15:53.113328 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:16:53.418050 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:17:53.732698 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:18:54.035823 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:19:36.518220 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000027] Start http downloader https://dl.4kdownload.com/app/news/youtubetomp3.json
+2023-04-16 14:19:37.257794 -0700 (0x000039b8) [info] [Feedback] [NewsCenter] downloaded
+2023-04-16 14:19:54.338676 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:20:54.665738 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:21:54.997465 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:22:55.356422 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:23:55.741020 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:24:56.129894 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:25:56.454318 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:26:56.774385 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:27:57.112093 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:28:57.416665 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:29:57.887708 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:30:58.300791 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:31:58.760512 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:32:59.085182 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:33:59.404875 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:34:59.661660 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:36:00.001957 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:37:00.341681 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:38:00.718727 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:39:01.161467 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:40:01.557738 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:41:01.905880 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:42:02.327155 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:43:02.694741 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:44:03.032218 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:45:03.438656 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:46:03.806093 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:47:04.174183 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:48:04.572536 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:49:04.894514 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:50:05.211590 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:51:05.516245 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:52:05.852788 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:53:06.286425 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:54:06.677419 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:55:07.030795 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:56:07.351678 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:57:07.691775 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:58:08.055289 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 14:59:08.451724 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:00:08.824151 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:01:09.180749 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:02:09.574641 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:03:09.728080 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:04:10.078293 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:05:10.408371 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:06:10.775585 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:07:11.224157 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:08:11.614277 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:09:12.036694 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:10:12.430570 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:11:12.821829 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:12:13.154228 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:13:13.531570 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:14:13.869777 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:15:14.185534 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:16:14.588252 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:17:14.905605 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:18:15.365831 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:19:15.713578 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:19:32.740644 -0700 (0x000039b8) [warning] Retrying to obtain clipboard. (:0, )
+2023-04-16 15:19:37.352546 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000028] Start http downloader https://dl.4kdownload.com/app/news/youtubetomp3.json
+2023-04-16 15:19:38.040958 -0700 (0x000039b8) [info] [Feedback] [NewsCenter] downloaded
+2023-04-16 15:20:16.039542 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:21:16.356319 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:22:16.727602 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:23:17.131154 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:24:17.463584 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:25:17.859719 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:26:18.176183 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:27:18.640825 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:28:18.985871 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:29:19.368263 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:30:19.744431 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:31:20.121418 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:32:20.518722 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:33:20.872022 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:34:21.007283 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:35:21.371192 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:36:21.808874 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:37:22.116769 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:38:22.502476 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:39:22.884189 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:40:23.282802 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:41:23.631566 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:42:23.995283 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:43:24.390970 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:44:24.783852 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:45:25.171569 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:46:25.558732 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:47:25.904843 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:48:26.283128 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:49:26.675330 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:50:27.066669 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:51:27.427366 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:52:27.813641 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:53:28.117358 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:54:28.452486 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:55:28.757580 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:56:29.087798 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:57:29.450637 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:58:29.829532 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 15:59:30.226024 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:00:30.614388 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:00:57.599682 -0700 (0x000039b8) [warning] Retrying to obtain clipboard. (:0, )
+2023-04-16 16:01:30.932819 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:02:31.278939 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:03:31.662002 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:04:31.985677 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:05:32.452877 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:06:32.803984 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:07:33.154986 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:08:33.485297 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:09:33.887628 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:10:34.237120 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:11:34.573276 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:12:34.956799 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:13:35.305168 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:14:35.583103 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:15:35.895316 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:16:36.231329 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:17:36.544918 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:18:36.929521 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:19:32.502621 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] checking
+2023-04-16 16:19:32.516897 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_0000000000000029] Start http downloader https://dl.4kdownload.com/app/appcast/youtubetomp3.xml
+2023-04-16 16:19:33.187526 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] parsing
+2023-04-16 16:19:33.201224 -0700 (0x000039b8) [info] [SoftwareUpdate] [Manager] no update available
+2023-04-16 16:19:37.360272 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:19:38.035723 -0700 (0x00005e6c) [info] [http] [HttpDownloaderImpl_000000000000002A] Start http downloader https://dl.4kdownload.com/app/news/youtubetomp3.json
+2023-04-16 16:19:38.629044 -0700 (0x000039b8) [info] [Feedback] [NewsCenter] downloaded
+2023-04-16 16:20:37.741542 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:21:38.133944 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:22:38.474743 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:23:38.869835 -0700 (0x00005c38) [info] [NetworkReachability] [Loop_0000000355FAED90] network is reachable
+2023-04-16 16:23:53.799703 -0700 (0x00004448) [info] [downloadermodel] [QueueHandlingThread_00000196D3748AB0] finishing
+2023-04-16 16:23:53.801166 -0700 (0x00004448) [info] [downloadermodel] [QueueHandlingThread_00000196D3748AB0] finished
+2023-04-16 16:23:53.802109 -0700 (0x00005af4) [info] [downloadermodel] [NotificationHandlingThread_00000196D3748AB0] finishing
+2023-04-16 16:23:53.802109 -0700 (0x00005af4) [info] [downloadermodel] [NotificationHandlingThread_00000196D3748AB0] finished
+2023-04-16 16:23:53.803107 -0700 (0x00005968) [info] [downloadermodel] [QueueHandlingThread_00000196D3749350] finishing
+2023-04-16 16:23:53.803107 -0700 (0x00005968) [info] [downloadermodel] [QueueHandlingThread_00000196D3749350] finished
+2023-04-16 16:23:53.804104 -0700 (0x00005844) [info] [downloadermodel] [NotificationHandlingThread_00000196D3749350] finishing
+2023-04-16 16:23:53.804104 -0700 (0x00005844) [info] [downloadermodel] [NotificationHandlingThread_00000196D3749350] finished
+2023-04-16 16:23:53.806105 -0700 (0x000039b8) [info] WorkerGraphManager is stopping
+2023-04-16 16:23:53.806105 -0700 (0x00004c60) [info] Finished WorkerGraphManager::checkingThread
+2023-04-16 16:23:53.807136 -0700 (0x000008e0) [info] Finished WorkerGraphManager::statisticsLogThread
+2023-04-16 16:23:53.807136 -0700 (0x000039b8) [info] WorkerGraphManager is stopped
+2023-04-16 16:23:53.807136 -0700 (0x00005ab0) [info] EventDispatcher is finishing
+2023-04-16 16:23:53.807136 -0700 (0x00005ab0) [info] EventDispatcher is finished
+2023-04-16 16:23:53.808668 -0700 (0x0000584c) [info] [downloader] [QueueHandlingThread_00000196CD61B130] finishing
+2023-04-16 16:23:53.808668 -0700 (0x0000584c) [info] [downloader] [QueueHandlingThread_00000196CD61B130] finished
+2023-04-16 16:23:53.809667 -0700 (0x00005950) [info] [downloader] [NotificationHandlingThread_00000196CD61B130] finishing
+2023-04-16 16:23:53.809667 -0700 (0x00005950) [info] [downloader] [NotificationHandlingThread_00000196CD61B130] finished
+2023-04-16 16:23:53.814838 -0700 (0x00005494) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.814838 -0700 (0x00005db8) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.814838 -0700 (0x00000c90) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.814838 -0700 (0x00005024) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.815827 -0700 (0x00002f98) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.815827 -0700 (0x00005904) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.818856 -0700 (0x00000d54) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.818856 -0700 (0x00005750) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.818856 -0700 (0x0000461c) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.818856 -0700 (0x000049a0) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.819858 -0700 (0x00005d84) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.819858 -0700 (0x000059a0) [info] AsioContext::IoContext::threadFunc finished
+2023-04-16 16:23:53.841070 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [QueueHandlingThread_00000196C1C86AD0] finishing
+2023-04-16 16:23:53.841070 -0700 (0x000018f0) [info] [SimpleExecutionQueue] [QueueHandlingThread_00000196C1C86AD0] finished
+2023-04-16 16:23:53.841976 -0700 (0x00004a0c) [info] [SimpleExecutionQueue] [NotificationHandlingThread_00000196C1C86AD0] finishing
+2023-04-16 16:23:53.841976 -0700 (0x00004a0c) [info] [SimpleExecutionQueue] [NotificationHandlingThread_00000196C1C86AD0] finished
+2023-04-16 16:23:53.842974 -0700 (0x00005468) [info] [downloader] [QueueHandlingThread_00000196C1C79E40] finishing
+2023-04-16 16:23:53.842974 -0700 (0x00005468) [info] [downloader] [QueueHandlingThread_00000196C1C79E40] finished
+2023-04-16 16:23:53.843971 -0700 (0x00003298) [info] [downloader] [NotificationHandlingThread_00000196C1C79E40] finishing
+2023-04-16 16:23:53.843971 -0700 (0x00003298) [info] [downloader] [NotificationHandlingThread_00000196C1C79E40] finished
+2023-04-16 16:23:53.935828 -0700 (0x000039b8) [warning] qrc:/qml/Main.qml:337: TypeError: Cannot read property 'licenseViewModel' of null (qrc:/qml/Main.qml:337, )
+2023-04-16 16:23:53.938814 -0700 (0x00005864) [info] IO thread: 0 handlers were executed

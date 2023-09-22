@@ -1,0 +1,435 @@
+00:00:00.004309 main     VirtualBox COM Server 7.0.8 r156879 win.amd64 (Apr 17 2023 16:42:53) release log
+00:00:00.004311 main     Log opened 2023-06-14T09:31:13.176329100Z
+00:00:00.004311 main     Build Type: release
+00:00:00.004316 main     OS Product: Windows 11
+00:00:00.004316 main     OS Release: 10.0.22621
+00:00:00.004317 main     OS Service Pack: 
+00:00:00.026130 main     DMI Product Name: Alienware m17
+00:00:00.039735 main     DMI Product Version: 2.18.0
+00:00:00.039747 main     Firmware type: UEFI
+00:00:00.040041 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.040063 main     Host RAM: 16179MB (15.8GB) total, 11178MB (10.9GB) available
+00:00:00.040067 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.040068 main     Process ID: 19956
+00:00:00.040068 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.100688          VirtualBox: object creation starts
+00:00:00.101075          Home directory: 'C:\Users\dorian\.VirtualBox'
+00:00:00.101176          Installed Drivers:
+00:00:00.107297            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.8.6879)
+00:00:00.108203            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.8.6879)
+00:00:00.108633            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.8.6879)
+00:00:00.109491            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.8.6879)
+00:00:00.119932          Loading settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.121991          usbLibGetDevices: Starting USB device enumeration
+00:00:00.127425          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.128271          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.128351          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.128429          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:00:00.130880          usbLibGetDevices: Found 8 USB devices, 0 captured
+00:00:00.131038          USB: Unknown USB device detected (idVendor: 0x187c, idProduct: 0x0550)
+00:00:00.131095          USB: Unknown USB device detected (idVendor: 0x1bcf, idProduct: 0x08a0)
+00:00:00.131119          USB: Unknown USB device detected (idVendor: 0x1bcf, idProduct: 0x2b93)
+00:00:00.131157          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0025)
+00:00:00.232405          HostDnsMonitor: initializing
+00:00:00.241659          HostDnsMonitor: updating information
+00:00:00.241678          HostDnsMonitor: old information
+00:00:00.241678            no server entries
+00:00:00.241679            no domain set
+00:00:00.241679            no search string entries
+00:00:00.241680          HostDnsMonitor: new information
+00:00:00.241680            server 1: 10.252.0.0
+00:00:00.241680            server 2: 192.168.0.1
+00:00:00.241681            server 3: 205.171.3.26
+00:00:00.241681            domain: Home
+00:00:00.241682            no search string entries
+00:00:00.310899          VD: VDInit finished with VINF_SUCCESS
+00:00:00.322583          Loading settings file "C:\Users\dorian\VirtualBox VMs\MacOs\MacOs.vbox" with version "1.19-windows"
+00:00:00.331423          VirtualBox: object created
+00:00:00.397614          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.403181          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:00:00.403388          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.408520          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:00:00.408748          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.413739          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:00:02.058205          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:00:03.756851          Launched VM: 2009413760 pid: 18680 (0x48f8) frontend: GUI/Qt name: MacOs
+00:00:03.780466          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:00:09.724791          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:00:10.236772          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:12.085052          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:12.364938          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:12.394293          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:14.624983          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs\MacOs.vbox" with version "1.19-windows"
+00:00:14.635953          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs\MacOs.vbox"
+00:00:14.726120          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:16.104901 Watcher  Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs\MacOs.vbox" with version "1.19-windows"
+00:00:16.110698 Watcher  Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs\MacOs.vbox"
+00:00:16.202401          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:01:19.363541 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:19.368615 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:01:19.369351 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:01:19.369424 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:01:19.369507 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:01:19.369870 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:04:18.377337 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:04:18.383375 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:04:18.384213 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:04:18.384280 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:04:18.384350 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:04:18.384564 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:11:03.526712 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:11:03.531911 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:11:03.532680 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:11:03.532763 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:11:03.532837 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:11:03.533063 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:13:58.149700 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:58.156720 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:13:58.157480 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:13:58.157557 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:13:58.157630 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:13:58.157844 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:21:00.328986 createBase Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:00.338644 createBase Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:00.375252          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:21:00.381207          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:21:00.381428          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:00.386399          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:00.400553          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:00.406468          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:00.407771          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:21:00.413858          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:21:00.470130          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:00.476182          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:00.504505          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:21:05.838462          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:05.843235          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:05.851444          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:21:13.635924          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:13.640408          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:13.640483          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:13.645403          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:13.648084 DeleteVM Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:13.653210 DeleteVM Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:13.653659 createDelete ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not delete the medium storage unit 'C:\Program Files\Oracle\VirtualBox\VirtualBox Boot Image by Jeshio Tech Tips\VirtualBox Boot Image [Jeshio Tech Tips].vmdk' (VERR_ACCESS_DENIED)}, preserve=false aResultDetail=-38
+00:21:13.654429          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:21:13.659867          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:21:13.660809          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {8e38f42b-2f85-4b76-b51f-243191ed15aa}}, preserve=false aResultDetail=0
+00:21:13.679465          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:21:16.367862          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:21:16.522824          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:21:48.296759 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:21:48.302393 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:21:48.303618 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:21:48.303685 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:21:48.303746 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:21:48.303957 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:24:23.675185          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:24:23.680561          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:24:23.696289          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:24:23.708017          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:24:23.712942          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:24:23.740609          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:24:23.746025          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:24:23.751329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:24:23.763220          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:24:23.772233          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:24:23.777200          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:24:23.789390          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:24:23.804952          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:24:23.809799          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:24:23.822927          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:24:23.837485          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:24:23.842311          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:24:23.848637          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:24:23.878013          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:24:23.932365          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:25:33.731284          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:25:33.737306          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:25:33.738216          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:25:33.748320          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:25:37.971027          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:25:37.975758          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:25:37.986622          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:25:37.991586          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:25:38.023257          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:25:39.442726          Launched VM: 2009450336 pid: 3032 (0xbd8) frontend: GUI/Qt name: MacOs Sierra
+00:25:39.457826          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:25:44.809909          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:25:45.288230          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:25:47.769932          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:25:48.033959          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:25:48.082463          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:25:48.084606          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:25:48.090240          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:25:48.098902          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:25:50.609553          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:25:50.610039          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:25:50.650995          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:25:51.661457          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:25:51.666665          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:25:51.676139          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:25:54.708041          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:25:54.712805          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:25:54.721912          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:25:58.945545          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:25:58.950991          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:25:58.959322          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:26:51.226419          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:26:51.232131          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:26:51.239805          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:28:35.953776          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:28:41.449162          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:28:41.454801          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:28:41.490498          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:28:45.751806          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:28:45.802486          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:28:45.806182          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:28:45.817714          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:45.818956          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:28:45.982130 SaveState Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:28:46.048728 SaveState Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:28:46.060457          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:46.312082          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:47.278996          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:49.575943          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:49.659433          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:49.750424          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:28:51.741558 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:28:51.746634 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:28:51.747465 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:28:51.747559 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:28:51.747667 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:28:51.748045 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:29:13.543624          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:29:13.655603          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:33:34.341618 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:33:34.348608 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:33:34.349394 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:33:34.349472 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:33:34.349549 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:33:34.349796 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:35:17.900578          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:17.905930          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:17.906154          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:17.911423          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:17.911640          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:17.916457          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:18.849056          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:35:23.763159          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:23.768350          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:23.768431          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:23.774541          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:23.783423 DeleteVM Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:23.789302 DeleteVM Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:23.791975          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:35:23.797315          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:35:23.807414          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {b383a6b2-ce19-4467-917b-1013907c2baa}}, preserve=false aResultDetail=0
+00:35:23.813040          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {b383a6b2-ce19-4467-917b-1013907c2baa}}, preserve=false aResultDetail=0
+00:48:26.409842 createBase Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:26.424437 createBase Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:48:26.504724          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:48:26.532569          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:48:26.532798          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:26.546824          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:48:26.576040          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:26.599682          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:48:26.603654          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:48:26.624915          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:48:26.684982          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:26.702586          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:48:27.044319          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:29.747157          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:29.752554          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:29.765246          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:29.783288          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:29.788773          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:29.801162          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:29.815365          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:29.820781          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:29.833331          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:29.848352          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:29.854410          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:29.868650          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:29.882683          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:29.887797          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:29.902074          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:29.917104          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:29.922785          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:29.934386          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:34.927938          Launched VM: 2009450336 pid: 372 (0x174) frontend: GUI/Qt name: MacOs Sierra
+00:52:34.942798          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:40.262637          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:52:40.705863          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:52:43.084392          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:52:43.350861          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:52:43.394259          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:52:43.396505          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:43.402145          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:43.412169          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:52:46.484755          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:52:46.517982          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:47.512681          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:52:47.517854          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:52:47.542741          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:01.630437          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:53:03.275558          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:07.754772          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:07.759909          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:53:19.207339          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:53:20.632275          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:20.637939          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:20.666816          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:53:20.940661          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:20.946275          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:20.950964          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:53:20.957028 SaveState Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:20.962308 SaveState Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:20.966398          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:20.974724          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:22.470221          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:23.867346          Launched VM: 2009396864 pid: 6952 (0x1b28) frontend: GUI/Qt name: MacOs Sierra
+00:53:23.876008          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:29.014406          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:29.460379          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:53:31.273097          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:53:31.467523          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:31.473644          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:31.487294          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:53:32.842851          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:53:32.949092          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:32.954258          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:32.983982          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:44.687685          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:53:46.016747          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:53:46.289298          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:46.294535          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:46.299755          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:53:46.301738 SaveState Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:53:46.307154 SaveState Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:53:46.318600          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:46.323973          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:47.318308          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:53:50.724185          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.728996          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:53:50.729046          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.735315          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:53:50.737591 DeleteVM Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.743664 DeleteVM Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:53:50.744790          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:53:50.751140          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:53:50.762059          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {e4768865-59c7-4ea5-9b3f-a063df63cc5d}}, preserve=false aResultDetail=0
+00:53:50.779472          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {e4768865-59c7-4ea5-9b3f-a063df63cc5d}}, preserve=false aResultDetail=0
+00:55:17.971155 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:55:17.976630 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:55:17.977997 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:55:17.978139 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:55:17.978534 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:56:19.170893 createBase Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:19.176640 createBase Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:56:19.186538          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:56:19.191232          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:56:19.191437          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:19.196871          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:56:19.199927          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:19.205407          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:56:19.206553          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:56:19.212129          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:56:19.227889          Saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:19.233317          Finished saving settings file "C:\Users\dorian\.VirtualBox\VirtualBox.xml"
+00:56:19.570115          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:56:33.997314          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:56:34.193029          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:07.091993          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:07.096744          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:07.132569          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:27.545422          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:27.550889          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:27.563690          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:27.578787          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:27.584144          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:27.597712          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:27.613863          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:27.620041          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:27.633420          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:27.651134          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:27.656929          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:27.670112          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:27.684650          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:27.691239          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:27.703440          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:33.685194          Launched VM: 2046486848 pid: 18996 (0x4a34) frontend: GUI/Qt name: MacOs Sierra
+00:57:33.700894          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:38.933398          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:57:39.388297          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:57:41.006099          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:57:41.233088          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:57:41.316592          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:57:41.318650          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:41.324233          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:41.334341          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:57:42.847367          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:57:42.897251          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:43.913035          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:43.918859          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:43.930617          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:58.454940          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:58.459235          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:57:58.464840          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:57:58.475457          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:59:03.625694 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:59:03.630746 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:59:03.630946 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_05E3&PID_0608#5&286e7509&0&3#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+00:59:03.631053 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:59:03.631156 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:59:03.631256 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:59:03.631694 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+00:59:03.632709 USBPROXY USB: Unknown USB device detected (idVendor: 0x0480, idProduct: 0x0901)
+00:59:03.633317 USBPROXY USB: Unknown USB device detected (idVendor: 0x187c, idProduct: 0x0550)
+00:59:31.661109          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+00:59:31.667334          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+00:59:31.676813          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:00:26.632628          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+01:00:26.638683          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+01:00:26.648335          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:00:43.755930          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:00:44.968296          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+01:00:44.973697          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+01:00:44.995542          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+01:00:49.082773          Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+01:00:49.102237          Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+01:00:49.106246          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:00:49.116983          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:00:49.118220          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:00:49.283286 SaveState Saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox" with version "1.19-windows"
+01:00:49.291098 SaveState Finished saving settings file "C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vbox"
+01:00:49.302098          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:00:50.602056          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:00:58.738733          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or running (state is Saved)}, preserve=false aResultDetail=0
+01:00:58.773462          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:01:00.043153          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or running (state is Saved)}, preserve=false aResultDetail=0
+01:01:00.964346          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:02:05.496562 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:02:05.501735 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:02:05.501877 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_05E3&PID_0608#5&286e7509&0&3#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+01:02:05.501962 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+01:02:05.502023 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:02:05.505943 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+01:02:06.181966 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:02:06.187891 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:02:06.188044 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_05E3&PID_0608#5&286e7509&0&3#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+01:02:06.188120 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+01:02:06.188182 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:02:06.188245 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+01:02:06.188459 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+01:04:21.688912 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:04:21.693770 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_2109&PID_2815#5&286e7509&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+01:04:21.695026 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:04:21.695105 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2d5d5729&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+01:04:21.695341 USBPROXY usbLibGetDevices: Found 8 USB devices, 0 captured
+01:07:26.732817 main     VirtualBox: object deletion starts
+01:07:26.733698 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\dorian\VirtualBox VMs\MacOs Sierra\MacOs Sierra.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:07:26.741661 main     HostDnsMonitor: shutting down ...
+01:07:26.742359 main     HostDnsMonitor: shut down
+01:07:26.750127 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:07:26.751315 main     VirtualBox: object deleted

@@ -1,0 +1,293 @@
+"use strict";(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[68540],{37715:(e,n,t)=>{t.d(n,{S:()=>f})
+var r=t(45987)
+var a=t(15671)
+var o=t(43144)
+var i=t(60136)
+var l=t(51630)
+var d=t(67294)
+var s=t(45697)
+var u=t.n(s)
+var c=t(80958)
+var p=t(15922)
+var h=t(81657)
+var v=t(86333)
+var f=function(e){(0,i.Z)(t,e)
+var n=(0,l.Z)(t)
+function t(){(0,a.Z)(this,t)
+return n.apply(this,arguments)}(0,o.Z)(t,[{key:"render",value:function(){var e=this.props,n=e.alt,a=e.children,o=(0,r.Z)(e,["alt","children"])
+var i=(0,c.B)(t,this.props)
+return d.createElement(i,(0,p.ry)(o),d.createElement(v.c,null,n),d.createElement(h.x,null,a))}}])
+t.displayName="AccessibleContent"
+return t}(d.Component)
+f.propTypes={alt:u().string,as:u().elementType,children:u().node}
+f.defaultProps={alt:void 0,as:"span",children:null}},20626:(e,n,t)=>{t.d(n,{b:()=>a})
+var r=t(77467)
+var a={iso8601:function(e,n,t,r){var a=e[n]
+if("undefined"===typeof a||""===a)return
+var o=typeof a
+if("string"!==typeof o)return new Error("Invalid ".concat(r," `").concat(n,"` of type `").concat(o,"` supplied to `").concat(t,"`, expected ")+"an ISO 8601 formatted string.")
+var i=/^([+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24:?00)([.,]\d+(?!:))?)?(\17[0-5]\d([.,]\d+)?)?([zZ]|([+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/
+if("string"===typeof a&&!a.match(i))return new Error("Invalid ".concat(r," `").concat(n,"` `").concat(a,"` supplied to `").concat(t,"`, expected ")+"an ISO 8601 formatted string.")}}
+a.iso8601.isRequired=(0,r.A)(a.iso8601)},22518:(e,n,t)=>{t.d(n,{v:()=>c})
+var r=t(1413)
+var a=t(15671)
+var o=t(43144)
+var i=t(60136)
+var l=t(51630)
+var d=t(67294)
+var s=t(94855)
+var u=d.createElement("path",{d:"M568.129648 0.0124561278L392 176.142104 1175.86412 960.130789 392 1743.87035 568.129648 1920 1528.24798 960.130789z",fillRule:"evenodd",stroke:"none",strokeWidth:"1",transform:"matrix(-1 0 0 1 1920.135 0)"})
+var c=function(e){(0,i.Z)(t,e)
+var n=(0,l.Z)(t)
+function t(){(0,a.Z)(this,t)
+return n.apply(this,arguments)}(0,o.Z)(t,[{key:"render",value:function(){return d.createElement(s.q,Object.assign({},this.props,{name:"IconArrowOpenStart",viewBox:"0 0 1920 1920",bidirectional:true}),u)}}])
+t.displayName="IconArrowOpenStartSolid"
+return t}(d.Component)
+c.glyphName="arrow-open-start"
+c.variant="Solid"
+c.propTypes=(0,r.Z)({},s.q.propTypes)},2422:(e,n,t)=>{t.d(n,{C:()=>c})
+var r=t(1413)
+var a=t(15671)
+var o=t(43144)
+var i=t(60136)
+var l=t(51630)
+var d=t(67294)
+var s=t(94855)
+var u=d.createElement("path",{d:"M1411.8238,9.99999997e-05 C1442.9948,9.99999997e-05 1468.2938,25.2991 1468.2938,56.4711 L1468.2938,56.4711 L1468.2938,112.9411 L1637.7058,112.9411 C1731.1088,112.9411 1807.1178,188.9511 1807.1178,282.3531 L1807.1178,282.3531 L1807.1178,1920.0001 L112.9998,1920.0001 L112.9998,282.3531 C112.9998,188.9511 189.0088,112.9411 282.4118,112.9411 L282.4118,112.9411 L451.8228,112.9411 L451.8228,56.4711 C451.8228,25.2991 477.1228,9.99999997e-05 508.2938,9.99999997e-05 C539.4658,9.99999997e-05 564.7648,25.2991 564.7648,56.4711 L564.7648,56.4711 L564.7648,112.9411 L1355.3528,112.9411 L1355.3528,56.4711 C1355.3528,25.2991 1380.6518,9.99999997e-05 1411.8238,9.99999997e-05 Z M1694.1758,564.7051 L225.9418,564.7051 L225.9418,1807.0581 L1694.1758,1807.0581 L1694.1758,564.7051 Z M677.706,1242.353 L677.706,1581.177 L338.882,1581.177 L338.882,1242.353 L677.706,1242.353 Z M1129.471,1242.353 L1129.471,1581.177 L790.647,1581.177 L790.647,1242.353 L1129.471,1242.353 Z M1581.235,1242.353 L1581.235,1581.177 L1242.412,1581.177 L1242.412,1242.353 L1581.235,1242.353 Z M564.765,1355.294 L451.824,1355.294 L451.824,1468.235 L564.765,1468.235 L564.765,1355.294 Z M1016.529,1355.294 L903.588,1355.294 L903.588,1468.235 L1016.529,1468.235 L1016.529,1355.294 Z M1468.294,1355.294 L1355.353,1355.294 L1355.353,1468.235 L1468.294,1468.235 L1468.294,1355.294 Z M677.706,790.588 L677.706,1129.412 L338.882,1129.412 L338.882,790.588 L677.706,790.588 Z M1129.471,790.588 L1129.471,1129.412 L790.647,1129.412 L790.647,790.588 L1129.471,790.588 Z M1581.235,790.588 L1581.235,1129.412 L1242.412,1129.412 L1242.412,790.588 L1581.235,790.588 Z M564.765,903.53 L451.824,903.53 L451.824,1016.471 L564.765,1016.471 L564.765,903.53 Z M1016.529,903.53 L903.588,903.53 L903.588,1016.471 L1016.529,1016.471 L1016.529,903.53 Z M1468.294,903.53 L1355.353,903.53 L1355.353,1016.471 L1468.294,1016.471 L1468.294,903.53 Z M451.8228,225.8821 L282.4118,225.8821 C251.3528,225.8821 225.9418,251.1811 225.9418,282.3531 L225.9418,282.3531 L225.9418,451.7651 L1694.1758,451.7651 L1694.1758,282.3531 C1694.1758,251.1811 1668.7648,225.8821 1637.7058,225.8821 L1637.7058,225.8821 L1468.2938,225.8821 L1468.2938,282.3531 C1468.2938,313.5251 1442.9948,338.8241 1411.8238,338.8241 C1380.6518,338.8241 1355.3528,313.5251 1355.3528,282.3531 L1355.3528,282.3531 L1355.3528,225.8821 L564.7648,225.8821 L564.7648,282.3531 C564.7648,313.5251 539.4658,338.8241 508.2938,338.8241 C477.1228,338.8241 451.8228,313.5251 451.8228,282.3531 L451.8228,282.3531 L451.8228,225.8821 Z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var c=function(e){(0,i.Z)(t,e)
+var n=(0,l.Z)(t)
+function t(){(0,a.Z)(this,t)
+return n.apply(this,arguments)}(0,o.Z)(t,[{key:"render",value:function(){return d.createElement(s.q,Object.assign({},this.props,{name:"IconCalendarMonth",viewBox:"0 0 1920 1920"}),u)}}])
+t.displayName="IconCalendarMonthLine"
+return t}(d.Component)
+c.glyphName="calendar-month"
+c.variant="Line"
+c.propTypes=(0,r.Z)({},s.q.propTypes)},68540:(e,n,t)=>{t.d(n,{Z:()=>ke})
+var r=t(63056)
+var a=t(61323)
+var o=t(67294)
+var i=t(80008)
+var l=t.n(i)
+var d=t(75149)
+var s=t(37715)
+var u=t(4942)
+var c=t(1413)
+var p=t(15671)
+var h=t(43144)
+var v=t(60136)
+var f=t(51630)
+t(58002)
+var y=t(45697)
+var m=t.n(y)
+var g=t(94184)
+var b=t.n(g)
+var L=t(69924)
+var R=t(96580)
+var k=t(12291)
+var C=t(15922)
+var x=t(42342)
+var S=t(57117)
+var Z=t(99164)
+var M=t(54577)
+var w=t(16121)
+const O=w.j
+var q=t(45987)
+var D=t(80958)
+var N=t(20626)
+function I(e){var n=e.borders,t=e.colors,r=e.typography,a=e.spacing,o=e.forms
+return{color:t.textDarkest,background:t.backgroundLightest,fontSize:r.fontSizeMedium,padding:a.xxSmall,height:o.inputHeightSmall,minWidth:o.inputHeightSmall,outsideMonthColor:t.textDark,selectedBackground:t.backgroundSuccess,selectedColor:t.textLightest,selectedBorderRadius:n.radiusMedium,todayBackground:t.backgroundBrand,todayColor:t.textLightest,todayBorderRadius:o.inputHeightSmall}}I.canvas=function(e){return{color:e["ic-brand-font-color-dark"],todayBackground:e["ic-brand-primary"]}}
+var T,B,P,_,E
+var H={componentId:"euGrj",template:function(e){return"\n\n.euGrj_bGBk{padding:0}\n\n.euGrj_eLxY{align-items:center;background:".concat(e.background||"inherit",";border:none;color:").concat(e.color||"inherit",";display:flex;font-size:").concat(e.fontSize||"inherit",";height:").concat(e.height||"inherit",";justify-content:center;line-height:1;margin:0;min-width:").concat(e.minWidth||"inherit",";text-decoration:none}\n\n.euGrj_dtTm{color:").concat(e.outsideMonthColor||"inherit","}\n\n.euGrj_fGhm{background:").concat(e.selectedBackground||"inherit",";border-radius:").concat(e.selectedBorderRadius||"inherit",";color:").concat(e.selectedColor||"inherit","}\n\n.euGrj_fxYf{background:").concat(e.todayBackground||"inherit",";border-radius:").concat(e.todayBorderRadius||"inherit",";color:").concat(e.todayColor||"inherit","}\n\n.euGrj_ywdX{opacity:0.5}")},root:"euGrj_bGBk",day:"euGrj_eLxY",outsideMonth:"euGrj_dtTm",selected:"euGrj_fGhm",today:"euGrj_fxYf",disabled:"euGrj_ywdX"}
+var A=(T=O(),B=(0,M.ZP)(I,H),T(P=B(P=(E=_=function(e){(0,v.Z)(t,e)
+var n=(0,f.Z)(t)
+function t(){var e;(0,p.Z)(this,t)
+for(var r=arguments.length,a=new Array(r),o=0;o<r;o++)a[o]=arguments[o]
+e=n.call.apply(n,[this].concat(a))
+e.handleClick=function(n){var t=e.props,r=t.onClick,a=t.date
+"function"===typeof r&&r(n,{date:a})}
+e.handleKeyDown=function(n){var t=e.props,r=t.onKeyDown,a=t.date
+"function"===typeof r&&r(n,{date:a})}
+e.handleElementRef=function(n){var t=e.props.elementRef
+t(n)}
+return e}(0,h.Z)(t,[{key:"shouldApplyAriaSelected",value:function(){var e=this.props.role
+return["option","gridcell"].indexOf(e)>-1}},{key:"render",value:function(){var e
+var n=this.props,r=n.children,a=n.label,i=(n.interaction,n.isOutsideMonth),l=n.isSelected,d=n.isToday,c=n.onClick,p=n.onKeyDown,h=(n.as,(0,q.Z)(n,["children","label","interaction","isOutsideMonth","isSelected","isToday","onClick","onKeyDown","as"]))
+var v=this.elementType,f=this.isDisabled
+var y=b()((e={},(0,u.Z)(e,H.day,true),(0,u.Z)(e,H.outsideMonth,i),(0,u.Z)(e,H.selected,l),(0,u.Z)(e,H.today,d&&!l),(0,u.Z)(e,H.disabled,f),e))
+var m=L.G.omitViewProps((0,C.cZ)(h,t.propTypes),t)
+return o.createElement(L.G,Object.assign({},m,{as:v,className:H.root,display:"inline-block",margin:"xxx-small",borderWidth:"none",borderColor:"transparent",background:"transparent",cursor:"button"===v||"a"===v?f?"not-allowed":"pointer":"auto",disabled:f,"aria-current":d?"date":null,"aria-selected":this.shouldApplyAriaSelected()?l?"true":"false":null,onClick:c&&this.handleClick,onKeyDown:p&&this.handleKeyDown,elementRef:this.handleElementRef}),o.createElement("span",{className:y},o.createElement(s.S,{alt:a},(0,R.A)(r))))}},{key:"isDisabled",get:function(){var e=this.props.interaction
+return"disabled"===e}},{key:"elementType",get:function(){var e=this.props.as
+return e||(0,D.B)(t,this.props)}}])
+t.displayName="Day"
+return t}(o.Component),_.propTypes={children:m().oneOfType([m().node,m().func]),date:N.b.iso8601.isRequired,label:m().string.isRequired,interaction:m().oneOf(["enabled","disabled"]),isSelected:m().bool,isToday:m().bool,isOutsideMonth:m().bool,onClick:m().func,onKeyDown:m().func,elementRef:m().func,as:m().elementType},_.defaultProps={interaction:"enabled",isSelected:false,isToday:false,isOutsideMonth:false,elementRef:function(e){},onClick:void 0,onKeyDown:void 0,children:null},E))||P)||P)
+function z(e){var n=e.colors,t=e.typography,r=e.spacing
+return{fontSize:t.fontSizeMedium,fontFamily:t.fontFamily,fontWeight:t.fontWeightNormal,color:n.textDarkest,background:n.backgroundLightest,navMargin:r.small,maxHeaderWidth:r.medium}}z.canvas=function(e){return{color:e["ic-brand-font-color-dark"]}}
+var j,W,G,V,Y
+var F={componentId:"duraC",template:function(e){return"\n\n.duraC_dLrR{background:".concat(e.background||"inherit",";color:").concat(e.color||"inherit",";font-family:").concat(e.fontFamily||"inherit",";font-size:").concat(e.fontSize||"inherit",";font-weight:").concat(e.fontWeight||"inherit",";margin-bottom:").concat(e.navMargin||"inherit",";text-align:center}\n\n[dir=ltr] .duraC_dLrR,[dir=rtl] .duraC_dLrR{text-align:center}\n\n.duraC_dLrR.duraC_esIz{align-items:center;display:flex;justify-content:space-between}\n\n.duraC_bpmH{max-width:").concat(e.maxHeaderWidth||"inherit",";text-align:center}\n\n[dir=ltr] .duraC_bpmH,[dir=rtl] .duraC_bpmH{text-align:center}")},navigation:"duraC_dLrR",withNavigationButtons:"duraC_esIz",weekdayHeader:"duraC_bpmH"}
+var K=(j=O(),W=(0,M.ZP)(z,F),j(G=W(G=(Y=V=function(e){(0,v.Z)(t,e)
+var n=(0,f.Z)(t)
+function t(){var e;(0,p.Z)(this,t)
+for(var r=arguments.length,a=new Array(r),o=0;o<r;o++)a[o]=arguments[o]
+e=n.call.apply(n,[this].concat(a))
+e._weekdayHeaderIds=e.props.renderWeekdayLabels.reduce((function(e,n,t){return(0,c.Z)({},e,(0,u.Z)({},t,(0,Z.h)("weekday-header-".concat(t))))}),{})
+return e}(0,h.Z)(t,[{key:"renderHeader",value:function(){var e
+var n=this.props,t=n.renderNextMonthButton,r=n.renderPrevMonthButton,a=n.renderNavigationLabel,i=n.onRequestRenderNextMonth,l=n.onRequestRenderPrevMonth
+var d=(0,R.A)(t)
+var s=(0,R.A)(r)
+var c=function(e,n){return(0,k.i)(e,{onClick:(0,x.b)(e.props.onClick,n)})}
+var p=b()((e={},(0,u.Z)(e,F.navigation,true),(0,u.Z)(e,F.withNavigationButtons,s||d),e))
+return o.createElement("div",{className:p},s&&c(s,l),(0,R.A)(a),d&&c(d,i))}},{key:"renderBody",value:function(){return o.createElement("table",{role:this.role},o.createElement("thead",null,this.renderWeekdayHeaders()),o.createElement("tbody",null,this.renderDays()))}},{key:"renderWeekdayHeaders",value:function(){var e=this
+var n=this.props.renderWeekdayLabels
+var t=n.length
+"[Calendar] `renderWeekdayLabels` should be an array with 7 labels (one for each weekday). ".concat(t," provided.")
+return o.createElement("tr",null,n.map((function(n,t){return o.createElement("th",{key:t,scope:"col",className:F.weekdayHeader,id:e._weekdayHeaderIds[t]},(0,R.A)(n))})))}},{key:"renderDays",value:function(){var e=this
+var n=o.Children.toArray(this.props.children)
+var r=n.length
+var a="listbox"===this.role?"presentation":null
+t.DAY_COUNT,"[Calendar] should have exactly ".concat(t.DAY_COUNT," children. ").concat(r," provided.")
+return n.reduce((function(e,n,t){var r=Math.floor(t/7)
+e[r]||e.push([])
+e[r].push(n)
+return e}),[]).map((function(n){return o.createElement("tr",{key:"row".concat(n[0].props.date),role:a},n.map((function(n,t){return o.createElement("td",{key:n.props.date,role:a},"presentation"===a?(0,k.i)(n,{"aria-describedby":e._weekdayHeaderIds[t]}):n)})))}))}},{key:"render",value:function(){var e=L.G.omitViewProps((0,C.cZ)(this.props,t.propTypes),t)
+return o.createElement(L.G,Object.assign({},e,{as:this.props.as,display:"inline-block",padding:"small",background:"primary"}),this.renderHeader(),this.renderBody())}},{key:"role",get:function(){var e=this.props.role
+return"listbox"===e?e:null}}])
+t.displayName="Calendar"
+return t}(o.Component),V.Day=A,V.DAY_COUNT=42,V.propTypes={children:S.h.oneOf([A]),renderNextMonthButton:m().oneOfType([m().node,m().func]),renderPrevMonthButton:m().oneOfType([m().node,m().func]),renderNavigationLabel:m().oneOfType([m().node,m().func]),renderWeekdayLabels:m().arrayOf(m().oneOfType([m().node,m().func])).isRequired,onRequestRenderNextMonth:m().func,onRequestRenderPrevMonth:m().func,as:m().elementType,role:m().oneOf(["table","listbox"])},V.defaultProps={children:null,renderNextMonthButton:void 0,renderPrevMonthButton:void 0,renderNavigationLabel:void 0,onRequestRenderNextMonth:function(e){},onRequestRenderPrevMonth:function(e){},as:"span",role:"table"},Y))||G)||G)
+var U=t(97326)
+var J=t(2422)
+var X=t(82673)
+var $=t(68511)
+var Q=t(75935)
+var ee=t(79070)
+var ne=t(95014)
+var te=t(71070)
+var re=t(30638)
+var ae=t(64426)
+var oe,ie,le,de,se,ue
+var ce={componentId:"bBhxr",template:function(e){return"\n\n.bBhxr_ZftU{display:block}\n\n.bBhxr_cbWx{display:inline-block}\n\n.bBhxr_dJgE{display:none}"},"display-block":"bBhxr_ZftU","display-inline-block":"bBhxr_cbWx",assistiveText:"bBhxr_dJgE"}
+var pe=o.createElement(J.C,{inline:false})
+var he=(oe=(0,ee.x)("8.0.0",{label:"renderLabel"}),ie=(0,w.j)(),le=(0,M.YY)(null,ce),oe(de=ie(de=le(de=(ue=se=function(e){(0,v.Z)(t,e)
+var n=(0,f.Z)(t)
+function t(){var e;(0,p.Z)(this,t)
+for(var r=arguments.length,a=new Array(r),o=0;o<r;o++)a[o]=arguments[o]
+e=n.call.apply(n,[this].concat(a))
+e.state={hasInputRef:false}
+e._input=null
+e.formatDateId=function(e){return e.replace(/\s/g,"")}
+e.handleInputRef=function(n){var t=e.props.inputRef
+var r=e.state.hasInputRef
+r||e.setState({hasInputRef:true})
+e._input=n
+t(n)}
+e.handleInputChange=function(n,t){var r=e.props.onChange
+r(n,{value:t})
+e.handleShowCalendar(n)}
+e.handleShowCalendar=function(n){var t=e.props.onRequestShowCalendar
+var r=(0,U.Z)(e),a=r.interaction
+"enabled"===a&&t(n)}
+e.handleHideCalendar=function(n){var t=e.props,r=t.onRequestHideCalendar,a=t.onRequestValidateDate
+a(n)
+r(n)}
+e.handleHighlightOption=function(n,t){var r=t.direction
+var a=e.props,o=a.onRequestSelectNextDay,i=a.onRequestSelectPrevDay;-1===r&&i(n)
+1===r&&o(n)}
+return e}(0,h.Z)(t,[{key:"renderMonthNavigationButton",value:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"prev"
+var n=this.props,t=n.renderPrevMonthButton,r=n.renderNextMonthButton
+var a="prev"===e?t:r
+return a&&(0,k.i)((0,R.A)(a),{tabIndex:-1})}},{key:"renderDays",value:function(e){var n=this
+var t=e.getOptionProps
+var r=this.props.children
+return o.Children.map(r,(function(e){var r=e.props,a=r.date,o=r.isOutsideMonth
+var i={tabIndex:-1,id:n.formatDateId(a)}
+var l=t(i)
+i=o?(0,c.Z)({},i,{onClick:l.onClick,role:"presentation"}):l
+return(0,k.i)(e,i)}))}},{key:"renderCalendar",value:function(e){var n=e.getListProps,t=e.getOptionProps
+var r=this.props,a=r.onRequestRenderNextMonth,i=r.onRequestRenderPrevMonth,l=r.renderNavigationLabel,d=r.renderWeekdayLabels
+return o.createElement(K,n({onRequestRenderNextMonth:a,onRequestRenderPrevMonth:i,renderNavigationLabel:l,renderWeekdayLabels:d,renderNextMonthButton:this.renderMonthNavigationButton("next"),renderPrevMonthButton:this.renderMonthNavigationButton("prev")}),this.renderDays({getOptionProps:t}))}},{key:"renderInput",value:function(e){var n=e.getInputProps,t=e.getTriggerProps
+var r=this.props,a=r.label,i=r.renderLabel,l=r.value,d=r.placeholder,s=r.onBlur,u=r.isRequired,c=r.size,p=r.isInline,h=r.layout,v=r.width,f=r.messages,y=(r.onRequestValidateDate,r.onRequestShowCalendar,r.onRequestHideCalendar,r.onRequestSelectNextDay,r.onRequestSelectPrevDay,r.onRequestRenderNextMonth,r.onRequestRenderPrevMonth,(0,q.Z)(r,["label","renderLabel","value","placeholder","onBlur","isRequired","size","isInline","layout","width","messages","onRequestValidateDate","onRequestShowCalendar","onRequestHideCalendar","onRequestSelectNextDay","onRequestSelectPrevDay","onRequestRenderNextMonth","onRequestRenderPrevMonth"]))
+var m=this.interaction
+var g=t(),b=g.ref,L=(0,q.Z)(g,["ref"])
+return o.createElement(Q.o,Object.assign({},L,(0,C.ry)(y),n({renderLabel:(0,R.A)(i||a),value:l,placeholder:d,size:c,layout:h,width:v,messages:f,onChange:this.handleInputChange,onBlur:(0,x.b)(s,this.handleHideCalendar),inputRef:(0,x.b)(b,this.handleInputRef),interaction:m,isRequired:u,display:p?"inline-block":"block",renderAfterInput:pe})))}},{key:"render",value:function(){var e=this
+var n=this.props,t=n.placement,r=n.isShowingCalendar,a=n.assistiveText,i=n.display
+var l=this.selectedDateId
+return o.createElement($.N,{isShowingOptions:r,onRequestShowOptions:this.handleShowCalendar,onRequestHideOptions:this.handleHideCalendar,onRequestHighlightOption:this.handleHighlightOption,onRequestSelectOption:this.handleHideCalendar,selectedOptionId:l,highlightedOptionId:l},(function(n){var l
+var d=n.getRootProps,s=n.getInputProps,c=n.getTriggerProps,p=n.getListProps,h=n.getOptionProps,v=n.getDescriptionProps
+return o.createElement("span",d({className:b()((l={},(0,u.Z)(l,ce.root,true),(0,u.Z)(l,ce["display-".concat(i)],i),l))}),e.renderInput({getInputProps:s,getTriggerProps:c}),o.createElement("span",Object.assign({},v(),{className:ce.assistiveText}),a),o.createElement(X.J2,{placement:t,isShowingContent:r,positionTarget:e._input,shouldReturnFocus:false,shouldFocusContentOnTriggerBlur:true},e.renderCalendar({getListProps:p,getOptionProps:h})))}))}},{key:"selectedDateId",get:function(){var e=this
+var n
+o.Children.toArray(this.props.children).forEach((function(t){var r=t.props,a=r.date,o=r.isSelected
+o&&(n=e.formatDateId(a))}))
+return n}},{key:"interaction",get:function(){return(0,ne.S)({props:this.props})}}])
+t.displayName="DateInput"
+return t}(o.Component),se.Day=K.Day,se.propTypes={renderLabel:m().oneOfType([m().node,m().func]).isRequired,label:m().oneOfType([m().node,m().func]),value:(0,te.C)(m().string),size:m().oneOf(["small","medium","large"]),placeholder:m().string,onChange:m().func,onBlur:m().func,interaction:m().oneOf(["enabled","disabled","readonly"]),isRequired:m().bool,isInline:m().bool,assistiveText:m().string,layout:m().oneOf(["stacked","inline"]),width:m().string,display:m().oneOf(["inline-block","block"]),inputRef:m().func,messages:m().arrayOf(ae.jI.message),placement:re.i.placement,isShowingCalendar:m().bool,onRequestValidateDate:m().func,onRequestShowCalendar:m().func,onRequestHideCalendar:m().func,onRequestSelectNextDay:m().func,onRequestSelectPrevDay:m().func,onRequestRenderNextMonth:m().func,onRequestRenderPrevMonth:m().func,renderNavigationLabel:m().oneOfType([m().func,m().node]),renderWeekdayLabels:m().arrayOf(m().oneOfType([m().func,m().node])).isRequired,renderNextMonthButton:m().oneOfType([m().func,m().node]),renderPrevMonthButton:m().oneOfType([m().func,m().node]),children:S.h.oneOf([K.Day])},se.defaultProps={label:void 0,value:"",size:"medium",placeholder:null,onChange:function(e){},onBlur:function(e){},interaction:void 0,isRequired:false,isInline:false,assistiveText:void 0,layout:"stacked",width:null,display:"inline-block",inputRef:function(e){},messages:void 0,placement:"bottom center",isShowingCalendar:false,onRequestValidateDate:function(e){},onRequestShowCalendar:function(e){},onRequestHideCalendar:function(e){},onRequestSelectNextDay:function(e){},onRequestSelectPrevDay:function(e){},onRequestRenderNextMonth:function(e){},onRequestRenderPrevMonth:function(e){},renderNavigationLabel:null,renderNextMonthButton:null,renderPrevMonthButton:null,children:null},ue))||de)||de)||de)
+var ve=t(16303)
+var fe=t(22518)
+var ye=t(37285)
+var me=t(53416)
+var ge=t(40118)
+var be,Le
+const Re=(0,a.useScope)("app_shared_components_canvas_date_time")
+function ke(e){var n
+let{dataTestid:t,dateIsDisabled:a,display:i,formatDate:u,interaction:c="enabled",invalidDateMessage:p,layout:h="stacked",locale:v,messages:f=[],onBlur:y,onFocus:m,onRequestValidateDate:g,onSelectedDateChange:b,placeholder:L,placement:R="bottom center",renderLabel:k=Re.t("Choose a date"),selectedDate:C,size:x,timezone:S=(null===(n=ENV)||void 0===n?void 0:n.TIMEZONE)||Intl.DateTimeFormat().resolvedOptions().timeZone,width:Z,withRunningValue:M}=e
+const w=l()().tz(S)
+const O=C?l().tz(C,S):null
+const[q,D]=(0,o.useState)("")
+const[N,I]=(0,o.useState)(false)
+const[T,B]=(0,o.useState)(O||w)
+const[P,_]=(0,o.useState)([])
+const[E]=(0,o.useState)((0,me.x0)())
+const[H,A]=(0,o.useState)(null)
+const z=(0,o.useRef)(null)
+function j(e,n){const t=null===e&&null!==n||null!==e&&null==n
+const r=e&&e.isValid()&&!e.isSame(n)
+return t||r}j(O,z.current)&&W(O)
+z.current=O
+function W(e){const n=e&&e.isValid()?u(e.toDate()):""
+D(n)
+_([])
+B(e||w)}function G(){const e=l().tz(T,S).startOf("month").startOf("week")
+return[...Array(K.DAY_COUNT).keys()].map((n=>e.clone().add(n,"days")))}function V(){var e
+if(!N)return null
+const n=v||(null===(e=ENV)||void 0===e?void 0:e.LOCALE)||navigator.language
+const t=new Intl.DateTimeFormat(n,{month:"short",day:"numeric",year:"numeric",timeZone:S})
+const o=new Intl.DateTimeFormat(n,{day:"numeric",timeZone:S})
+return G().map((e=>(0,r.Z)(he.Day,{date:e.toISOString(true),interaction:a&&a(e)?"disabled":"enabled",label:t.format(e.toDate()),isSelected:e.isSame(O,"day"),isToday:e.isSame(w,"day"),isOutsideMonth:!e.isSame(T,"month"),onClick:U},e.toISOString(),o.format(e.toDate()))))}function Y(e){if("function"===typeof p)return p(e)
+if("undefined"===typeof p)return Re.t("Invalid Date")
+return p}function F(e,n){let{value:t}=n
+D(t)
+N&&M&&Q()
+const r=d.Z.parse(t,S)
+if(r){const e=M?[{type:"success",text:u(r)}]:[]
+B(l().tz(r,S))
+_(e)}else if(""===t)_([])
+else{const e=Y(t)
+_([{type:"error",text:e}])}}function U(e,n){let{date:t}=n
+const r=l().tz(t,S)
+let a=r
+if(C){const e=l().tz(C,S)
+e.isSame(r,"day")&&(a=e)}W(a)
+b(r.toDate(),"pick")
+A({method:"pick",value:t})}function J(e){const n=P.filter((e=>"error"===e.type)).length>0
+const t=0===q.trim().length
+const r=n||t?null:T.toDate()
+W(r?l().tz(r,S):z.current)
+b(r,"other")
+if("pick"===(null===H||void 0===H?void 0:H.method)){const e=H.value
+A(null);(0,ge.c)({id:E,method:"pick",parsed:r&&r.toISOString()||void 0,value:e})}else if("paste"===(null===H||void 0===H?void 0:H.method)){const e=H.value
+A(null);(0,ge.c)({id:E,method:"paste",parsed:r&&r.toISOString()||void 0,value:e})}else t||(0,ge.c)({id:E,method:"type",parsed:r&&r.toISOString()||void 0,value:q.trim()})
+null===y||void 0===y||y(e)}function X(e){"Enter"===e.key&&J(e)}function $(e){var n
+A({method:"paste",value:(null===(n=e.clipboardData)||void 0===n?void 0:n.getData("text"))||""})}function Q(){I(false)}function ee(e){let{nativeEvent:n}=e
+if(M){if("InputEvent"===n.constructor.name)return
+if(" "===(null===n||void 0===n?void 0:n.key)){D((e=>e+" "))
+return}}I(true)}function ne(e,n){const t=O?O.clone().add(e,n).startOf("day"):T.clone().startOf("month")
+b(t.toDate(),"pick")}function te(e,n){B(T.clone().add(e,n).startOf("day"))}function re(){if(!N)return[]
+const e=T.clone().startOf("week")
+return[...Array(7).keys()].map((n=>{const t=e.clone().add(n,"days")
+return(0,r.Z)(s.S,{alt:t.format("dddd")},void 0,t.format("dd"))}))}function ae(e){if(!N)return null
+const n="prev"===e?be||(be=(0,r.Z)(fe.v,{color:"primary"})):Le||(Le=(0,r.Z)(ye.g,{color:"primary"}))
+const t="prev"===e?Re.t("Previous month"):Re.t("Next month")
+return(0,r.Z)(ve.h,{size:"small",withBackground:false,withBorder:false,renderIcon:n,screenReaderLabel:t})}return(0,r.Z)(he,{renderLabel:k,assistiveText:Re.t("Type a date or use arrow keys to navigate date picker."),value:q,onChange:F,onPaste:$,onKeyUp:X,isInline:true,placement:R,messages:f.concat(P),isShowingCalendar:N,onBlur:J,onFocus:m,onRequestShowCalendar:ee,onRequestHideCalendar:Q,onRequestSelectNextDay:()=>ne(1,"day"),onRequestSelectPrevDay:()=>ne(-1,"day"),onRequestRenderNextMonth:()=>te(1,"month"),onRequestRenderPrevMonth:()=>te(-1,"month"),onRequestValidateDate:g,renderNavigationLabel:(0,r.Z)("span",{},void 0,(0,r.Z)("div",{},void 0,T.format("MMMM")),(0,r.Z)("div",{},void 0,T.format("YYYY"))),renderPrevMonthButton:ae("prev"),renderNextMonthButton:ae("next"),renderWeekdayLabels:re(),interaction:c,layout:h,width:Z,display:i,"data-testid":t,size:x,placeholder:L},void 0,V())}},53416:(e,n,t)=>{t.d(n,{x0:()=>r})
+let r=(e=21)=>crypto.getRandomValues(new Uint8Array(e)).reduce(((e,n)=>{n&=63
+e+=n<36?n.toString(36):n<62?(n-26).toString(36).toUpperCase():n>62?"-":"_"
+return e}),"")}}])
+
+//# sourceMappingURL=68540-c-2deabc62c0.js.map

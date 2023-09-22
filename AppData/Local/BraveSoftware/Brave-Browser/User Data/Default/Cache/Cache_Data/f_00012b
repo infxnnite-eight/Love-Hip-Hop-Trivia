@@ -1,0 +1,260 @@
+"use strict";(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[89789],{13662:(t,e,n)=>{n.d(e,{Z:()=>l})
+var i=n(6507)
+var o=n.n(i)
+var r=n(45503)
+const s=()=>ENV&&ENV.DEEP_LINKING_LOGGING
+const l=t=>{t.errormsg&&o().flashError(t.errormsg)
+t.msg&&o().flashMessage(t.msg)
+if(s()){t.errorlog&&console.error(t.errorlog)
+t.log&&console.log(t.log)}null!==r.h2&&void 0!==r.h2&&r.h2.fullWindowProxy&&r.h2.fullWindowProxy.close()}},93339:(t,e,n)=>{n.d(e,{Z:()=>s})
+var i=n(89714)
+function o(t){let e=t
+let n=null
+return t=>{null===n&&(n=i.Z.post("/api/v1/jwts/refresh",{jwt:e}).then((t=>{n=null
+e=t.data.token
+return e})))
+"function"===typeof t&&n.then(t)
+return n}}var r=n(93852)
+function s(){var t
+if(!ENV.context_asset_string)return null
+let[e,n]=(0,r.Z)(ENV.context_asset_string,false)
+const i=ENV.current_user_id
+const s={contextType:e,contextId:n,userId:i}
+const l=ENV.RICH_CONTENT_CAN_UPLOAD_FILES
+if(!l||"account"===e){n=i
+e="user"}return{canUploadFiles:ENV.RICH_CONTENT_CAN_UPLOAD_FILES,containingContext:s,contextType:e,contextId:n,filesTabDisabled:ENV.RICH_CONTENT_FILES_TAB_DISABLED,host:ENV.RICH_CONTENT_APP_HOST,jwt:ENV.JWT,refreshToken:o(ENV.JWT),themeUrl:ENV.active_brand_config_json_url,features:{rce_ux_improvements:null===(t=ENV.FEATURES)||void 0===t?void 0:t.rce_ux_improvements}}}},88480:(t,e,n)=>{n.d(e,{Z:()=>ot})
+var i=n(63056)
+var o=n(61323)
+var r=n(6507)
+var s=n.n(r)
+const l=(0,o.useScope)("ExternalToolsPlugin")
+const a=ENV.MAX_MRU_LTI_TOOLS||5
+const c={buttonConfig(t,e){const n={title:t.name,classes:"widget btn instructure_external_tool_button"}
+n.id=t.id
+n.onAction=()=>{e.execCommand(`instructureExternalButton${t.id}`)
+this.updateMRUList(t.id)
+this.showHideButtons(e)}
+n.description=t.description
+n.favorite=t.favorite
+n.image=t.icon_url
+return n},showHideButtons(t){const e=l.t("Apps")
+const n=t.$(t.editorContainer.querySelector(`.tox-tbtn--select[aria-label="${e}"]`))
+const i=t.$(t.editorContainer.querySelector(`.tox-tbtn[aria-label="${e}"]`))
+n.attr("aria-hidden","false")
+i.attr("aria-hidden","true")},updateMRUList(t){let e
+try{var n
+e=JSON.parse((null===(n=window.localStorage)||void 0===n?void 0:n.getItem("ltimru"))||"[]")}catch(t){console.log("Found bad LTI MRU data",t.message)}finally{Array.isArray(e)||(e=[])}try{if(!e.includes(t)){var i
+e.unshift(t)
+e.splice(a,e.length)
+null===(i=window.localStorage)||void 0===i||i.setItem("ltimru",JSON.stringify(e))}}catch(t){console.log("Cannot save LTI MRU list",t.message)}}}
+var d=n(96437)
+var u=n(67294)
+var h=n(73935)
+function m(t,e,n){if(!t)return t
+const i=(e||"").toString()
+const o=(n||"").toString().replace(/\s/g,"+")
+const r=new RegExp(`(%7B|{){2}[\\s|%20|+]*${i}[\\s|%20|+]*(%7D|}){2}`,"g")
+return t.replace(r,o)}function f(t,e,n){if("object"===typeof e){Object.keys(e).forEach((n=>{t=m(t,n,e[n])}))
+return t}return m(t,e,n)}var p=n(90291)
+function g(t){const{open:e,label:n,onOpen:o,onClose:r,onCloseButton:s,name:l,mountNode:a,children:c}=t
+return(0,i.Z)(p.Z,{"data-mce-component":true,padding:"0",mountNode:a,open:e,label:n,title:l,onOpen:o,onClose:r,onDismiss:s},void 0,c)}var v=n(16252)
+function _(t){const{open:e,label:n,onOpen:o,onClose:r,onCloseButton:s,name:l,mountNode:a,children:c}=t
+return(0,i.Z)(v.Z,{open:e,label:n,mountNode:a,title:l,onOpen:o,onClose:r,onDismiss:s,placement:"end",size:"regular",padding:"0",headerPadding:"small"},void 0,c)}var b=n(88866)
+var E=n(54769)
+var w=n(2610)
+var y=n(73696)
+var x=n(13662)
+const C=t=>t.replace(/^(data:text\/html|javascript:)/,"#$1")
+const A=(t,e)=>{const n=document.createElement("a")
+n.setAttribute("href",C(t.url))
+n.setAttribute("title",t.title||"")
+n.setAttribute("target","_blank")
+n.innerHTML=e||""
+return n.outerHTML}
+const T=(t,e,n,i)=>{const o=document.createElement("img")
+o.setAttribute("src",t)
+e&&o.setAttribute("alt",e)
+if(n){const t="number"===typeof n?n.toString():n
+o.setAttribute("width",t)}if(i){const t="number"===typeof i?i.toString():i
+o.setAttribute("height",t)}return o.outerHTML}
+const S=(t,e)=>{if("object"===typeof t){const{url:n,width:i,height:o}=t
+return T(n,e,i,o)}return T(t,e)}
+const I=t=>{const e=t.iframe
+const n=document.createElement("iframe")
+n.setAttribute("src",e.src)
+n.setAttribute("title",t.title||"")
+n.setAttribute("allowfullscreen","true")
+n.setAttribute("allow",(0,d.Z)())
+e.width&&(n.style.width=`${e.width}px`)
+e.height&&(n.style.height=`${e.height}px`)
+return n.outerHTML}
+const N=t=>t.text&&t.text.trim()||t.title&&t.title.trim()
+const L=t=>t.thumbnail?S(t.thumbnail,t.text):N(t)
+const O=t=>{let e="display=borderless"
+null!==t&&void 0!==t&&(e+=`&resource_link_lookup_uuid=${t}`)
+return e}
+const k=(t,e,n)=>{const i=C(`${e}?${O(t.lookup_uuid)}`)
+if("undefined"!==typeof t.iframe)return I({title:t.title,iframe:{...t.iframe,src:i}})
+{const e="string"===typeof n&&""!==n?{...t,text:n}:t
+return A({...t,url:i},L(e))}}
+const R=t=>t.html
+const B=t=>{if("undefined"!==typeof t.thumbnail)return A(t,S(t.thumbnail,t.text))
+{const{url:e,text:n,width:i,height:o}=t
+return T(e,n,i,o)}}
+const $=(t,e)=>{if(t.iframe&&t.iframe.src)return I({title:t.title,iframe:t.iframe})
+{const n="string"===typeof e&&""!==e?{...t,text:e}:t
+return A(n,L(n))}}
+const V=t=>{console.error("Could not process content item",t)}
+const M=t=>e=>{switch(e.type){case"html":return R(e)
+case"image":return B(e)
+case"link":return $(e,t.editorSelection)
+case"ltiResourceLink":return k(e,t.ltiEndpoint,t.editorSelection)
+default:V(e)
+return""}}
+const Z=(0,o.useScope)("external_content.success")
+function U(t,e,n){(0,x.Z)(t.data)
+const i=e.selection&&e.selection.getContent()
+try{t.data.content_items.map(M({ltiEndpoint:t.data.ltiEndpoint,editorSelection:i})).forEach((t=>{(0,w.lW)(s()(`#${e.id}`),"insert_code",t)}))}catch(t){console.error(t)
+s().flashError(Z.t("Error retrieving content"))}window.requestAnimationFrame((()=>{n.close()}))}var F=n(95732)
+var D=n(67879)
+var H=n(65984)
+var P
+const j=(0,o.useScope)("ExternalToolDialog")
+const G={height:300,width:400,name:" "}
+const J={url:"",selection:"",contents:""}
+class W extends u.Component{constructor(){super(...arguments)
+this.state={open:false,button:G,infoAlert:null,form:J,iframeLoaded:false}
+this.handleBeforeUnload=t=>t.returnValue=j.t("Changes you made may not be saved.")
+this.handleExternalContentReady=(t,e)=>{if(ENV.a2_student_view){this.close()
+return}const{editor:n,win:i}=this.props
+const o=e.contentItems
+if(1===o.length&&"lti_replace"===o[0]["@type"]){const t=o[0].text;(0,w.lW)(i.$(`#${n.id}`),"set_code",t)}else for(let t=0,e=o.length;t<e;++t){const e=o[t]
+e.class="lti-embed"
+const r=y.Z.fromJSON(e).codePayload;(0,w.lW)(i.$(`#${n.id}`),"insert_code",r)}this.close()}
+this.handleDeepLinking=t=>{const{editor:e,deepLinkingOrigin:n}=this.props
+t.origin===n&&t.data&&"LtiDeepLinkingResponse"===t.data.subject&&U(t,e,this)}
+this.handleClose=()=>{const{win:t}=this.props
+const e=j.t("Are you sure you want to cancel? Changes you made may not be saved.")
+t.confirm(e)&&this.close()}
+this.handleOpen=()=>{this.state.open&&this.formRef.submit()}
+this.handleRemove=()=>{this.setState({button:G})
+this.props.editor.focus()
+this.props.win.dispatchEvent(new Event("resize"))}
+this.handleInfoAlertFocus=t=>this.setState({infoAlert:t.target})
+this.handleInfoAlertBlur=()=>this.setState({infoAlert:null})}open(t){const{win:e,editor:n,contextAssetString:i,resourceSelectionUrl:o}=this.props
+let r=f(o,"id",t.id)
+const s=n.selection.getContent()||""
+const l=n.getContent()||""
+if(null==r){const e=i.split("_")
+r=`/${e[0]}s/${e[1]}/external_tools/${t.id}/resource_selection`}this.setState({open:true,button:t,form:{url:r,selection:s,contents:l}})
+e.addEventListener("beforeunload",this.handleBeforeUnload)
+e.addEventListener("message",this.handleDeepLinking)
+e.$(e).bind("externalContentReady",this.handleExternalContentReady)}close(){const{win:t}=this.props
+t.removeEventListener("beforeunload",this.handleBeforeUnload)
+t.removeEventListener("message",this.handleDeepLinking)
+t.$(t).unbind("externalContentReady")
+this.setState({open:false,form:J})}render(){const{open:t,button:e,form:n,infoAlert:o,iframeLoaded:r}=this.state
+const{iframeAllowances:s,win:l}=this.props
+const a=j.t("embed_from_external_tool","Embed content from External Tool")
+const c=Math.max(Math.min(l.innerHeight-100,550),100)
+const d=e.use_tray?_:g
+return u.createElement(u.Fragment,null,u.createElement("form",{ref:t=>this.formRef=t,method:"POST",action:n.url,target:"external_tool_launch",style:{margin:0}},P||(P=(0,i.Z)("input",{type:"hidden",name:"editor",value:"1"})),(0,i.Z)("input",{type:"hidden",name:"selection",value:n.selection}),(0,i.Z)("input",{type:"hidden",name:"editor_contents",value:n.contents})),(0,i.Z)(d,{open:t,mountNode:H.sS,label:a,onOpen:this.handleOpen,onClose:this.handleRemove,onCloseButton:this.handleClose,name:e.name},void 0,u.createElement("div",{ref:t=>this.beforeInfoAlertRef=t,tabIndex:"0",onFocus:this.handleInfoAlertFocus,onBlur:this.handleInfoAlertBlur,className:o&&o===this.beforeInfoAlertRef?"":"screenreader-only"},(0,i.Z)(b.b,{margin:"small"},void 0,j.t("The following content is partner provided"))),!r&&(0,i.Z)(F.kC,{alignItems:"center",justifyItems:"center"},void 0,(0,i.Z)(F.kC.Item,{},void 0,(0,i.Z)(E.$,{renderTitle:j.t("Loading External Tool"),size:"large",margin:"0 0 0 medium"}))),u.createElement(D.Z,{title:a,ref:t=>this.iframeRef=t,name:"external_tool_launch",src:"",id:"external_tool_button_frame",style:{width:e.use_tray?"100%":e.width||800,height:e.use_tray?"100%":e.height||c,border:"0",display:"block",visibility:r?"visible":"hidden"},allow:s,borderstyle:"0",onLoad:()=>this.setState({iframeLoaded:true})}),u.createElement("div",{ref:t=>this.afterInfoAlertRef=t,tabIndex:"0",onFocus:this.handleInfoAlertFocus,onBlur:this.handleInfoAlertBlur,className:o&&o===this.afterInfoAlertRef?"":"screenreader-only"},(0,i.Z)(b.b,{margin:"small"},void 0,j.t("The preceding content is partner provided")))))}}W.defaultProps={resourceSelectionUrl:null,deepLinkingOrigin:""}
+const q=(0,o.useScope)("ExternalToolsPlugin")
+const z={init(t,e,n){if(!n||!n.editorButtons||!n.editorButtons.length)return
+const o=[]
+for(let e=0;n.editorButtons&&e<n.editorButtons.length;e++){const r=n.editorButtons[e]
+const l=()=>{let e=document.getElementById("external-tool-dialog-container")
+if(null===e){e=document.createElement("div")
+e.id="external-tool-dialog-container"
+document.body.appendChild(e)}h.render((0,i.Z)(W,{win:window,editor:t,contextAssetString:ENV.context_asset_string,iframeAllowances:(0,d.Z)(),resourceSelectionUrl:s()("#context_external_tool_resource_selection_url").attr("href"),deepLinkingOrigin:ENV.DEEP_LINKING_POST_MESSAGE_ORIGIN}),e,(function(){this.open(r)}))}
+o.push(c.buttonConfig(r,t))
+t.addCommand(`instructureExternalButton${r.id}`,l)}if(o.length){Y(t,o)
+Q(t,o)
+X(t,o)}}}
+function K(t,e){if(!e.iconSVG&&e.image){const t=document.createElement("svg")
+t.setAttribute("viewBox","0 0 16 16")
+t.setAttribute("version","1.1")
+t.setAttribute("xmlns","http://www.w3.org/2000/svg")
+const n=document.createElement("image")
+n.setAttribute("xlink:href",e.image)
+n.style.width="100%"
+n.style.height="100%"
+t.appendChild(n)
+e.iconSVG=t.outerHTML
+e.icon=`lti_tool_${e.id}`}e.iconSVG&&t.ui.registry.addIcon(e.icon,e.iconSVG)}function X(t,e){e.length&&t.ui.registry.addNestedMenuItem("lti_tools_menuitem",{text:q.t("Apps"),icon:"lti",getSubmenuItems:()=>tt(t,e)})}function Y(t,e){e.forEach((e=>{if(!e.favorite)return
+K(t,e)
+t.ui.registry.addButton(`instructure_external_button_${e.id}`,{onAction:e.onAction,tooltip:e.title,icon:e.icon,title:e.title})}))}function Q(t,e){const n=q.t("Apps")
+t.ui.registry.addMenuButton("lti_mru_button",{tooltip:n,icon:"lti",fetch(n){n(tt(t,e))},onSetup(e){c.showHideButtons(t)}})}function tt(t,e){const n=[]
+try{const i=JSON.parse(window.localStorage.getItem("ltimru"))
+if(i&&Array.isArray(i)&&i.length){const o=e.filter((t=>i.includes(t.id)))
+o.forEach((e=>{K(t,e)
+e.menuItem||(e.menuItem={type:"menuitem",text:e.title,icon:e.icon,onAction:e.onAction})
+n.push(e.menuItem)}))
+n.sort(((t,e)=>t.text.localeCompare(e.text)))}}catch(t){console.log("Failed building mru menu",t.message)}finally{n.push({type:"menuitem",text:q.t("View All"),onAction:()=>{const t=new CustomEvent("tinyRCE/onExternalTools",{detail:{ltiButtons:e}})
+document.dispatchEvent(t)}})}return n}const et=z
+var nt=n(50324)
+"INST"in window||(window.INST={})
+const it=(0,o.useScope)("loadEventListeners")
+function ot(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}
+const e=["equellaCB","externalToolCB"]
+e.forEach((e=>{void 0===t[e]&&(t[e]=function(){})}))
+document.addEventListener("tinyRCE/initEquella",(e=>{Promise.all([n.e(60314),n.e(36249)]).then(n.bind(n,36249)).then((n=>{let{default:i}=n
+i(e.detail.ed)
+t.equellaCB()})).catch((0,nt.IM)(it.t("Something went wrong loading Equella")))}))
+document.addEventListener("tinyRCE/initExternalTools",(e=>{et.init(e.detail.ed,e.detail.url,INST)
+t.externalToolCB()}))}},59931:(t,e,n)=>{n.d(e,{L:()=>i,Z:()=>o})
+let i;(function(t){t[t["IconMaker"]=0]="IconMaker"})(i||(i={}))
+function o(t,e){if(t===i.IconMaker)return r(e)
+return false}function r(t){var e,n
+return!!(t.RICH_CONTENT_CAN_UPLOAD_FILES&&t.RICH_CONTENT_CAN_EDIT_FILES&&null!==(e=window.ENV)&&void 0!==e&&null!==(n=e.FEATURES)&&void 0!==n&&n.buttons_and_icons_root_account)}},56766:(t,e,n)=>{n.d(e,{Z:()=>o})
+var i=n(51927)
+class o{constructor(t,e,n){this.instConfig=e
+this.idAttribute=n
+this.baseURL=void 0
+this.extraButtons=void 0
+this.baseURL=t.baseURL
+this.extraButtons=e.editorButtons||[]}defaultConfig(){var t
+return{body_class:null!==(t=window.ENV.FEATURES)&&void 0!==t&&t.canvas_k6_theme||(window.ENV.K5_SUBJECT_COURSE||window.ENV.K5_HOMEROOM_COURSE)&&!window.ENV.USE_CLASSIC_FONT?"elementary-theme":"default-theme",selector:`#${this.idAttribute}`,directionality:(0,i.Mg)(),plugins:["instructure_equation"],content_css:window.ENV.url_to_what_gets_loaded_inside_the_tinymce_editor_css,init_instance_callback:t=>{$(`#tinymce-parent-of-${t.id}`).css("visibility","visible")},show_media_upload:!!INST.kalturaSettings&&!INST.kalturaSettings.hide_rte_button}}}},73696:(t,e,n)=>{n.d(e,{Z:()=>f})
+var i=n(6507)
+var o=n.n(i)
+var r=n(45503)
+var s=n(96437)
+var l=n(81471)
+const a=["application/vnd.ims.lti.v1.ltilink","application/vnd.ims.lti.v1.launch+json"]
+function c(t,e){e=e||Object.keys
+function n(e){return{configurable:true,get:()=>t[e]}}const i=e(t)
+let o=i.length
+let r
+while(o--){r=i[o]
+Object.defineProperty(this,r,n(r))}}function d(t){c.call(this,t)}function u(t){const e=window.tinyMCE&&window.tinyMCE.activeEditor.selection
+const n=e&&e.getContent()
+return n||t.text&&t.text.trim()||t.title&&t.title.trim()}d.fromJSON=function(t){return new d(t)}
+const h={iframe(t){const e=(0,l.uD)(null===t||void 0===t?void 0:t.custom)?(0,l.ff)(t.custom):{}
+return o()("<div/>").append(o()("<iframe/>",{src:t.url,title:t.title,allowfullscreen:"true",webkitallowfullscreen:"true",mozallowfullscreen:"true",allow:(0,s.Z)(),"data-studio-resizable":e["data-studio-resizable"],"data-studio-tray-enabled":e["data-studio-tray-enabled"],"data-studio-convertible-to-link":e["data-studio-convertible-to-link"]}).addClass(t.class).css({width:t.placementAdvice.displayWidth,height:t.placementAdvice.displayHeight,display:(0,l.gY)(e)}).attr({width:t.placementAdvice.displayWidth,height:t.placementAdvice.displayHeight})).html()},embed:t=>o()("<div/>").append(o()("<img/>",{src:t.url,alt:t.text}).css({width:t.placementAdvice.displayWidth,height:t.placementAdvice.displayHeight})).html(),text:t=>t.text,link(t){var e
+const n=o()("<div/>"),i=o()("<a/>",{href:t.url,title:t.title,target:t.linkTarget})
+t.linkClassName&&i.addClass(t.linkClassName)
+n.append(i)
+t.thumbnail?i.append(o()("<img />",{src:t.thumbnail["@id"],height:t.thumbnail.height||48,width:t.thumbnail.width||48,alt:t.text})):null!==(e=window.tinyMCE.activeEditor)&&void 0!==e&&e.selection.getContent()?i[0].innerHTML=u(t):i.text(u(t))
+return n.html()}}
+function m(t){this.contentItem=t
+const e=(t,e)=>{Object.defineProperty(this,t,{get:e.bind(this)})}
+c.call(this,t,Object.getOwnPropertyNames)
+e("isLTI",(function(){return!!~a.indexOf(this.mediaType)}))
+e("isOverriddenForThumbnail",(function(){return this.isLTI&&this.thumbnail&&"iframe"===this.placementAdvice.presentationDocumentTarget}))
+e("isImage",(function(){return this.mediaType&&0==this.mediaType.indexOf("image")}))
+e("linkClassName",(function(){return this.isOverriddenForThumbnail?"lti-thumbnail-launch":""}))
+e("url",(function(){return(this.isLTI?this.canvasURL:this.contentItem.url).replace(/^(data:text\/html|javascript:)/,"#$1")}))
+e("linkTarget",(function(){if(this.isOverriddenForThumbnail)return JSON.stringify(this.placementAdvice)
+return"window"===this.placementAdvice.presentationDocumentTarget.toLowerCase()?"_blank":null}))
+e("docTarget",(function(){if("embed"===this.placementAdvice.presentationDocumentTarget&&!this.isImage)return"text"
+if(this.isOverriddenForThumbnail)return"link"
+return this.placementAdvice.presentationDocumentTarget.toLowerCase()}))
+e("codePayload",(function(){switch(this.docTarget){case"iframe":return h.iframe(this)
+case"embed":return h.embed(this)
+case"text":return h.text(this)
+default:return h.link(this)}}))}m.ContentItem=d
+m.fromJSON=function(t){const e=d.fromJSON(t)
+return new m(e)};(0,r.xI)()
+const f=m}}])
+
+//# sourceMappingURL=89789-c-ffbf31e0d1.js.map

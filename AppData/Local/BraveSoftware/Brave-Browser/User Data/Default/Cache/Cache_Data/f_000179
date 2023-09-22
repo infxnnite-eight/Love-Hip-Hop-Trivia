@@ -1,0 +1,970 @@
+(globalThis["webpackChunkcanvas_lms"]=globalThis["webpackChunkcanvas_lms"]||[]).push([[53466],{45443:(t,i,e)=>{"use strict"
+e.d(i,{V:()=>D})
+var n=e(1413)
+var r=e(4942)
+var s=e(15671)
+var o=e(43144)
+var a=e(60136)
+var c=e(51630)
+var l=e(67294)
+var d=e(45697)
+var u=e.n(d)
+var _=e(94184)
+var p=e.n(_)
+var f=e(35498)
+var g=e(69924)
+var h=e(54577)
+var m=e(96580)
+var b=e(80958)
+var v=e(15922)
+function C(t){var i=t.borders,e=t.colors,n=t.spacing,r=t.typography
+return{fontFamily:r.fontFamily,paddingSmall:n.small,paddingMedium:n.medium,paddingLarge:n.medium,iconColor:e.textDark,mediumMargin:n.small,largeMargin:n.medium,iconHoverColor:e.textLink,backgroundColor:e.backgroundLightest,iconHoverColorInverse:e.textLightest,buttonBorderWidth:i.widthMedium,buttonBorderRadius:i.radiusLarge,messageColor:e.textDark,messageColorClickable:e.textLink,messageColorInverse:e.textLight,messageFontSizeSmall:r.fontSizeSmall,messageFontSizeMedium:r.fontSizeMedium,messageFontSizeLarge:r.fontSizeLarge,clickableActiveBg:e.backgroundBrand,clickableActiveText:e.textLightest,buttonBorderStyle:i.style,buttonHoverBorderStyle:"dashed"}}C.canvas=function(t){return{iconHoverColor:t["ic-link-color"],messageColorClickable:t["ic-link-color"],clickableActiveBg:t["ic-brand-primary"]}}
+var k,y,x,w
+var P={componentId:"ftPBL",template:function(t){return"\n\n.ftPBL_bGBk{box-sizing:border-box;display:block;font-family:".concat(t.fontFamily||"inherit",";margin-left:auto;margin-right:auto;position:relative;text-align:center}\n\n[dir=ltr] .ftPBL_bGBk,[dir=rtl] .ftPBL_bGBk{text-align:center}\n\n.ftPBL_bGBk:not(.ftPBL_bGiS){background-color:").concat(t.backgroundColor||"inherit","}\n\n.ftPBL_bGBk.ftPBL_ywdX{cursor:not-allowed;opacity:0.5;pointer-events:none}\n\n.ftPBL_EwaR,.ftPBL_caGd,.ftPBL_eDnN,.ftPBL_cuDj,.ftPBL_elxg{display:block}\n\n.ftPBL_cuDj+.ftPBL_eDnN{margin:").concat(t.largeMargin||"inherit"," 0 0}\n\n.ftPBL_eDnN+.ftPBL_elxg,.ftPBL_cuDj+.ftPBL_elxg,.ftPBL_doqw .ftPBL_cuDj+.ftPBL_eDnN{margin:").concat(t.mediumMargin||"inherit"," 0 0}\n\n.ftPBL_doqw{padding:").concat(t.paddingSmall||"inherit","}\n\n.ftPBL_doqw .ftPBL_cuDj{font-size:3rem}\n\n.ftPBL_doqw .ftPBL_elxg{font-size:").concat(t.messageFontSizeSmall||"inherit","}\n\n.ftPBL_ycrn{padding:").concat(t.paddingMedium||"inherit","}\n\n.ftPBL_ycrn .ftPBL_cuDj{font-size:5rem}\n\n.ftPBL_ycrn .ftPBL_elxg{font-size:").concat(t.messageFontSizeMedium||"inherit","}\n\n.ftPBL_cMDj{padding:").concat(t.paddingLarge||"inherit","}\n\n.ftPBL_cMDj .ftPBL_cuDj{font-size:10rem}\n\n.ftPBL_cMDj .ftPBL_elxg{font-size:").concat(t.messageFontSizeLarge||"inherit","}\n\n.ftPBL_elxg{color:").concat(t.messageColor||"inherit","}\n\n.ftPBL_cuDj{color:").concat(t.iconColor||"inherit","}\n\n.ftPBL_cuDj>img,.ftPBL_cuDj>svg{display:block;margin:0 auto;max-width:100%}\n\n.ftPBL_cuDj>img{height:auto}\n\n.ftPBL_bGiS{-moz-appearance:none;-ms-user-select:none;-webkit-appearance:none;-webkit-user-select:none;appearance:none;background:").concat(t.backgroundColor||"inherit",";border:").concat(t.buttonBorderWidth||"inherit"," ").concat(t.buttonBorderStyle||"inherit"," transparent;border-radius:").concat(t.buttonBorderRadius||"inherit",";box-sizing:border-box;cursor:pointer;margin:0;text-decoration:none;touch-action:manipulation;user-select:none;width:100%}\n\n.ftPBL_bGiS:hover{border-style:").concat(t.buttonHoverBorderStyle||"inherit","}\n\n.ftPBL_bGiS:focus,.ftPBL_bGiS:hover{border-color:").concat(t.iconHoverColor||"inherit",";outline:none;text-decoration:none}\n\n.ftPBL_bGiS:focus .ftPBL_cuDj,.ftPBL_bGiS:hover .ftPBL_cuDj{color:").concat(t.iconHoverColor||"inherit","}\n\n.ftPBL_bGiS:active{background:").concat(t.clickableActiveBg||"inherit",";border-color:").concat(t.iconHoverColor||"inherit","}\n\n.ftPBL_bGiS:active .ftPBL_cuDj,.ftPBL_bGiS:active .ftPBL_elxg{color:").concat(t.clickableActiveText||"inherit","}\n\n.ftPBL_bGiS .ftPBL_elxg{color:").concat(t.messageColorClickable||"inherit","}")},root:"ftPBL_bGBk",clickable:"ftPBL_bGiS",disabled:"ftPBL_ywdX",button:"ftPBL_EwaR",content:"ftPBL_caGd",heading:"ftPBL_eDnN",hero:"ftPBL_cuDj",message:"ftPBL_elxg",small:"ftPBL_doqw",medium:"ftPBL_ycrn",large:"ftPBL_cMDj"}
+var D=(k=(0,h.YY)(C,P),k(y=(w=x=function(t){(0,a.Z)(e,t)
+var i=(0,c.Z)(e)
+function e(){var t;(0,s.Z)(this,e)
+for(var n=arguments.length,r=new Array(n),o=0;o<n;o++)r[o]=arguments[o]
+t=i.call.apply(i,[this].concat(r))
+t.handleClick=function(i){var e=t.props,n=e.readOnly,r=e.onClick
+if(n){i.preventDefault()
+i.stopPropagation()}else"function"===typeof r&&r(i)}
+return t}(0,o.Z)(e,[{key:"renderHeading",value:function(){var t=this.props,i=t.headingLevel,e=t.headingAs,n=t.heading
+return l.createElement("span",{className:P.heading},l.createElement(f.X,{level:i,as:e,color:"primary"},n))}},{key:"renderHero",value:function(){return this.heroIsFunction?this.props.hero(this.SVGIconSize):this.props.hero}},{key:"renderContent",value:function(){var t=this.props,i=t.heading,e=t.message,n=t.hero
+return l.createElement("span",{className:P.content},n&&l.createElement("span",{className:P.hero},this.renderHero()),i&&this.renderHeading(),e&&l.createElement("span",{className:P.message},(0,m.A)(e)))}},{key:"render",value:function(){var t
+var i=this.props,s=i.href,o=i.disabled,a=i.readOnly,c=i.onClick,d=i.size,u=i.margin,_=i.elementRef
+var f=(t={},(0,r.Z)(t,P.root,true),(0,r.Z)(t,P[d],true),(0,r.Z)(t,P.clickable,s||c),(0,r.Z)(t,P.disabled,o),t)
+var h=(0,b.B)(e,this.props)
+return l.createElement(g.G,{as:"div",margin:u},l.createElement(g.G,Object.assign({},(0,v.cZ)(this.props,(0,n.Z)({},e.propTypes,{},g.G.propTypes)),{type:"button"===h?"button":null,as:h,elementRef:_,className:p()(f),href:s,onClick:this.handleClick,disabled:o,"aria-disabled":o||a?"true":null}),this.renderContent()))}},{key:"heroIsFunction",get:function(){return"function"===typeof this.props.hero}},{key:"SVGIconSize",get:function(){var t=this.props.size
+return"small"===t?"medium":"large"===t?"x-large":"large"}}])
+e.displayName="Billboard"
+return e}(l.Component),x.propTypes={hero:u().oneOfType([u().element,u().func]),size:u().oneOf(["small","medium","large"]),as:u().elementType,elementRef:u().func,heading:u().string,headingAs:u().oneOf(["h1","h2","h3","span"]),headingLevel:u().oneOf(["h1","h2","h3","h4"]),message:u().oneOfType([u().node,u().func]),onClick:u().func,href:u().string,disabled:u().bool,readOnly:u().bool,margin:h.j7.spacing},x.defaultProps={margin:void 0,disabled:false,readOnly:false,href:void 0,message:void 0,onClick:void 0,heading:void 0,hero:void 0,size:"medium",headingAs:"span",headingLevel:"h1",as:"span",elementRef:function(t){}},w))||y)},73560:(t,i,e)=>{"use strict"
+e.d(i,{C:()=>u})
+var n=e(1413)
+var r=e(15671)
+var s=e(43144)
+var o=e(60136)
+var a=e(51630)
+var c=e(67294)
+var l=e(94855)
+var d=c.createElement("path",{d:"M915.743529 213L915.743529 915.743529 213 915.743529 213 1003.58647 915.743529 1003.58647 915.743529 1706.33 1003.58647 1706.33 1003.58647 1003.58647 1706.33 1003.58647 1706.33 915.743529 1003.58647 915.743529 1003.58647 213z",fillRule:"evenodd",stroke:"none",strokeWidth:"1"})
+var u=function(t){(0,o.Z)(e,t)
+var i=(0,a.Z)(e)
+function e(){(0,r.Z)(this,e)
+return i.apply(this,arguments)}(0,s.Z)(e,[{key:"render",value:function(){return c.createElement(l.q,Object.assign({},this.props,{name:"IconPlus",viewBox:"0 0 1920 1920"}),d)}}])
+e.displayName="IconPlusLine"
+return e}(c.Component)
+u.glyphName="plus"
+u.variant="Line"
+u.propTypes=(0,n.Z)({},l.q.propTypes)},40473:(t,i,e)=>{"use strict"
+var n=e(6507)
+var r=e.n(n)
+r().fn.loadingImg=function(t){if(!this||0===this.length)return this
+const i=window.getComputedStyle(this[0]).direction||"ltr"
+const e=this.filter(":first")
+let n
+if("hide"===t||"remove"===t){e.children(".loading_image").remove()
+n=e.data("loading_images")||[]
+n.forEach((t=>{t&&t.remove()}))
+e.data("loading_images",null)
+this.css("margin-inline-end","")
+return this}if("remove_once"===t){e.children(".loading_image").remove()
+n=e.data("loading_images")||[]
+const t=n.pop()
+t&&t.remove()
+e.data("loading_images",n)
+return this}if("register_image"===t&&3===arguments.length){r().fn.loadingImg.image_files[arguments[1]]=arguments[2]
+return this}t=r().extend({},r().fn.loadingImg.defaults,t)
+let s=r().fn.loadingImg.image_files.normal
+t.image_size&&r().fn.loadingImg.image_files[t.image_size]&&(s=r().fn.loadingImg.image_files[t.image_size])
+t.paddingTop&&(t.vertical=t.paddingTop)
+let o=0
+if(t.vertical)if("top"===t.vertical);else if("bottom"===t.vertical)o=e.outerHeight()
+else if("middle"===t.vertical)o=e.outerHeight()/2-s.height/2
+else{o=parseInt(t.vertical,10)
+Number.isNaN(Number(o))&&(o=0)}let a=0
+if(t.horizontal)if("left"===t.horizontal);else if("right"===t.horizontal)a=e.outerWidth()-s.width
+else if("right!"===t.horizontal){a="ltr"===i?e.outerWidth()+5:-5-(s.width||16)
+this.css({"margin-inline-end":"16px"})}else if("middle"===t.horizontal)a=e.outerWidth()/2-s.width/2
+else{a=parseInt(t.horizontal,10)
+Number.isNaN(Number(a))&&(a=0)}const c=e.zIndex()+1
+const l=r()(document.createElement("div")).addClass("loading_image_holder")
+const d=r()(document.createElement("img")).attr("src",s.url)
+l.append(d)
+n=e.data("loading_images")||[]
+n.push(l)
+e.data("loading_images",n)
+if(e.css("position")&&"static"!==e.css("position")){l.css({zIndex:c,position:"absolute",top:o,left:a})
+e.append(l)}else{const i=e.offset()
+let n=i.top,s=i.left
+t.vertical&&(n+=o)
+t.horizontal&&(s+=a)
+l.css({zIndex:c,position:"absolute",top:n,left:s})
+r()("body").append(l)}return r()(this)}
+r().fn.loadingImg.defaults={paddingTop:0,image_size:"normal",vertical:0,horizontal:0}
+r().fn.loadingImg.image_files={normal:{url:"/images/ajax-loader.gif",width:32,height:32},small:{url:"/images/ajax-loader-small.gif",width:16,height:16}}
+r().fn.loadingImage=r().fn.loadingImg},34004:(t,i,e)=>{"use strict"
+var n=e(61323)
+var r=e(6507)
+var s=e.n(r)
+var o=e(32842)
+e(38593)
+e(60314)
+e(57172)
+const a=(0,n.useScope)("find_outcome")
+const c={find(t,i){i=i||{}
+c.callback=t
+const e=s()("#find_outcome_criterion_dialog")
+if(!e.hasClass("loaded")){e.find(".loading_message").text(a.t("messages.loading_outcomes","Loading Outcomes..."))
+s().ajaxJSON(e.find(".outcomes_list_url").attr("href"),"GET",{},(t=>{const n=[]
+for(const e in t){const r=t[e].learning_outcome;(!i.for_rubric||r.data&&r.data.rubric_criterion)&&n.push(r)}if(0===n.length){let t
+t=i.for_rubric?a.t("messages.no_rubric_outcomes_found","No Rubric-Configured Outcomes found"):a.t("messages.no_outcomes_found","No Outcomes found")
+e.find(".loading_message").text(t)}else{e.find(".loading_message").hide()
+e.addClass("loaded")
+for(const t in n){const i=n[t]
+i.name=i.short_description
+i.mastery_points=i.data.rubric_criterion.mastery_points||i.data.rubric_criterion.points_possible
+const r=e.find(".outcomes_select.blank:first").clone(true).removeClass("blank")
+i.title=i.short_description
+const a=s()("<div/>")
+a.text(i.short_description)
+i.title=(0,o.aF)(s().trim(a.text()),{max:35})
+i.display_name=i.cached_context_short_name||""
+r.fillTemplateData({data:i})
+e.find(".outcomes_selects").append(r.show())
+const c=e.find(".outcome.blank:first").clone(true).removeClass("blank")
+c.find(".mastery_level").attr("id","outcome_question_bank_mastery_"+i.id).end().find(".mastery_level_text").attr("for","outcome_question_bank_mastery_"+i.id)
+i.learning_outcome_id=i.id
+const l=i.data&&i.data.rubric_criterion
+let d=l.points_possible&&null!=l.mastery_points&&l.mastery_points/l.points_possible||0
+d=Math.round(1e4*d)/100||""
+c.find(".mastery_level").val(d)
+c.fillTemplateData({data:i,htmlValues:["description"]})
+c.addClass("outcome_"+i.id)
+if(i.data&&i.data.rubric_criterion)for(const t in i.data.rubric_criterion.ratings){const e=i.data.rubric_criterion.ratings[t]
+const n=c.find(".rating.blank").clone(true).removeClass("blank")
+n.fillTemplateData({data:e})
+c.find("tr").append(n.show())}e.find(".outcomes_list").append(c)}e.find(".outcomes_select:not(.blank):first").click()}}),(t=>{e.find(".loading_message").text(a.t("errors.outcome_retrieval_failed","Outcomes Retrieval failed unexpected.  Please try again."))}))}e.dialog({modal:true,title:a.t("titles.find_outcome","Find Outcome"),width:700,height:400})}}
+window.find_outcome=c
+s()(document).ready((function(){s()("#find_outcome_criterion_dialog .outcomes_select").click((function(t){t.preventDefault()
+s()("#find_outcome_criterion_dialog .outcomes_select.selected_side_tab").removeClass("selected_side_tab")
+s()(this).addClass("selected_side_tab")
+const i=s()(this).getTemplateData({textValues:["id"]}).id
+s()("#find_outcome_criterion_dialog .outcomes_list .outcome").hide()
+s()("#find_outcome_criterion_dialog .outcomes_list .outcome_"+i).show()}))
+s()("#find_outcome_criterion_dialog .select_outcome_link").click((function(t){t.preventDefault()
+const i=s()(this).parents(".outcome")
+s()("#find_outcome_criterion_dialog").dialog("close")
+s().isFunction(c.callback)&&c.callback(i)}))}))},43971:(t,i,e)=>{"use strict"
+e.d(i,{Z:()=>ht})
+var n=e(63056)
+var r=e(67294)
+var s=e(73935)
+var o=e(60548)
+var a=e(34651)
+var c=e(61323)
+var l=e(6507)
+var d=e.n(l)
+var u
+const _=(0,c.useScope)("RubricAddCriterionPopover")
+class p extends r.Component{render(){const{rubric:t,duplicateFunction:i}=this.props
+const e=t.find(".criterion:not(.blank)").map((function(t){const i=d()(this)
+const e=i.getTemplateData({textValues:["description"]})
+return{index:t,description:e.description}})).toArray()
+return(0,n.Z)("span",{},void 0,(0,n.Z)(o.v2,{placement:"bottom",trigger:(0,n.Z)("a",{className:"icon-plus",href:"#"},void 0,_.t("Criterion"))},void 0,(0,n.Z)(o.v2.Item,{id:"add_criterion_button",onClick:()=>d()("#add_criterion_link").trigger("click")},void 0,(0,n.Z)(a.x,{size:"small",weight:"bold"},void 0,_.t("New Criterion"))),u||(u=(0,n.Z)(o.v2.Separator,{})),(0,n.Z)(o.v2.Group,{id:"criterion_duplicate_menu",label:_.t("Duplicate")},void 0,e.map((e=>(0,n.Z)(o.v2.Item,{onClick:()=>i(t,e.index)},e.index,(0,n.Z)("div",{className:"ellipsis popover_menu_width"},void 0,e.description)))))),(0,n.Z)("a",{href:"#",id:"add_learning_outcome_link",className:"icon-search find_outcome_link outcome"},void 0,_.t("Find Outcome")),(0,n.Z)("a",{href:"#",id:"add_criterion_link",className:"hidden icon-plus add_criterion_link"},void 0,_.t("New Criterion")))}}const f=p
+var g=e(33386)
+var h=e(45443)
+var m=e(15809)
+var b=e(16303)
+var v=e(73560)
+var C=e(81657)
+var k=e(24598)
+var y=e(54769)
+var x=e(38496)
+var w=e(86283)
+var P=e(82673)
+var D=e(87611)
+var S=e(75935)
+var R=e(86333)
+var L=e(86879)
+var B
+const T=(0,c.useScope)("ProficiencyRating")
+function Z(t){if("#"!==t[0])return`#${t}`
+return t}class E extends r.Component{constructor(t){super(t)
+this.setDescriptionRef=t=>{this.descriptionInput=t}
+this.setPointsRef=t=>{this.pointsInput=t}
+this.setTrashRef=t=>{this.trashButton=t}
+this.setColorRef=t=>{this.colorButton=t}
+this.setColor=(t,i,e)=>{const n=Z(t)
+this.setState({showColorPopover:false})
+this.props.onColorChange(n)}
+this.handleDescriptionChange=t=>{this.props.onDescriptionChange(t.target.value)}
+this.handleMasteryChange=t=>{this.props.onMasteryChange()}
+this.handlePointChange=t=>{this.props.onPointsChange(t.target.value)}
+this.handleMenuOpen=()=>{this.setState({showColorPopover:true})}
+this.handleMenuClose=()=>{this.setState({showColorPopover:false})}
+this.handleDelete=()=>{this.props.onDelete()}
+this.errorMessage=t=>t?[{text:t,type:"error"}]:null
+this.state={showColorPopover:false}
+this.descriptionInput=null
+this.pointsInput=null
+this.trashButton=null
+this.colorButton=null}componentDidMount(){"mastery"===this.props.focusField&&this.radioInput.focus()}componentDidUpdate(){"trash"===this.props.focusField?setTimeout((()=>this.props.disableDelete?this.colorButton.focus():this.trashButton.focus()),700):"description"===this.props.focusField?this.descriptionInput.focus():"points"===this.props.focusField&&this.pointsInput.focus()}render(){const{color:t,description:i,descriptionError:e,disableDelete:s,mastery:o,points:a,pointsError:c}=this.props
+return(0,n.Z)(k.i.Row,{},void 0,(0,n.Z)(k.i.Cell,{textAlign:"center"},void 0,(0,n.Z)("div",{style:{display:"inline-block"}},void 0,r.createElement(D.N,{ref:t=>{this.radioInput=t},label:(0,n.Z)(R.c,{},void 0,T.t("Change mastery")),checked:o,onChange:this.handleMasteryChange}))),(0,n.Z)(k.i.Cell,{},void 0,r.createElement(S.o,{ref:this.setDescriptionRef,renderLabel:(0,n.Z)(R.c,{},void 0,T.t("Change description")),messages:this.errorMessage(e),onChange:this.handleDescriptionChange,defaultValue:i})),(0,n.Z)(k.i.Cell,{},void 0,r.createElement(S.o,{ref:this.setPointsRef,renderLabel:(0,n.Z)(R.c,{},void 0,T.t("Change points")),messages:this.errorMessage(c),onChange:this.handlePointChange,defaultValue:T.n(a),width:"4rem"})),(0,n.Z)(k.i.Cell,{},void 0,(0,n.Z)("span",{style:{whiteSpace:"nowrap"}},void 0,(0,n.Z)(P.J2,{on:"click",isShowingContent:this.state.showColorPopover,onShowContent:this.handleMenuOpen,onHideContent:this.handleMenuClose,renderTrigger:(0,n.Z)(x.r,{isWithinText:false,as:"button",elementRef:this.setColorRef},void 0,(0,n.Z)("div",{},void 0,(0,n.Z)("span",{className:"colorPickerIcon",style:{background:Z(t)}}),T.t("Change")))},void 0,(0,n.Z)(L.Z,{parentComponent:"ProficiencyRating",colors:L.K,currentColor:Z(t),isOpen:true,hidePrompt:true,nonModal:true,hideOnScroll:false,withAnimation:false,withBorder:false,withBoxShadow:false,withArrow:false,focusOnMount:false,afterClose:this.handleMenuClose,setStatusColor:this.setColor})),(0,n.Z)("div",{className:"delete"},void 0,(0,n.Z)(b.h,{disabled:s,elementRef:this.setTrashRef,onClick:this.handleDelete,renderIcon:B||(B=(0,n.Z)(w.q,{})),withBackground:false,withBorder:false,screenReaderLabel:T.t("Delete proficiency rating")})))))}}E.defaultProps={descriptionError:null,focusField:null,pointsError:null}
+E.displayName="Row"
+var N=e(23570)
+var I=e.n(N)
+var A=e(25683)
+var z=e.n(A)
+var M=e(43393)
+var V=e(89714)
+const F=t=>V.Z.get(`/api/v1/accounts/${t}/outcome_proficiency`)
+const O=(t,i)=>V.Z.post(`/api/v1/accounts/${t}/outcome_proficiency`,i)
+var G=e(40291)
+var j=e(64417)
+var H,U
+const q=(0,c.useScope)("ProficiencyTable")
+const W="EF4437"
+function Y(t){if("#"===t[0])return t.substring(1)
+return t}class $ extends r.Component{constructor(t){super(t)
+this.fetchRatings=()=>{F(this.props.accountId).then((t=>{if(200===t.status)this.configToState(t.data)
+else{d().flashError(q.t("An error occurred while loading account proficiency ratings"))
+this.setState({loading:false})}})).catch((t=>{t.response&&404!==t.response.status&&d().flashError(q.t("An error occurred while loading account proficiency ratings: %{m}",{m:t.response.statusText}))
+this.setState({billboard:true,loading:false})}))}
+this.configToState=t=>{const i=(0,M.List)(t.ratings.map((t=>this.createRating(t.description,t.points,t.color))))
+const e=t.ratings.findIndex((t=>t.mastery))
+this.setState({loading:false,masteryIndex:e,rows:(0,M.fromJS)(i)})}
+this.fieldWithFocus=()=>this.state.rows.some((t=>t.get("focusField")))
+this.createRating=function(t,i,e){let n=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null
+return(0,M.fromJS)({description:t,points:i,key:I()(),color:e,focusField:n})}
+this.addRow=()=>{let t=0
+const i=this.state.rows.last()
+i&&(t=i.get("points")-1);(t<0||Number.isNaN(t))&&(t=0)
+const e=this.createRating("",t,W,"mastery")
+this.setState((t=>{const i=t.rows.push(e)
+return{rows:i}}))
+d().screenReaderFlashMessage(q.t("Added new proficiency rating"))}
+this.handleMasteryChange=z().memoize((t=>()=>{this.setState({masteryIndex:t})}))
+this.handleDescriptionChange=z().memoize((t=>i=>{this.setState((e=>{let n=e.rows
+this.invalidDescription(i)||(n=n.removeIn([t,"descriptionError"]))
+n=n.setIn([t,"description"],i)
+return{rows:n}}))}))
+this.handlePointsChange=z().memoize((t=>i=>{const e=G.Z.parse(i)
+this.setState((i=>{let n=i.rows
+!this.invalidPoints(e)&&e>=0&&(n=n.removeIn([t,"pointsError"]))
+n=n.setIn([t,"points"],e)
+return{rows:n}}))}))
+this.handleColorChange=z().memoize((t=>i=>{this.setState((e=>{const n=e.rows.update(t,(t=>t.set("color",Y(i))))
+return{rows:n}}))}))
+this.handleDelete=z().memoize((t=>()=>{const i=this.state.masteryIndex
+const e=this.state.rows.delete(t)
+i>=t&&i>0&&this.setState({masteryIndex:i-1})
+if(0===t){this.setState({rows:e})
+this.props.focusTab&&setTimeout(this.props.focusTab,700)}else this.setState({rows:e.setIn([t-1,"focusField"],"trash")})
+d().screenReaderFlashMessage(q.t("Proficiency Rating deleted"))}))
+this.isStateValid=()=>!this.state.rows.some((t=>this.invalidPoints(t.get("points"))||t.get("points")<0||this.invalidDescription(t.get("description"))))
+this.stateToConfig=()=>({ratings:this.state.rows.map(((t,i)=>({description:t.get("description"),points:t.get("points"),mastery:i===this.state.masteryIndex,color:t.get("color")}))).toJS()})
+this.handleSubmit=()=>{this.checkForErrors()||O(this.props.accountId,this.stateToConfig()).then((t=>{200===t.status?d().flashMessage(q.t("Account proficiency ratings saved")):d().flashError(q.t("An error occurred while saving account proficiency ratings"))}))}
+this.checkForErrors=()=>{let t=null
+let i=true
+const e=this.state.rows.map((e=>{let n=e
+if(this.invalidDescription(e.get("description"))){n=n.set("descriptionError",q.t("Missing required description"))
+if(i){n=n.set("focusField","description")
+i=false}}if(this.invalidPoints(e.get("points"))){t=null
+n=n.set("pointsError",q.t("Invalid points"))
+if(i){n=n.set("focusField","points")
+i=false}}else if(e.get("points")<0){n=n.set("pointsError",q.t("Negative points"))
+if(i){n=n.set("focusField","points")
+i=false}}else{const r=e.get("points")
+if(null!==t&&t<=r){n=n.set("pointsError",q.t("Points must be less than previous rating"))
+if(i){n=n.set("focusField","points")
+i=false}}t=r}return n}))
+i||this.setState({rows:e})
+return!i}
+this.invalidPoints=t=>Number.isNaN(t)
+this.invalidDescription=t=>!t||0===t.trim().length
+this.removeBillboard=()=>{this.setState({billboard:false})}
+this.state={loading:true,masteryIndex:1,rows:(0,M.List)([this.createRating("Exceeds Mastery",4,"127A1B"),this.createRating("Mastery",3,"0B874B"),this.createRating("Near Mastery",2,"FAB901"),this.createRating("Below Mastery",1,"FD5D10"),this.createRating("Well Below Mastery",0,"E0061F")])}}componentDidMount(){this.fetchRatings()}componentDidUpdate(){this.fieldWithFocus()&&this.setState((t=>{const i=t.rows.map((t=>t.delete("focusField")))
+return{rows:i}}))}renderSpinner(){return(0,n.Z)("div",{style:{textAlign:"center"}},void 0,(0,n.Z)(y.$,{renderTitle:q.t("Loading"),size:"large",margin:"0 0 0 medium"}))}renderBillboard(){const t={width:"10rem",margin:"0 auto"}
+const i={textAlign:"center"}
+return(0,n.Z)("div",{style:i},void 0,r.createElement(h.V,{headingAs:"h2",headingLevel:"h2",ref:t=>{this.triggerRoot=t},hero:(0,n.Z)("div",{style:t},void 0,H||(H=(0,n.Z)(C.x,{},void 0,(0,n.Z)(j.Z,{url:"/images/trophy.svg"})))),heading:q.t("Customize Learning Mastery Ratings"),message:q.t("\n            Set up how your Proficiency Ratings appear inside of Learning Mastery Gradebook.\n            Adjust number of ratings, mastery level, points, and colors.\n          ").trim()}),(0,n.Z)(m.z,{color:"primary",onClick:this.removeBillboard},void 0,q.t("Get Started")))}renderTable(){const t=this.state.masteryIndex
+return(0,n.Z)("div",{},void 0,(0,n.Z)(k.i,{caption:q.t("Proficiency ratings")},void 0,(0,n.Z)(k.i.Head,{},void 0,(0,n.Z)(k.i.Row,{},void 0,(0,n.Z)(k.i.ColHeader,{id:"mastery-column",width:"1%"},void 0,q.t("Mastery")),(0,n.Z)(k.i.ColHeader,{id:"rating-column"},void 0,q.t("Proficiency Rating")),(0,n.Z)(k.i.ColHeader,{id:"points-column",width:"1%"},void 0,q.t("Points")),(0,n.Z)(k.i.ColHeader,{id:"color-column",width:"1%"},void 0,q.t("Color")))),(0,n.Z)(k.i.Body,{},void 0,this.state.rows.map(((i,e)=>(0,n.Z)(E,{color:i.get("color"),description:i.get("description"),descriptionError:i.get("descriptionError"),disableDelete:1===this.state.rows.size,focusField:i.get("focusField")||(0===e?"mastery":null),points:i.get("points").toString(),pointsError:i.get("pointsError"),mastery:e===t,onColorChange:this.handleColorChange(e),onDelete:this.handleDelete(e),onDescriptionChange:this.handleDescriptionChange(e),onMasteryChange:this.handleMasteryChange(e),onPointsChange:this.handlePointsChange(e)},i.get("key")))),(0,n.Z)(k.i.Row,{},void 0,(0,n.Z)(k.i.Cell,{colSpan:"4",textAlign:"center"},void 0,(0,n.Z)(b.h,{onClick:this.addRow,renderIcon:U||(U=(0,n.Z)(v.C,{})),color:"primary",shape:"circle",screenReaderLabel:q.t("Add proficiency rating")}))))),(0,n.Z)("div",{className:"save"},void 0,(0,n.Z)(m.z,{color:"primary",onClick:this.handleSubmit},void 0,q.t("Save Learning Mastery"))))}render(){const{billboard:t,loading:i}=this.state
+return i?this.renderSpinner():t?this.renderBillboard():this.renderTable()}}$.defaultProps={focusTab:null}
+var J
+class Q extends r.Component{componentDidMount(){d()("#right-side-wrapper").show()
+d()("#rubrics").detach().appendTo("#new_rubrics")}componentWillUnmount(){d()("#right-side-wrapper").hide()
+d()("#rubrics").detach().appendTo("#rubric_attic")}render(){return J||(J=(0,n.Z)("div",{id:"new_rubrics"}))}}var X
+const K=(0,c.useScope)("RubricManagement")
+function tt(t){const[i,e]=(0,r.useState)("tab-panel-rubrics")
+const s=(0,r.useRef)(null)
+function o(t,i){let{id:n}=i
+e(n)}function a(){s.current&&s.current.focus()}return(0,n.Z)(g.mQ,{onRequestTabChange:o},void 0,(0,n.Z)(g.mQ.Panel,{renderTitle:K.t("Account Rubrics"),id:"tab-panel-rubrics",isSelected:"tab-panel-rubrics"===i},void 0,X||(X=(0,n.Z)(Q,{}))),(0,n.Z)(g.mQ.Panel,{renderTitle:K.t("Learning Mastery"),id:"tab-panel-mastery",isSelected:"tab-panel-mastery"===i,elementRef:t=>{s.current=t}},void 0,(0,n.Z)($,{focusTab:a,accountId:t.accountId})))}const it=tt
+var et=e(40202)
+e(89014)
+var nt=et["default"]
+var rt=nt.template,st=nt.templates=nt.templates||{}
+var ot="/work/generated/ui/shared/rubrics/jst/changePointsPossibleToMatchRubricDialog"
+st[ot]=rt((function(t,i,e,n,r){this.compilerInfo=[4,">= 1.0.0"]
+e=this.merge(e,t.helpers)
+r=r||{}
+var s,o,a,c="",l=e.helperMissing,d=this.escapeExpression
+c+='<p title="'+d((o=e.t||i&&i.t,a={hash:{i18n_scope:"change_points_possible_to_match_rubric_dialog"},data:r},o?o.call(i,"change_points_possible_to_match_rubric_dialog.titles.update_assignment_points","Change assignment points to match rubric?",a):l.call(i,"t","change_points_possible_to_match_rubric_dialog.titles.update_assignment_points","Change assignment points to match rubric?",a)))+'">\n  '
+s=(o=e.toPercentage||i&&i.toPercentage,a={hash:{},data:r},o?o.call(i,i&&i.pointRatio,a):l.call(i,"toPercentage",i&&i.pointRatio,a))
+c+=d((o=e.t||i&&i.t,a={hash:{toPercentage_pointRatio:s,assignmentPoints:i&&i.assignmentPoints,rubricPoints:i&&i.rubricPoints,i18n_scope:"change_points_possible_to_match_rubric_dialog"},data:r},o?o.call(i,"change_points_possible_to_match_rubric_dialog.prompts.update_assignment_points","Leaving the assignment's total points at %{assignmentPoints} and the rubric's total points at %{rubricPoints} will result in a maximum possible score of %{toPercentage_pointRatio} for student submissions graded with the rubric.",a):l.call(i,"t","change_points_possible_to_match_rubric_dialog.prompts.update_assignment_points","Leaving the assignment's total points at %{assignmentPoints} and the rubric's total points at %{rubricPoints} will result in a maximum possible score of %{toPercentage_pointRatio} for student submissions graded with the rubric.",a)))+"\n</p>\n"
+return c}))
+const at=st[ot]
+var ct=e(16916)
+e(34004)
+e(38593)
+e(38798)
+e(60314)
+e(84142)
+e(92866)
+e(40473)
+e(57172)
+e(42449)
+e(20912)
+e(88636)
+e(17074)
+var lt=e(50324)
+var dt=e(69849)
+const ut=(0,c.useScope)("edit_rubric")
+const _t={htmlBody:null,hidePoints:function(){for(var t=arguments.length,i=new Array(t),e=0;e<t;e++)i[e]=arguments[e]
+i.forEach((t=>{t.find(".toggle_for_hide_points").addClass("hidden")}))},showPoints:function(){for(var t=arguments.length,i=new Array(t),e=0;e<t;e++)i[e]=arguments[e]
+i.forEach((t=>{t.find(".toggle_for_hide_points").removeClass("hidden")}))},localizedPoints:t=>ut.n(t,{precision:2,strip_insignificant_zeros:true}),updateCriteria(t){t.find(".criterion:not(.blank)").each((function(t){d()(this).attr("id","criterion_"+(t+1))}))},updateAddCriterionLinks(t){let i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null
+if(!t.is(":visible")||0===t.find("#add_criterion_holder").length)return
+d()("#add_criterion_container").remove()
+t.find("#add_criterion_holder").append(d()("<span/>").attr("id","add_criterion_container"))
+setTimeout((()=>{s.render((0,n.Z)(f,{rubric:t,duplicateFunction:_t.copyCriterion}),document.getElementById("add_criterion_container"))
+i&&t.find(`"#add_criterion_container ${i}:visible`).focus()}),0)},copyCriterion(t,i){const e=_t.addCriterion(t,i)
+e.removeClass("new_criterion")
+e.find(".criterion_id").text("blank")
+e.find(".rating_id").text("blank")
+_t.editCriterion(e)},addCriterion(t,i){let e
+e="undefined"!==typeof i?t.find(`.criterion:not(.blank):eq(${i})`):t.find(".criterion.blank:first")
+const n=e.clone(true)
+n.addClass("new_criterion")
+n.removeClass("blank")
+t.find(".summary").before(n.show())
+const r=n.hasClass("learning_outcome_criterion")?".icon-plus":null
+_t.updateCriteria(t)
+_t.sizeRatings(n)
+_t.updateAddCriterionLinks(t,r)
+return n},addNewRatingColumn(t){const i=t.parents(".rubric")
+t.addClass("add_column")
+if(i.hasClass("editing")){const e=t.clone(true).removeClass("edge_rating"),n=G.Z.parse(t.find(".points").text()),r=t.parents(".criterion"),s={description:"",rating_long_description:"",min_points:n},o=t.hasClass("add_left")
+if(t.hasClass("add_left")){const i=G.Z.parse(t.prev(".rating").find(".points").text())
+s.points=Math.round((n+i)/2)
+s.points!==n&&s.points!==i||(s.points=n)}else{const i=G.Z.parse(t.next(".rating").find(".points").text())
+s.min_points=i
+s.points=Math.round((n+i)/2)
+s.points!==n&&s.points!==i||(s.points=i)}e.fillTemplateData({data:{...s,min_points:_t.localizedPoints(s.min_points),points:_t.localizedPoints(s.points)}})
+_t.flagInfinitesimalRating(e,r.find(".criterion_use_range").attr("checked"))
+if(o)t.before(e)
+else{e.addClass("new_rating")
+t.after(e)}const a=e.prev(".rating")
+a&&a.fillTemplateData({data:{min_points:s.points}})
+_t.hideCriterionAdd(i)
+_t.updateCriterionPoints(r,true)
+_t.sizeRatings(r)
+setTimeout((()=>{d().screenReaderFlashMessageExclusive(ut.t("New Rating Created"))
+d()(".new_rating").find(".edit_rating_link").click()}),100)}},preventDuplicatedOutcome(t){const i=d()("#add_learning_outcome_link").closest(".rubric")
+const e=_t.rubricData(i)
+const n=Object.keys(e).filter((t=>/learning_outcome_id/.test(t))).map((t=>e[t]))
+if(n.includes(t.id)){(0,lt.aZ)({type:"error",message:ut.t("rubric.import_outcome.duplicated_outcome","This Outcome has not been added as it already exists in this rubric.")})
+return true}return false},onFindOutcome(t){if(_t.preventDuplicatedOutcome(t))return
+const i=d()("#add_learning_outcome_link").closest(".rubric table.rubric_table:visible")
+i.find(".criterion.learning_outcome_"+t.id).find(".delete_criterion_link").click()
+_t.addCriterion(i)
+const e=i.find(".criterion:not(.blank):last")
+e.removeClass("new_criterion")
+e.toggleClass("ignore_criterion_for_scoring",!t.useForScoring)
+e.find(".mastery_points").val(t.get("mastery_points"))
+e.addClass("learning_outcome_criterion")
+e.find(".outcome_sr_content").attr("aria-hidden",false)
+e.find(".learning_outcome_id").text(t.id)
+e.find(".hide_when_learning_outcome").hide()
+e.find(".criterion_points").val(t.get("ratings")[0].points).blur()
+for(let i=0;i<t.get("ratings").length-2;i++)e.find(".rating:not(.blank):first").addClass("add_column").click()
+e.find(".rating:not(.blank)").each((function(i){const e=t.get("ratings")[i]
+d()(this).fillTemplateData({data:e})}))
+e.find(".cancel_button").click()
+const n=document.createElement("div")
+n.innerHTML=t.get("description")
+const r=n.textContent||n.innerText||""
+e.find("div.long_description").text(r)
+e.find(".long_description_holder").toggleClass("empty",!t.get("description"))
+e.find(".description_title").text(t.get("title"))
+e.find(".criterion_description").val(t.get("title")).focus().select()
+e.find(".mastery_points").text(t.get("mastery_points"))
+e.find(".edit_criterion_link").remove()
+e.find(".rating .links").remove()
+_t.updateAddCriterionLinks(i,".icon-search")
+e.find(".long_description_holder").show()},hideCriterionAdd(t){t.find(".add_right, .add_left, .add_column").removeClass("add_left add_right add_column")},updateRubricPoints(t){let i=0
+t.find(".criterion:not(.blank):not(.ignore_criterion_for_scoring) .criterion_points").each((function(){const t=G.Z.parse(d()(this).val())
+Number.isNaN(t)||(i+=t)}))
+i=pt(i,2)
+t.find(".rubric_total").text(_t.localizedPoints(i))},updateCriterionPoints(t,i){const e=d().makeArray(t.find(".rating")).reverse()
+let n=-1
+let r=G.Z.parse(t.find(".criterion_points").val())
+const s=t.find(".criterion_use_range").attr("checked")
+r=Number.isNaN(r)?5:pt(r,2)
+t.find(".rating:first .points").text(_t.localizedPoints(r))
+d().each(e,((t,i)=>{const e=d()(i)
+const r=e.getTemplateData({textValues:["points"]})
+r.points=G.Z.parse(r.points)
+r.points<n&&(r.points=n)
+r.points=pt(r.points,2)
+n=r.points
+r.points=_t.localizedPoints(r.points)
+e.fillTemplateData({data:r})
+_t.flagInfinitesimalRating(e,s)}))
+i&&n>r&&(r=n)
+t.find(".criterion_points").val(_t.localizedPoints(r))
+t.find(".display_criterion_points").text(_t.localizedPoints(r))
+if(!t.data("criterion_points")||G.Z.parse(t.data("criterion_points"))!==r){if(!t.data("criterion_points")){let e=t.context.defaultValue
+i&&(e=t.find(".rating:first .points").text())
+t.data("criterion_points",G.Z.parse(e))}const e=t.data("criterion_points")
+const n=r
+const o=t.find(".rating")
+d()(o[0]).find(".points").text(_t.localizedPoints(r))
+let a=r
+for(let t=1;t<o.length;t++){const i=G.Z.parse(d()(o[t]).find(".points").text())
+let r=i/e*n;(Number.isNaN(i)||0===i&&a>0&&t<o.length-1)&&(r=a-Math.round(a/(o.length-t)))
+Number.isNaN(r)?r=0:r>a&&(r=a-1)
+r=_t.localizedPoints(Math.max(0,r))
+a=r
+d()(o[t]).find(".points").text(r)
+_t.flagInfinitesimalRating(d()(o[t]),s)
+if(t>0){d()(o[t-1]).find(".min_points").text(r)
+_t.flagInfinitesimalRating(d()(o[t-1]),s)}}t.data("criterion_points",G.Z.parse(r))}_t.updateRubricPoints(t.parents(".rubric"))},flagInfinitesimalRating(t,i){const e=t.getTemplateData({textValues:["points","min_points"]})
+if(G.Z.parse(e.min_points)===G.Z.parse(e.points)){t.addClass("infinitesimal")
+t.find(".range_rating").hide()}else{t.removeClass("infinitesimal")
+t.find(".range_rating").showIf(i)}},capPointChange(t,i,e,n){const r=i.getTemplateData({textValues:[n]})
+return _t.localizedPoints(e(t,G.Z.parse(r[n])))},editCriterion(t){if(!t.parents(".rubric").hasClass("editing"))return
+if(t.hasClass("learning_outcome_criterion"))return
+t.find(".edit_criterion_link").click()},originalSizeRatings(){const t=d()(".rubric:not(.rubric_summary) .criterion:visible")
+if(t.length){const i=d().windowScrollTop()
+t.each((function(){const t=d()(this),i=t.find(".ratings:visible")
+if(i.length){const e=i.find(".rating .container").css("height",""),n=Math.max(i.height(),t.find(".criterion_description .container .description_content").height())
+e.css("height",n-10+"px")}}))
+_t.htmlBody.scrollTop(i)}},rubricData(t){t=t.filter(":first")
+t.hasClass("editing")||(t=t.next(".editing"))
+t.find(".criterion_points").each((function(){const t=d()(this).val()
+d()(this).parents(".criterion").find(".display_criterion_points").text(t)}))
+let i=t.getFormData()
+t.find(".rubric_title .title").text(i.title)
+t.find(".rubric_table caption .title").text(i.title)
+i=t.getTemplateData({textValues:["title","description","rubric_total","rubric_association_id"]})
+let e={}
+e["rubric[title]"]=i.title
+e["rubric[points_possible]"]=i.rubric_total
+e["rubric_association[use_for_grading]"]=t.find(".grading_rubric_checkbox").attr("checked")?"1":"0"
+e["rubric_association[hide_score_total]"]="0"
+"0"===e["rubric_association[use_for_grading]"]&&(e["rubric_association[hide_score_total]"]=t.find(".totalling_rubric_checkbox").attr("checked")?"1":"0")
+e["rubric_association[hide_points]"]=t.find(".hide_points_checkbox").attr("checked")?"1":"0"
+e["rubric_association[hide_outcome_results]"]=t.find(".hide_outcome_results_checkbox").attr("checked")?"1":"0"
+e["rubric[free_form_criterion_comments]"]=t.find(".rubric_custom_rating").attr("checked")?"1":"0"
+e["rubric_association[id]"]=i.rubric_association_id
+e.rubric_association_id=i.rubric_association_id
+let n=0
+t.find(".criterion:not(.blank)").each((function(){const t=d()(this)
+const i=!!t.find(".criterion_use_range").attr("checked")
+if(!t.hasClass("learning_outcome_criterion")){const i=t.find("input.mastery_points").val()
+t.find("span.mastery_points").text(G.Z.validate(i)?i:0)}const r=t.getTemplateData({textValues:["description","display_criterion_points","learning_outcome_id","mastery_points","long_description","criterion_id"]})
+t.hasClass("learning_outcome_criterion")&&(r.long_description=t.find("div.long_description").val())
+r.mastery_points=t.find("span.mastery_points").text()
+const s="rubric[criteria]["+n+"]"
+e[s+"[description]"]=r.description
+e[s+"[points]"]=r.display_criterion_points
+e[s+"[learning_outcome_id]"]=r.learning_outcome_id
+e[s+"[long_description]"]=r.long_description
+e[s+"[id]"]=r.criterion_id
+e[s+"[criterion_use_range]"]=i
+t.hasClass("ignore_criterion_for_scoring")&&(e[s+"[ignore_for_scoring]"]="1")
+r.learning_outcome_id&&(e[s+"[mastery_points]"]=r.mastery_points)
+let o=0
+t.find(".rating").each((function(){const t=d()(this)
+const i=t.getTemplateData({textValues:["description","rating_long_description","points","rating_id"]})
+const n=s+"[ratings]["+o+"]"
+e[n+"[description]"]=i.description
+e[n+"[long_description]"]=i.rating_long_description
+e[n+"[points]"]=G.Z.parse(i.points)
+e[n+"[id]"]=i.rating_id
+o++}))
+n++}))
+e.title=e["rubric[title]"]
+e.points_possible=G.Z.parse(e["rubric[points_possible]"])
+e.rubric_id=t.attr("id")?t.attr("id").substring(7):void 0
+e=d().extend(e,d()("#rubrics #rubric_parameters").getFormData())
+return e},addRubric(){const t=d()("#default_rubric").clone(true).attr("id","rubric_new").addClass("editing")
+t.find(".edit_rubric").remove()
+const i=d()("#edit_rubric").clone(true).show().removeAttr("id").addClass("edit_rubric")
+const e=i.find("#edit_rubric_form")
+t.find(".rubric_table").append(i)
+e.attr("method","POST").attr("action",d()("#add_rubric_url").attr("href"))
+const n=d()("#assignment_show, #assignment_show .points_possible,#rubrics.rubric_dialog .assignment_points_possible")
+const r=d()("#quiz_show,#quiz_edit_wrapper")
+e.find(".rubric_grading").showIf(n.length>0&&0===r.length)
+return t},updateMasteryScale(t){var i
+if(!(null!==(i=ENV.MASTERY_SCALE)&&void 0!==i&&i.outcome_proficiency))return
+const e=ENV.MASTERY_SCALE.outcome_proficiency.ratings
+const n=e.find((t=>t.mastery)).points
+const r=e[0].points
+t.find(".criterion:not(.blank)").each((function(){const t=d()(this)
+if(!t.hasClass("learning_outcome_criterion"))return
+t.find(".criterion_points").val(r).blur()
+t.find(".mastery_points").text(n)
+const i=t.find(".rating:not(.blank)")
+if(i.length<e.length)for(let n=i.length;n<e.length;n++)t.find(".rating:not(.blank):first").addClass("add_column").click()
+t.find(".rating:not(.blank)").each((function(t){const i=ENV.MASTERY_SCALE.outcome_proficiency.ratings[t]
+i?d()(this).fillTemplateData({data:i}):d()(this).remove()}))}))},editRubric(t,i){let e=arguments.length>2&&void 0!==arguments[2]&&arguments[2]
+d()("#add_criterion_container").remove()
+_t.isEditing=true
+const n=t.clone(true).addClass("editing")
+n.find(".edit_rubric").remove()
+const r=n.getTemplateData({textValues:["use_for_grading","free_form_criterion_comments","hide_score_total","hide_points","hide_outcome_results"]})
+t.hide().after(n.show())
+e&&_t.updateMasteryScale(n)
+const s=d()("#edit_rubric").clone(true).show().removeAttr("id").addClass("edit_rubric")
+const o=s.find("#edit_rubric_form")
+n.find(".rubric_table").append(s)
+n.find(":text:first").focus().select()
+o.find(".grading_rubric_checkbox").attr("checked","true"===r.use_for_grading).triggerHandler("change")
+o.find(".rubric_custom_rating").attr("checked","true"===r.free_form_criterion_comments).triggerHandler("change")
+o.find(".totalling_rubric_checkbox").attr("checked","true"===r.hide_score_total).triggerHandler("change")
+o.find(".hide_points_checkbox").attr("checked","true"===r.hide_points).triggerHandler("change")
+o.find(".hide_outcome_results_checkbox").attr("checked","true"===r.hide_outcome_results).triggerHandler("change")
+const a=ut.t("buttons.create_rubric","Create Rubric")
+const c=ut.t("buttons.update_rubric","Update Rubric")
+o.find(".save_button").text("rubric_new"===n.attr("id")?a:c)
+o.attr("method","PUT").attr("action",i)
+_t.sizeRatings()
+_t.updateAddCriterionLinks(n)
+return n},hideEditRubric(t,i){_t.isEditing=false
+t=t.filter(":first")
+t.hasClass("editing")||(t=t.next(".editing"))
+t.removeClass("editing")
+t.find(".edit_rubric").remove()
+if(i){if("rubric_new"!==t.attr("id")){const i=t.prev(".rubric")
+i.show()
+i.find(".rubric_title .title").focus()}else d()(".add_rubric_link").show().focus()
+t.remove()}else t.find(".rubric_title .links").show()},updateRubric(t,i){t.find(".criterion:not(.blank)").remove()
+const e=t.find(".rating:first").clone(true).removeAttr("id")
+t.fillTemplateData({data:i,id:"rubric_"+i.id,hrefValues:["id","rubric_association_id"],avoid:".criterion"})
+t.fillFormData(i)
+_t.isEditing=false
+let n=(0,dt.Z)(t.find(".edit_rubric_url").attr("href"),"rubric_id",i.id)
+t.find(".edit_rubric_link").attr("href",n).showIf(i.permissions.update_association)
+n=(0,dt.Z)(t.find(".delete_rubric_url").attr("href"),"association_id",i.rubric_association_id)
+t.find(".delete_rubric_link").attr("href",n).showIf(i.permissions.delete_association)
+t.find(".find_rubric_link").showIf(i.permissions.update_association&&!d()("#rubrics").hasClass("raw_listing"))
+t.find(".criterion:not(.blank) .ratings").empty()
+i.criteria.forEach((i=>{i.display_criterion_points=_t.localizedPoints(i.points)
+i.criterion_id=i.id
+const n=t.find(".criterion.blank:first").clone(true).show().removeAttr("id")
+n.removeClass("blank")
+n.fillTemplateData({data:i,htmlValues:["long_description"]})
+n.find(".long_description_holder").toggleClass("empty",!i.long_description)
+n.find(".criterion_use_range").attr("checked",true===i.criterion_use_range)
+n.find(".ratings").empty()
+n.find(".hide_when_learning_outcome").showIf(!i.learning_outcome_id)
+n.toggleClass("learning_outcome_criterion",!!i.learning_outcome_id)
+n.toggleClass("ignore_criterion_for_scoring",!!i.ignore_for_scoring)
+n.find(".outcome_sr_content").attr("aria-hidden",!i.learning_outcome_id)
+if(i.learning_outcome_id){n.find(".long_description_holder").show()
+i.long_description&&n.find(".long_description_link").removeClass("hidden")}let r=0
+i.ratings.forEach((t=>{r++
+t.rating_id=t.id
+t.rating_long_description=t.long_description
+t.min_points=0
+r<i.ratings.length&&(t.min_points=i.ratings[r].points)
+const s=e.clone(true)
+s.toggleClass("edge_rating",1===r||r===i.ratings.length)
+r===i.ratings.length&&s.find(".add_rating_link").remove()
+s.fillTemplateData({data:{...t,min_points:_t.localizedPoints(t.min_points),points:_t.localizedPoints(t.points)}})
+s.find(".range_rating").showIf(true===i.criterion_use_range&&G.Z.parse(t.min_points)!==G.Z.parse(t.points))
+n.find(".ratings").append(s)}))
+if(i.learning_outcome_id){n.find(".edit_criterion_link").remove()
+n.find(".rating .links").remove()}t.find(".summary").before(n)
+n.find(".criterion_points").val(_t.localizedPoints(i.points))
+n.data("criterion_points",G.Z.parse(i.points))}))
+t.find(".criterion:not(.blank)").find(".ratings").showIf(!i.free_form_criterion_comments).end().find(".custom_ratings").showIf(i.free_form_criterion_comments)
+t.find(".rubric_title .title").focus()}}
+_t.sizeRatings=z().debounce(_t.originalSizeRatings,10)
+const pt=function(t,i){i=Math.pow(10,i||0).toFixed(i<0?-i:0)
+return Math.round(t*i)/i}
+_t.init=function(){var t
+const i=!d()("#rubrics").hasClass("raw_listing")
+const e=d()("#rubric_dialog"),n=d()("#rubric_long_description_dialog"),r=d()("#rubric_rating_dialog")
+_t.htmlBody=d()("html,body")
+d()("#rubrics").delegate(".edit_criterion_link, .long_description_link","click",(function(t){t.preventDefault()
+let i=ut.t("Edit Criterion")
+const e=d()(this).parents(".rubric").hasClass("editing"),r=d()(this).parents(".criterion"),s=d()(this).parents(".criterion").hasClass("learning_outcome_criterion"),o=r.getTemplateData({textValues:["long_description","description"]})
+if(e&&!s){if(r.hasClass("new_criterion")){o.description=""
+i=ut.t("Add Criterion")
+n.find(".save_button").text(ut.t("Create Criterion"))}else n.find(".save_button").text(ut.t("Update Criterion"))
+n.fillFormData(o).fillTemplateData({data:o}).hideErrors().find(".editing").show().end().find(".displaying").hide().end()}else{s||(o.long_description=(0,ct.ZP)(o.long_description).replace(/(\r?\n)/g,"<br>$1"))
+i=ut.t("Criterion Long Description")
+n.fillTemplateData({data:o,htmlValues:["description","long_description"],avoid:"textarea"}).find(".displaying").show().end().find(".editing").hide().end()}const a=function(){if(r.hasClass("new_criterion")){setTimeout((()=>{d().screenReaderFlashMessageExclusive(ut.t("New Criterion Canceled"))}),100)
+r.find(".delete_criterion_link").click()}}
+const c=function(){r.hasClass("new_criterion")?r.parents(".rubric_container").first().find("#add_criterion_container .icon-plus").focus():r.find(".edit_criterion_link").focus()}
+n.data("current_criterion",r).dialog({title:i,width:416,buttons:[],close:a,beforeClose:c})
+e&&!s&&n.fixDialogButtons()})).delegate(".edit_rating_link","click",(function(t){t.preventDefault()
+const i=d()(this).parents(".criterion")
+const e=d()(this).parents(".rating")
+const n=e.getTemplateData({textValues:["description","points","min_points","rating_long_description"]})
+const s=i.getTemplateData({textValues:["description"]})
+if(!e.parents(".rubric").hasClass("editing"))return
+if(e.parents(".criterion").hasClass("learning_outcome_criterion"))return
+const o=e.closest("td").next(".rating")
+const a=e.parents(".criterion").find(".criterion_use_range").attr("checked")
+r.find(".range_rating").showIf(a)
+r.find(".min_points").prop("disabled",!o.length)
+_t.hideCriterionAdd(e.parents(".rubric"))
+r.find("#edit_rating_form_criterion_description").text(s.description)
+const c=r.find("#points")
+if(a){c.attr("aria-labelledby","rating_form_max_score_label")
+c.attr("placeholder",ut.t("max"))}else{c.attr("aria-labelledby","rating_form_score_label")
+c.removeAttr("placeholder")}const l=function(){const t=r.data("current_rating")
+if(t.hasClass("new_rating")){setTimeout((()=>{d().screenReaderFlashMessageExclusive(ut.t("New Rating Canceled"))}),100)
+t.find(".delete_rating_link").click()}}
+r.fillFormData(n).find(".editing").show().end().find(".displaying").hide().end()
+r.data("current_criterion",i).data("current_rating",e).hideErrors().dialog({title:ut.t("titles.edit_rubric_rating","Edit Rating"),width:400,buttons:[],close:l})
+r.fixDialogButtons()})).delegate(".find_rubric_link","click",(t=>{t.preventDefault()
+e.dialog({width:800,height:380,resizable:true,title:ut.t("titles.find_existing_rubric","Find Existing Rubric")})
+if(!e.hasClass("loaded")){e.find(".loading_message").text(ut.t("messages.loading_rubric_groups","Loading rubric groups..."))
+const t=e.find(".grading_rubrics_url").attr("href")
+d().ajaxJSON(t,"GET",{},(t=>{t.forEach((t=>{const i=e.find(".rubrics_dialog_context_select.blank:first").clone(true).removeClass("blank")
+i.fillTemplateData({data:{name:t.name,context_code:t.context_code,rubrics:t.rubrics+" rubrics"}})
+e.find(".rubrics_dialog_contexts_select").append(i.show())}))
+0===t.length?e.find(".loading_message").text("No rubrics found"):e.find(".loading_message").remove()
+e.find(".rubrics_dialog_rubrics_holder").slideDown()
+e.find(".rubrics_dialog_contexts_select .rubrics_dialog_context_select:visible:first").click()
+e.addClass("loaded")}),(()=>{e.find(".loading_message").text(ut.t("errors.load_rubrics_failed","Loading rubrics failed, please try again"))}))}})).delegate(".edit_rubric_link","click",(function(t){t.preventDefault()
+const i=d()(this),e=i.parents(".rubric"),n=gt(e)
+if(_t.isEditing)return false
+i.hasClass("copy_edit")&&!confirm(ft(n))||_t.editRubric(e,i.attr("href"),n)}))
+d()(".rubric .delete_rubric_link").bind("click",(function(t,i){t.preventDefault()
+let e=ut.t("prompts.confirm_delete","Are you sure you want to delete this rubric?")
+i&&i.confirmationMessage&&(e=i.confirmationMessage)
+d()(this).parents(".rubric").confirmDelete({url:d()(this).attr("href"),message:e,success(){d()(this).fadeOut((()=>{d()(".add_rubric_link").show().focus()
+i&&d().isFunction(i)&&i()}))}})}))
+n.find(".save_button").click((()=>{const t=n.find("textarea.long_description").val(),i=n.find("textarea.description").val(),e=n.data("current_criterion")
+const r=n.validateForm({required:["description"],labels:{description:ut.t("Description")}})
+if(!r)return
+if(e){e.fillTemplateData({data:{long_description:t,description_title:i}})
+e.find("textarea.long_description").val(t)
+e.find("textarea.description").val(i)
+e.find(".long_description_holder").toggleClass("empty",!t)
+let n=ut.t("Criterion Updated")
+e.hasClass("new_criterion")&&(n=ut.t("Criterion Created"))
+e.removeClass("new_criterion")
+e.show()
+const r=e.parents(".rubric")
+_t.updateCriteria(r)
+_t.updateRubricPoints(r)
+_t.updateAddCriterionLinks(r)
+setTimeout((()=>{d().screenReaderFlashMessageExclusive(n)
+e.find(".edit_criterion_link").focus()}),100)}n.dialog("close")}))
+n.find(".cancel_button").click((()=>{n.dialog("close")}))
+r.find(".save_button").click((t=>{t.preventDefault()
+t.stopPropagation()
+const i=r.find("#edit_rating_form").getFormData()
+const e=r.find("#edit_rating_form").validateForm({data:i,required:["description"],labels:{description:ut.t("Rating Title")}})
+if(!e)return
+const n=r.data("current_rating")
+const s=r.data("current_criterion")
+const o=n.find(".edit_rating_link")
+const a=s.find(".criterion_use_range").attr("checked")
+const c=n.next(".rating")
+const l=n.prev(".rating")
+i.points=pt(G.Z.parse(i.points),2)
+if(Number.isNaN(i.points)){i.points=G.Z.parse(s.find(".criterion_points").val())
+Number.isNaN(i.points)&&(i.points=5)
+i.points<0&&(i.points=0)}i.min_points=pt(G.Z.parse(i.min_points),2);(Number.isNaN(i.min_points)||i.min_points<0)&&(i.min_points=0)
+if(a){if(i.points<i.min_points){const t=i.points
+i.points=i.min_points
+i.min_points=t}l&&0!==l.length&&(i.points=_t.capPointChange(i.points,l,Math.min,"points"))
+c&&0!==c.length&&(i.min_points=_t.capPointChange(i.min_points,c,Math.max,"min_points"))}n.fillTemplateData({data:i})
+_t.flagInfinitesimalRating(n,a)
+if(0===n.prev(".rating").length){s.find(".criterion_points").val(_t.localizedPoints(i.points))
+s.data("criterion_points",i.points)}if(c){c.fillTemplateData({data:{points:i.min_points}})
+_t.flagInfinitesimalRating(c,a)}if(l){l.fillTemplateData({data:{min_points:i.points}})
+_t.flagInfinitesimalRating(l,a)}_t.updateCriterionPoints(s,true)
+_t.originalSizeRatings()
+n.removeClass("new_rating")
+r.dialog("close")
+setTimeout((()=>{d().screenReaderFlashMessageExclusive(ut.t("Rating Updated"))
+o.focus()}),100)}))
+r.find(".cancel_button").click((()=>{r.dialog("close")}))
+d()(".add_rubric_link").click((t=>{t.preventDefault()
+if(d()("#rubric_new").length>0)return
+if(i&&d()("#rubrics .rubric:visible").length>0)return
+const e=_t.addRubric()
+d()("#rubrics").append(e.show())
+d()(".add_rubric_link").hide()
+_t.updateAddCriterionLinks(e)
+const n=e.find(".find_rubric_link:visible:first")
+n.length>0?n.focus():e.find(":text:first").focus().select()}))
+d()("#rubric_dialog").delegate(".rubrics_dialog_context_select","click",(function(t){t.preventDefault()
+d()(".rubrics_dialog_contexts_select .selected_side_tab").removeClass("selected_side_tab")
+const i=d()(this)
+i.addClass("selected_side_tab")
+const n=i.getTemplateData({textValues:["context_code"]}).context_code
+if(i.hasClass("loaded")){e.find(".rubrics_loading_message").hide()
+e.find(".rubrics_dialog_rubrics,.rubrics_dialog_rubrics_select").show()
+e.find(".rubrics_dialog_rubrics_select .rubrics_dialog_rubric_select").hide()
+e.find(".rubrics_dialog_rubrics_select .rubrics_dialog_rubric_select."+n).show()
+e.find(".rubrics_dialog_rubrics_select .rubrics_dialog_rubric_select:visible:first").click()}else{e.find(".rubrics_loading_message").text(ut.t("messages.loading_rubrics","Loading rubrics...")).show()
+e.find(".rubrics_dialog_rubrics,.rubrics_dialog_rubrics_select").hide()
+const t=e.find(".grading_rubrics_url").attr("href")+"?context_code="+n
+d().ajaxJSON(t,"GET",{},(t=>{i.addClass("loaded")
+e.find(".rubrics_loading_message").hide()
+e.find(".rubrics_dialog_rubrics,.rubrics_dialog_rubrics_select").show()
+t.forEach((t=>{const i=t.rubric_association
+const n=i.rubric
+const r=e.find(".rubrics_dialog_rubric_select.blank:first").clone(true)
+r.addClass(i.context_code)
+n.criterion_count=n.data.length
+r.fillTemplateData({data:n}).removeClass("blank")
+e.find(".rubrics_dialog_rubrics_select").append(r.show())
+const s=e.find(".rubrics_dialog_rubric.blank:first").clone(true)
+s.removeClass("blank")
+s.find(".criterion.blank").hide()
+n.rubric_total=n.points_possible
+s.fillTemplateData({data:n,id:"rubric_dialog_"+n.id})
+n.data.forEach((t=>{t.criterion_points=t.points
+t.criterion_points_possible=t.points
+t.criterion_description=t.description
+const i=t.ratings
+delete t.ratings
+const e=s.find(".criterion.blank:first").clone().removeClass("blank")
+e.fillTemplateData({data:t})
+e.find(".rating_holder").addClass("blank")
+i.forEach((t=>{const i=e.find(".rating_holder.blank:first").clone().removeClass("blank")
+t.rating=t.description
+i.fillTemplateData({data:t})
+e.find(".ratings").append(i.show())}))
+e.find(".rating_holder.blank").remove()
+s.find(".rubric.rubric_summary tr.summary").before(e.show())}))
+e.find(".rubrics_dialog_rubrics").append(s)}))
+e.find(".rubrics_dialog_rubrics_select .rubrics_dialog_rubric_select").hide()
+e.find(".rubrics_dialog_rubrics_select .rubrics_dialog_rubric_select."+n).show()
+e.find(".rubrics_dialog_rubrics_select .rubrics_dialog_rubric_select:visible:first").click()}),(()=>{e.find(".rubrics_loading_message").text("Loading rubrics failed, please try again")}))}})).delegate(".rubrics_dialog_rubric_select","click",(function(t){t.preventDefault()
+const i=d()(this)
+i.find("a").focus()
+const e=i.getTemplateData({textValues:["id"]}).id
+d()(".rubric_dialog .rubrics_dialog_rubric_select").removeClass("selected_side_tab")
+i.addClass("selected_side_tab")
+d()(".rubric_dialog .rubrics_dialog_rubric").hide()
+d()(".rubric_dialog #rubric_dialog_"+e).show()})).delegate(".select_rubric_link","click",(function(t){t.preventDefault()
+const i={}
+const n=e.getTemplateData({textValues:["rubric_association_type","rubric_association_id","rubric_association_purpose"]})
+i["rubric_association[association_type]"]=n.rubric_association_type
+i["rubric_association[association_id]"]=n.rubric_association_id
+i["rubric_association[rubric_id]"]=d()(this).parents(".rubrics_dialog_rubric").getTemplateData({textValues:["id"]}).id
+i["rubric_association[purpose]"]=n.rubric_association_purpose
+e.loadingImage()
+const r=e.find(".select_rubric_url").attr("href")
+d().ajaxJSON(r,"POST",i,(t=>{var i
+e.loadingImage("remove")
+let n=d()("#rubrics .rubric:visible:first")
+0===n.length&&(n=_t.addRubric())
+const r=t.rubric
+r.rubric_association_id=t.rubric_association.id
+r.use_for_grading=t.rubric_association.use_for_grading
+r.permissions=r.permissions||{}
+if(t.rubric_association.permissions){r.permissions.update_association=t.rubric_association.permissions.update
+r.permissions.delete_association=t.rubric_association.permissions.delete}_t.updateRubric(n,r)
+_t.updateRubricPoints(n)
+_t.hideEditRubric(n,false)
+e.dialog("close")
+null!==(i=r.permissions)&&void 0!==i&&i.update||n.find(".edit_rubric_link").addClass("copy_edit")}),(()=>{e.loadingImage("remove")}))}))
+e.find(".cancel_find_rubric_link").click((t=>{t.preventDefault()
+e.dialog("close")}))
+e.find(".rubric_brief").find(".expand_data_link,.collapse_data_link").click((function(t){t.preventDefault()
+d()(this).parents(".rubric_brief").find(".expand_data_link,.collapse_data_link").toggle().end().find(".details").slideToggle()}))
+let s=false,o=false
+d()("#edit_rubric_form").formSubmit({processData(){const t=d()(this).parents(".rubric")
+if(!t.find(".criterion:not(.blank)").length)return false
+const i=_t.rubricData(t)
+if(ENV.MASTER_COURSE_DATA&&ENV.MASTER_COURSE_DATA.restricted_by_master_course&&ENV.MASTER_COURSE_DATA.is_master_course_child_content&&ENV.MASTER_COURSE_DATA.master_course_restrictions.points)o=true
+else if("1"===i["rubric_association[use_for_grading]"]){const t=d()("#tool_form #custom_canvas_assignment_points_possible").val()
+let e
+e=t?G.Z.parse(t):G.Z.parse(d()("#assignment_show .points_possible, #rubrics.rubric_dialog .assignment_points_possible").text())
+Number.isNaN(e)&&(e=G.Z.parse(d()('#edit_assignment_header input[id="assignment_points_possible"]').val()))
+const n=parseFloat(i.points_possible)
+if(null!==e&&void 0!==e&&n!==e&&!s){const t=0===e?n:n/e
+const i=d()(at({assignmentPoints:e,rubricPoints:n,pointRatio:t}))
+const r=function(t){s=true
+o=true===t
+i.remove()
+d()("#edit_rubric_form").submit()}
+i.dialog({dialogClass:"edit-rubric-confirm-points-change",buttons:[{text:ut.t("change","Change"),click:r},{text:ut.t("leave_different","Leave different"),click(){r(true)}}],width:400,resizable:false,close:i.remove})
+return false}}i.skip_updating_points_possible=o
+o=false
+s=false
+return i},beforeSubmit(t){const i=d()(this).parents(".rubric")
+i.find(".rubric_title .title").text(t["rubric[title]"])
+i.find(".rubric_table caption .title").text(t["rubric[title]"])
+i.find(".rubric_total").text(_t.localizedPoints(t.points_possible))
+i.loadingImage()
+return i},success(t,e){e.loadingImage("remove")
+if(t.error)d()(":submit.save_button:visible").errorBox(t.messages.join("\n"))
+else{e.removeClass("editing")
+"rubric_new"===e.attr("id")?e.attr("id","rubric_adding"):e.prev(".rubric").remove()
+d()(this).parents("tr").hide()
+const n=t.rubric
+n.rubric_association_id=t.rubric_association.id
+n.use_for_grading=t.rubric_association.use_for_grading
+n.hide_points=t.rubric_association.hide_points
+n.hide_outcome_results=t.rubric_association.hide_outcome_results
+n.permissions=n.permissions||{}
+if(t.rubric_association.permissions){n.permissions.update_association=t.rubric_association.permissions.update
+n.permissions.delete_association=t.rubric_association.permissions.delete}_t.updateRubric(e,n)
+if(t.rubric_association&&t.rubric_association.use_for_grading&&!t.rubric_association.skip_updating_points_possible){d()("#assignment_show .points_possible").text(n.points_possible)
+const t=ut.t("discussion_points_possible",{one:"%{count} point possible",other:"%{count} points possible"},{count:n.points_possible||0,precision:2,strip_insignificant_zeros:true})
+d()(".discussion-title .discussion-points").text(t)}i||d()(".add_rubric_link").show()
+e.find(".rubric_title .links:not(.locked)").show()}}})
+d()("#edit_rubric_form .cancel_button").click((function(){d()(".errorBox").not("#error_box_template").remove()
+_t.hideEditRubric(d()(this).parents(".rubric"),true)}))
+d()("#rubrics").delegate(".add_criterion_link","click",(function(){const t=_t.addCriterion(d()(this).parents(".rubric"))
+t.hide()
+_t.editCriterion(t)
+return false})).delegate(".description_title","click",(function(){const t=d()(this).parents(".criterion")
+_t.editCriterion(t)
+return false})).delegate(".delete_criterion_link","click",(function(){const t=d()(this).parents(".criterion")
+const i=t.prevAll(".criterion:not(.blank)").first()
+let e=i.find(".edit_criterion_link")
+0===i.length&&(e=t.parents(".rubric_container").find(".rubric_title input"))
+const n=t.parents(".rubric")
+if(t.hasClass("new_criterion")){t.remove()
+_t.updateAddCriterionLinks(n,".icon-plus")}else{e.focus()
+t.fadeOut((()=>{t.remove()
+_t.updateCriteria(n)
+_t.updateRubricPoints(n)
+_t.updateAddCriterionLinks(n)}))}return false})).delegate(".rating_description_value","click",(()=>false)).bind("mouseover",(t=>{const i=d()(t.target)
+i.closest(".ratings").length||_t.hideCriterionAdd(i.parents(".rubric"))})).delegate(".delete_rating_link","click",(function(t){const i=d()(this).closest("td")
+const e=i.prev().find(".add_rating_link_after")
+const n=i.prev(".rating")
+const r={min_points:i.next(".rating").find(".points").text()}
+n.fillTemplateData({data:r})
+t.preventDefault()
+_t.hideCriterionAdd(d()(this).parents(".rubric"))
+d()(this).parents(".rating").fadeOut((function(){const t=d()(this).parents(".criterion")
+_t.flagInfinitesimalRating(n,t.find(".criterion_use_range").attr("checked"))
+d()(this).remove()
+_t.sizeRatings(t)
+e.focus()}))})).delegate(".add_rating_link_after","click",(function(t){t.preventDefault()
+const i=d()(this).parents("td.rating")
+i.addClass("add_right")
+_t.addNewRatingColumn(i)})).delegate(".add_column","click",(function(){const t=d()(this)
+_t.addNewRatingColumn(t)}))
+d()(".criterion_points").keydown((function(t){13===t.keyCode&&_t.updateCriterionPoints(d()(this).parents(".criterion"))})).blur((function(){_t.updateCriterionPoints(d()(this).parents(".criterion"))}))
+d()("#edit_rating").delegate(".cancel_button","click",(function(){d()(this).closest("td.rating").find(".edit_rating_link")}))
+d()("#edit_rubric_form .rubric_custom_rating").change((function(){d()(this).parents(".rubric").find("tr.criterion").find(".ratings").showIf(!d()(this).attr("checked")).end().find(".criterion_use_range_div").showIf(!d()(this).attr("checked")).end().find(".custom_ratings").showIf(d()(this).attr("checked"))})).triggerHandler("change")
+d()("#edit_rubric_form #totalling_rubric").change((function(){d()(this).parents(".rubric").find(".total_points_holder").showIf(!d()(this).attr("checked"))}))
+d()("#edit_rubric_form #hide_points").change((function(t){t.target.checked?_t.hidePoints(d()(this).parents(".rubric"),d()("#rubric_rating_dialog")):_t.showPoints(d()(this).parents(".rubric"),d()("#rubric_rating_dialog"))}))
+d()("#edit_rubric_form .hide_points_checkbox").change((function(){if(d()(this).is(":visible")){const t=d()(this).attr("checked")
+if(t){d()(this).parents(".rubric").find(".grading_rubric_checkbox").attr("checked",false)
+d()(this).parents(".rubric").find(".grading_rubric_checkbox").triggerHandler("change")}d()(this).parents(".rubric").find(".rubric_grading").css("display",t?"none":"")
+d()(this).parents(".rubric").find(".totalling_rubric").css("display",t?"none":"")}}))
+d()("#edit_rubric_form .grading_rubric_checkbox").change((function(){if(d()(this).is(":visible")){d()(this).parents(".rubric").find(".totalling_rubric").css("visibility",d()(this).attr("checked")?"hidden":"visible")
+d()(this).parents(".rubric").find(".totalling_rubric_checkbox").attr("checked",false)}})).triggerHandler("change")
+d()(".criterion_use_range").change((function(){const t=d()(this).attr("checked")
+d()(this).parents("tr.criterion").find(".rating").each((function(){const i=t&&!d()(this).hasClass("infinitesimal")&&G.Z.parse(d()(this).find(".points").text())!==G.Z.parse(d()(this).find(".min_points").text())
+d()(this).find(".range_rating").showIf(i)}))})).triggerHandler("change")
+const a=null===(t=d()("#criterion_blank").find(".ratings .points")[0])||void 0===t?void 0:t.innerHTML
+d()("#criterion_blank").find(".criterion_points").val(a||"5")
+if(d()("#default_rubric").find(".criterion").length<=1){_t.addCriterion(d()("#default_rubric"))
+d()("#default_rubric").find(".criterion").removeClass("new_criterion")}setInterval(_t.sizeRatings,1e4)
+d().publish("edit_rubric/initted")}
+if(document.getElementById("rubric_management")&&ENV.NON_SCORING_RUBRICS&&ENV.PERMISSIONS.manage_outcomes&&!ENV.ACCOUNT_LEVEL_MASTERY_SCALES){d()("h1").hide()
+const t=ENV.context_asset_string.split("_")[1]
+s.render((0,n.Z)(it,{accountId:t}),document.getElementById("rubric_management"))}const ft=t=>{if(!t)return ut.t("You can't edit this rubric, either because you don't have permission or it's being used in more than one place. Any changes you make will result in a new rubric based on the old rubric. Continue anyway?")
+return ENV.context_asset_string.includes("course")?ut.t("You can't edit this rubric, either because you don't have permission or it's being used in more than one place. Any changes you make will result in a new rubric. Any associated outcome criteria will use the course mastery scale. Continue anyway?"):ut.t("You can't edit this rubric, either because you don't have permission or it's being used in more than one place. Any changes you make will result in a new rubric. Any associated outcome criteria will use the account mastery scale. Continue anyway?")}
+const gt=t=>{if(!ENV.ACCOUNT_LEVEL_MASTERY_SCALES)return false
+return t.find(".criterion").hasClass("learning_outcome_criterion")}
+const ht=_t},64417:(t,i,e)=>{"use strict"
+e.d(i,{Z:()=>l})
+var n=e(67294)
+var r=e(6507)
+var s=e.n(r)
+const o=9
+const a=1
+class c extends n.Component{componentDidMount(){this.fetchSVG()}UNSAFE_componentWillReceiveProps(t){t.url!==this.props.url&&this.fetchSVG()}fetchSVG(){false
+s().ajax(this.props.url,{success:t=>{this.svg=t
+t.nodeType===o&&(this.svg=t.firstChild)
+if(this.svg.nodeType!==a&&"SVG"!==this.svg.nodeName)throw new Error(`SVGWrapper: SVG Element must be returned by request to ${this.props.url}`)
+this.props.fillColor&&this.svg.setAttribute("style",`fill:${this.props.fillColor}`)
+this.svg.setAttribute("focusable",false)
+this.rootSpan.appendChild(this.svg)}})}render(){return n.createElement("span",{ref:t=>{this.rootSpan=t}})}}const l=c},69849:(t,i,e)=>{"use strict"
+e.d(i,{Z:()=>r})
+function n(t,i,e){if(!t)return t
+i=(i||"").toString()
+e=(e||"").toString().replace(/\s/g,"+")
+const n=new RegExp("(%7B|{){2}[\\s|%20|+]*"+i+"[\\s|%20|+]*(%7D|}){2}","g")
+return t.replace(n,e)}function r(t,i,e){if("object"===typeof i){for(const e in i)t=n(t,e,i[e])
+return t}return n(t,i,e)}},57172:(t,i,e)=>{"use strict"
+var n=e(6507)
+var r=e.n(n)
+var s=e(16916)
+e(84142)
+var o=e(69849)
+r().fn.fillTemplateData=function(t){if(this.length&&t){t.iterator&&this.find("*").andSelf().each((function(){const i=r()(this)
+r().each(["name","id","class"],((e,n)=>{i.attr(n)&&i.attr(n,i.attr(n).replace(/-iterator-/,t.iterator))}))}))
+t.id&&this.attr("id",t.id)
+let i=false
+if(t.data)for(const e in t.data){if(t.except&&-1!==r().inArray(e,t.except))continue
+t.data[e]&&t.dataValues&&-1!==r().inArray(e,t.dataValues)&&this.data(e,t.data[e].toString())
+const n=this.find("."+e)
+const o=t.avoid||""
+n.each((function(){const n=r()(this)
+if(n.length>0&&0===n.closest(o).length){"undefined"!==typeof t.data[e]&&null!==t.data[e]||(t.data[e]="")
+if(t.htmlValues&&-1!==r().inArray(e,t.htmlValues)){n.html(r().raw(t.data[e].toString()))
+if(n.hasClass("user_content")){i=true
+n.removeClass("enhanced")
+n.data("unenhanced_content_html",t.data[e].toString())}}else if("INPUT"===n[0].tagName.toUpperCase())n.val(t.data[e])
+else try{const i=t.data[e].toString()
+n.html((0,s.ZP)(i))}catch(t){}}}))}t.hrefValues&&t.data&&this.find("a,span[rel]").each((function(){let i,e,n
+const s=r()(this)
+for(const r in t.hrefValues){if(!t.hrefValues.hasOwnProperty(r))continue
+const a=t.hrefValues[r]
+if(i=s.attr("href")){const e=(0,o.Z)(i,a,encodeURIComponent(t.data[a]))
+const n=s.text()===s.html()?s.text():null
+if(i!==e){s.attr("href",e)
+n&&s.text(n)}}(e=s.attr("rel"))&&s.attr("rel",(0,o.Z)(e,a,t.data[a]));(n=s.attr("name"))&&s.attr("name",(0,o.Z)(n,a,t.data[a]))}}))
+i&&r()(document).triggerHandler("user_content_change")}return this}
+r().fn.fillTemplateData.defaults={htmlValues:null,hrefValues:null}
+r().fn.getTemplateData=function(t){if(!this.length||!t)return{}
+const i={}
+if(t.textValues){const e=this
+t.textValues.forEach((t=>{const n=e.find("."+t.replace(/\[/g,"\\[").replace(/\]/g,"\\]")+":first")
+let s=r().trim(n.text())
+"&nbsp;"===n.html()&&(s="")
+1===s.length&&160===s.charCodeAt(0)&&(s="")
+i[t]=s}))}if(t.dataValues)for(const e in t.dataValues){const n=this.data(t.dataValues[e])
+n&&(i[t.dataValues[e]]=n)}if(t.htmlValues)for(const e in t.htmlValues){const n=this.find("."+t.htmlValues[e].replace(/\[/g,"\\[").replace(/\]/g,"\\]")+":first")
+let s=null
+s=n.hasClass("user_content")&&n.data("unenhanced_content_html")?n.data("unenhanced_content_html"):r().trim(n.html())
+i[t.htmlValues[e]]=s}return i}
+r().fn.getTemplateValue=function(t,i){const e=r().extend({},i,{textValues:[t]})
+return this.getTemplateData(e)[t]}},89881:(t,i,e)=>{var n=e(47816),r=e(99291)
+var s=r(n)
+t.exports=s},28483:(t,i,e)=>{var n=e(25063)
+var r=n()
+t.exports=r},47816:(t,i,e)=>{var n=e(28483),r=e(3674)
+function s(t,i){return t&&n(t,i,r)}t.exports=s},69199:(t,i,e)=>{var n=e(89881),r=e(98612)
+function s(t,i){var e=-1,s=r(t)?Array(t.length):[]
+n(t,(function(t,n,r){s[++e]=i(t,n,r)}))
+return s}t.exports=s},99291:(t,i,e)=>{var n=e(98612)
+function r(t,i){return function(e,r){if(null==e)return e
+if(!n(e))return t(e,r)
+var s=e.length,o=i?s:-1,a=Object(e)
+while(i?o--:++o<s)if(false===r(a[o],o,a))break
+return e}}t.exports=r},25063:t=>{function i(t){return function(i,e,n){var r=-1,s=Object(i),o=n(i),a=o.length
+while(a--){var c=o[t?a:++r]
+if(false===e(s[c],c,s))break}return i}}t.exports=i}}])
+
+//# sourceMappingURL=53466-c-bf34b3699b.js.map
